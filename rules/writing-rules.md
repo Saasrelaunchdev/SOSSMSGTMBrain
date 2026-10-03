@@ -11,7 +11,7 @@ last_reviewed: 2026-10-02
 - Mechanics over adjectives: who pays what, when, and what happens if it goes wrong.
 - No stacked adjectives, no exclamation marks, no hype, and no superlative that is not cleared in `do-not-say.md`.
 - Unknowns stay `{TBD}`. Copy waiting on a decision keeps its `[bracket]`. Both stay visible.
-- Numbers carry their source ID (S01 to S74). A grade C figure stays internal and shows its grade.
+- Numbers carry their source ID (S01 to S74). A grade C figure stays internal and shows its grade. Grade A and B figures go into external copy only after someone opens the URL and confirms the figure on the page: the research was read from search summaries.
 
 ## Tone
 Dispatch-room calm: plain, exact, unhurried, each claim stated once. The subject is emergencies; the copy is not one. The customer may be standing in water and needs the next step, not a pitch. The contractor has heard every platform pitch and trusts terms, not adjectives.
