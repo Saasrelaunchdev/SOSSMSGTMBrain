@@ -1,6 +1,6 @@
 # Pricing and unit economics
 
-Load for: any question about who pays what, the take rate, the late-arrival rule, fee ceilings, or paid search payback. Distills Run 1 and Run 2 Phase 9 and `speed-to-scale-plan.md` section 5. Every SOS SMS price is {TBD}. Grade C figures are internal direction only and never appear in customer or contractor copy.
+Load for: any question about who pays what, the take rate, the late-arrival rule, fee ceilings, or paid search payback. Distills Run 1 and Run 2 Phase 9 and `speed-to-scale-plan.md` section 5. Every SOS SMS price is {TBD} in copy; proposed amounts live in the pricing model and the section below, never in copy. Grade C figures are internal direction only and never appear in customer or contractor copy.
 
 ## The structure, recommended, not decided (decision 2)
 
@@ -14,6 +14,21 @@ Load for: any question about who pays what, the take rate, the late-arrival rule
 | Processing | Deducted | Payment provider | {TBD} |
 
 Rejected metrics: per request received for contractors (it is the per-lead model), per seat (contradicts "no subscription"), an after-hours premium for customers (the surprise fee customers resent, S50, S51). Flag only: paid priority, household membership.
+
+## Proposed price points (pricing model, 2026-10-03), not decided
+
+From `Fit137/SOSSMSGTMBuild`, `google-folder/SOS_SMS_Pricing_Model.xlsx` (live formulas; handoff in `gtm/pricing/pricing-handoff.md`), built on the direction logged 2026-10-03: contractors join free, SOS SMS earns on transactions. **Internal only. Copy keeps {TBD} until decisions 2 and 5 are logged.**
+
+| Item | Proposed | How it was set |
+|---|---|---|
+| Contractor, to join and per request | $0 | The direction: the lowest barrier of entry |
+| Contractor fee, per completed paid job, after the founding period | $25 | Value ceiling: 20 percent of the cheapest per-lead cost per booked job (about $125, S03, S06, C); floor about $10; deducted from the trip charge payout |
+| Founding contractors | $0 a job through the founding period and 12 months after | Founding terms, in the founding agreement from day one |
+| Trip charge, one per trade and zone | $99 | Inside the S28 band ($75 to $100, C); paid to the contractor, credited to the repair |
+| SOS SMS fee, per request | $49 | Floor about $42 (refund reserve, processing, messaging, support); value ceiling $50 (25 percent of the S50 after-hours call fee midpoint, C) |
+| Help by text (first reply) | $0 | Value before payment |
+
+Model outputs, per completed job: SOS SMS nets about $31 in the founding period and about $56 after it. At the S15 benchmark and a 50 percent text-to-paid rate, a paid job costs about $275 from search; at a 50 percent owned share and the contractor fee on, about 2.5 jobs pay it back. Assumptions to confirm are listed in the handoff.
 
 ## The late-arrival rule (decision 3)
 

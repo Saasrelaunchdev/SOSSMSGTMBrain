@@ -3,7 +3,7 @@ title: SOS SMS Go-To-Market Master Context
 project: SOS SMS
 type: gtm_context_file
 purpose: Single source of truth for any AI agent executing SOS SMS go-to-market work.
-version: 1.1
+version: 1.2
 last_updated: 2026-10-03
 status_notes: Pre-launch. Nothing is live, so there are no contractors, customers, jobs, revenue, arrival times, or testimonials, and the closed set of proof points is empty. Every product capability is PLANNED, never shipped. Twelve founder decisions are open, including the revenue model, the late-arrival rule and guarantee scope, the dispatch rule, who sets the trip charge, and the launch zone. Google paid search eligibility is unconfirmed and carrier registration is not done. Brand v1 exists; its dark palette awaits approval. Every unknown number stays {TBD} and every copy line waiting on a decision keeps its [bracket].
 canonical_vocabulary: SOS SMS, contractor, customer, request, trip charge, SOS SMS fee, arrival time, 90-minute window, guarantee, dispatch, matched contractors, accept, zone, hour band, density number, founding contractor, founding period, owned share, covered hours, first reply, Text READY, contact card, terms on one page, Lead Cost Check, safety line
@@ -290,6 +290,8 @@ Critical: terms in writing before sign-up; a fast first paid trip; payouts on ti
 ## 15. Pricing and unit economics
 
 **Structure, recommended.** Customers pay per request: a trip charge credited to the repair plus an SOS SMS fee, both shown before dispatch, both {TBD}. Contractors pay $0 during the founding period, then a per-completed-job fee, never per request, below about $125 per booked job: what the cheapest per-lead options cost at a 20 percent close rate (S03, S06, grade C). Late-arrival rule, recommended option C, fault-based: the contractor's own missed commitment funds the refund from their trip charge; SOS SMS pays for the misses it causes.
+
+**Pricing model, proposed 2026-10-03.** Direction from the GTM consultant: contractors join free, SOS SMS earns on transactions (decision log, 2026-10-03). The proposed amounts and the bottom-up math are in `reference/pricing-and-economics.md` and the Google folder pricing model; decisions 2 and 5 stay open, and copy keeps {TBD}.
 
 **Paid search economics, illustrative.** $10.49 a click with 7.63 percent of clicks becoming leads (S15, B) is about $137 per first text; at an assumed 50 percent first-text-to-paid rate, about $275 per paid job. The emergency dataset (S69, C) gives about $216 and $431. Trip charges run $75 to $100 when charged (S28, C). **A customer fee alone will not pay back paid search on the first job.** Four levers close it: owned share (at 50 percent owned, about $137), jobs per customer (at 1.5, about $183), cheaper clicks (Microsoft 30 to 60 percent cheaper, S74, C), and revenue from both sides after the founding period. Detail: `reference/pricing-and-economics.md`.
 

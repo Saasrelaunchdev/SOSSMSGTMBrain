@@ -24,6 +24,7 @@ last_reviewed: 2026-10-02
 | "Damage prevented", "save your home" | "Stop-the-water steps in the first reply" |
 | "Every contractor in your area" | "The vetted contractors on SOS SMS for your trade", only in zones at density |
 | "24/7" or "any time" | The covered hours of that zone, named |
+| A proposed amount from the pricing model ($99 trip charge, $49 SOS SMS fee, $25 contractor fee, a 12-month founding hold) written as if set | `{TBD}`, or the [bracket], until `ops/decisions.md` logs decisions 2 and 5 |
 | "Zero cost, only we can do this" | "No subscription and no per-lead fees", with how SOS SMS is paid in the same sentence once decision 2 is made |
 | "Your trip charge" to a contractor | "Your price for the work stays yours" (decision 5) |
 | Copy that blends contractors and customers | Pick one side. Two assets |

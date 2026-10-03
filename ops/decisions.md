@@ -4,6 +4,13 @@ What was decided and why, so settled strategy is not relitigated. Newest at the 
 
 ---
 
+## 2026-10-03 Pricing direction: contractors join free, SOS SMS earns on transactions (DIRECTION, decision 2 stays OPEN)
+The GTM consultant set the direction for the pricing model: the lowest barrier of entry for contractors, and revenue from transactions, not from joining. Contractors pay $0 to join, $0 per request seen or declined, and no subscription or seat fee. SOS SMS earns an SOS SMS fee on each customer request, and a contractor fee per completed paid job once the founding period ends; founding contractors keep $0 a job for a held period after it. This matches the decision 2 recommendation below; it does not decide it.
+
+**Rationale:** supply is the constrained side and every customer promise depends on density, so contractors are subsidized; the customer pays for speed and the guarantee. A customer fee alone does not pay back paid search on the first job, so the contractor fee after the founding period is planned from the start (`reference/pricing-and-economics.md`).
+**What this does not change:** decisions 2 and 5 stay OPEN with the founders. The proposed amounts in the pricing model are proposals: copy keeps {TBD} for every amount and [brackets] for every line waiting on a decision. Grade C figures stay internal. No claim, channel, or status changes.
+**Downstream:** `reference/pricing-and-economics.md` (proposed price points), `rules/do-not-say.md` (a proposed price is not a set price), `adapters/portable-control-layer.md`, `ops/asset-index.md`; the pricing model and handoff in `Fit137/SOSSMSGTMBuild` (`google-folder/SOS_SMS_Pricing_Model.xlsx`, `gtm/pricing/pricing-handoff.md`). Done 2026-10-03.
+
 ## 2026-10-03 Pre-launch framing for contractor recruiting (DECIDED, build rule)
 Contractor recruiting copy goes out before launch and describes what SOS SMS is building, in the future tense ("when it opens in [zone]"). Customer copy stays held until the zone opens.
 

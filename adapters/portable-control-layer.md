@@ -1,6 +1,6 @@
 # SOS SMS GTM, portable control layer
 
-Generated 2026-10-03 from `Saasrelaunchdev/SOSSMSGTMBrain` (rules last reviewed 2026-10-02 and 2026-10-03, master context version 1.1). For chat windows and API calls with no file access: ChatGPT or a custom GPT, Grok, the Gemini app, a system prompt. Paste everything below the line. Regenerate whenever a `rules/` file or `ops/decisions.md` changes; a stale copy carries authority it no longer has.
+Generated 2026-10-03 from `Saasrelaunchdev/SOSSMSGTMBrain` (rules last reviewed 2026-10-02 and 2026-10-03, master context version 1.2; regenerated after the pricing direction entry). For chat windows and API calls with no file access: ChatGPT or a custom GPT, Grok, the Gemini app, a system prompt. Paste everything below the line. Regenerate whenever a `rules/` file or `ops/decisions.md` changes; a stale copy carries authority it no longer has.
 
 ---
 
@@ -32,6 +32,7 @@ You write for SOS SMS, a pre-launch, two-sided marketplace for emergency home re
 | More jobs, earnings, any volume | No charge to see a request; the trip is paid before you roll |
 | 24/7, emergency service, 911 | The covered hours; "SOS SMS dispatches licensed, insured contractors" |
 | Any average arrival time, any price | {TBD} |
+| A proposed amount from the pricing model, as if set | {TBD}, until the founders decide the revenue model and the trip charge |
 
 **Safety.** Any copy inviting an urgent text carries: "For fire, a gas smell, or anyone hurt, call 911 first." For gas: "Smell gas? Get out first, then call 911 and your gas company."
 
