@@ -68,7 +68,7 @@ Decisions 1 to 5 unblock the copy on both sides. When one is made, follow the am
 - **Customer data rule** (Run 2 open decision 6): what goes to the accepting contractor; marketing texts. Owner: founders. Proposed: name, address, phone, photos to the accepting contractor only; no marketing texts without opt-in.
 - **Demand-side scope** (Run 2 open decision 1): homeowners only, proposed. Renters out; property managers a possible third run.
 - **Build status of every capability** (both briefs, open decision 5): owner product. Until confirmed, everything is PLANNED.
-- **The founder memo and unattributed matrix rows** (Run 1 open decision 6): Ali's 18 rows and Bryan's 5 rated rows with no item text were excluded. Owner: Bryan and Ali.
+- **The founder memo and unattributed matrix rows** (Run 1 open decision 6): Ali's 18 rows and Bryan's 5 rated rows with no item text were excluded. Owner: the authors of those rows.
 - **Dispute rules, contractor and customer.** Owner: founders. FAQ entries wait.
 - **Founder roles** for Stage A, team size, burn, runway, channels tried: {TBD}.
 - **Customers without a card** (conflict D) and **first refusal on a contractor's own customers** (conflict E): product design.

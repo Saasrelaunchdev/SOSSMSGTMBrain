@@ -219,7 +219,8 @@ The cross-side check ([`reference/marketplace-cross-side.md`](reference/marketpl
 
 | Who | What they use the brain for | Start with |
 |---|---|---|
-| Founders (Bryan, Ali) | Making the twelve decisions, seeing what each one unblocks, keeping the strategy from drifting | [`ops/decisions.md`](ops/decisions.md), [`reference/positioning-verdict.md`](reference/positioning-verdict.md) |
+| Founders | Making the twelve decisions, seeing what each one unblocks, keeping the strategy from drifting | [`ops/decisions.md`](ops/decisions.md), [`reference/positioning-verdict.md`](reference/positioning-verdict.md) |
+| GTM consultant | Building and maintaining the brain, running the review rituals, producing assets for the founders to approve | [`ops/review-cadence.md`](ops/review-cadence.md), [`ops/signal-log.md`](ops/signal-log.md), [`prompts/common-tasks.md`](prompts/common-tasks.md) |
 | Growth lead | Building a zone: the contractor list and emails, then ad groups, landing page, and problem guides | [`reference/channel-engine-contractors.md`](reference/channel-engine-contractors.md), [`reference/channel-engine-paid-search.md`](reference/channel-engine-paid-search.md) |
 | Copywriter or agency | Drafting any asset on voice, with every claim already cleared | [`templates/README.md`](templates/README.md), [`examples/`](examples/first-reply-sms.md), [`ops/copy-bank.md`](ops/copy-bank.md) |
 | Product engineer | Writing the first reply, sign-up texts, refund texts, and in-app strings without promising what is not built | [`templates/first-reply-sms.md`](templates/first-reply-sms.md), [`rules/feature-status.md`](rules/feature-status.md), [`adapters/`](adapters/README.md) |

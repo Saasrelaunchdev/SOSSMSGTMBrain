@@ -36,4 +36,4 @@ None. SOS SMS is pre-launch: no website, no ads, no number, no listings. Add eac
 | Walkthrough deck (internal, Vercel) | {TBD}, protect before sharing | 2026-10-01 |
 
 ## Related workstreams that own deferred questions
-Founders (Bryan, Ali): the twelve decisions, dispute rules, roles. Product: build status, dispatch, payments, verification. Counsel: terms, guarantee, privacy policy. Payment provider: hold, capture, payout timing.
+Founders: the twelve decisions, dispute rules, roles. GTM consultant: the brain itself, its reviews, and drafts for approval. Product: build status, dispatch, payments, verification. Counsel: terms, guarantee, privacy policy. Payment provider: hold, capture, payout timing.
