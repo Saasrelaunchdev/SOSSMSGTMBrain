@@ -24,10 +24,10 @@ The entries below were seeded at build from the research and the walkthrough wor
 ## Entries
 
 ### 2026-10-03 | STATUS | brain build, live test
-**Verbatim:** Live test asset: the partner counter card and newsletter blurb (`pages/partner-counter-card.md`), produced from the brain only and run through `QA-checklist.md`.
-**Context:** Phase 9 of the build. Contractors, stage 1, partnership program.
-**Disposition:** PATCH. The test needed one fact the brain did not state plainly: that a partner card may not imply endorsement without written consent, which is now in the partner kit template and the channel engine.
-**Routed to:** `templates/partner-kit.md`, `reference/channel-engine-contractors.md`.
+**Verbatim:** First draft of the partner blurb: "SOS SMS is the emergency dispatch line where you pay nothing to see a request and the customer pays the trip charge before you roll."
+**Context:** Contractors, stage 1, partnership program. Produced from the brain only (`pages/partner-counter-card.md`) and run through `QA-checklist.md`. Failed two checks: present tense for planned capabilities; no revenue sentence.
+**Disposition:** AMEND. The brain had no rule for recruiting copy that must go out before launch. Added the pre-launch framing rule.
+**Routed to:** `rules/writing-rules.md`, master context Section 0, `QA-checklist.md`, `decisions.md`, `adapters/portable-control-layer.md`.
 
 ### 2026-10-02 | RISK | research README
 **Verbatim:** "Every fact below was read from a search engine's summary of the listed page, not from the page itself."

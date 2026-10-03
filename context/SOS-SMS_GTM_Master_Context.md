@@ -3,8 +3,8 @@ title: SOS SMS Go-To-Market Master Context
 project: SOS SMS
 type: gtm_context_file
 purpose: Single source of truth for any AI agent executing SOS SMS go-to-market work.
-version: 1.0
-last_updated: 2026-10-02
+version: 1.1
+last_updated: 2026-10-03
 status_notes: Pre-launch. Nothing is live, so there are no contractors, customers, jobs, revenue, arrival times, or testimonials, and the closed set of proof points is empty. Every product capability is PLANNED, never shipped. Twelve founder decisions are open, including the revenue model, the late-arrival rule and guarantee scope, the dispatch rule, who sets the trip charge, and the launch zone. Google paid search eligibility is unconfirmed and carrier registration is not done. Brand v1 exists; its dark palette awaits approval. Every unknown number stays {TBD} and every copy line waiting on a decision keeps its [bracket].
 canonical_vocabulary: SOS SMS, contractor, customer, request, trip charge, SOS SMS fee, arrival time, 90-minute window, guarantee, dispatch, matched contractors, accept, zone, hour band, density number, founding contractor, founding period, owned share, covered hours, first reply, Text READY, contact card, terms on one page, Lead Cost Check, safety line
 ---
@@ -31,7 +31,7 @@ If you are an AI agent, read the next section first.
 
 **Hard guardrails, never violate:**
 
-- SOS SMS is pre-launch. Never write a capability in the present tense as if it were live. Copy is written for launch day and is held until the capability ships.
+- SOS SMS is pre-launch. Never write a capability in the present tense as if it were live. Customer copy is written for launch day and held until the zone opens. Contractor recruiting copy goes out before launch and describes what SOS SMS is building, in the future tense.
 - Never invent a number, count, arrival time, price, fee, testimonial, or result. Unknowns stay `{TBD}`. The proof-point set is empty.
 - Never fill a `[bracket]`. It waits on a named founder decision (Section 9 and `ops/decisions.md`).
 - Neither side's copy may promise what the other side's terms do not deliver (Section 5.3).

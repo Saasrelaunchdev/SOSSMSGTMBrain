@@ -22,6 +22,8 @@ Four plain-text emails over twelve days, zone by zone, to licensed plumbing and 
 - **Email 3, the terms on one page.** What you pay, when you're paid, what you commit to, what happens if you're late. The terms link.
 - **Email 4, founding contractors in [zone].** What founding contractors get and commit to; the real deadline only; text JOIN; "last email unless you reply".
 
+Pre-launch framing throughout: what SOS SMS is building, "once it opens in [zone]", never a working service.
+
 ## Never in a contractor email
 Results, volume, earnings, "more jobs", "exclusive", "pre-qualified", "escrow", a fake deadline, a request for a call, a rival named unkindly.
 

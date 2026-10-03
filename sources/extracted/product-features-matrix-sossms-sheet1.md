@@ -1,6 +1,6 @@
 # Source: Product Features Matrix _ SOSSMS - Sheet1.csv
 
-Original path: `/tmp/claude-0/-home-user-SOSSMSGTMBuild/58c92b90-19cc-5fc7-89d9-27b8a51bab42/scratchpad/xsrc/Product Features Matrix _ SOSSMS - Sheet1.csv`
+Original path: `sources/raw/Product Features Matrix _ SOSSMS - Sheet1.csv` (as supplied by the founders)
 Type: csv
 Size: 3,468 bytes
 | Core Product Features | Market Relevance | Competitive Differentiation |

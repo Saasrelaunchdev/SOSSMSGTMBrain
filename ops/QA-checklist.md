@@ -15,6 +15,7 @@ Tick every line against the draft. Any no is a fix before shipping. Every item i
 
 ## Claims
 - [ ] Nothing is described as live. Every capability matches its flag in `rules/feature-status.md`.
+- [ ] Pre-launch contractor recruiting copy says what SOS SMS is building, in the future tense.
 - [ ] No testimonial, rating, count, logo, or result. The proof-point set is empty.
 - [ ] Every [bracket] and {TBD} is still visible and unfilled.
 - [ ] No "escrow", "exclusive", "pre-qualified", "guaranteed arrival time", or "every contractor in your area".

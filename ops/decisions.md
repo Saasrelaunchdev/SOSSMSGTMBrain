@@ -4,6 +4,13 @@ What was decided and why, so settled strategy is not relitigated. Newest at the 
 
 ---
 
+## 2026-10-03 Pre-launch framing for contractor recruiting (DECIDED, build rule)
+Contractor recruiting copy goes out before launch and describes what SOS SMS is building, in the future tense ("when it opens in [zone]"). Customer copy stays held until the zone opens.
+
+**Rationale:** the live test (`pages/partner-counter-card.md`) found that "held until it ships" and Stage 1 recruiting before launch could not both be followed. This is a wording rule derived from decided strategy (supply first, pre-launch), not a new strategic choice; the founders may revise it.
+**What this does not change:** no claim, no number, no channel. Nothing is described as live.
+**Downstream:** `rules/writing-rules.md`, the master context Section 0, `ops/QA-checklist.md`, `adapters/portable-control-layer.md`. Done 2026-10-03.
+
 ## 2026-10-02 Built the GTM brain from both runs and the walkthrough (DECIDED)
 This repository is the single source of truth for SOS SMS go-to-market work. Where a source and the brain disagree, the brain records the conflict and the decided verdict wins.
 

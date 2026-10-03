@@ -19,7 +19,7 @@ One self-contained HTML file (`dist/index.html`, identical to `dist/sos-sms-gtm.
 | 24 | | Close |
 
 ## Verified at build (2026-10-01)
-check_deck 0 errors (13 warnings, all "SOS" quoted inside the name-collision notes themselves); navigation tests 91 of 91; hub interactive in about 0.23 s; every hero under 350 elements.
+check_deck 0 errors (13 warnings, each the first word of the name quoted alone inside the name-collision notes themselves); navigation tests 91 of 91; hub interactive in about 0.23 s; every hero under 350 elements.
 
 ## Open items from the build
 - Vercel: `vercel.json` serves `dist/` only with noindex. Confirm the config on first deploy and **turn on Deployment Protection** before sharing a URL.
