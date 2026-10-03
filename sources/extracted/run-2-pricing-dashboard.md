@@ -1,6 +1,6 @@
 # Source: run-2-pricing_dashboard.xlsx
 
-Original path: `/tmp/claude-0/-home-user-SOSSMSGTMBuild/58c92b90-19cc-5fc7-89d9-27b8a51bab42/scratchpad/xsrc/run-2-pricing_dashboard.xlsx`
+Original path: `Fit137/SOSSMSGTMBuild`, `gtm/run-2-demand-customers/output/pricing_dashboard.xlsx`
 Type: xlsx
 Size: 23,597 bytes
 
