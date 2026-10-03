@@ -1,0 +1,111 @@
+/* SOS SMS GTM walkthrough · design tokens
+   The one place colour and type are defined. specs/02 Part 2 names the roles;
+   this file maps them, once per theme. Nothing else in the suite may use a colour
+   that is not a role below. Validated: brand/palette-validation.md.
+
+   Brand: green and white. Dark is the projector theme. */
+
+@font-face {
+  font-family: "Inter SOS";
+  src: url("../../brand/fonts/Inter-SOS-subset.woff2") format("woff2");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: block;
+}
+
+:root,
+:root[data-theme="light"] {
+  color-scheme: light;
+  /* Neutral roles */
+  --ink: #0d1f16;
+  --body: #334139;
+  --muted: #5d6a62;
+  --hairline: #d3dcd6;
+  --surface: #ffffff;
+  --surface-raised: #f2f8f5;
+  --surface-inverse: #034126;
+  --on-inverse: #ffffff;           /* text set on surface-inverse */
+  /* Signal roles */
+  --accent: #28a43a;               /* Signal green: the one emissive signal */
+  --on-accent: #0d1f16;            /* text set on an accent fill (white fails 4.5:1) */
+  --positive: #007452;
+  --caution: #a05000;
+  --supply: #0057b1;               /* contractors, square marks */
+  --demand: #a366cd;               /* customers, round marks */
+  /* Material helpers, derived from the roles above */
+  --glass: color-mix(in srgb, var(--surface-raised) 72%, transparent);
+  --shadow-ink: rgba(13, 31, 22, 0.18);
+  --glow-alpha: 0.18;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --ink: #eff5f2;
+  --body: #cdd7d1;
+  --muted: #9ba8a1;
+  --hairline: #3f4b44;
+  --surface: #0b1511;
+  --surface-raised: #16211b;
+  --surface-inverse: #075030;
+  --on-inverse: #eff5f2;
+  --accent: #3eee92;
+  --on-accent: #0b1511;
+  --positive: #249c74;
+  --caution: #e29936;
+  --supply: #47b5fa;
+  --demand: #a86fcf;
+  --glass: color-mix(in srgb, var(--surface-raised) 72%, transparent);
+  --shadow-ink: rgba(0, 0, 0, 0.42);
+  --glow-alpha: 0.22;
+}
+
+:root {
+  /* Type. One family, three weights, tabular figures everywhere. */
+  --font: "Inter SOS", ui-sans-serif, system-ui, sans-serif;
+  --font-code: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --w-regular: 420;
+  --w-medium: 540;
+  --w-bold: 660;
+  --features: "tnum" 1, "cv05" 1;   /* tabular figures; l with a tail, so l, I, and 1 never blur on a projector */
+
+  /* Hub type scale, in canvas pixels on the 1600 x 1000 canvas (ratio about 1.27).
+     Largest text on a summary slide: the stat figure. Second largest: the title. */
+  --c-caption: 14px;
+  --c-small: 15px;
+  --c-body: 18px;
+  --c-lead: 21px;
+  --c-sowhat: 21px;
+  --c-h3: 28px;
+  --c-title: 50px;
+  --c-stat: 64px;
+  --c-display: 78px;
+
+  /* Dashboard type scale, in rem (16px root) */
+  --d-caption: 0.8125rem;
+  --d-small: 0.875rem;
+  --d-body: 1rem;
+  --d-lede: 1.1875rem;
+  --d-h3: 1.375rem;
+  --d-h2: 1.875rem;
+  --d-h1: 2.75rem;
+
+  /* Motion: one curve for every tween (specs/02 1.2) */
+  --settle: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --t-micro: 120ms;
+  --t-small: 240ms;
+  --t-standard: 480ms;
+  --t-large: 720ms;
+
+  /* Geometry */
+  --rail-w: 268px;
+  --rail-w-collapsed: 64px;
+  --topbar-h: 56px;
+  --radius-s: 6px;
+  --radius-m: 10px;
+  --radius-l: 16px;
+  --focus: 0 0 0 2px var(--surface), 0 0 0 4px var(--accent);
+}
+
+@media (prefers-contrast: more) {
+  :root { --glass: var(--surface-raised); }
+}

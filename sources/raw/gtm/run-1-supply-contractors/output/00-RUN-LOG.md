@@ -1,0 +1,87 @@
+# Run 1 log: SOS SMS supply side (contractors)
+
+The `gtm-builder` run for the contractor side, executed 2026-10-01 against `../GTM-BRIEF.md` and `../SKILL-ADAPTATION.md`. This file records what the run assumed, so every output can be traced and every assumption can be overturned.
+
+## Inputs used
+
+| Input | Value used | Status |
+|---|---|---|
+| Project | SOS SMS, emergency home repair dispatch by text | From the brief |
+| Website | {TBD} | No site exists yet |
+| Category | Emergency home repair dispatch by text, two-sided marketplace | From the brief |
+| Niche | Licensed, insured plumbing and water-emergency contractors who take emergency calls | Working assumption (brief open decision 1, proposed default) |
+| Launch metro | {TBD} | Not decided. Research is national; local items are listed in `../../research/step-0-competitor-slates.md` |
+| Competitors | C1 Angi Leads, C2 Thumbtack, C3 Google Local Services Ads, C4 Service Direct, C5 home warranty network (American Home Shield), C6 status quo (word of mouth and own free listing) | Step 0, filled in `../../research/` |
+| Features | The six contractor items from the matrix plus three candidates | From the brief, Section 3 |
+| Business context | Team, burn, runway, channels tried: all {TBD} | Not supplied |
+
+## Assumptions the run applied, with the decision each one stands in for
+
+| Brief open decision | Assumption used in this run | Where it matters |
+|---|---|---|
+| 1. Launch metro and trades | Plumbing and water emergencies; metro {TBD} | Phases 2, 4, 5.2, 8 |
+| 2. How SOS SMS earns money | Not assumed. Phase 9 recommends a structure and leaves every number {TBD} | Phase 9, every "no lead fees" line |
+| 3. Late arrival and the contractor's trip charge | Not assumed. Copy that depends on it carries a bracket; Phase 9 lays out both options | Phases 6, 9 |
+| 4. Dispatch rule | Every matched contractor sees the request at once; the first to accept gets it (the brief's proposed reading) | Phases 1, 3, 6, 7 |
+| 5. Build status | Every item treated as planned, not shipped. Copy is written for launch day and must not run before the item ships | Phases 1, 6 |
+| 6. Founder memo, unattributed rows | Not available. Ali's 18 rows and Bryan's 5 rated rows with no item text are excluded | Phase 1 |
+| 7. Name collision | Unresolved. Flagged in Phase 8 | Phase 8 |
+
+## Rules carried through every phase
+
+- SOS SMS is pre-launch. Every proof point, count, rate, and result is {TBD}. Eighteen Phase 6 fields are {TBD} by design.
+- Market figures carry a source ID and grade from `../../research/SOURCES.md`. Grade C figures are for internal direction only.
+- Claims follow `../GTM-BRIEF.md` Section 5 (the narrowed forms) and Section 6 (cross-side dependencies).
+- No em dashes. None of the banned words.
+
+## Revision: product-led motion (2026-10-01)
+
+The founders changed the motion after the first run: product-led growth, no sales team. On the contractor side that means cold email and a partnership program, with every contractor signing themselves up by text. No calls, shop visits, or audits.
+
+| File | What changed |
+|---|---|
+| `../GTM-BRIEF.md`, `../SKILL-ADAPTATION.md` | Motion row and Phase 8 adaptation |
+| `phase-1-product-feature-matrix.md` | The white-glove audit variant replaced by an automated lead spend report; top-of-funnel uses now email and partners |
+| `phase-4-icp.md` | Best engagement model is self-serve for both levels |
+| `phase-5-buying-committee.md` | Channels to find each persona: cold email, partners, referrals |
+| `phase-6-value-proposition.md` | Proof capture by automated text |
+| `phase-7-customer-journey.md` | Every touchpoint self-serve |
+| `phase-8-assets-library.md` | Rewritten: cold email, partnership program, in-product referral loop, with draft email copy |
+| `phase-9-pricing.md` | A per-completed-job contractor fee after the founding period is now planned from the start, because paid search on the customer side is unlikely to be paid back by a customer fee alone |
+| `lead-magnet-spec.md`, `gtm_walkthrough.md` | Self-serve calls to action; channel slide |
+
+Growth across zones follows `../../marketplace/speed-to-scale-plan.md`.
+
+## Output files
+
+| Phase | Source file (Markdown) | Rendered file |
+|---|---|---|
+| 1. Product Feature Matrix | `phase-1-product-feature-matrix.md` | `product_feature_matrix.xlsx` |
+| 2. Competitive Market Analysis | `phase-2-competitive-analysis.md`, `phase-2-positioning-summary.md` | `competitive_analysis.xlsx`, `positioning_summary.docx` |
+| 3. Positioning | `phase-3-positioning-statements.md` | `positioning_statements.docx` |
+| 4. ICP | `phase-4-icp.md` | `icp_dashboard.xlsx` |
+| 5. Buying Committee | `phase-5-buying-committee.md` | `buying_committee.xlsx` |
+| 6. Value Proposition | `phase-6-value-proposition.md` | `value_proposition.docx` |
+| 7. Customer Journey | `phase-7-customer-journey.md` | `customer_journey.xlsx` |
+| 8. Assets and Collaterals | `phase-8-assets-library.md` | `assets_library.xlsx` |
+| 9. Pricing and Packaging | `phase-9-pricing.md` | `pricing_dashboard.xlsx` |
+| Lead Magnet | `lead-magnet-spec.md` | `lead_magnet_spec.xlsx`, `scorecard_spec.docx` |
+| Deck | `gtm_walkthrough.md` | Markdown for Gamma |
+
+The Markdown files are the source of truth. The XLSX and DOCX files are generated from them by `gtm/tools/render.py` and should not be edited by hand.
+
+## Progress tracker
+
+- [x] Step 0, competitor slate (research folder)
+- [x] Phase 1, Steps 1.1 to 1.7
+- [x] Phase 2, Steps 2.1 to 2.16
+- [x] Phase 3, Step 3.1
+- [x] Phase 4, Step 4.1
+- [x] Phase 5, Steps 5.1 and 5.2
+- [x] Phase 6, Steps 6.1 to 6.3
+- [x] Phase 7, Steps 7.1 and 7.2
+- [x] Phase 8, Step 8.1
+- [x] Phase 9, Steps 9.1 to 9.3
+- [x] Lead Magnet Specification
+- [x] 10-slide GTM Walkthrough Deck
+- [x] Cross-side check against Section 6 (in `../../marketplace/`)
