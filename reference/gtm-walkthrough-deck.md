@@ -3,7 +3,7 @@
 Load for: presenting the GTM internally, pointing someone at a dashboard, or checking what the deck shows. Distills the walkthrough repo (`Saasrelaunchdev/SOSSMSGTMWalkthrough`: README, NOTES, the build from `deck-handoff/` in the GTM build repo). Status: BUILT, internal only. It carries grade C figures and open decisions; it is not a customer or contractor surface.
 
 ## What it is
-One self-contained HTML file (`dist/index.html`, identical to `dist/sos-sms-gtm.html`, about 1.1 MB, zero network requests): a 24-slide hub and 21 linked dashboards, light and dark themes, reduced motion, and print paths. Every word comes from the deck content spec; every dashboard table is verbatim from the knowledge files.
+One self-contained HTML file (`dist/index.html`, identical to `dist/sos-sms-gtm.html`, about 1.2 MB, zero network requests): a 25-slide hub and 22 linked dashboards, light and dark themes, reduced motion, and print paths. Every word comes from the deck content spec; every dashboard table is verbatim from the knowledge files.
 
 ## The map
 
@@ -15,8 +15,12 @@ One self-contained HTML file (`dist/index.html`, identical to `dist/sos-sms-gtm.
 | 12 to 20 | D01 to D09 | Customers: the same nine. Slide 20 is the still slide |
 | 21 | M1 | Where the sides meet, the cross-side check (the peak) |
 | 22 | M2 | Speed to scale, with the calculators |
-| 23 | M3 | Decisions: the twelve (the ask) |
-| 24 | | Close |
+| 23 | M3 | Pricing, both sides, once: contractors join free, SOS SMS earns on transactions (proposed amounts, decisions 2 and 5 open) |
+| 24 | M4 | Decisions: the twelve (the ask) |
+| 25 | | Close |
+
+## Pricing added (2026-10-03)
+Slide 23 and dashboard M3 show the pricing model once, for both sides, from `knowledge/gtm/pricing/` (generated in the GTM build repo from the Google folder pricing model). The decisions moved to M4 on slide 24 and the close to slide 25. Checks: check_deck 0 errors, navigation 91 of 91, 60 fps; the new hero has 85 elements. On branch `claude/quirky-tesla-29ad5a` of the walkthrough repo until merged; the deployed deck updates on merge. The proposed amounts appear only there, labelled proposed; `rules/do-not-say.md` keeps them out of copy.
 
 ## Verified at build (2026-10-01)
 check_deck 0 errors (13 warnings, each the first word of the name quoted alone inside the name-collision notes themselves); navigation tests 91 of 91; hub interactive in about 0.23 s; every hero under 350 elements.

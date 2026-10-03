@@ -54,7 +54,7 @@ Source: the product features matrix, both runs' Phase 1, and the cross-side chec
 - Counsel review of the terms and the guarantee.
 
 ## Internal assets
-- GTM walkthrough deck (24 slides, 21 dashboards): BUILT, internal only, not a customer surface.
+- GTM walkthrough deck (25 slides, 22 dashboards, pricing on slide 23 and M3 since 2026-10-03): BUILT, internal only, not a customer surface.
 - Brand identity v1 (logo, palette, type, brand book): BUILT. Dark palette: awaiting approval.
 
 ## Demo rule
