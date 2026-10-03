@@ -34,7 +34,7 @@ None. SOS SMS is pre-launch: no website, no ads, no number, no listings. Add eac
 | Surface | URL | Last reviewed |
 |---|---|---|
 | Walkthrough deck (internal, Vercel) | {TBD}, protect before sharing | 2026-10-01 |
-| GTM engine board (internal, Miro): the deliverables, both channel engines, the density gate, guardrails and decisions, with flowcharts A to H | https://miro.com/app/board/uXjVEfcEtLg=/ | 2026-10-03 |
+| GTM engine board (internal, Miro): on top, frames 0.1 to 0.6 explain the work done and the four deliverables (the Google folder, this brain, the walkthrough, the board) and which one to open; below, both channel engines, the density gate, guardrails and decisions, with flowcharts A to H | https://miro.com/app/board/uXjVEfcEtLg=/ | 2026-10-03 |
 
 ## Related workstreams that own deferred questions
 Founders: the twelve decisions, dispute rules, roles. GTM consultant: the brain itself, its reviews, and drafts for approval. Product: build status, dispatch, payments, verification. Counsel: terms, guarantee, privacy policy. Payment provider: hold, capture, payout timing.
