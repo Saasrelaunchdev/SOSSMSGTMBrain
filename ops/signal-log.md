@@ -23,6 +23,12 @@ The entries below were seeded at build from the research and the walkthrough wor
 
 ## Entries
 
+### 2026-10-03 | STATUS | pricing model, live test
+**Verbatim:** First draft of the contractor pricing table: "The customer pays an SOS SMS fee on each request. Contractors pay the contractor fee per completed paid job", with no row for a late arrival.
+**Context:** Contractors, the contractor page and the terms on one page. Produced from the brain for the pricing model and run through `QA-checklist.md`. Failed two checks: present tense in pre-launch recruiting copy; a customer promise (the 90-minute refund) the contractor's terms did not show, since the terms on one page must say what happens if they are late.
+**Disposition:** PATCH. The rules held; the draft broke them. Fixed in the table: future tense, and an "If you are late" row in [brackets] until decision 3.
+**Routed to:** `Fit137/SOSSMSGTMBuild`, `gtm/tools/google_folder/pricing.py` (the pricing table and handoff).
+
 ### 2026-10-03 | STATUS | brain build, live test
 **Verbatim:** First draft of the partner blurb: "SOS SMS is the emergency dispatch line where you pay nothing to see a request and the customer pays the trip charge before you roll."
 **Context:** Contractors, stage 1, partnership program. Produced from the brain only (`pages/partner-counter-card.md`) and run through `QA-checklist.md`. Failed two checks: present tense for planned capabilities; no revenue sentence.
