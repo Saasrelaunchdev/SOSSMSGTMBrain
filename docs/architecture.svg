@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" width="1200" height="780" role="img" aria-labelledby="t d">
+  <title id="t">SOS SMS GTM Brain architecture</title>
+  <desc id="d">Six layers stacked from routers to sources, the doors for other AI tools on the right, and the compounding loop that feeds market signals back into the rules.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#034126"/>
+    </marker>
+    <style>
+      .h { font: 660 15px Inter, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #0D1F16; }
+      .s { font: 420 12.5px Inter, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #334139; }
+      .k { font: 660 11px Inter, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #5D6A62; letter-spacing: 0.06em; }
+      .chip { font: 540 12px "SFMono-Regular", Menlo, Consolas, monospace; fill: #0D1F16; }
+      .w { font: 660 15px Inter, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #FFFFFF; }
+      .ws { font: 420 12.5px Inter, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #DCEBE3; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="780" fill="#FFFFFF"/>
+  <text x="40" y="44" class="h" style="font-size:22px">SOS SMS GTM Brain, how the layers fit</text>
+  <text x="40" y="68" class="s">Small and authoritative at the top, deep and on demand below, and a state layer that makes it compound.</text>
+
+  <!-- Layer 1: routers -->
+  <rect x="40" y="90" width="780" height="72" rx="10" fill="#034126"/>
+  <text x="60" y="116" class="w">Routers, always loaded</text>
+  <text x="60" y="138" class="ws">Load order, the two sides, the non-negotiables. Under 70 lines each.</text>
+  <g>
+    <rect x="530" y="108" width="86" height="28" rx="6" fill="#FFFFFF"/><text x="544" y="127" class="chip">CLAUDE.md</text>
+    <rect x="624" y="108" width="86" height="28" rx="6" fill="#FFFFFF"/><text x="638" y="127" class="chip">AGENTS.md</text>
+    <rect x="718" y="108" width="80" height="28" rx="6" fill="#FFFFFF"/><text x="733" y="127" class="chip">llms.txt</text>
+  </g>
+
+  <!-- Layer 2: control -->
+  <rect x="40" y="178" width="780" height="96" rx="10" fill="#F2F8F5" stroke="#28A43A" stroke-width="2"/>
+  <text x="60" y="203" class="k">CONTROL LAYER, EVERY WRITING TASK</text>
+  <text x="60" y="224" class="s">What may be said, how, and the gate before anything ships.</text>
+  <g>
+    <rect x="60" y="236" width="124" height="26" rx="6" fill="#FFFFFF" stroke="#D3DCD6"/><text x="70" y="254" class="chip">glossary</text>
+    <rect x="192" y="236" width="136" height="26" rx="6" fill="#FFFFFF" stroke="#D3DCD6"/><text x="202" y="254" class="chip">feature-status</text>
+    <rect x="336" y="236" width="118" height="26" rx="6" fill="#FFFFFF" stroke="#D3DCD6"/><text x="346" y="254" class="chip">do-not-say</text>
+    <rect x="462" y="236" width="140" height="26" rx="6" fill="#FFFFFF" stroke="#D3DCD6"/><text x="472" y="254" class="chip">writing-rules</text>
+    <rect x="610" y="236" width="188" height="26" rx="6" fill="#28A43A"/><text x="622" y="254" class="chip" style="fill:#FFFFFF">ops/QA-checklist</text>
+  </g>
+
+  <!-- Layer 3: reference -->
+  <rect x="40" y="290" width="780" height="128" rx="10" fill="#FFFFFF" stroke="#D3DCD6" stroke-width="1.5"/>
+  <text x="60" y="315" class="k">REFERENCE LAYER, ON DEMAND</text>
+  <text x="60" y="336" class="s">The master context (one read, 18 sections) and 20 focused files.</text>
+  <rect x="60" y="348" width="176" height="56" rx="8" fill="#F2F8F5"/>
+  <text x="72" y="370" class="h" style="font-size:13px">Marketplace</text>
+  <text x="72" y="390" class="s" style="font-size:11.5px">cross-side, density, launch</text>
+  <rect x="246" y="348" width="176" height="56" rx="8" fill="#EAF1FA"/>
+  <rect x="258" y="360" width="10" height="10" fill="#0057B1"/>
+  <text x="276" y="370" class="h" style="font-size:13px">Contractors</text>
+  <text x="258" y="390" class="s" style="font-size:11.5px">value prop, cold email engine</text>
+  <rect x="432" y="348" width="176" height="56" rx="8" fill="#F4ECFA"/>
+  <circle cx="449" cy="365" r="5.5" fill="#A366CD"/>
+  <text x="462" y="370" class="h" style="font-size:13px">Customers</text>
+  <text x="444" y="390" class="s" style="font-size:11.5px">value prop, paid search engine</text>
+  <rect x="618" y="348" width="180" height="56" rx="8" fill="#F2F8F5"/>
+  <text x="630" y="370" class="h" style="font-size:13px">Shared</text>
+  <text x="630" y="390" class="s" style="font-size:11.5px">rivals, ICP, pricing, brand</text>
+
+  <!-- Layer 4: execution -->
+  <rect x="40" y="434" width="780" height="84" rx="10" fill="#FFFFFF" stroke="#D3DCD6" stroke-width="1.5"/>
+  <text x="60" y="459" class="k">EXECUTION LAYER, HOW WORK GETS MADE</text>
+  <g>
+    <rect x="60" y="474" width="170" height="28" rx="6" fill="#F2F8F5"/><text x="72" y="493" class="chip">templates/ (7)</text>
+    <rect x="240" y="474" width="170" height="28" rx="6" fill="#F2F8F5"/><text x="252" y="493" class="chip">examples/ (4)</text>
+    <rect x="420" y="474" width="170" height="28" rx="6" fill="#F2F8F5"/><text x="432" y="493" class="chip">prompts/</text>
+    <rect x="600" y="474" width="198" height="28" rx="6" fill="#F2F8F5"/><text x="612" y="493" class="chip">pages/</text>
+  </g>
+
+  <!-- Layer 5: state -->
+  <rect x="40" y="534" width="780" height="100" rx="10" fill="#FFF6EC" stroke="#A05000" stroke-width="1.5"/>
+  <text x="60" y="559" class="k" style="fill:#A05000">STATE LAYER, WHY IT COMPOUNDS</text>
+  <text x="60" y="580" class="s">What was decided, what is cleared to say, what the market said, when each ledger was reviewed.</text>
+  <g>
+    <rect x="60" y="592" width="108" height="26" rx="6" fill="#FFFFFF" stroke="#E6D3BE"/><text x="70" y="610" class="chip">decisions</text>
+    <rect x="176" y="592" width="116" height="26" rx="6" fill="#FFFFFF" stroke="#E6D3BE"/><text x="186" y="610" class="chip">signal-log</text>
+    <rect x="300" y="592" width="104" height="26" rx="6" fill="#FFFFFF" stroke="#E6D3BE"/><text x="310" y="610" class="chip">copy-bank</text>
+    <rect x="412" y="592" width="118" height="26" rx="6" fill="#FFFFFF" stroke="#E6D3BE"/><text x="422" y="610" class="chip">asset-index</text>
+    <rect x="538" y="592" width="138" height="26" rx="6" fill="#FFFFFF" stroke="#E6D3BE"/><text x="548" y="610" class="chip">review-cadence</text>
+    <rect x="684" y="592" width="114" height="26" rx="6" fill="#FFFFFF" stroke="#E6D3BE"/><text x="694" y="610" class="chip">snapshots/</text>
+  </g>
+
+  <!-- Layer 6: sources -->
+  <rect x="40" y="650" width="780" height="60" rx="10" fill="#F7F8F7" stroke="#D3DCD6" stroke-dasharray="5 4"/>
+  <text x="60" y="675" class="k">SOURCES, KEPT AS DELIVERED</text>
+  <text x="60" y="695" class="s">Both gtm-builder runs, research (S01 to S74), marketplace synthesis, walkthrough brand and notes, logo files.</text>
+
+  <!-- Right: doors -->
+  <rect x="860" y="90" width="300" height="300" rx="10" fill="#FFFFFF" stroke="#034126" stroke-width="2"/>
+  <text x="880" y="118" class="h">Doors for every tool</text>
+  <text x="880" y="140" class="s">One truth, many entry files.</text>
+  <g class="s">
+    <text x="880" y="172">Claude Code, Claude apps</text><text x="1140" y="172" text-anchor="end" class="chip">CLAUDE.md</text>
+    <text x="880" y="200">Codex, Zed, Jules, opencode</text><text x="1140" y="200" text-anchor="end" class="chip">AGENTS.md</text>
+    <text x="880" y="228">Cursor</text><text x="1140" y="228" text-anchor="end" class="chip">cursor.mdc</text>
+    <text x="880" y="256">Windsurf</text><text x="1140" y="256" text-anchor="end" class="chip">windsurf.md</text>
+    <text x="880" y="284">GitHub Copilot</text><text x="1140" y="284" text-anchor="end" class="chip">copilot block</text>
+    <text x="880" y="312">Gemini CLI</text><text x="1140" y="312" text-anchor="end" class="chip">GEMINI block</text>
+    <text x="880" y="340">ChatGPT, Grok, any API</text><text x="1140" y="340" text-anchor="end" class="chip">portable layer</text>
+  </g>
+  <text x="880" y="372" class="s" style="font-size:11.5px">The portable layer is dated and regenerated.</text>
+  <path d="M860,126 L826,126" stroke="#034126" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Right: compounding loop -->
+  <rect x="860" y="410" width="300" height="300" rx="10" fill="#F2F8F5"/>
+  <text x="880" y="438" class="h">The compounding loop</text>
+  <g>
+    <rect x="884" y="458" width="252" height="34" rx="17" fill="#FFFFFF" stroke="#D3DCD6"/>
+    <text x="1010" y="480" text-anchor="middle" class="s">1 Capture a signal, verbatim</text>
+    <path d="M1010,492 L1010,510" stroke="#034126" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="884" y="512" width="252" height="34" rx="17" fill="#FFFFFF" stroke="#D3DCD6"/>
+    <text x="1010" y="534" text-anchor="middle" class="s">2 Triage: noise, watch, patch, amend</text>
+    <path d="M1010,546 L1010,564" stroke="#034126" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="884" y="566" width="252" height="34" rx="17" fill="#FFFFFF" stroke="#28A43A" stroke-width="2"/>
+    <text x="1010" y="588" text-anchor="middle" class="s">3 Amend the ledger first</text>
+    <path d="M1010,600 L1010,618" stroke="#034126" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="884" y="620" width="252" height="34" rx="17" fill="#FFFFFF" stroke="#D3DCD6"/>
+    <text x="1010" y="642" text-anchor="middle" class="s">4 Context, decision log, copy, adapters</text>
+  </g>
+  <text x="880" y="684" class="s" style="font-size:11.5px">Ledgers before copy, always.</text>
+  <path d="M860,584 C836,584 836,226 826,226" stroke="#28A43A" stroke-width="2" fill="none" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+  <path d="M826,584 L858,584" stroke="#A05000" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <text x="40" y="748" class="s" style="font-size:11.5px">Round is a customer, square is a contractor, as in the brand. Nothing in this brain is live: every number unknown today is {TBD}.</text>
+</svg>

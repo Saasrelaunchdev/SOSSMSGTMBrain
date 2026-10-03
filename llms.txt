@@ -1,0 +1,68 @@
+# SOS SMS GTM Brain
+
+> The go-to-market for SOS SMS, a pre-launch, two-sided marketplace for emergency home repair (plumbing and water emergencies first). Contractors (supply) and customers (demand) have separate strategies that are never blended. Nothing is live; unknowns are {TBD}; copy waiting on a founder decision carries a [bracket]. Load the router first, then the four rules files, then only what the task needs.
+
+## Routers
+- [CLAUDE.md](CLAUDE.md): Entry point for Claude Code and the Claude apps. Load order, sides, non-negotiables.
+- [AGENTS.md](AGENTS.md): Same entry point for Codex, Cursor, Zed, Jules, opencode. CLAUDE.md wins on conflict.
+- [README.md](README.md): For people. What this is, how to use it, use cases, environments, tech stack wiring.
+
+## Control layer, load on every writing task
+- [rules/glossary.md](rules/glossary.md): Canonical terms, banned near-synonyms, the distinctions that must never blur.
+- [rules/feature-status.md](rules/feature-status.md): Status of every capability. Nothing is shipped.
+- [rules/do-not-say.md](rules/do-not-say.md): Hard bans with replacements, channel bans, scoped claims, historical material.
+- [rules/writing-rules.md](rules/writing-rules.md): Mechanics, tone, per-side and per-medium rules, pre-launch framing, channel discipline, signature lines.
+- [ops/QA-checklist.md](ops/QA-checklist.md): The pre-ship gate, yes or no per line.
+
+## Master context
+- [context/SOS-SMS_GTM_Master_Context.md](context/SOS-SMS_GTM_Master_Context.md): The whole GTM in one read, eighteen sections. Source of truth when a rules file and it disagree.
+
+## Reference layer, load on demand
+- [reference/marketplace-cross-side.md](reference/marketplace-cross-side.md): The eight shared promises, conflicts A to H, and what closes each.
+- [reference/density-model.md](reference/density-model.md): How many contractors a zone needs, and what the number gates.
+- [reference/feature-matrix.md](reference/feature-matrix.md): What leads and what is table stakes, per side, with scores.
+- [reference/competitive-analysis.md](reference/competitive-analysis.md): Rivals per side, review themes, the four vectors, the wedge.
+- [reference/competitor-battlecards.md](reference/competitor-battlecards.md): Per rival: strength, gap, how SOS SMS wins, what never to say.
+- [reference/positioning.md](reference/positioning.md): Positioning statements per side, with their conditions.
+- [reference/positioning-verdict.md](reference/positioning-verdict.md): The strategic forks already settled, and why.
+- [reference/icp-personas.md](reference/icp-personas.md): ICP levels, buying committees, blockers, permission rules.
+- [reference/value-proposition-contractors.md](reference/value-proposition-contractors.md): Contractor pillars and the nine drills.
+- [reference/value-proposition-customers.md](reference/value-proposition-customers.md): Customer pillars and the nine drills.
+- [reference/customer-journey.md](reference/customer-journey.md): Both seven-stage journeys and the hand-off at acceptance.
+- [reference/objection-handling.md](reference/objection-handling.md): Written answers to the recurring pushbacks, per side.
+- [reference/channel-engine-contractors.md](reference/channel-engine-contractors.md): Cold email, partners, referral loop: thesis, rules, method, order.
+- [reference/channel-engine-paid-search.md](reference/channel-engine-paid-search.md): Paid search, problem pages, product loops: thesis, rules, ad drafts, order.
+- [reference/lead-magnets.md](reference/lead-magnets.md): The Job Leak Scorecard and the 2 a.m. leak readiness scorecard.
+- [reference/pricing-and-economics.md](reference/pricing-and-economics.md): Take rate, late-arrival options, fee ceiling, paid search payback, the four levers.
+- [reference/launch-and-growth.md](reference/launch-and-growth.md): Stages, gates, zone signals, speed rules, risks.
+- [reference/brand-identity.md](reference/brand-identity.md): Mark, logo rules, colour roles, type, motion, voice.
+- [reference/research-and-sources.md](reference/research-and-sources.md): How the research was done, evidence grades, the most used figures.
+- [reference/gtm-walkthrough-deck.md](reference/gtm-walkthrough-deck.md): The internal 24-slide, 21-dashboard deck and its open items.
+
+## Execution layer
+- [templates/README.md](templates/README.md): Seven templates, one per channel in the mix.
+- [examples/first-reply-sms.md](examples/first-reply-sms.md): Draft gold standard, the customer first reply.
+- [examples/search-ad-zone.md](examples/search-ad-zone.md): Draft gold standard, an emergency ad group.
+- [examples/zone-landing-page.md](examples/zone-landing-page.md): Draft gold standard, a zone landing page.
+- [examples/cold-email-sequence.md](examples/cold-email-sequence.md): Draft gold standard, the four contractor emails.
+- [pages/partner-counter-card.md](pages/partner-counter-card.md): The live test asset, with its QA record.
+- [prompts/common-tasks.md](prompts/common-tasks.md): Filled prompts for recurring jobs.
+
+## State layer
+- [ops/decisions.md](ops/decisions.md): Dated decisions, the twelve open ones, open questions owned elsewhere.
+- [ops/signal-log.md](ops/signal-log.md): Market input and its disposition.
+- [ops/copy-bank.md](ops/copy-bank.md): Cleared lines tagged by condition; the empty proof-point set.
+- [ops/asset-index.md](ops/asset-index.md): Repositories, sources, brand files, live surfaces.
+- [ops/review-cadence.md](ops/review-cadence.md): Rituals, owners, staleness, the amendment order.
+- [snapshots/2026-10-03-pre-launch-baseline.md](snapshots/2026-10-03-pre-launch-baseline.md): The first capture.
+
+## Other tools and checks
+- [adapters/README.md](adapters/README.md): Pointer files for Codex, Cursor, Windsurf, Copilot, Gemini; the portable layer for chat windows.
+- [adapters/portable-control-layer.md](adapters/portable-control-layer.md): Dated, pasteable control layer for tools with no file access.
+- [tools/README.md](tools/README.md): audit_brain.py and check_sos_sms.py.
+- [tools/LICENSE-audit_brain.txt](tools/LICENSE-audit_brain.txt): MIT license for the copied audit script.
+- [docs/architecture.svg](docs/architecture.svg): The brain's layers, as a picture.
+
+## Sources
+- [sources/extracted/INDEX.md](sources/extracted/INDEX.md): Manifest of every source, what it settles, conflicts found and resolved.
+- [brand/logo/sos-sms-logo.svg](brand/logo/sos-sms-logo.svg): Primary logo; every lockup is in brand/logo/.
