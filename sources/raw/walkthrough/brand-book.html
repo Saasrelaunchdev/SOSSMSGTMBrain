@@ -252,8 +252,7 @@ td:first-child { color: var(--ink); font-weight: var(--w-bold); }
 .pv--src { background: color-mix(in srgb, var(--ink) 70%, transparent); }
 .pv--commit { box-shadow: inset 0 0 0 1.5px color-mix(in srgb, var(--ink) 70%, transparent); }
 .pv--proj { border: 1.5px dashed color-mix(in srgb, var(--ink) 70%, transparent); }
-.tbd { display: inline-block; padding: 0 0.2em; border-radius: 3px; border: 1px dotted var(--muted); color: var(--muted); line-height: 1.25; }
-.bracket { padding: 0 0.18em; border-radius: 3px; box-shadow: inset 0 0 0 1px var(--caution); }
+.field { display: inline-block; padding: 0 0.3em; border-radius: 3px; box-shadow: inset 0 0 0 1px var(--hairline), inset 2px 0 0 var(--muted); line-height: 1.25; }
 .status { display: inline-flex; align-items: center; gap: 6px; height: 28px; padding: 0 11px; border-radius: 999px; font-size: 13.5px; font-weight: var(--w-medium); }
 .status--ok { color: var(--positive); box-shadow: inset 0 0 0 1.5px var(--positive); }
 .status--open { color: var(--caution); box-shadow: inset 0 0 0 1.5px var(--caution); }
@@ -322,16 +321,16 @@ footer { max-width: 1120px; margin: 0 auto; padding: 40px clamp(16px, 4vw, 40px)
       <div class="card card--raised">
         <p class="row"><span class="side"><i class="rd"></i>Customers</span></p>
         <h3 class="mt" style="margin-top:16px">One text, an arrival time when someone accepts, and a missed 90-minute window that costs SOS SMS money.</h3>
-        <p class="small muted">People with an urgent problem at home. The window's clock start, refund, and hours are <span class="bracket">[scope]</span>, waiting on a founder decision.</p>
+        <p class="small muted">People with an urgent problem at home. The window runs 90 minutes from the customer's request, and the $99 trip charge comes back on a miss.</p>
       </div>
     </div>
     <span class="src">Sources: knowledge/GTM-REPO-README.md; marketplace_walkthrough.md, slide 1; specs/01, slide 01.</span>
 
     <div class="grid g2 mt" style="margin-top:44px">
       <div class="principle"><span class="k">Calm under pressure</span><h3>The subject is emergencies. The brand is not one.</h3><p>Picture the room where requests are routed at 2 a.m.: dim, precise, quiet, legible at a glance. Nothing flashes, nothing alarms, nothing shouts.</p></div>
-      <div class="principle"><span class="k">Kept, not claimed</span><h3>We say only what a contractor can deliver.</h3><p>A promise goes out only where the other side's terms make it true. Until then it waits in brackets, visibly.</p></div>
+      <div class="principle"><span class="k">Kept, not claimed</span><h3>We say only what a contractor can deliver.</h3><p>A promise goes out only where the other side's terms make it true, with its scope in the same sentence.</p></div>
       <div class="principle"><span class="k">Fair to both sides</span><h3>Money moves only to whoever it was promised to.</h3><p>A request a contractor does not win costs them nothing. The trip charge reaches the one who accepts, and nobody else.</p></div>
-      <div class="principle"><span class="k">Exact, never inflated</span><h3>Every number carries its source, or it does not appear.</h3><p>SOS SMS is pre-launch. Unknowns show as <span class="tbd">{TBD}</span>, never as a guess, a range, or "coming soon".</p></div>
+      <div class="principle"><span class="k">Exact, never inflated</span><h3>Every number carries its source, or it does not appear.</h3><p>SOS SMS is pre-launch. A planning value carries its label and its basis, never posing as a result, a range, or "coming soon".</p></div>
     </div>
     <span class="src">Sources: specs/02, 1.1 (dispatch-room calm); both GTM briefs, Section 6; Run 1 Phase 6, drill 2; knowledge/README.md, section 4.</span>
   </section>
@@ -440,7 +439,7 @@ footer { max-width: 1120px; margin: 0 auto; padding: 40px clamp(16px, 4vw, 40px)
         <tbody>
           <tr><td>accent</td><td>The one emissive signal: the lit reply, the accent phrase in a title, active states, focus rings</td><td>More than one object at a time; small text</td></tr>
           <tr><td>positive</td><td>Money arriving where it was promised, kept promises, ✓</td><td>Celebration effects</td></tr>
-          <tr><td>caution</td><td>Brackets, open decisions, "Open" pills</td><td>Alarm styling, flashing, the safety line</td></tr>
+          <tr><td>caution</td><td>Conditions, conditional ad lines</td><td>Alarm styling, flashing, the safety line</td></tr>
           <tr><td>supply</td><td>Contractors, always with a square</td><td>Customer objects; good or bad</td></tr>
           <tr><td>demand</td><td>Customers, always with a circle</td><td>Contractor objects; good or bad</td></tr>
           <tr><td>surface-inverse</td><td>So what bars, table headers, the dashboard top bar</td><td>Long passages of body copy</td></tr>
@@ -475,8 +474,8 @@ footer { max-width: 1120px; margin: 0 auto; padding: 40px clamp(16px, 4vw, 40px)
     <div class="grid g3 mt">
       <div class="card"><h3>Sides</h3><p class="row"><span class="side"><i class="sq"></i>Contractors</span><span class="side"><i class="rd"></i>Customers</span><span class="side"><i class="sq"></i><i class="rd"></i>Both sides</span></p></div>
       <div class="card"><h3>Provenance</h3><p class="small">$10.49<span class="pv pv--src"></span> sourced · 90 minutes<span class="pv pv--commit"></span> our commitment · about $137<span class="pv pv--proj"></span> projection or illustrative</p></div>
-      <div class="card"><h3>Unknowns and decisions</h3><p class="small">Trip charge <span class="tbd">{TBD}</span>, credited to the repair. The guarantee: <span class="bracket">[scope]</span>.</p></div>
-      <div class="card"><h3>Status</h3><p class="row"><span class="status status--ok">✓ Consistent</span><span class="status status--open">◐ Open</span><span class="status status--hero">▲ Q1 Hero</span></p></div>
+      <div class="card"><h3>Planning values and merge fields</h3><p class="small">Acceptance 0.30<span class="pv pv--commit"></span> planning value. Text <span class="field">SOS SMS number</span> and tell us what broke.</p></div>
+      <div class="card"><h3>Status</h3><p class="row"><span class="status status--ok">✓ Consistent</span><span class="status status--open">◐ Condition</span><span class="status status--hero">▲ Q1 Hero</span></p></div>
       <div class="card" style="grid-column: span 2"><h3>The safety line</h3><p class="safety">For fire, a gas smell, or anyone hurt, call 911 first.</p><p class="small muted mt" style="margin-top:10px">Set still and fully legible, never animated, never styled as an alarm. Required wherever a line invites an urgent text.</p></div>
     </div>
   </section>
@@ -515,7 +514,7 @@ footer { max-width: 1120px; margin: 0 auto; padding: 40px clamp(16px, 4vw, 40px)
       <div class="do"><h3>Always</h3><ul class="clean">
         <li>Write the full name, SOS SMS.</li>
         <li>Write ranges with "to": $25 to $60.</li>
-        <li>Keep unknowns as <span class="tbd">{TBD}</span> and decisions as <span class="bracket">[brackets]</span>.</li>
+        <li>Label planning values as planning values, and render merge fields as <span class="field">field chips</span>.</li>
         <li>Carry the safety line wherever copy invites an urgent text.</li>
         <li>Show a grade C figure's grade, and keep it inside the company.</li>
       </ul></div>

@@ -12,8 +12,8 @@ The skill's two levels are software company stages (MVP to PMF, Growth). Per `..
 |---|---|---|
 | Segment | Owner-operator plumbers and water-emergency contractors who rely on referrals | Small plumbing and water damage shops with at least one paid lead source |
 | Sub-industries | Residential plumbing service and repair, drain cleaning, water heaters | Same, plus water damage mitigation and restoration. Later trades (HVAC, electrical, locksmith) are out of scope at launch |
-| Location | Launch metro {TBD}, inside the contractor's own service radius | Same |
-| Revenue, $ | {TBD}. Capture as a band in Step 5.2 interviews; no sourced figure exists for this segment | {TBD}. Same method |
+| Location | The founding zone in the founders' home metro, inside the contractor's own service radius | Same |
+| Revenue, $ | Under $500,000 a year (planning band, R38); checked in the founding contractor survey | $500,000 to $3 million a year (planning band, R38); same check |
 | Team Size | Owner-operator, sometimes one helper | Owner plus one to five technicians, often a part-time office person |
 | Business Maturity | Established and licensed; growth comes only from reputation | Established; actively spending on marketing |
 | Business Model | Time and materials or flat rate. After-hours premium varies. Many waive the trip fee and recover it in labor (S28) | Flat-rate pricing common; after-hours premium; trip or diagnostic fee credited if the customer goes ahead (S28) |
@@ -29,7 +29,7 @@ The skill's two levels are software company stages (MVP to PMF, Growth). Per `..
 | Attribute | ICP Level 1 | ICP Level 2 |
 |---|---|---|
 | Trades and licenses held | State or local plumbing license; general liability insurance | Plumbing license, insurance, and for water damage, IICRC Water Damage Restoration Technician certification (S25) |
-| Service radius | {TBD}, set per metro | {TBD}, set per metro |
+| Service radius | 10 miles, the founding zone's radius (R27) | 10 miles, the founding zone's radius (R27) |
 | After-hours availability | Occasional, at the owner's discretion | An on-call rotation or an owner who takes night calls |
 | Current job sources | Referrals, repeat customers, free listing, neighbors' recommendations (S26, S27) | Angi, Thumbtack, Google LSA, Service Direct, or search ads, plus referrals |
 | Fit for the 90-minute guarantee | Limited: one person cannot always roll at 2 a.m. | Good: an on-call technician can |
@@ -37,7 +37,7 @@ The skill's two levels are software company stages (MVP to PMF, Growth). Per `..
 
 ## Market context
 
-Sizes for orientation only. None of them is a target number for SOS SMS, and the launch metro's count is {TBD}.
+Sizes for orientation only. None of them is a target number for SOS SMS, and the launch metro's count is taken from the state license list in Stage 0.
 
 <!-- sheet: Market_Context -->
 | Measure | Figure | Source |
@@ -45,7 +45,7 @@ Sizes for orientation only. None of them is a target number for SOS SMS, and the
 | Plumbing jobs in the US, 2024 | About 504,500, median wage $62,970 | S23 (A) |
 | PHCC member businesses | About 3,300, with 65,000 technicians | S24 (A) |
 | IICRC certified firms | Over 4,600, with 43,000 certified technicians (all certification types) | S25 (B) |
-| Licensed plumbing businesses in the launch metro | {TBD} | Public license lists, once the metro is set |
+| Licensed plumbing businesses in the launch metro | Counted in Stage 0 | The state license list for the founders' home metro |
 
 ## Which level goes first, and why
 

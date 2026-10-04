@@ -1,5 +1,7 @@
 # Snapshot, 2026-10-03, pre-launch baseline
 
+**Superseded by `2026-10-04-everything-resolved.md`.** Kept as the dated baseline: its open items were all resolved on 2026-10-04.
+
 The first capture, taken as the brain was built. Nothing is live, so most sections record an absence. That record is the point: the next snapshot diffs against it, and the first real numbers will be measured against zero, not against a guess.
 
 ## 1. Funnel
@@ -34,7 +36,7 @@ Research-dated 2026-10-01 (`reference/competitive-analysis.md`). Facts to rechec
 
 | Capability | Ledger says | Reality | Action |
 |---|---|---|---|
-| Every customer and contractor capability | PLANNED, DESIGN OPEN, CANDIDATE, or NOT BUILT | Build status unconfirmed by the product team | Ask product to confirm each line |
+| Every customer and contractor capability | PLANNED, an open design, a candidate, or not built (all resolved 2026-10-04) | Build status unconfirmed by the product team | Ask product to confirm each line |
 | Launch prerequisites (carrier registration, Google eligibility, payments, name check, counsel) | NOT DONE | Not done | Stage 0 |
 | GTM walkthrough deck | BUILT, internal | Built; Vercel protection open | Turn on Deployment Protection |
 | Brand v1 | BUILT, dark palette pending | Same | Approve or revise the dark palette |

@@ -2,7 +2,7 @@
 
 The step `gtm-builder` assumes is already done. Each side's six slots from `GTM-BRIEF.md` Section 2, filled from research on 2026-10-01, then cut to the set the buyer actually weighs. Source IDs refer to `SOURCES.md`.
 
-Scope note: national research only, because the launch metro is undecided. Slots that are inherently local are marked "local research still to do".
+Scope note: national research only. The launch metro is decided as the founders' home metro (decision 1), which public research cannot name, so slots that are inherently local are done in Stage 0, when the founding zone is drawn (below).
 
 ---
 
@@ -96,7 +96,9 @@ A competitor earns a slot only if the customer actually reaches for it in the mo
 
 ---
 
-## Local research still to do, once the launch metro is set
+## Local research, Stage 0, when the founding zone is drawn
+
+Part of the Stage 0 gate in `../marketplace/launch-sequence.md`. Each item is recorded in the local slate before Stage 1 starts.
 
 | Item | Side | How |
 |---|---|---|

@@ -4,7 +4,7 @@ How SOS SMS grows once a zone works: product-led, with no sales team, and with s
 
 The principles, in one paragraph: in a market where the advantage goes to whoever reaches scale first rather than whoever launches first, a company may deliberately accept inefficiency, in spending, in process, in polish, to grow faster than the competition. That bet only makes sense when the business model can pay off at scale, and it has to be managed in stages, with guardrails, and with a clear sense of when to stop.
 
-Every SOS SMS number below is {TBD} or labeled illustrative. Market figures carry source IDs from `../research/SOURCES.md`.
+Every SOS SMS number below is a decided value, a planning value with its basis, or labeled illustrative, from `resolution-register.md`; none is a result. Market figures carry source IDs from `../research/SOURCES.md`.
 
 ---
 
@@ -27,23 +27,23 @@ Speed is worth paying for when a market is large, has network effects, and is be
 |---|---|---|
 | Market size | Large (section 1) | Add emergency trades behind the same number: water damage, then HVAC, electrical, locksmith (locksmith ads need Google advanced verification in the US, S71) |
 | Distribution | Demand is **rented**: paid search sits where emergency searches happen, but it is expensive (section 5). Supply is **cheap and scalable**: cold email and partnerships | Shift demand toward **owned** channels over time: the saved number, the post-job share, problem-solving pages. Track the owned share of requests weekly |
-| Gross margin | Unknown. Take per job is {TBD}; refunds, payment processing, and acquisition all come out of it | Monetize both sides once density is reached (section 5); keep refunds low by keeping density high |
+| Gross margin | Planned, not measured. Take per job is $49 in the founding period and $74 after it; SOS SMS nets about $31 and about $56 per completed job after refunds, payment processing, messages, and support (pricing model, illustrative); acquisition comes out of that | Monetize both sides once density is reached (section 5); keep refunds low by keeping density high |
 | Network effects | Moderate, local, and weakened by multi-homing | Density per zone and hour band (Run 1 Phase 5); features competitors cannot copy without density, above all the money-backed arrival window |
 
 ## 3. The two growth constraints
 
 ### Product and market fit, proven per zone
 
-Not proven anywhere yet. The signals below decide whether a zone has it. The founders set the thresholds **before** launch, so the result cannot be argued after the fact.
+Not proven anywhere yet. The signals below decide whether a zone has it. The thresholds are set **before** launch (resolution register, R32), so the result cannot be argued after the fact.
 
 | Signal | Definition | Threshold |
 |---|---|---|
-| Acceptance | Share of requests accepted inside the remaining window | {TBD} |
-| Arrival | Share of accepted jobs arriving inside the window | {TBD} |
-| SOS-caused refunds | Refunds SOS SMS pays, per 100 requests | {TBD} |
-| Paid conversion | Share of first texts that become paid requests | {TBD} |
-| Owned share | Share of requests that came from a saved number, a share, or an organic page rather than an ad | {TBD} |
-| Contractor activity | Share of contractors accepting at least one job in the last 30 days | {TBD} |
+| Acceptance | Share of requests accepted inside the remaining window | 90 percent or more |
+| Arrival | Share of accepted jobs arriving inside the window | 95 percent or more |
+| SOS-caused refunds | Refunds SOS SMS pays, per 100 requests | 5 or fewer |
+| Paid conversion | Share of first texts that become paid requests | 50 percent or more |
+| Owned share | Share of requests that came from a saved number, a share, or an organic page rather than an ad | 30 percent or more by the end of month 6; 50 percent by month 12 |
+| Contractor activity | Share of contractors accepting at least one job in the last 30 days | 60 percent or more |
 
 ### Operational scalability, without a sales or operations army
 
@@ -88,7 +88,7 @@ For SOS SMS, a lead is a first text, and not every first text becomes a paid job
 
 **Paid acquisition cost per paid job = cost per click ÷ click-to-text rate ÷ text-to-paid rate**
 
-Illustrative only, with a text-to-paid rate of 50 percent (an assumption, {TBD} until measured):
+Illustrative only, with a text-to-paid rate of 50 percent (the planning value, R30, replaced by the measured rate once a zone runs):
 
 | Basis | Cost per first text | Per paid job at 50 percent | At 70 percent |
 |---|---|---|---|
@@ -102,11 +102,11 @@ Those figures sit well above typical trip charges (about $75 to $100 when charge
 | 1. Owned share of requests | Blended cost falls as more requests come from saved numbers, shares, and organic pages | Blended cost per paid job = (1 - owned share) × paid cost per paid job. At 50 percent owned, $275 becomes about $137 |
 | 2. Jobs per customer | Repeat emergencies and more trades behind one number spread the cost | Cost per job = cost per customer ÷ lifetime jobs. At 1.5 jobs, $275 becomes about $183 |
 | 3. Cheaper paid sources | Microsoft Ads clicks are commonly 30 to 60 percent cheaper (S74, C); long-tail problem keywords cost less than "emergency plumber near me" | Test both in every proving zone |
-| 4. Revenue from both sides | Contractors pay $125 to $300 in lead spend per booked job on per-lead platforms at a 20 percent close rate (Run 1 Phase 9). A per-completed-job contractor fee below about $125 still saves them money | Take per job = customer fee + contractor fee, after the founding period |
+| 4. Revenue from both sides | Contractors pay $125 to $300 in lead spend per booked job on per-lead platforms at a 20 percent close rate (Run 1 Phase 9). A per-completed-job contractor fee below about $125 still saves them money | Take per job = customer fee + contractor fee, after the founding period: $49 + $25 = $74 |
 
-**Recommendation, revised for paid demand (not a decision):** keep $0 to contractors during the founding period, as Run 1 recommends, and plan from the start for a per-completed-job contractor fee after it, below the Run 1 ceiling and announced in the founding agreement. Treat paid search as the liquidity engine of each new zone and owned channels as the profit engine of each mature zone. The live calculator is in Run 2's `pricing_dashboard.xlsx`, Calculators sheet, section 3.
+**Decided, revised for paid demand (decision 2):** $0 to contractors during the founding period, as Run 1 recommends, and a $25 per-completed-job contractor fee after it, far below the Run 1 ceiling and written into the founding agreement; founding contractors keep $0 a job for 12 months after the founding period. The customer pays a $49 SOS SMS fee per dispatched request. Treat paid search as the liquidity engine of each new zone and owned channels as the profit engine of each mature zone. The live calculator is in Run 2's `pricing_dashboard.xlsx`, Calculators sheet, section 3.
 
-**Funding implication.** Paid search during proving periods is a cash cost before the economics close, so runway ({TBD}) has to cover several zones' proving periods at once. Raise for the plan's spending, with margin for it taking longer than hoped.
+**Funding implication.** Paid search during proving periods is a cash cost before the economics close, so runway of at least 18 months at Stage A spending (R35) has to cover several zones' proving periods at once. Raise for the plan's spending, with margin for it taking longer than hoped.
 
 ## 6. Stages of scale, and what changes at each
 
@@ -114,7 +114,7 @@ Organizations change shape as they grow, and what works at one size breaks at th
 
 | Stage | Team | Zones | What the founders do | Hires that make the next stage possible | How decisions get made |
 |---|---|---|---|---|---|
-| A | Under 10 people | One zone, one trade | Everything: product, ads, contractor support, dispatch backup. Bryan's and Ali's roles {TBD} | A paid search operator; a product engineer who owns dispatch and payments | Founders decide everything, daily |
+| A | Under 10 people | One zone, one trade | Everything: product, ads, contractor support, dispatch backup. Both founders work supply in Stage 1; at Stage 2 one becomes the supply lead and the other the demand lead (R25) | A paid search operator; a product engineer who owns dispatch and payments | Founders decide everything, daily |
 | B | Tens | Several zones, then a second metro | Design the zone template and recruiting kit; stop doing each zone by hand | Supply growth (email and partners); trust, safety, and payments operations; analytics | Small teams own a metric each; weekly review against the zone signals |
 | C | Hundreds | Many metros | Allocate capital across metros; hire leaders | Metro launch teams; compliance; regional operations | Leaders own metros; the founders own the plan |
 | D and E | Thousands and beyond | National, many trades | Out of scope for this plan | | |
@@ -140,16 +140,16 @@ Rules that go with the stages:
 
 | Gate | Condition to pass | Then |
 |---|---|---|
-| 1. Zone proven | Every section 3 signal at its threshold for {TBD} consecutive weeks | Accelerate in the zone: full covered hours, paid search budget raised to the point where acceptance holds |
+| 1. Zone proven | Every section 3 signal at its threshold for 4 consecutive weeks | Accelerate in the zone: full covered hours, paid search budget raised to the point where acceptance holds |
 | 2. Zone full | Covered hours at the guarantee standard; owned share rising | Open the adjacent zone with the template |
 | 3. Metro proven | Three zones pass Gate 1 with the template, without founders stepping in | Open a second metro with a metro launch team |
 | 4. Trade added | Plumbing density holds; a referred trade reaches its own density | A second trade behind the same number |
 
-**Slow down or stop** in a zone when SOS-caused refunds, acceptance, or contractor activity cross their thresholds, or when paid cost per paid job rises above the ceiling the founders set. Speed is a choice made zone by zone, not a commitment that cannot be reversed.
+**Slow down or stop** in a zone when SOS-caused refunds, acceptance, or contractor activity cross their thresholds, or when paid cost per paid job rises above the ceiling (decision 12: $275 while proving, $192 by the end of month 6, $137 by the end of month 12). Speed is a choice made zone by zone, not a commitment that cannot be reversed.
 
 ## 9. Guardrails for scaling responsibly
 
-- Nothing invented, ever. Pre-launch figures stay {TBD}; proof needs permission (both briefs).
+- Nothing invented, ever. Pre-launch figures are planning values with their basis, never results; proof needs permission (both briefs).
 - Safety triage before dispatch (cross-side check, item F).
 - Contractors' terms in writing, before sign-up; payouts on time.
 - Privacy as promised; no ad retargeting.

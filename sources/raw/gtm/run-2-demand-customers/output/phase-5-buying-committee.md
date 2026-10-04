@@ -34,7 +34,7 @@ Per `../SKILL-ADAPTATION.md`, the committee collapses. Whoever is at home with t
 
 ### The renter exception
 
-A renter's landlord is a second decision maker and usually the payer. That is why renters are outside this run (open decision 1). A small landlord who owns a rental may be a Level 2 customer in their own right, paying for a repair at a property they do not live in.
+A renter's landlord is a second decision maker and usually the payer. That is why renters are outside this run (brief decision 1: homeowners). A small landlord who owns a rental may be a Level 2 customer in their own right, paying for a repair at a property they do not live in.
 
 ## Step 5.2. Design partner profile: the founding customer area
 
@@ -45,7 +45,7 @@ For the customer side this is a geographic boundary, not a design partner in the
 |---|---|
 | Design Partner Attributes | Homeowners living inside a zone where Run 1's density target is met for the hours the guarantee covers |
 | Job Titles (read as: who) | Owner-occupiers; recent buyers are the easiest to reach before an emergency |
-| Demographics | Inside the founding zone {TBD}; older housing stock raises trigger frequency (S63) |
+| Demographics | Inside the founding zone, a 10-mile radius in the founders' home metro; older housing stock raises trigger frequency (S63) |
 | Responsibility Areas | Their own home |
 | Current Tools | Phone search; neighborhood apps and groups; their usual contractor's number |
 | Key Pain Points | No one answering at night; surprise fees; no-shows; floods of calls from quote sites (S48, S50, S51) |
@@ -63,10 +63,10 @@ For the customer side this is a geographic boundary, not a design partner in the
 <!-- sheet: Design_Partners -->
 | Input | Value | Note |
 |---|---|---|
-| Contractors per trade needed for coverage | From Run 1 Phase 5 density table | Depends on acceptance rate, {TBD} |
-| Zone radius | {TBD} | Must allow arrival within 90 minutes from where contractors are |
-| Owner-occupied homes in the zone | {TBD} | Census tract data |
-| Expected requests per month | Homes × trigger rate × share who text SOS SMS, all {TBD} | Do not estimate the trigger rate from insurance claim frequency: most emergencies never become claims |
+| Contractors per trade needed for coverage | 9 plumbing contractors (Run 1 Phase 5 density table) | At a planned acceptance rate of 0.30 for 95 percent coverage (R28), measured in Stage 1 |
+| Zone radius | 10 miles (R27) | Must allow arrival within 90 minutes from where contractors are |
+| Owner-occupied homes in the zone | Counted in Stage 0 | Census tract data (ACS) inside the radius |
+| Expected requests per month | Measured over the zone's first 8 weeks open (R42) | Homes × trigger rate × share who text SOS SMS. Do not estimate the trigger rate from insurance claim frequency: most emergencies never become claims |
 
 ### The customer-side permission rule
 

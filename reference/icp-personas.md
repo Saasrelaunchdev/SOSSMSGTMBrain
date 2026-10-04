@@ -1,6 +1,6 @@
 # ICP and buying committee
 
-Load for: who an asset is for, who blocks, what wins each level, and how to find them. Distills both runs' Phase 4 and Phase 5. Every row applies inside the founding zone ({TBD}).
+Load for: who an asset is for, who blocks, what wins each level, and how to find them. Distills both runs' Phase 4 and Phase 5. Every row applies inside the founding zone: a 10-mile radius around the founding contractors' shops in the founders' home metro (decision 1).
 
 ## Contractors
 

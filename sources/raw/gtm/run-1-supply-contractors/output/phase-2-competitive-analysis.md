@@ -20,12 +20,12 @@ Done, see `../../research/supply-research.md`, Step 2.1.
 <!-- sheet: Summary -->
 | Attribute | SOS SMS | C1 Angi Leads | C2 Thumbtack | C3 Google LSA | C4 Service Direct | C5 Warranty network | C6 Status quo |
 |---|---|---|---|---|---|---|---|
-| Website | {TBD} | signup.angi.com/pro | thumbtack.com/pro | business.google.com (Local Service Ads) | servicedirect.com | frontdoor.com/pro/join | n/a |
-| Tagline | {TBD}, see Phase 6 | Get Leads, Win Jobs, Grow Your Business | Get jobs | Reach Local Customers with Local Service Ads | Pay Per Call Lead Generation Done Right | Quality jobs and steady demand via home warranty work | n/a |
-| Sub Tag | {TBD} | Free to sign up; subscription for more leads | Get shown to new customers | Pay for leads, not clicks | Exclusive calls that turn into customers | Nationwide network of independent Pros | n/a |
+| Website | None yet: the contractor page, from Stage 1 | signup.angi.com/pro | thumbtack.com/pro | business.google.com (Local Service Ads) | servicedirect.com | frontdoor.com/pro/join | n/a |
+| Tagline | Emergency jobs you choose, with the trip paid before you roll | Get Leads, Win Jobs, Grow Your Business | Get jobs | Reach Local Customers with Local Service Ads | Pay Per Call Lead Generation Done Right | Quality jobs and steady demand via home warranty work | n/a |
+| Sub Tag | No lead fees. Paid to show up. | Free to sign up; subscription for more leads | Get shown to new customers | Pay for leads, not clicks | Exclusive calls that turn into customers | Nationwide network of independent Pros | n/a |
 | Description | Emergency repair requests by text, sent to every matched contractor at once; first to accept gets the job; trip charge collected before rolling; no subscription, no lead fees | Membership plus per-lead fees; each request goes to several pros | Pay per lead; customers contact four to five pros; opportunities charged only on reply | Pay-per-lead ads at the top of Google search, with a Google Verified badge | Exclusive pay-per-call leads, including emergency and water damage; no contract | Warranty claims routed to network contractors at set rates | Repeat customers, referrals, the contractor's free listing and own phone |
-| Strengths | {TBD}, nothing live | Volume and brand reach | Strong pro app (4.4 iOS), fast customer contact | Sits where emergency searches happen; verification badge | Exclusive calls; emergency focus; can pause | Steady volume, no marketing | Free; highest-trust customers |
-| Weaknesses | {TBD}, nothing live | Shared leads; FTC order on lead claims (2023); TrustScore 2 of 5 | Paying for leads that never reply; same request to several pros | Rising cost per lead; disputes denied | $60 to $255 per plumbing call; $500 to $2,250 per water damage call | Rates below private work; network controls price and scope | Unpredictable volume; owner answers at night; no protection against unpaid trips |
+| Strengths | By design: no charge to see a request; the trip charge collected before you roll. Nothing live | Volume and brand reach | Strong pro app (4.4 iOS), fast customer contact | Sits where emergency searches happen; verification badge | Exclusive calls; emergency focus; can pause | Steady volume, no marketing | Free; highest-trust customers |
+| Weaknesses | No track record yet; requests only in zones at density | Shared leads; FTC order on lead claims (2023); TrustScore 2 of 5 | Paying for leads that never reply; same request to several pros | Rising cost per lead; disputes denied | $60 to $255 per plumbing call; $500 to $2,250 per water damage call | Rates below private work; network controls price and scope | Unpredictable volume; owner answers at night; no protection against unpaid trips |
 
 Sources: S01, S03 to S10, S16, S20, S26, S27, S33 to S37.
 
@@ -105,7 +105,7 @@ Vectors 1 and 2 come from what competitors are praised for. Vectors 3 and 4 reve
 | V3. No charge for requests that never become work (we lead; reverses "paying for leads that never reply") | 0.0 | 9.4 | 1.8 | 3.1 | 2.6 | 2.2 | 7.4 | 9.6 |
 | V4. Paid to show up (we lead; reverses "charged for customers who disappear" and unpaid trips) | 0.0 | 9.1 | 1.2 | 1.4 | 1.3 | 1.5 | 6.2 | 3.9 |
 
-**Scoring basis.** V1: national footprint and reach (S03, S05, S08, S10, S33). V2: whether the request reaches one contractor (S05, S10). SOS SMS scores low by design: every matched contractor sees each request. V3: whether a contractor pays for a request that does not become work (S03, S05, S08, S10). The status quo scores highest; SOS SMS's projected 9.4 assumes no per-job fee and drops if open decision 2 adds one. V4: whether payment for the visit is secured before the contractor drives out. Warranty networks pay for dispatched visits at set rates (S20); lead platforms do not touch payment.
+**Scoring basis.** V1: national footprint and reach (S03, S05, S08, S10, S33). V2: whether the request reaches one contractor (S05, S10). SOS SMS scores low by design: every matched contractor sees each request. V3: whether a contractor pays for a request that does not become work (S03, S05, S08, S10). The status quo scores highest; SOS SMS's projected 9.4 holds under decision 2: the contractor fee is charged only on completed paid jobs, never on a request that does not become work. V4: whether payment for the visit is secured before the contractor drives out. Warranty networks pay for dispatched visits at set rates (S20); lead platforms do not touch payment.
 
 **The scenario this creates.** SOS SMS is the obvious choice for one segment at this stage: contractors in the launch area who already pay per lead, take emergency calls, and want to stop paying for requests that never become paid trips. It is not the obvious choice for a contractor who wants exclusive calls (C4, C6) or maximum volume (C1, C3). The run should not pretend otherwise.
 
@@ -148,7 +148,7 @@ All features across all seven, merged where the core concept is the same.
 | F5 Vetting badge | ✓ | ✓ | ✓ | ✓ | ✗ | ✓ | ✗ |
 | F6 No charge for requests that do not become work | ✓ | ✗ | ✗ | ✗ | ✗ | ✓ | ✓ |
 | F7 No subscription | ✓ | ✗ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| F8 No commission or rate discount | {TBD}, open decision 2 | ✓ | ✓ | ✓ | ✓ | ✗ | ✓ |
+| F8 No commission or rate discount | ✓ | ✓ | ✓ | ✓ | ✓ | ✗ | ✓ |
 | F9 Visit paid before rolling | ✓ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ |
 | F10 Photos or details before accepting | ✓ | ✓ | ✓ | ✗ | ✗ | ✓ | ✗ |
 | F11 Accept, decline, or pause | ✓ | ✗ | ✓ | ✓ | ✓ | ✓ | ✓ |
@@ -158,6 +158,8 @@ All features across all seven, merged where the core concept is the same.
 | F15 Customer handed to contractor | ✓ | ✓ | ✓ | ✓ | ✓ | ✗ | ✓ |
 | F16 Reviews shown | ✓ | ✓ | ✓ | ✓ | ✗ | ✗ | ✓ |
 | F17 Bonus programs | ✗ | ✗ | ✗ | ✗ | ✗ | ✓ | ✗ |
+
+F8: SOS SMS takes no share of the work and no rate discount. Its contractor fee is a flat $25 per completed paid job after the founding period (decision 2).
 
 Notes. Marks for F1 to F9 and F11 follow the sources in Step 2.1. Marks for F10, F13, and F16 for competitors come from general product knowledge and are unverified; check them when page access exists. F9: warranty networks pay a set rate for a dispatched visit, but after the work, not before the contractor rolls, so ✗. F14 for SOS SMS is a candidate item, not stated in the source. F12: SOS SMS needs no lead dispute process because it charges no lead fee; it will need a process for trip charge disputes, which is not designed yet.
 
@@ -238,7 +240,7 @@ Impact: exclusivity is what contractors say they want when they leave shared-lea
 
 **Vector 3: No charge for requests that never become work**
 Leader: SOS SMS, projected (9.4), alongside the status quo.
-Impact: removes the contractor's main objection to any new platform, which is paying before knowing whether work will follow. Acquisition depends on contractors believing it, which is why the claim has to be narrow and the revenue model has to be stated (open decision 2).
+Impact: removes the contractor's main objection to any new platform, which is paying before knowing whether work will follow. Acquisition depends on contractors believing it, which is why the claim has to be narrow and the revenue model stated with it (decision 2: $25 per completed paid job, after the founding period).
 
 **Vector 4: Paid to show up**
 Leader: SOS SMS, projected (9.1).

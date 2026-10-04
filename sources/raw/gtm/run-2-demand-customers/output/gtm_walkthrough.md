@@ -3,7 +3,7 @@
 - SOS SMS is a pre-launch, two-sided marketplace for emergency home repair, and this deck covers the customer side
 - Nine dashboards plus a lead magnet answer one question: why would a homeowner text SOS SMS instead of calling down a list?
 - The answer the suite builds toward: one text reaches the vetted contractors nearby, one accepts with an arrival time, and a missed 90-minute window costs SOS SMS money
-- Every SOS SMS metric is {TBD}, including any arrival time
+- Every SOS SMS metric is a planning value until the zone runs, and no arrival time is claimed
 - So what: this side opens only in zones where the contractor side has reached density
 
 ---
@@ -13,8 +13,8 @@
 - Hero features: the 90-minute guarantee, one text that reaches the network, the arrival time on acceptance, and privacy in its narrow form
 - The guarantee moved up: only one competitor in the set has a money-backed arrival promise, and it covers scheduled appointments
 - Text-only and privacy are not unique, so they lead as mechanics, not as "only we"
-- The research's strongest new finding: a price range before arrival is wanted by all and offered by few, and it is not yet in the product
-- So what: lead with the guarantee and one reply, and consider building the price range
+- The research's strongest new finding: a price range before arrival is wanted by all and offered by few; it is not offered at launch (R49)
+- So what: lead with the guarantee and one reply; the trip charge, stated before dispatch, stands in for a price range at launch
 
 ---
 
@@ -92,7 +92,7 @@
 
 - Value metric: per request, a trip charge credited to the repair plus an SOS SMS fee, both shown before dispatch
 - Usage metric: requests per 1,000 homes in the zone per month
-- Packaging: one standard request with the guarantee; a household membership flagged for later
+- Packaging: one standard request with the guarantee: a $99 trip charge and a $49 SOS SMS fee; no membership at launch
 - Paid search runs about $137 to $216 per first text on plumbing benchmarks, so a customer fee alone will not pay back the first job
 - Expansion levers: more trades behind the same number, neighbor referral, and new zones at density
-- So what: every SOS SMS price is {TBD}, and the after-hours service call fee is the anchor customers already know
+- So what: two lines before dispatch, $99 and $49, against the after-hours service call fee customers already know

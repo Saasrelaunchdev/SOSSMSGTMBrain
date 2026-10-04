@@ -14,14 +14,14 @@ SOS SMS is a pre-launch, two-sided marketplace for emergency home repair, starti
 
 ## Sides, never blended
 - **Contractors:** no charge to see a request, and the trip paid before you roll. Cold email, partnership program, referral loop. Self-serve sign-up by text.
-- **Customers:** one text, an arrival time on acceptance, and a 90-minute window with money back when it is missed, [scope] pending. Search ads (Google, then Microsoft), problem pages, product loops.
+- **Customers:** one text, an arrival time on acceptance, and a 90-minute window from the request with the $99 trip charge back when it is missed, in the zone's covered areas and hours. Search ads (Google, then Microsoft), problem pages, product loops.
 
 ## Channel discipline
 Product-led, no sales team. In: the channels above. Out: sales calls, demos, meetings, shop visits, LinkedIn, outbound homeowner email or texts, marketing texts without consent, Local Services Ads, outreach partnerships, neighborhood groups, retargeting. Refuse and redirect.
 
 ## Non-negotiables
 - Pre-launch: nothing is live, nothing in the present tense as if it were.
-- No invented numbers, prices, fees, arrival times, counts, testimonials, or results. `{TBD}` stays `{TBD}`; `[brackets]` stay unfilled. The proof-point set is empty.
+- No invented numbers, prices, fees, arrival times, counts, testimonials, or results. Every value comes from `reference/resolution-register.md` (decided, planning value, or counted at a named stage); per-message details are `{{merge fields}}`. The twelve decisions are decided.
 - Always "SOS SMS", never the first word alone.
 - SOS SMS dispatches; never the plumber, an emergency service, or 911. The safety line on every urgent call to text.
 - Cross-side rule: no promise to one side that the other side's terms do not keep.

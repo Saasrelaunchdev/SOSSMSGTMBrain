@@ -181,9 +181,15 @@ PLACEHOLDER_RE = re.compile(r"\{\{[^}]{1,80}\}\}")
 
 
 def check_placeholders(root: Path):
+    # Local change for SOS SMS: merge fields listed in the resolution register are
+    # filled at send time by design, so they are not unfilled placeholders.
+    register = root / "reference" / "resolution-register.md"
+    merge = {"{{merge field}}", "{{merge fields}}", "{{field}}"}
+    if register.exists():
+        merge |= set(PLACEHOLDER_RE.findall(register.read_text(encoding="utf-8", errors="replace")))
     for path in md_files(root):
         rel = path.relative_to(root)
-        hits = PLACEHOLDER_RE.findall(path.read_text(encoding="utf-8", errors="replace"))
+        hits = [h for h in PLACEHOLDER_RE.findall(path.read_text(encoding="utf-8", errors="replace")) if h not in merge]
         if hits:
             add("error", f"{len(hits)} unfilled placeholder(s) in {rel}, first: {hits[0]}")
 

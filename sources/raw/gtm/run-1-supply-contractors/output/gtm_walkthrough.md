@@ -3,7 +3,7 @@
 - SOS SMS is a pre-launch, two-sided marketplace for emergency home repair, and this deck covers the contractor side
 - Nine dashboards plus a lead magnet turn one question into a launch plan: why would a licensed plumber try one more platform?
 - The answer the suite builds toward: no charge to see a request, and the trip paid before you roll
-- Every SOS SMS metric is {TBD} until the founding cohort produces real data
+- Every SOS SMS metric is a planning value until the founding cohort produces real data
 - So what: supply is the constrained side, and the customer side cannot open in a zone until this side reaches density
 
 ---
@@ -53,7 +53,7 @@
 - Shops: technician, dispatcher, owner. Owner-operators are all three at once
 - The dispatcher is the likely blocker, because requests by text can go around the dispatch board
 - Owners block on platform distrust and on the obligations: arrival commitments and crediting the trip charge
-- Founding contractor cohort sized by a density model; the acceptance rate it depends on is {TBD}
+- Founding contractor cohort sized by a density model: 9 plumbing contractors at a planned acceptance rate of 0.30, measured in Stage 1
 - So what: settle who receives requests before the first one arrives, and put every obligation in writing
 
 ---
@@ -93,6 +93,6 @@
 - Contractors pay $0 during the founding period; a per-completed-job fee after it is planned from the start, never per request
 - Usage metric for health, not price: accepted jobs per active contractor per month, by hour band
 - Packaging: founding contractor and standard contractor, both free; paid priority flagged and not designed
-- Recommended late-arrival rule: fault-based, tied to the arrival time the contractor commits to
+- Late-arrival rule, decided: fault-based, tied to the arrival time the contractor commits to
 - Expansion levers raise liquidity: more hours, more trades, more technicians, new zones at density
-- So what: every SOS SMS price is {TBD}, and the cheapest per-lead alternative sets the ceiling for any future fee
+- So what: $0 to join and to see a request, $25 per completed paid job after the founding period, a fifth of the cheapest per-lead alternative's cost per booked job

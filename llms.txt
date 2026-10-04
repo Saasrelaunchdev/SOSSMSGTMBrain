@@ -1,6 +1,6 @@
 # SOS SMS GTM Brain
 
-> The go-to-market for SOS SMS, a pre-launch, two-sided marketplace for emergency home repair (plumbing and water emergencies first). Contractors (supply) and customers (demand) have separate strategies that are never blended. Nothing is live; unknowns are {TBD}; copy waiting on a founder decision carries a [bracket]. Load the router first, then the four rules files, then only what the task needs.
+> The go-to-market for SOS SMS, a pre-launch, two-sided marketplace for emergency home repair (plumbing and water emergencies first). Contractors (supply) and customers (demand) have separate strategies that are never blended. Nothing is live. Every value is resolved in the resolution register: decided, a labelled planning value, or counted at a named stage; per-message details are {{merge fields}}. The twelve founder decisions are decided. Load the router first, then the four rules files, then only what the task needs.
 
 ## Routers
 - [CLAUDE.md](CLAUDE.md): Entry point for Claude Code and the Claude apps. Load order, sides, non-negotiables.
@@ -37,7 +37,8 @@
 - [reference/launch-and-growth.md](reference/launch-and-growth.md): Stages, gates, zone signals, speed rules, risks.
 - [reference/brand-identity.md](reference/brand-identity.md): Mark, logo rules, colour roles, type, motion, voice.
 - [reference/research-and-sources.md](reference/research-and-sources.md): How the research was done, evidence grades, the most used figures.
-- [reference/gtm-walkthrough-deck.md](reference/gtm-walkthrough-deck.md): The internal 24-slide, 21-dashboard deck and its open items.
+- [reference/gtm-walkthrough-deck.md](reference/gtm-walkthrough-deck.md): The internal 25-slide, 22-dashboard deck, with every value resolved.
+- [reference/resolution-register.md](reference/resolution-register.md): Every SOS SMS value: decided, planning value, counted at, and the merge fields.
 
 ## Execution layer
 - [templates/README.md](templates/README.md): Seven templates, one per channel in the mix.
@@ -46,15 +47,17 @@
 - [examples/zone-landing-page.md](examples/zone-landing-page.md): Draft gold standard, a zone landing page.
 - [examples/cold-email-sequence.md](examples/cold-email-sequence.md): Draft gold standard, the four contractor emails.
 - [pages/partner-counter-card.md](pages/partner-counter-card.md): The live test asset, with its QA record.
+- [pages/terms-on-one-page.md](pages/terms-on-one-page.md): The contractor terms on one page, the live test of the resolved brain (2026-10-04).
 - [prompts/common-tasks.md](prompts/common-tasks.md): Filled prompts for recurring jobs.
 
 ## State layer
-- [ops/decisions.md](ops/decisions.md): Dated decisions, the twelve open ones, open questions owned elsewhere.
+- [ops/decisions.md](ops/decisions.md): Dated decisions: the twelve, made 2026-10-03, and the formerly open items, closed 2026-10-04.
 - [ops/signal-log.md](ops/signal-log.md): Market input and its disposition.
 - [ops/copy-bank.md](ops/copy-bank.md): Cleared lines tagged by condition; the empty proof-point set.
 - [ops/asset-index.md](ops/asset-index.md): Repositories, sources, brand files, live surfaces.
 - [ops/review-cadence.md](ops/review-cadence.md): Rituals, owners, staleness, the amendment order.
 - [snapshots/2026-10-03-pre-launch-baseline.md](snapshots/2026-10-03-pre-launch-baseline.md): The first capture.
+- [snapshots/2026-10-04-everything-resolved.md](snapshots/2026-10-04-everything-resolved.md): Every value resolved; diffs against the baseline.
 
 ## Other tools and checks
 - [adapters/README.md](adapters/README.md): Pointer files for Codex, Cursor, Windsurf, Copilot, Gemini; the portable layer for chat windows.

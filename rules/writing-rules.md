@@ -1,7 +1,7 @@
 # Writing rules
 
 These apply to every word of output, on both sides of the marketplace, no exceptions.
-last_reviewed: 2026-10-03
+last_reviewed: 2026-10-04
 
 ## Mechanics
 - No em dashes and no en dashes, anywhere, including ranges. Write "$25 to $60" and "9 p.m. to 6 a.m.".
@@ -10,7 +10,7 @@ last_reviewed: 2026-10-03
 - Short paragraphs, one to three sentences.
 - Mechanics over adjectives: who pays what, when, and what happens if it goes wrong.
 - No stacked adjectives, no exclamation marks, no hype, and no superlative that is not cleared in `do-not-say.md`.
-- Unknowns stay `{TBD}`. Copy waiting on a decision keeps its `[bracket]`. Both stay visible.
+- Every value comes from `reference/resolution-register.md`: decided, a planning value labelled as one, or counted at a named stage. Per-message details are `{{merge fields}}`, filled from a named record and never typed by hand. Nothing is left as a gap or a placeholder.
 - Numbers carry their source ID (S01 to S74). A grade C figure stays internal and shows its grade. Grade A and B figures go into external copy only after someone opens the URL and confirms the figure on the page: the research was read from search summaries.
 
 ## Tone
@@ -32,7 +32,7 @@ Text is the product. Every customer and contractor message follows these.
 - Nothing pre-launch shown as working. Mockups carry "Pre-launch. Not live." on screen.
 
 ## Pre-launch framing
-Contractor recruiting (cold email, partner materials, the contractor page) goes out before launch, by design. It describes what SOS SMS is building, in the future tense: "SOS SMS is building ...", "When it opens in [zone] ...". Never as a working service. Customer copy is written for launch day and held until the zone opens.
+Contractor recruiting (cold email, partner materials, the contractor page) goes out before launch, by design. It describes what SOS SMS is building, in the future tense: "SOS SMS is building ...", "When it opens in {{zone}} ...". Never as a working service. Customer copy is written for launch day and held until the zone opens.
 
 ## Claim discipline
 Every "only", "first", "best", "never", "always", and "guaranteed" is checked against `do-not-say.md` before it ships. Every capability is checked against `feature-status.md`: nothing is shipped, so nothing is claimed as live. A conditional claim names its condition in the same sentence: the zone, the covered hours, the scope of the guarantee. Neither side's copy may promise what the other side's terms do not deliver (`reference/marketplace-cross-side.md`).

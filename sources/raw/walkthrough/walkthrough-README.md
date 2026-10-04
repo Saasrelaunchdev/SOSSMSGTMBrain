@@ -1,6 +1,6 @@
 # SOS SMS · GTM walkthrough
 
-An interactive deck suite for the SOS SMS go-to-market: a 24-slide hub and 21 linked dashboards, built as one self-contained HTML file. Internal: it carries grade C figures and open founder decisions.
+An interactive deck suite for the SOS SMS go-to-market: a 25-slide hub and 22 linked dashboards, built as one self-contained HTML file. Pricing appears once for both sides: slide 23 and dashboard M3, from `knowledge/gtm/pricing/`. Internal: it carries grade C figures. Every former unknown and the twelve launch decisions are resolved (`knowledge/gtm/marketplace/resolution-register.md`, 2026-10-03).
 
 Start with `CLAUDE.md` (the operating manual), then `specs/03_build_prompt.md`.
 
@@ -14,7 +14,7 @@ Start with `CLAUDE.md` (the operating manual), then `specs/03_build_prompt.md`.
 | `tools/` | Build, QC, and helpers |
 | `dist/` | The built deck. `dist/index.html` is what Vercel serves; `dist/sos-sms-gtm.html` is the same file |
 | `qa/` | Screenshots used to check the work (`qa/final/`: contact sheets of every slide, the print paths, dashboard pages) |
-| `NOTES.md` | Decisions, discrepancies, open questions |
+| `NOTES.md` | The dated log: decisions, discrepancies, and questions, each with its status |
 
 ## Build and check
 
@@ -29,7 +29,7 @@ NODE_PATH=$(npm root -g) node tools/qa/dashboards.mjs "$PWD/dist/index.html" qa/
 NODE_PATH=$(npm root -g) node tools/qa/print.mjs "$PWD/dist/index.html" qa/hub.pdf "#/deck/3"  # the print path
 NODE_PATH=$(npm root -g) node tools/qa/perf.mjs "$PWD/dist/index.html"                    # time to interactive, frame rate
 python3 tools/extract_notes.py                      # presenter notes from specs/01, verbatim
-python3 tools/tbd_register.py                       # knowledge/TBD-REGISTER.md
+python3 tools/resolved_check.py                     # fails on any unresolved placeholder in knowledge, specs, src, dist
 python3 brand/tools/build_book.py                   # brand/brand-book.html
 ```
 

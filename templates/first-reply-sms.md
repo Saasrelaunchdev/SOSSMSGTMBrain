@@ -12,12 +12,12 @@ The product's first answer to any first text, and the texts that follow. The fir
 
 | # | When | Content |
 |---|---|---|
-| 1 | On the first text | Automated, from SOS SMS, how to reach a person. The safety line. |
+| 1 | On the first text | Automated, from SOS SMS, how to reach a person (text HELP, R50). The safety line. |
 | 2 | Same moment | Stop-the-water steps for the problem described (shutoff and safety only) |
-| 3 | Same moment | The offer: a licensed, insured plumber; the trip charge, credited if they go ahead; the guarantee in one line with its scope. Reply YES to agree |
-| 4 | After YES | The payment link, naming SOS SMS and the trip charge again |
-| 5 | On acceptance | Contractor's name, arrival time, Google rating where they have one |
-| 6 | No acceptance in time | [What the customer is told, and when]. Nothing charged |
+| 3 | Same moment | The offer: a licensed, insured plumber; the $99 trip charge, credited if they go ahead, and the $49 SOS SMS fee; the guarantee in one line: 90 minutes from their YES, or the $99 trip charge back. Reply YES to agree |
+| 4 | After YES | The payment link ({{link}}), naming SOS SMS, the trip charge, and the fee again; charged only when a plumber accepts |
+| 5 | On acceptance | {{contractor name}}, {{arrival time}}, {{rating}} where they have one |
+| 6 | No acceptance in time | Told within 15 minutes that no plumber could come; the card is never charged (decision 3) |
 | 7 | On arrival | Arrival confirmed |
 | 8 | Window missed | The refund, applied automatically, and what happens next. No claim needed |
 | 9 | After the job | Two questions: arrived within the window? would you tell a neighbor? Then the contact card |

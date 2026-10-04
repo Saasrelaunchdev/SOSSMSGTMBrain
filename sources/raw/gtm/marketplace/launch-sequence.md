@@ -8,14 +8,14 @@ The organizing rule from both runs: **supply leads, demand follows, zone by zone
 
 | Work | Source | Gate to leave this stage |
 |---|---|---|
-| Make the twelve decisions in `cross-side-check.md` Part 3 | Cross-side check | All twelve decided and written down |
+| Write the twelve decisions (decided 2026-10-03, `cross-side-check.md` Part 3) into the terms on one page, the guarantee, and the founding agreement | `resolution-register.md` | Each decision appears, in the same words, in every document that carries it |
 | Confirm paid search eligibility with Google; verify message assets | Run 2 Phase 8 (S70 to S72) | Written confirmation; verified business details |
-| Register the SOS SMS number with carriers | Run 2 Phase 7 blocker (S32) | Test texts deliver on the three major carriers |
-| Choose the payment provider; set hold, capture, and payout | Cross-side check, item H | A test trip charge captured, held, released, and paid out |
+| Register the SOS SMS number for A2P 10DLC: one local number in the launch metro's area code (decision 9) | Run 2 Phase 7 blocker (S32) | Test texts deliver on the three major carriers |
+| Set up Stripe Connect: authorize on confirmation, capture at acceptance, release on arrival, payout within 2 business days (decision 6) | Cross-side check, item H | A test trip charge captured, held, released, and paid out |
 | Build the self-serve paths: contractor sign-up by text, customer first reply with stop-the-water steps | Run 1 Phase 8; Run 2 Phase 8 | Both tested end to end with no person involved |
-| Write the terms on one page (contractor) and the guarantee in full (customer) | Run 1 Phase 8; Run 2 Phase 8 | Counsel-reviewed; every Phase 6 bracket filled or its drill withdrawn |
-| Set the zone signal thresholds before launch | `speed-to-scale-plan.md`, section 3 | Thresholds written down, so results cannot be argued after the fact |
-| Run the local research for the chosen zone | `../research/step-0-competitor-slates.md`, local list | Local slate recorded |
+| Write the terms on one page (contractor) and the guarantee in full (customer) | Run 1 Phase 8; Run 2 Phase 8 | Counsel-reviewed; every Phase 6 drill carries the decided terms |
+| Put the zone signal thresholds (R32) into the weekly review before launch | `speed-to-scale-plan.md`, section 3 | Thresholds written down and visible to both founders, so results cannot be argued after the fact |
+| Draw the founding zone (a 10-mile radius around the founding contractors' shops in the founders' home metro) and run its local research; count licensed plumbing businesses from the state license list and owner-occupied homes from Census tract data | `../research/step-0-competitor-slates.md`, local list | Local slate recorded |
 
 ## Stage 1. Supply: fill the founding zone without a sales team
 
@@ -52,7 +52,7 @@ The organizing rule from both runs: **supply leads, demand follows, zone by zone
 
 Use the gates in `speed-to-scale-plan.md`, section 8:
 
-1. **Zone proven:** every zone signal at its threshold for the agreed number of weeks. Then raise ad budgets in the zone as far as acceptance holds, and extend covered hours.
+1. **Zone proven:** every zone signal at its threshold for 4 consecutive weeks. Then raise ad budgets in the zone as far as acceptance holds, and extend covered hours.
 2. **Zone full:** covered hours at the guarantee standard and owned share rising. Then open the adjacent zone from the template: contractor list and emails, partner kit, ad template, landing page.
 3. **Metro proven:** three zones pass without founders stepping in. Then a second metro.
 4. **Trade added:** plumbing density holds and a referred trade reaches its own density. Then a second trade behind the same number.
@@ -61,7 +61,7 @@ Use the gates in `speed-to-scale-plan.md`, section 8:
 
 ## What would change this sequence
 
-| If the founders decide | Then |
+| If the plan changes to | Then |
 |---|---|
 | Demand first, recruiting contractors to meet it | The 90-minute guarantee cannot launch with demand, and paid search would buy requests nobody can serve. Launch without the guarantee and rewrite Run 2 Phase 6 VP1 |
 | A contractor fee from day one | Run 1 drills 1 to 3 change; Run 1 Phase 9 Anchor 3 sets the ceiling |

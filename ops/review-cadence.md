@@ -1,13 +1,13 @@
 # Review cadence
 
-Who reviews what, how often, and when a file is stale. **Proposed 2026-10-02 as defaults; the founders confirm or change them.** Owners are roles until named people are assigned.
+Who reviews what, how often, and when a file is stale. **Set 2026-10-02, adopted 2026-10-04.** Owners map to the two founder roles (R25): the GTM owner and the growth lead are the demand lead; product is the supply lead until the product engineer who owns dispatch and payments joins (one of the first hires, speed-to-scale plan Stage A).
 
 ## Rituals
 
 | Ritual | Frequency | Owner | Work |
 |---|---|---|---|
 | Signal triage | Weekly, Monday | GTM owner | Disposition every new signal, move WATCH counters, execute PATCHes |
-| Decision check | Weekly until the twelve are made | Founders | Log any decision made; trigger the amendment order |
+| Decision check | Weekly | Founders | Log any change to a decided value with its date and basis; trigger the amendment order |
 | Ledger sweep | Monthly | GTM owner, product | Read the four `rules/` files against reality; update `last_reviewed` |
 | Zone signals | Weekly from Stage 1 | Growth lead | Density, acceptance, arrival, refunds, cost per paid job, owned share against thresholds |
 | Snapshot | Monthly before launch; every two weeks per live zone | GTM owner | The capture in `snapshots/`, ending in what it changed |
@@ -29,7 +29,7 @@ Who reviews what, how often, and when a file is stale. **Proposed 2026-10-02 as 
 `feature-status.md` goes stale fastest and does the most damage: it is what stands between "PLANNED" and a promise.
 
 ## The amendment order
-1. The `rules/` ledger that changed. 2. The master context section. 3. A dated entry in `decisions.md`. 4. `copy-bank.md` (search for the old phrasing) and every asset carrying the bracket, found through `asset-index.md`. 5. Regenerate the portable control layer. The cross-side check runs at step 1: a change on one side is checked against the other side's terms.
+1. The `rules/` ledger that changed. 2. The master context section. 3. A dated entry in `decisions.md`. 4. `copy-bank.md` (search for the old phrasing) and every asset carrying the old value, found through `asset-index.md`. 5. Regenerate the portable control layer. The cross-side check runs at step 1: a change on one side is checked against the other side's terms.
 
 ## Authority
 - A PATCH: anyone producing work.

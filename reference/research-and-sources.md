@@ -15,7 +15,7 @@ Load for: citing any market figure, checking a source ID, or deciding whether a 
 | B | Reputable secondary: trade press, news, a benchmark owner's own data | Internal analysis; external only with citation and after verification |
 | C | Vendor blog, agency estimate, community post, aggregator | Internal direction only. Never in customer or contractor copy, never as an SOS SMS claim |
 
-Every number carries its source ID and grade. A number without an ID is an SOS SMS unknown and is written {TBD}.
+Every number carries its source ID and grade. A number without an ID is an SOS SMS value: decided, a labelled planning value, or counted at a named stage, from `reference/resolution-register.md`.
 
 ## The register at a glance (72 sources, S01 to S74)
 - **Contractor side:** lead platform prices and terms (S03 to S10), the FTC HomeAdvisor matter (S01, S02), warranty networks (S20, S33), answering services and dispatch wages (S21, S22), labor market and associations (S23 to S25), how homeowners find contractors (S26, S27), trip charge practice (S28), card holds (S30), consent and carrier rules (S31, S32), plumbers already texting (S64).

@@ -39,9 +39,9 @@ The result screen also shows the contractor's cost per booked job, when question
 <!-- sheet: Tiers -->
 | Score Range | Tier Name | Message | CTA |
 |---|---|---|---|
-| 0 to 39 | Tight Ship | "You keep most of what you earn. Your biggest leak is [top-scoring question]. If you ever want emergency work on nights you choose, with the trip paid before you roll, SOS SMS is built for that." | Soft: download the emergency rate card template |
-| 40 to 69 | Leaking at the Edges | "Some of your spend and some of your trips go unpaid. Your two biggest leaks: [top two]. Here is exactly how SOS SMS handles both: no charge to see a request, and the trip charge collected before you leave." | Medium: read the terms on one page; run the full Lead Cost Check with your invoices |
-| 70 to 100 | Paying to Work | "A large share of your money and nights goes to work that never pays. Your biggest leaks: [top three]. Your last three months of lead receipts will show exactly where." | Strong: get the automated lead spend report, then text JOIN to [number] |
+| 0 to 39 | Tight Ship | "You keep most of what you earn. Your biggest leak is {{top-scoring question}}. If you ever want emergency work on nights you choose, with the trip paid before you roll, SOS SMS is built for that." | Soft: download the emergency rate card template |
+| 40 to 69 | Leaking at the Edges | "Some of your spend and some of your trips go unpaid. Your two biggest leaks: {{top two}}. Here is exactly how SOS SMS handles both: no charge to see a request, and the trip charge collected before you leave." | Medium: read the terms on one page; run the full Lead Cost Check with your invoices |
+| 70 to 100 | Paying to Work | "A large share of your money and nights goes to work that never pays. Your biggest leaks: {{top three}}. Your last three months of lead receipts will show exactly where." | Strong: get the automated lead spend report, then text JOIN to {{number}} |
 
 ## Post-scorecard email sequence
 
@@ -50,12 +50,12 @@ Email, because the scorecard collects an email address with consent. Texts only 
 <!-- sheet: Emails -->
 | Email # | Day | Subject Line | Content Focus | CTA |
 |---|---|---|---|---|
-| 1 | 0 | Your Job Leak Score: [score] | Results delivery and interpretation: their score, their tier, their top leaks, their estimated cost per booked job | See your full results |
+| 1 | 0 | Your Job Leak Score: {{score}} | Results delivery and interpretation: their score, their tier, their top leaks, their estimated cost per booked job | See your full results |
 | 2 | 2 | Where the money goes between a lead and a job | Deeper insight in place of a case study (none exist yet): the arithmetic from cost per lead to cost per booked job, run on their own answers | Run the Lead Cost Check with your invoices |
-| 3 | 5 | A dispatch line where seeing a job costs nothing | Solution introduction: how a job works in three texts; the terms on one page; the obligations, stated plainly | Read the terms, then text JOIN to [number] |
-| 4 | 8 | Founding contractors in [zone] | Final reminder: what founding contractors get and commit to; when founding terms close ({TBD}) | Text JOIN to get on the founding contractor list |
+| 3 | 5 | A dispatch line where seeing a job costs nothing | Solution introduction: how a job works in three texts; the terms on one page; the obligations, stated plainly | Read the terms, then text JOIN to {{number}} |
+| 4 | 8 | Founding contractors in {{zone}} | Final reminder: what founding contractors get and commit to; founding terms close on {{founding close date}}, 60 days after the first email | Text JOIN to get on the founding contractor list |
 
-No false urgency: the only deadline used is the real founding-terms deadline, once the founders set one.
+No false urgency: the only deadline used is the real founding-terms deadline, 60 days after the first email in the zone (R07).
 
 ## ScoreApp implementation notes
 

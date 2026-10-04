@@ -21,7 +21,7 @@ Load for: any request that would reopen a strategic choice. Distills both run lo
 **Settled: speed only inside proven zones.** Accept inefficiency in proving zones (paid search above break-even, $0 to founding contractors, generous refunds), never in claim accuracy, safety, payouts, refunds, privacy, or law. Slow down at thresholds set before launch.
 
 ## Not settled here
-The twelve decisions (`ops/decisions.md`) are recommendations. Writing a recommendation as if it were decided is a QA failure.
+The twelve decisions (`ops/decisions.md`) were made on 2026-10-03, and every other value is in `reference/resolution-register.md`. Writing a planning value as if it were a result is a QA failure.
 
 ## What would reopen a fork
 Only a dated entry in `ops/decisions.md`. A signal in `ops/signal-log.md` can propose it; it cannot decide it.

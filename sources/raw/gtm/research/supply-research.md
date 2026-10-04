@@ -98,13 +98,13 @@ Filled from `GTM-BRIEF.md` Section 1, not from a crawl. There is no website and 
 
 | Attribute | Finding |
 |---|---|
-| Website | `{TBD}` |
-| Tagline | `{TBD}`, written in Phase 6 |
+| Website | None yet: the contractor page, from Stage 1 |
+| Tagline | Emergency jobs you choose, with the trip paid before you roll (Phase 6 brand promise) |
 | Description | Emergency home repair dispatch by text. A customer's request goes to every matched contractor at once, the first to accept gets the job, and the customer's trip charge is collected before the contractor rolls. No subscription and no lead fees |
-| Strengths | `{TBD}`. Nothing to review yet |
-| Weaknesses | `{TBD}`. Nothing to review yet |
-| Who it serves | Licensed, insured trade contractors who take emergency calls; plumbing and water emergencies first (working assumption) |
-| What it charges contractors | No subscription, no lead fee. Any per-job fee `{TBD}` |
+| Strengths | By design: no charge to see a request; the trip charge collected before you roll. Nothing live to review |
+| Weaknesses | No track record yet; requests only in zones at density |
+| Who it serves | Licensed, insured trade contractors who take emergency calls; plumbing and water emergencies first (decision 1) |
+| What it charges contractors | No subscription, no lead fee. $0 a job in the founding period, then $25 per completed paid job (decided 2026-10-03) |
 
 ---
 
@@ -114,7 +114,7 @@ For each SOS SMS item: does anyone in the set already offer it, how central is i
 
 | # | Our item | Who already offers it | How central to them | Evidence contractors want it | Read |
 |---|---|---|---|---|---|
-| 1 | Zero cost to join: no subscription, no lead fees | Thumbtack and Angi are free to sign up but charge per lead (S05, S36). Jiffy is free to join with no lead fee but takes 20 to 30 percent of the job (S16). Warranty networks charge no join fee but pay below private rates (S20, S33). Contractor Connection charges an application fee, then fees on work done (S18) | Central to every alternative's pitch in some form: "free to sign up" is common, "no lead fees" is rare among lead platforms | Strong. The most repeated contractor complaint across S03 to S06 is paying for leads that never become jobs | No-fee is not unique. No-fee with no commission would be rare, and depends on how SOS SMS earns money (open decision 2) |
+| 1 | Zero cost to join: no subscription, no lead fees | Thumbtack and Angi are free to sign up but charge per lead (S05, S36). Jiffy is free to join with no lead fee but takes 20 to 30 percent of the job (S16). Warranty networks charge no join fee but pay below private rates (S20, S33). Contractor Connection charges an application fee, then fees on work done (S18) | Central to every alternative's pitch in some form: "free to sign up" is common, "no lead fees" is rare among lead platforms | Strong. The most repeated contractor complaint across S03 to S06 is paying for leads that never become jobs | No-fee is not unique. No lead fee and no percentage of the job is rare: SOS SMS charges contractors $0 in the founding period, then a flat $25 per completed paid job (decision 2) |
 | 2 | High-urgency requests: active emergencies | Service Direct and eLocal sell emergency calls (S10, S11). Google LSA captures "emergency plumber" searches (S08) | Central for Service Direct | Strong. Contractors complain about "just exploring" requests they are still charged for (S05) | A few others |
 | 3 | Pre-qualified: matched to area and trade | Every platform claims it. The FTC found HomeAdvisor's claims about this were false or unsubstantiated (S01) | Central to all, and distrusted | Strong, and contractors are primed to doubt it | Table stakes. The claim must be narrow (Section 5) |
 | 4 | Trip charge collected up front, held for the contractor | No lead platform in the set collects a trip charge on the contractor's behalf. Booking platforms (Jiffy, Puls) collect payment for platform-priced jobs (S16, S17). Crediting the trip charge to the job is common contractor practice (S28) | Not central to any lead platform | Moderate, inferred: contractors charge trip fees to avoid unpaid trips (S28), and platform complaints include paying for customers who disappear (S05) | A few others. Stronger differentiator than Bryan rated |
@@ -145,7 +145,7 @@ The skill asks for frequency counts from G2. This category is not on G2, and pag
 | C5 Warranty network | 1. Steady volume (n=1, A). 2. No marketing needed (n=1). 3. Bonus programs (n=1, B dated) | 1. Fixed rates below private work (n=1). 2. Price and scope controlled by the network (n=2). 3. Unhappy homeowners blame the contractor (n=1) | Getting paid fairly |
 | C6 Status quo | 1. Free (inferred). 2. Highest-trust customers (n=2, B). 3. No platform between contractor and customer (inferred) | 1. Unpredictable volume (inferred). 2. Owner answers the phone at night (inferred). 3. No protection against unpaid trips (inferred) | Workload and getting paid |
 
-**Inferred** rows come from the structure of the option, not from reviews, and are for Step 5.2 interviews to confirm.
+**Inferred** rows come from the structure of the option, not from reviews, and are checked in the founding contractor survey.
 
 ### What to watch for, and what was found
 

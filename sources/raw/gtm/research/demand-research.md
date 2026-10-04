@@ -101,13 +101,13 @@ Filled from `GTM-BRIEF.md` Section 1, not a crawl.
 
 | Attribute | Finding |
 |---|---|
-| Website | `{TBD}` |
-| Tagline | `{TBD}`, written in Phase 6 |
+| Website | None yet: the zone landing page, from Stage 2 |
+| Tagline | Text once, and a vetted contractor is on the way (Phase 6 brand promise) |
 | Description | Text one number when something breaks at home. The request goes to the licensed, insured contractors on SOS SMS for that trade in the area, all at once; one accepts with an arrival time; trip charge paid up front and credited to the job if the customer goes ahead; 90-minute guarantee |
-| Strengths | `{TBD}` |
-| Weaknesses | `{TBD}` |
+| Strengths | By design: one text to every matched contractor; an arrival time on acceptance; the trip charge back on a miss. Nothing live to review |
+| Weaknesses | No track record yet; open only in zones at density |
 | Who it serves | People with an urgent repair problem at home; homeowners by default |
-| What the customer pays before arrival | Trip charge, amount `{TBD}`; any SOS SMS fee `{TBD}` |
+| What the customer pays before arrival | A $99 trip charge, credited to the job if the customer goes ahead, and a $49 SOS SMS fee (decided 2026-10-03) |
 
 ---
 
@@ -156,6 +156,6 @@ The brief's hypothesis was that the matrix's features answer three complaints: n
 Two findings the brief did not predict:
 
 1. **Being contacted by many is its own complaint.** Quote marketplaces fail customers by sending their details to several businesses at once (S48, S54). SOS SMS also sends the request to several contractors, but only the one who accepts contacts the customer. That is the precise, defensible version of "private by design", and it is stronger than the broad version.
-2. **The national brands' weakness is price trust, not speed.** Roto-Rooter and Benjamin Franklin are available and fast. Their recurring complaint is upselling (S52). SOS SMS does not control the contractor's quote, so it cannot claim to fix upselling. What it can offer is the trip charge stated before anyone rolls, and possibly a price range (candidate item 11).
+2. **The national brands' weakness is price trust, not speed.** Roto-Rooter and Benjamin Franklin are available and fast. Their recurring complaint is upselling (S52). SOS SMS does not control the contractor's quote, so it cannot claim to fix upselling. What it offers is the trip charge stated before anyone rolls. A price range (item 11) is not offered at launch (resolution register R49).
 
 Complaints about workmanship belong to a gap SOS SMS does not close. It checks license and insurance, not the quality of the work, and Phase 6 must not imply otherwise.

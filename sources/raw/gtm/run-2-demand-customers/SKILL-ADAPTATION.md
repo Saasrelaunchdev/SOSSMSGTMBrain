@@ -28,9 +28,9 @@ Phases 3 and 6, the Lead Magnet, and the Deck run as written for every archetype
 
 **Why it breaks:** SOS SMS has two buyers and two feature lists. Rating them together blends two demand curves into one quadrant chart that describes neither side.
 
-**Instead:** rate only the items in `GTM-BRIEF.md` Section 3: nine from the source and three candidates. Run Steps 1.3 to 1.5 as written. Seed the scores with Bryan's ratings, labeled as hypotheses, and let the Step 1.1 research move them. Rate the relaunch guarantee like any other item, since the matrix is where you decide whether it is worth building, but it stays out of copy until it ships. Steps 1.6 and 1.7 run unchanged.
+**Instead:** rate only the items in `GTM-BRIEF.md` Section 3: nine from the source and three candidates. Run Steps 1.3 to 1.5 as written. Seed the scores with Bryan's ratings, labeled as hypotheses, and let the Step 1.1 research move them. Rate the relaunch guarantee like any other item. Its handling is decided (resolution register R17): SOS SMS pays the second contractor's trip charge, and it stays out of copy until dispatch supports it. Steps 1.6 and 1.7 run unchanged.
 
-**Result to watch for.** Bryan rated "Text-only access" and "Private by design" as Unique To Us, and the 90-minute guarantee as something most vendors can do. If Step 1.1 finds the reverse, text access common and refund-backed arrival windows rare, the positioning moves from "no app" to the guarantee. The guarantee's scope, open decision 4, then becomes the most important sentence in the run.
+**Result to watch for.** Bryan rated "Text-only access" and "Private by design" as Unique To Us, and the 90-minute guarantee as something most vendors can do. If Step 1.1 finds the reverse, text access common and refund-backed arrival windows rare, the positioning moves from "no app" to the guarantee. The guarantee's scope (decision 3) then becomes the most important sentence in the run.
 
 ---
 
@@ -49,7 +49,7 @@ Phases 3 and 6, the Lead Magnet, and the Deck run as written for every archetype
 
 Slot 5, doing it yourself or waiting, is not a company. Profile it from the most viewed shutoff and temporary-fix guides and the forum threads around them. Profile slot 6 from warranty and insurer claim process pages and from complaints about how long their contractors take.
 
-**Our own row.** Fill it from `GTM-BRIEF.md` Section 1, not a crawl, and mark strengths and weaknesses `{TBD}`. There is nothing live to review.
+**Our own row.** Fill it from `GTM-BRIEF.md` Section 1, not a crawl, and state strengths and weaknesses by design, with the weaknesses written plainly: no track record yet, and open only in zones at density. There is nothing live to review.
 
 ---
 
@@ -74,7 +74,7 @@ Replace the firmographic rows. "Revenue, $" becomes household income band, but o
 
 **Collapses.** Whoever is at home with the problem decides, at that moment. Fill one column honestly, note the collapse, and do not invent a Manager and a Decision Maker.
 
-The one exception is a renter. The landlord is a second decision maker and often the payer, which is why renters are open decision 1 rather than an assumption.
+The one exception is a renter. The landlord is a second decision maker and often the payer, which is why the demand side was decided as homeowners (brief decision 1) rather than assumed.
 
 **Step 5.2** is the founding customer area rather than a design partner in the B2B sense: the neighborhoods inside Run 1's founding contractor coverage. It is a geographic boundary that keeps the 90-minute guarantee honest. Every Phase 8 asset targets inside it and nowhere else.
 
@@ -84,7 +84,7 @@ The one exception is a renter. The landlord is a second decision maker and often
 
 Phase 6 asks for a "Supporting Proof Point" and a "Headline (Social Proof)" in each of nine copy drills. Eighteen fields asking for evidence.
 
-SOS SMS has none. No customers, no jobs, no arrival times on record. Fill both fields with `{TBD}` in every drill. Method and process are legitimate substitutes for the social proof headline: how it works in three texts, what the trip charge buys, and what happens when the 90-minute window is missed. That signals seriousness without claiming a result.
+SOS SMS has none. No customers, no jobs, no arrival times on record. In every drill the social proof headline is a method line and the proof point names the record that will show the claim is true. Method and process are legitimate substitutes for the social proof headline: how it works in three texts, what the trip charge buys, and what happens when the 90-minute window is missed. That signals seriousness without claiming a result.
 
 **Two banned forms this side reaches for:** an average arrival time, and a count of homes helped. Neither exists.
 
@@ -105,7 +105,7 @@ This is where a fabricated testimonial enters a run that was otherwise honest, b
 - **Can the buyer pay.** The trip charge is paid at night, by a link in a text. No card to hand, or a card that declines, ends the job before dispatch.
 - **Does the link look like a scam.** A payment link by text from a number the customer has never seen matches a common fraud pattern. Trust has to be earned before the link arrives: who is texting, why, and what the charge is.
 - **Can the text get through.** Business texting needs the sending number registered with carriers. In the United States that means 10DLC or toll-free verification. Unregistered traffic gets filtered, and the customer sees silence.
-- **What if no one accepts.** What the customer is told, and when. This is the moment the 90-minute guarantee is tested, and open decision 4 has to answer it.
+- **What if no one accepts.** What the customer is told, and when. This is the moment the 90-minute guarantee is tested, and decision 3 answers it: the customer is told within 15 minutes and is not charged.
 
 ---
 
@@ -135,14 +135,14 @@ This is where a fabricated testimonial enters a run that was otherwise honest, b
 
 **Instead, build the customer side of the take rate:**
 
-1. The trip charge: the amount, who sets it, and what it covers. `{TBD}`, open decision 3.
-2. Any SOS SMS fee on top, and whether the customer sees it separately. `{TBD}`.
-3. The 90-minute refund as a cost line: how often it is expected to fire at the Run 1 density number, and which side funds it. `{TBD}`, Section 6 row 1.
+1. The trip charge: $99, set by SOS SMS per trade and zone, covering the visit and credited to the repair (decision 5).
+2. The SOS SMS fee on top: $49 per dispatched request, always shown as its own line (decision 2).
+3. The 90-minute refund as a cost line: planned at 5 percent of requests for misses SOS SMS causes, funded from the SOS SMS fee; contractor-caused misses are funded from the trip charge (decision 3, Section 6 row 1).
 4. The subsidy question, shared with Run 1: which side carries SOS SMS's revenue, and why.
 
 If tiers come up, the natural shape is a household membership with reduced or waived trip charges. It competes directly with home warranties, slot 6. Flag it as a later option and do not design it in this run.
 
-**Step 9.3, ROI anchoring, still runs and is the strongest artifact here.** Anchor 2, the alternative comparison, is what the customer would otherwise pay for an after-hours call found by search: any after-hours premium plus any trip fee, from the Phase 2 research, dated and sourced. The cost of waiting until morning is the other natural anchor, and it stays `{TBD}` unless a cited source supplies it.
+**Step 9.3, ROI anchoring, still runs and is the strongest artifact here.** Anchor 2, the alternative comparison, is what the customer would otherwise pay for an after-hours call found by search: any after-hours premium plus any trip fee, from the Phase 2 research, dated and sourced. The cost of waiting until morning is the other natural anchor; the water damage claim average (S57, B) is the cited figure for it, and no other number is used.
 
 ---
 
@@ -152,7 +152,7 @@ Runs as written. A home emergency readiness scorecard fits well: do you know whe
 
 ## 10-Slide Deck
 
-Runs as written, once per run. A combined marketplace deck is a separate step after both runs. Its own prompt's `{TBD}` rule applies with extra force, because by then the caveats are two briefs back.
+Runs as written, once per run. A combined marketplace deck is a separate step after both runs. Its own prompt's rule on unknown metrics applies with extra force, because by then the caveats are two briefs back: no invented number, and every SOS SMS figure shown as decided, a planning value, or illustrative.
 
 ---
 

@@ -40,7 +40,7 @@ Maximum: 20 + 14 + 10 + 8 + 16 + 14 + 16 = 98, normalized to 100 on the results 
 | Score Range | Tier Name | Message | CTA |
 |---|---|---|---|
 | 0 to 39 | Ready | "Your home is in good shape for a leak. One thing to add: a number to text if your plumber can't come at night." | Soft: save the SOS SMS number (text READY) |
-| 40 to 69 | Partly Ready | "You're partway there. Your biggest gaps: [top two]. Here's a three-step plan, starting with finding and testing your shutoff tonight." | Medium: get the shutoff guide by text (text READY) |
+| 40 to 69 | Partly Ready | "You're partway there. Your biggest gaps: {{top two}}. Here's a three-step plan, starting with finding and testing your shutoff tonight." | Medium: get the shutoff guide by text (text READY) |
 | 70 to 100 | Exposed | "If something broke tonight, you'd be starting from scratch. Three steps fix most of that, and the first takes five minutes." | Strong: text READY now to save the number and get the shutoff guide |
 
 The results page carries the safety line: "For fire, a gas smell, or anyone hurt, call 911 first. Smell gas? Get out first, then call."
@@ -52,9 +52,9 @@ Email, with consent collected on the scorecard. No marketing texts without a sep
 <!-- sheet: Emails -->
 | Email # | Day | Subject Line | Content Focus | CTA |
 |---|---|---|---|---|
-| 1 | 0 | Your home readiness score: [score] | Results delivery and interpretation: their score, their top gaps, the three-step plan | Find your shutoff tonight (guide) |
+| 1 | 0 | Your home readiness score: {{score}} | Results delivery and interpretation: their score, their top gaps, the three-step plan | Find your shutoff tonight (guide) |
 | 2 | 2 | The first ten minutes of a leak | Deeper insight in place of a case study (none exist yet): shut off the water, move valuables, photograph the damage for insurance, then get help. EPA's 24 to 48 hour drying guidance (S58) | Save the number for the "get help" step |
-| 3 | 5 | One text, when something breaks at home | Solution introduction: how SOS SMS works in three texts; the trip charge shown first; the guarantee with its scope; what SOS SMS does not do | Text READY to [number] |
+| 3 | 5 | One text, when something breaks at home | Solution introduction: how SOS SMS works in three texts; the trip charge shown first; the guarantee with its scope; what SOS SMS does not do | Text READY to {{number}} |
 | 4 | 8 | Before the next cold snap | Final reminder: pre-freeze steps, sent only when seasonally true; otherwise "Is the number saved?" | Text READY |
 
 ## ScoreApp implementation notes

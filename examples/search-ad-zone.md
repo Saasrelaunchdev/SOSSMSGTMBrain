@@ -1,8 +1,8 @@
 # Example: emergency ad group, zone template (customers)
 
-Status: **DRAFT, not approved.** Assembled from Run 2 Phase 8 drafts against the brain. Runs only after decision 11 (Google eligibility in writing), carrier registration, message asset verification, and the zone meeting the density number. Template: `templates/search-ad.md`.
+Status: **voice reference, approved 2026-10-04.** Assembled from Run 2 Phase 8 against the brain, with every value decided. Runs once Google confirms eligibility in writing (decision 11), the number is registered (decision 9), message assets are verified (S72), and the zone meets the density number (Stage 2). Template: `templates/search-ad.md`.
 
-Zone: [zone name]. Covered hours: [covered hours]. Geofenced to the zone; scheduled to covered hours; paused automatically when acceptance falls.
+Zone: {{zone name}}. Covered hours: {{covered hours}}. Geofenced to the zone; scheduled to covered hours; paused automatically when acceptance falls.
 
 ## Headlines (max 30 characters)
 
@@ -15,7 +15,8 @@ Zone: [zone name]. Covered hours: [covered hours]. Geofenced to the zone; schedu
 | Arrival Time When They Accept | 29 | |
 | No App. No Phone Tree. | 22 | |
 | Steps to Stop the Water Now | 27 | |
-| Plumbers Near [Zone name] | 25 | Per zone |
+| Plumbers Near {{zone name}} | 14 plus the zone name | Per zone; at most 30 once filled |
+| 90 Minutes or Trip Charge Back | 30 | The guarantee (decision 3); scope on the landing page |
 
 ## Descriptions (max 90 characters)
 
@@ -25,11 +26,10 @@ Zone: [zone name]. Covered hours: [covered hours]. Geofenced to the zone; schedu
 | Get steps to stop the water right away, then a licensed plumber with an arrival time. | 85 |
 | Fire, gas smell, or anyone hurt? Call 911 first. For leaks and backups, text SOS SMS. | 85 |
 
-Message asset: SOS SMS, the registered number, [stated response time], automated-reply disclosure, [human handoff]. Final URL: the zone landing page. Conversion: paid request.
+Message asset: SOS SMS, the registered number, a reply within 15 minutes in covered hours, automated-reply disclosure, and the human handoff: text HELP (R50). Final URL: the zone landing page. Conversion: paid request.
 
 ## Held back, and why
-- "Only One Pro Gets Your Info": waits on conflict C (identity hidden until acceptance).
-- The guarantee headline: waits on decision 3; its scope must be on the landing page.
+- "Only One Pro Gets Your Info": runs once the broadcast that hides identity ships (decision 4).
 - "24 Hour Plumber" style lines: only if the zone's covered hours are 24 hours.
 
 ## Why this works

@@ -9,7 +9,7 @@ Load for: choosing what an asset leads with, and checking whether a feature can 
 | Trip charge collected before the contractor rolls | 10.6 / 11.8 | Q1 Hero | **The lead.** No lead platform in the researched set collects it for the contractor |
 | Zero cost to join | 17.6 / 6.3 | Q1 Hero | Door opener, not unique (S05, S16, S33). Weakens if decision 2 adds a per-job fee |
 | High-urgency requests | 11.2 / 7.9 | Q1 Hero | Support. Service Direct is the close peer (S10) |
-| Fast trip charge payout | 6.8 / 3.1 | Q1, provisional | Only once payout timing is real and fast. Unbuilt |
+| Fast trip charge payout | 6.8 / 3.1 | Q1 | Within 2 business days of arrival (decision 6); planned, built in Stage 0 |
 | Matched by trade and area | 16.4 / -8.7 | Q4 Table stakes | Present, never a lead. Carries the FTC trust penalty (S01) |
 | Customer stays the contractor's | 9.4 / -9.3 | Q4 | Defensive: SOS SMS must not look like a booking network |
 | Accept or decline freely | 8.1 / -6.2 | Q4 | Present, not a headline |
@@ -24,7 +24,7 @@ The obligations (commit to an arrival time, credit the trip charge, keep documen
 |---|---|---|---|
 | 90-minute guarantee, refund on a miss | 17.9 / 9.6 | Q1 Hero | **The lead**, with its scope. Only Benjamin Franklin has a money-backed arrival promise, on booked appointments (S40) |
 | Instant network access | 15.2 / 7.4 | Q1 Hero | Lead. Only the accepting contractor contacts the customer (S46, S48) |
-| Price range before arrival | 16.1 / 8.3 | Q1, candidate | The strongest research finding. Not in the product; out of copy |
+| Price range before arrival | 16.1 / 8.3 | Q1, not at launch | The strongest research finding. Not offered at launch (R49); out of copy |
 | Known arrival time on acceptance | 11.6 / 4.2 | Q1 Hero | The anchor the guarantee hangs on |
 | Private, narrow form | 9.7 / 6.1 | Q1 Hero | "Only the contractor who takes your job gets your address", once conflict C is designed |
 | Trip charge credited to the job | 14.8 / -6.9 | Q4 | Common. What is rarer is stating it before dispatch |
@@ -40,4 +40,4 @@ The obligations (commit to an arrival time, credit the trip charge, keep documen
 - **Customers: stop-the-water help in the first reply.** Shutoff and safety steps per problem type (pipe, water heater, toilet, sewer backup, ceiling leak), reviewed by a licensed plumber, never repair steps. Variants: problem guides, the readiness scorecard, Text READY, the post-job contact card.
 
 ## Validation notes
-Every "Unique to us" rating on a named item in the source matrix failed either the entry rule or the research. Blank rated rows in the source were excluded; Bryan may have meant to add items (open question). The contractor scorecard appears once as "After-Hours Readiness Scorecard"; the spec name, the Job Leak Scorecard, is canonical.
+Every "Unique to us" rating on a named item in the source matrix failed either the entry rule or the research. Blank rated rows in the source are excluded for good (R26). The contractor scorecard appears once as "After-Hours Readiness Scorecard"; the spec name, the Job Leak Scorecard, is canonical.

@@ -20,7 +20,7 @@ Load for: headlines, page openers, the one-line answer to "what is SOS SMS", and
 
 | Against | Statement | Must be true before use |
 |---|---|---|
-| 24/7 brands and on-demand apps | Not another plumbing company: one text that reaches the licensed, insured contractors on SOS SMS for your trade, all at once. Whoever can come accepts with an arrival time, and if they are not there within 90 minutes of [clock start], you get [refund] back | Zone at density; decision 3 made; covered areas and hours named in the same place |
+| 24/7 brands and on-demand apps | Not another plumbing company: one text that reaches the licensed, insured contractors on SOS SMS for your trade, all at once. Whoever can come accepts with an arrival time, and if they are not there within 90 minutes of your request, you get the $99 trip charge back | Zone at density; covered areas and hours named in the same place (decision 3) |
 | Quote marketplaces and the warranty line | Not a quote site or a claim line: a way to get someone to your door tonight without handing your number to a crowd. Only the contractor who takes your job gets your address and details | The customer data rule adopted and matched in the privacy policy; conflict C designed |
 | The status quo | The one text you send instead of calling down a list at 2 a.m. You see the trip charge before anyone is sent, and it counts toward the work if you go ahead | The trip charge shown and agreed by text before dispatch |
 

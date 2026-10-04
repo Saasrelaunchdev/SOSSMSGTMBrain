@@ -26,4 +26,4 @@ Load for: sales-free objection replies, comparison pages, partner materials, and
 | D5 Thumbtack | Fast replies, money-back guarantee | Several pros contact the customer (S46) | One reply, from the one who is coming | That they never respond |
 | D6 American Home Shield | Covered repairs for the service fee, $75 to $125 (S56, C) | Contact within 4 business hours, 48 on weekends; no promise of timely emergency service (S20) | For an urgent, uncovered problem tonight | That a warranty is a bad deal. If covered, the warranty is usually cheaper, and we say so |
 
-**Closest rival on the window:** Benjamin Franklin. The difference is the clock: their guarantee runs against a scheduled appointment; the SOS SMS window runs from the customer's text, inside covered hours, with [scope].
+**Closest rival on the window:** Benjamin Franklin. The difference is the clock: their guarantee runs against a scheduled appointment; the SOS SMS window runs 90 minutes from the customer's confirming text, inside covered hours, with the $99 trip charge back on a miss.

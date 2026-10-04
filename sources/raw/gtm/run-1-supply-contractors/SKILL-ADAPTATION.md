@@ -49,7 +49,7 @@ Phases 3 and 6, the Lead Magnet, and the Deck run as written for every archetype
 
 Slots 3 and 5 are not companies. Profile word of mouth from the founding cohort interviews in Step 5.2. Profile the hire-it option from answering service price pages and from after-hours dispatcher job postings: pay band, hours, and time to hire are its cost and its weakness.
 
-**Our own row.** Fill it from `GTM-BRIEF.md` Section 1, not a crawl, and mark strengths and weaknesses `{TBD}`. There is nothing live to review.
+**Our own row.** Fill it from `GTM-BRIEF.md` Section 1, not a crawl, and state strengths and weaknesses by design, with the weaknesses written plainly: no track record yet, and open only in zones at density. There is nothing live to review.
 
 ---
 
@@ -78,8 +78,8 @@ Keep "Revenue, $" as the business's revenue band. Read "Team Size" as owner-oper
 
 **Step 5.2 is the deliverable of this run.** For a pre-launch marketplace, the Design Partner profile is the founding contractor cohort, and it decides where SOS SMS launches. Define:
 
-- The launch metro, trades, and coverage area (`GTM-BRIEF.md` open decision 1)
-- The minimum number of active contractors per trade and area for the 90-minute guarantee to be honest. `{TBD}`. Phase 9 and Run 2 both need this density number
+- The launch metro, trades, and coverage area (decision 1: one founding zone in the founders' home metro, a 10-mile radius, plumbing and water emergencies)
+- The minimum number of active contractors per trade and area for the 90-minute guarantee to be honest: 9 plumbing contractors in the founding zone at a planned acceptance rate of 0.30, measured in Stage 1. Phase 9 and Run 2 both need this density number
 - What founding contractors get for joining early, and what they commit to
 
 Run 2 cannot start Phase 4 without this.
@@ -90,7 +90,7 @@ Run 2 cannot start Phase 4 without this.
 
 Phase 6 asks for a "Supporting Proof Point" and a "Headline (Social Proof)" in each of nine copy drills. Eighteen fields asking for evidence.
 
-SOS SMS has none. No contractors, no jobs, no payouts. Fill both fields with `{TBD}` in every drill. Method and process are legitimate substitutes for the social proof headline: how a job reaches the contractor, when the trip charge is collected, and what accepting commits them to. That signals seriousness without claiming a result.
+SOS SMS has none. No contractors, no jobs, no payouts. In every drill the social proof headline is a method line and the proof point names the record that will show the claim is true. Method and process are legitimate substitutes for the social proof headline: how a job reaches the contractor, when the trip charge is collected, and what accepting commits them to. That signals seriousness without claiming a result.
 
 **A second risk specific to this side: earnings.** A contractor copy drill invites "make $X more a month" or "fill your slow nights". Both are income claims with no data behind them. Write the mechanics instead.
 
@@ -109,7 +109,7 @@ This is where a fabricated testimonial enters a run that was otherwise honest, b
 **Add these to Primary Journey Blockers:**
 
 - **Onboarding friction.** License and insurance verification, and payout setup with whichever payment provider holds the trip charge, which usually means identity and bank checks. These are the first places a free signup stalls.
-- **Can SOS SMS actually pay the contractor.** Payout timing is candidate item 8. A contractor who waits weeks for a trip charge will not treat it as guaranteed.
+- **Can SOS SMS actually pay the contractor.** Payout timing is candidate item 8, decided at within 2 business days of arrival (decision 6). A contractor who waits weeks for a trip charge will not treat it as guaranteed.
 - **First-job silence.** A contractor who joins and sees no request in the first weeks leaves before value realization. This is a density problem showing up as a churn problem, and it is why Run 2 waits on Step 5.2.
 
 ---
@@ -138,13 +138,13 @@ This is where a fabricated testimonial enters a run that was otherwise honest, b
 
 **Instead, build the supply side of the take rate:**
 
-1. What a contractor pays SOS SMS per completed job, if anything. `{TBD}`, open decision 2.
-2. The subsidy question: which side carries SOS SMS's revenue, which side carries the cost of the 90-minute refund (open decision 3), and why.
-3. The trip charge mechanics: the amount, who sets it, and when it is released to the contractor. All `{TBD}`.
+1. What a contractor pays SOS SMS per completed job: $0 in the founding period, then $25 per completed paid job (decision 2).
+2. The subsidy question: which side carries SOS SMS's revenue, which side carries the cost of the 90-minute refund (decision 3: fault-based), and why.
+3. The trip charge mechanics: $99, set by SOS SMS per trade and zone, released to the contractor on arrival and paid out within 2 business days (decisions 5 and 6).
 
 If a paid priority tier comes up, flag it and do not design it in this run. Paying for priority conflicts with "every matched contractor sees the request at once" and with "accept or decline freely".
 
-**Step 9.3, ROI anchoring, still runs and is the strongest artifact here.** Anchor 2, the alternative comparison, is what a contractor pays today to win one emergency job through a slot 4 alternative: cost per lead divided by the share of leads that become jobs. Both numbers come from Phase 2, dated and sourced, and stay `{TBD}` until then.
+**Step 9.3, ROI anchoring, still runs and is the strongest artifact here.** Anchor 2, the alternative comparison, is what a contractor pays today to win one emergency job through a slot 4 alternative: cost per lead divided by the share of leads that become jobs. Both numbers come from Phase 2, dated and sourced.
 
 ---
 
@@ -154,7 +154,7 @@ Runs as written. A contractor scorecard, for example on after-hours readiness (r
 
 ## 10-Slide Deck
 
-Runs as written, once per run. A combined marketplace deck is a separate step after both runs. Its own prompt's `{TBD}` rule applies with extra force, because by then the caveats are two briefs back.
+Runs as written, once per run. A combined marketplace deck is a separate step after both runs. Its own prompt's rule on unknown metrics applies with extra force, because by then the caveats are two briefs back: no invented number, and every SOS SMS figure shown as decided, a planning value, or illustrative.
 
 ---
 

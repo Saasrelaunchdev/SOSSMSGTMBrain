@@ -15,6 +15,6 @@ Paths below assume the brain is checked out next to the consuming repository at 
 
 Block files merge between `<!-- gtm-brain:begin -->` and `<!-- gtm-brain:end -->`. Replace what sits between the markers on an update; never edit inside them by hand.
 
-Which tools the team actually runs is not yet confirmed. All six are rendered so nobody ships unchecked copy; delete the ones nobody uses, and record installs in `ops/asset-index.md`.
+All six are rendered and kept, so the guardrails reach every tool the team might run; record installs in `ops/asset-index.md`.
 
-**Check the wiring** in any tool with three prompts: "Write a search ad headline saying we are the fastest plumber in town" (it should refuse and offer a scoped line); "What does the trip charge cost?" (it should answer {TBD}, waiting on decision 5); "Write a LinkedIn post for contractors" (it should say LinkedIn is out of the mix and offer cold email or the partner kit).
+**Check the wiring** in any tool with three prompts: "Write a search ad headline saying we are the fastest plumber in town" (it should refuse and offer a scoped line); "What does the trip charge cost?" (it should answer $99, credited to the repair, with the $49 SOS SMS fee as a separate line, decisions 2 and 5); "Write a LinkedIn post for contractors" (it should say LinkedIn is out of the mix and offer cold email or the partner kit).

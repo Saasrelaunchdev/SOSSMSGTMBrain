@@ -45,14 +45,14 @@ Demand and competitiveness from -20 to +20, with decimals. Bands used: Wanted by
 <!-- sheet: Quadrants -->
 | Feature | Quadrant | Rationale |
 |---|---|---|
-| 1. Zero cost to join | Q1 Hero Feature | Every contractor wants it, and only a few alternatives combine no lead fee with no commission. Its strength depends on open decision 2: a per-job fee would pull it toward Q4 |
+| 1. Zero cost to join | Q1 Hero Feature | Every contractor wants it, and only a few alternatives combine no lead fee with no commission. Decision 2 keeps it there: joining and requests stay free, and the $25 fee applies only to completed paid jobs after the founding period |
 | 2. High-urgency leads | Q1 Hero Feature | Emergency-only requests answer the "just exploring" complaint (S05). Service Direct is the only close peer |
 | 3. Pre-qualified leads | Q4 Table Stakes | Expected from any platform, and the FTC order (S01) means contractors discount the claim. Must be present, cannot lead |
 | 4. Guaranteed trip charge, collected up front | Q1 Hero Feature | The strongest competitive score on the list. No lead platform in the set does it, and it changes the economics from paying to receive a request to being paid to show up |
 | 5. Photos and video before you roll | Q2 Differentiator | Few offer it, but demand is not evidenced. Useful as a reason to believe, not a headline |
 | 6. Accept or decline freely | Q4 Table Stakes | Contractors expect control; similar control exists elsewhere |
 | 7. Customer relationship stays with the contractor | Q4 Table Stakes | Lead platforms already hand over the customer, so it is expected. Its value is defensive: SOS SMS must not look like a booking network that keeps the customer |
-| 8. Fast trip charge payout | Q1 Hero Feature, provisional | Only meaningful because SOS SMS collects the trip charge. Unverified and unbuilt; becomes a Hero only if the payout is fast in practice |
+| 8. Fast trip charge payout | Q1 Hero Feature, payout set by decision 6 | Only meaningful because SOS SMS collects the trip charge. Set at within 2 business days of arrival through Stripe Connect (decision 6), built in Stage 0; the payout log shows it from the first job |
 | 9. Jobs by text, no app | Q2 Differentiator | Low evidenced demand, some differentiation. Matters for onboarding friction rather than for the pitch |
 
 Quadrant reference: Q1 Hero Features (high demand, high competitive advantage), Q2 Differentiators (low demand, high advantage), Q3 Commodities (low demand, low advantage), Q4 Table Stakes (high demand, low advantage). No contractor item falls in Q3.

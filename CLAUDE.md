@@ -4,7 +4,7 @@ This repository is the SOS SMS go-to-market: a pre-launch, two-sided marketplace
 
 ## Read before any contractor-facing or customer-facing output
 1. `rules/glossary.md`, the words SOS SMS uses, and the ones it never uses.
-2. `rules/feature-status.md`, what is shipped (nothing) and what is planned, open, or not built.
+2. `rules/feature-status.md`, what is shipped (nothing), what is planned with its decided rules, what is held, and what is not at launch.
 3. `rules/do-not-say.md`, the claims you must never make, and what to write instead.
 4. `rules/writing-rules.md`, how every word is written, per side and per medium.
 5. The `reference/` file for the job. For strategy questions: `context/SOS-SMS_GTM_Master_Context.md` and `ops/decisions.md`.
@@ -20,14 +20,14 @@ Refuse sales call or demo scripts, meetings, shop visits, LinkedIn, outbound ema
 
 ## Non-negotiables
 - SOS SMS is pre-launch. Nothing is live: never write a capability in the present tense as if it were.
-- Never invent a number, count, price, fee, arrival time, testimonial, or result. Unknowns stay `{TBD}`. The proof-point set is empty.
-- Never fill a `[bracket]`. It waits on a founder decision in `ops/decisions.md`.
+- Never invent a number, count, price, fee, arrival time, testimonial, or result. Every value is in `reference/resolution-register.md`: decided, a labelled planning value, or counted at a named stage. Per-message details are `{{merge fields}}`. No result exists before launch.
+- The twelve founder decisions are decided (2026-10-03, `ops/decisions.md`). Write their decided words; never reopen one in copy.
 - Always the full name, SOS SMS. Never the first word alone.
 - SOS SMS dispatches; the contractor does the work. Never the plumber, an emergency service, or 911. The safety line goes on every urgent call to text: "For fire, a gas smell, or anyone hurt, call 911 first."
 - Neither side's copy promises what the other side's terms do not deliver (`reference/marketplace-cross-side.md`).
 - "Request", never "lead", for SOS SMS. Never "escrow", "exclusive", "pre-qualified", or "guaranteed arrival time".
 - No em dashes or en dashes. Banned words: leverage, unlock, seamless, robust, streamline, cutting-edge, empower.
-- Grade C figures stay internal. Recommendations are never written as decisions.
+- Grade C figures stay internal. Planning values are never written as results.
 
 ## Before you ship
 Run `ops/QA-checklist.md` against the draft. Match the voice in `examples/`. Templates: `templates/`. Prompts: `prompts/common-tasks.md`.

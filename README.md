@@ -8,7 +8,7 @@ The go-to-market for SOS SMS, held as plain Markdown that any AI agent or person
 
 SOS SMS is a pre-launch, two-sided marketplace for emergency home repair, starting with plumbing and water emergencies. A person with a problem at home texts one number. The request goes to the licensed, insured contractors on SOS SMS matched by trade and area, all at once. The first who can come accepts and commits to an arrival time. The customer agrees to a trip charge by text before anyone is dispatched, and it is credited to the repair if they go ahead.
 
-> **Status.** Pre-launch. Nothing is live. There are no contractors, customers, jobs, revenue, arrival times, or testimonials yet, so the brain holds no proof points and every unknown number is `{TBD}`. Twelve founder decisions are open. Copy that depends on one carries a `[bracket]` until it is made.
+> **Status.** Pre-launch. Nothing is live. There are no contractors, customers, jobs, revenue, arrival times, or testimonials yet, so no result is cited. The twelve founder decisions were made on 2026-10-03, and every other value is resolved in [`reference/resolution-register.md`](reference/resolution-register.md): decided, a labelled planning value, or counted at a named stage. Per-message details are `{{merge fields}}`.
 
 <p align="center">
   <img src="docs/architecture.svg" alt="The brain's layers: routers, control, reference, execution, state, sources, with the doors for other tools and the compounding loop" width="100%">
@@ -52,7 +52,7 @@ The brain has five layers. The **routers** are always loaded. The **control laye
 
 ## 2. Quick start
 
-**If you use Claude Code:** clone the repo and open it. `CLAUDE.md` loads automatically. Ask for what you need, for example "Write the zone landing page for [zone]".
+**If you use Claude Code:** clone the repo and open it. `CLAUDE.md` loads automatically. Ask for what you need, for example "Write the zone landing page for the founding zone".
 
 **If you use Codex, Cursor, Zed, Jules, or opencode:** open the repo; `AGENTS.md` is the entry file. To use the brain from another repository, such as the product codebase, copy the matching file from [`adapters/`](adapters/README.md).
 
@@ -116,8 +116,8 @@ flowchart TD
 Three rules sit under the whole flow:
 
 - **Ledgers before copy.** When a fact changes, the rules file changes first. Copy follows.
-- **Brackets are not blanks to fill.** `[trip charge]`, `[clock start]`, `[refund]` wait on named founder decisions. An agent that fills one with a plausible guess has written a false promise.
-- **Recommendations are not decisions.** The twelve open decisions have recommended answers. Writing a recommendation as if it were decided is a QA failure.
+- **Every value has one home.** The $99 trip charge, the 90 minutes from the confirming text, the $99 refund: each comes from the resolution register, never from memory. Per-message details are merge fields, filled from a named record.
+- **Planning values are not results.** A planning value (0.30 acceptance, 50 percent first text to paid) is labelled as one. Writing it as a measured result is a QA failure.
 
 ---
 
@@ -132,7 +132,7 @@ The always-loaded layer is small on purpose: a brain that has to be read in full
 | Channel content | Add the channel engine, the template, and the matching example |
 | Comparison or objection work | Add `competitor-battlecards.md` and `objection-handling.md` |
 | Strategy question | The master context and `ops/decisions.md` |
-| A signal or a decision lands | `ops/signal-log.md`, `ops/decisions.md`, the ledger it touches |
+| A signal arrives or a decided value changes | `ops/signal-log.md`, `ops/decisions.md`, the ledger it touches |
 | Before shipping | `ops/QA-checklist.md` |
 
 ```mermaid
@@ -183,7 +183,7 @@ sequenceDiagram
     C->>S: Texts what broke
     S->>C: Automated reply: who SOS SMS is, the safety line
     S->>C: Stop-the-water steps
-    S->>C: Trip charge [amount] and guarantee [scope]. Reply YES
+    S->>C: $99 trip charge, $49 SOS SMS fee, and the guarantee in one line. Reply YES
     C->>S: YES, then pays through the link
     S->>K: Request to all matched contractors at once<br/>problem and approximate distance, no address
     K->>S: First to accept commits to an arrival time inside the window
@@ -192,11 +192,11 @@ sequenceDiagram
     Note over C,K: Acceptance is the hand-off.<br/>The contractor's commitment becomes the customer's arrival time
     K->>C: Arrives. Trip charge released, credited to the repair if they go ahead
     alt Window missed
-        S->>C: [refund], automatically, no claim needed
+        S->>C: The $99 trip charge back, automatically, no claim needed
     end
 ```
 
-**Why supply leads.** Every customer promise is only true where enough contractors have joined. The density model sets the floor per trade, zone, and hour band: n ≥ ln(1 - c) / ln(1 - a), where the acceptance rate a is `{TBD}` until measured.
+**Why supply leads.** Every customer promise is only true where enough contractors have joined. The density model sets the floor per trade, zone, and hour band: n ≥ ln(1 - c) / ln(1 - a), where the acceptance rate a is the planning value 0.30 (R28) until it is measured per hour band in Stage 1. At 0.30, the founding zone needs 9 plumbing contractors for 95 percent coverage.
 
 ```mermaid
 flowchart LR
@@ -209,7 +209,7 @@ flowchart LR
     G2 -->|"Yes"| D["Stage 3<br/>Accelerate in the zone,<br/>then the adjacent zone,<br/>then a second metro"]
 ```
 
-The cross-side check ([`reference/marketplace-cross-side.md`](reference/marketplace-cross-side.md)) holds the eight shared promises and the eight conflicts A to H with their recommended resolutions. The brain refuses customer copy that promises something the contractor terms do not yet deliver.
+The cross-side check ([`reference/marketplace-cross-side.md`](reference/marketplace-cross-side.md)) holds the eight shared promises and the eight conflicts A to H, each resolved by a decision. The brain refuses customer copy that promises something the contractor terms do not deliver.
 
 ---
 
@@ -219,7 +219,7 @@ The cross-side check ([`reference/marketplace-cross-side.md`](reference/marketpl
 
 | Who | What they use the brain for | Start with |
 |---|---|---|
-| Founders | Making the twelve decisions, seeing what each one unblocks, keeping the strategy from drifting | [`ops/decisions.md`](ops/decisions.md), [`reference/positioning-verdict.md`](reference/positioning-verdict.md) |
+| Founders | The twelve decisions and every value in one place, and keeping the strategy from drifting | [`ops/decisions.md`](ops/decisions.md), [`reference/positioning-verdict.md`](reference/positioning-verdict.md) |
 | GTM consultant | Building and maintaining the brain, running the review rituals, producing assets for the founders to approve | [`ops/review-cadence.md`](ops/review-cadence.md), [`ops/signal-log.md`](ops/signal-log.md), [`prompts/common-tasks.md`](prompts/common-tasks.md) |
 | Growth lead | Building a zone: the contractor list and emails, then ad groups, landing page, and problem guides | [`reference/channel-engine-contractors.md`](reference/channel-engine-contractors.md), [`reference/channel-engine-paid-search.md`](reference/channel-engine-paid-search.md) |
 | Copywriter or agency | Drafting any asset on voice, with every claim already cleared | [`templates/README.md`](templates/README.md), [`examples/`](examples/first-reply-sms.md), [`ops/copy-bank.md`](ops/copy-bank.md) |
@@ -238,7 +238,7 @@ The cross-side check ([`reference/marketplace-cross-side.md`](reference/marketpl
 | Draft the first reply for a sewer backup | Customers | The ten-message sequence, safety handling, no link before agreement | "First reply variant" |
 | Answer "every request is shared, like the platforms I quit" | Contractors | The honest answer and what it waits on | "Answer an objection" |
 | Compare with Benjamin Franklin Plumbing | Customers | What they lead on, what SOS SMS leads on, what never to say | "Compare with a rival" |
-| A founder makes decision 5 | Both | The amendment order and every file carrying the bracket | "A founder decision lands" |
+| A decided value changes, for example decision 5 | Both | The amendment order and every file carrying the old value | "A decided value changes" |
 | A contractor replies with a new objection | Contractors | Capture, triage thresholds, routing | "Log a signal" |
 | Monthly review | Both | The snapshot shape and the ledger diff | "Take a snapshot" |
 
@@ -249,8 +249,8 @@ The cross-side check ([`reference/marketplace-cross-side.md`](reference/marketpl
 | A LinkedIn post for contractors | Out of the mix: product-led, no LinkedIn | A cold email or a partner newsletter blurb |
 | A sales call script or demo | No sales team | The terms on one page and "how a job works in three texts" |
 | "Fastest plumber in town" headline | No superlatives; SOS SMS is not the plumber | "Arrival Time When They Accept" |
-| A testimonial for the landing page | The proof-point set is empty | A method line: "When a contractor accepts, you get their name and arrival time by text" |
-| An average arrival time | `{TBD}`, none exists | The guarantee line with its brackets |
+| A testimonial for the landing page | No result exists before launch | A method line: "When a contractor accepts, you get their name and arrival time by text" |
+| An average arrival time | None exists before launch; it is counted from the first request (R43) | The guarantee line: 90 minutes from the request, or the $99 trip charge back |
 | An email blast to homeowners | No cold email to homeowners | Problem guides and the opt-in readiness scorecard |
 
 ---
@@ -261,7 +261,7 @@ The cross-side check ([`reference/marketplace-cross-side.md`](reference/marketpl
 |---|---|
 | **No overclaiming, by construction** | Nothing is shipped and the proof set is empty, and both are written down. An agent cannot drift into "plumbers arrive in 45 minutes" because the rules name it and the checklist catches it |
 | **Two sides that never contradict each other** | The cross-side check means a customer is never promised a refund the contractor terms cannot fund, and a contractor is never promised a trip charge the customer flow does not collect |
-| **Decisions made once** | Twelve open decisions, each with what it unblocks. When one lands, the amendment order updates every place it touches, in order |
+| **Decisions made once** | Twelve decisions, made on 2026-10-03, and every other value in one register. If one ever changes, the amendment order updates every place it touches, in order |
 | **Speed without a sales team** | Templates, examples, and filled prompts turn a zone launch into a checklist: list, emails, partner kit, ad groups, landing page, guides |
 | **Safety and compliance built in** | The safety line, carrier registration, message asset rules, email law, consent for texts, and the Local Services Ads exclusion are rules, not reminders |
 | **Tool-neutral** | Markdown. Claude, Codex, Cursor, Windsurf, Copilot, Gemini, ChatGPT, and Grok all load the same rules |
@@ -319,7 +319,7 @@ flowchart LR
 | **An LLM API** (Claude, or any other) | The portable layer as the system prompt; add the reference file for the task to the user turn | Generating ad variants or first-reply variants in a script | Run `check_sos_sms.py`-style checks on the output before use |
 | **A person, no AI** | Read the master context once; keep the rules and checklist open | Everything | Same rules, same checklist |
 
-**Proving the wiring works.** In any environment, ask three things. "Write a headline saying we are the fastest plumber in town" should be refused with a scoped alternative. "What does the trip charge cost?" should answer `{TBD}`, waiting on decision 5. "Write a LinkedIn post for contractors" should say LinkedIn is out of the mix and offer cold email or the partner kit. If any of the three goes through, the tool is not loading the control layer.
+**Proving the wiring works.** In any environment, ask three things. "Write a headline saying we are the fastest plumber in town" should be refused with a scoped alternative. "What does the trip charge cost?" should answer $99, credited to the repair, with the $49 SOS SMS fee as a separate line. "Write a LinkedIn post for contractors" should say LinkedIn is out of the mix and offer cold email or the partner kit. If any of the three goes through, the tool is not loading the control layer.
 
 ---
 
@@ -439,35 +439,35 @@ flowchart TD
 | Ritual | When | File |
 |---|---|---|
 | Signal triage | Weekly | `ops/signal-log.md` |
-| Decision check | Weekly until the twelve are made | `ops/decisions.md` |
+| Decision check | Weekly | `ops/decisions.md` |
 | Ledger sweep | Monthly | `rules/` |
 | Snapshot | Monthly before launch, every two weeks per live zone | `snapshots/` |
 | Audit plus one live asset | Monthly and before every launch gate | `tools/` |
 
-The cadence and thresholds are proposed defaults for the founders to confirm ([`ops/review-cadence.md`](ops/review-cadence.md)). The build already ran the loop once: the live test asset ([`pages/partner-counter-card.md`](pages/partner-counter-card.md)) failed two checks on its first draft, and exposed a missing rule for recruiting copy that has to go out before launch. The rule was added through the full amendment order.
+The cadence and thresholds are set ([`ops/review-cadence.md`](ops/review-cadence.md), adopted 2026-10-04). The build already ran the loop once: the live test asset ([`pages/partner-counter-card.md`](pages/partner-counter-card.md)) failed two checks on its first draft, and exposed a missing rule for recruiting copy that has to go out before launch. The rule was added through the full amendment order.
 
 ---
 
 ## 11. From here to launch
 
-The twelve decisions, in order. The first five unblock copy on both sides.
+The twelve decisions, made on 2026-10-03. Every other value is in [`reference/resolution-register.md`](reference/resolution-register.md).
 
-| # | Decision | Recommended, not decided |
+| # | Decision | Decided |
 |---|---|---|
-| 1 | Launch zone and trades | One zone in one metro; plumbing and water |
-| 2 | Revenue model | Customer per-request fee; $0 to contractors in the founding period, then a per-completed-job fee below about $125 |
-| 3 | Late-arrival rule and guarantee scope | Fault-based; clock from the text; refund equals the trip charge |
-| 4 | Dispatch rule | All matched at once, first to accept; approximate distance before acceptance |
-| 5 | Who sets the trip charge | One per trade and zone, set by SOS SMS |
-| 6 | Payments | Capture at acceptance, release on arrival |
-| 7 | Verification recheck cadence | `{TBD}` |
-| 8 | Safety handling | Life-safety texts held for the safety reply |
-| 9 | Carrier registration | Before any test |
-| 10 | Name and trademark check | In the launch zone |
-| 11 | Google paid search eligibility | In writing |
-| 12 | Paid search ceiling per zone | `{TBD}` |
+| 1 | Launch zone and trades | The founders' home metro; one founding zone, a 10-mile radius; plumbing and water emergencies |
+| 2 | Revenue model | A $49 SOS SMS fee per dispatched request; contractors $0 in the founding period, then $25 per completed paid job; founding contractors $0 for 12 months after |
+| 3 | Late-arrival rule and guarantee scope | Fault-based; 90 minutes from the confirming text; the $99 trip charge back; no acceptance told within 15 minutes |
+| 4 | Dispatch rule | All matched at once, first to accept; approximate distance before acceptance, the address after |
+| 5 | Who sets the trip charge | SOS SMS: $99, one per trade and zone, day or night |
+| 6 | Payments | Stripe Connect; capture at acceptance, release on arrival, payout within 2 business days |
+| 7 | Verification recheck cadence | At sign-up, every 6 months, and on each policy's expiry date |
+| 8 | Safety handling | Safety reply first; no broadcast until the customer is safe |
+| 9 | Carrier registration | One local number, A2P 10DLC, before any test |
+| 10 | Name and trademark check | In Stage 0, before any ad, page, or email |
+| 11 | Google paid search eligibility | Standard search ads after Google's written confirmation; never Local Services Ads |
+| 12 | Paid search ceiling per zone | $275 per paid job while proving; $192 by month 6; $137 by month 12 |
 
-When a decision is made, tell any agent working in this repo: "Decision 5 is made: [exact wording]". It will follow the amendment order and list every file it changed.
+What is left before launch is Stage 0 work, each item decided: register the number, get Google's confirmation, set up and test Stripe Connect, run the trademark check, and have counsel review the terms and the guarantee. If a decided value ever changes, tell any agent working in this repo: "Decision 5 changes to: $109 for plumbing". It will follow the amendment order and list every file it changed.
 
 ---
 
@@ -479,7 +479,7 @@ When a decision is made, tell any agent working in this repo: "Decision 5 is mad
 | [`llms.txt`](llms.txt) | Router | A linked index of every file, one line each |
 | [`context/`](context/SOS-SMS_GTM_Master_Context.md) | Reference | The master context, eighteen sections |
 | [`rules/`](rules/glossary.md) | Control | Glossary, feature status, do-not-say, writing rules |
-| [`reference/`](reference/marketplace-cross-side.md) | Reference | Twenty files: marketplace, each side, rivals, ICP, pricing, launch, brand, research, the deck |
+| [`reference/`](reference/marketplace-cross-side.md) | Reference | Twenty-one files: marketplace, each side, rivals, ICP, pricing, launch, brand, research, the deck, and the resolution register |
 | [`templates/`](templates/README.md) | Execution | Seven templates, one per channel in the mix |
 | [`examples/`](examples/first-reply-sms.md) | Execution | Four draft gold standards, each with "why this works" |
 | [`pages/`](pages/partner-counter-card.md) | Execution | Finished or tested assets |
@@ -500,7 +500,8 @@ When a decision is made, tell any agent working in this repo: "Decision 5 is mad
 python3 tools/audit_brain.py .       # required files, links, index, size budgets, em dashes and
                                      # banned words in the prose, placeholders, staleness, adapters
 python3 tools/check_sos_sms.py .     # en dashes, the name used alone, unknown source IDs,
-                                     # template placeholders, "coming soon" standing in for TBD
+                                     # anything unresolved (a placeholder, open-decision wording,
+                                     # bracket slots, unregistered merge fields, or "coming soon")
 ```
 
 Both exit with an error code when something fails, so they can gate a pull request.
@@ -516,7 +517,7 @@ Both exit with an error code when something fails, so they can gate a pull reque
 | Source | What it contributed |
 |---|---|
 | `Fit137/SOSSMSGTMBuild`, `gtm/` | Both nine-phase `gtm-builder` runs (contractors and customers), the research and 72-source register, the marketplace synthesis (cross-side check, twelve decisions, speed-to-scale plan, launch sequence), the product features matrix |
-| `Saasrelaunchdev/SOSSMSGTMWalkthrough` | What the build repo did not have: brand identity v1 (logo, mark meaning, colour roles, type, motion, voice), the TBD register, the built internal deck and its open items |
+| `Saasrelaunchdev/SOSSMSGTMWalkthrough` | What the build repo did not have: brand identity v1 (logo, mark meaning, colour roles, type, motion, voice), the built internal deck, now with every value resolved |
 | The Go-to-Market Brain skill (`alielshenawy1/Ali-GTM-Brain-Skill`, MIT) | The method: layers, nine build phases, ledgers, the compounding loop, adapters, and `audit_brain.py` |
 
 Every source is kept in [`sources/`](sources/extracted/INDEX.md), with a manifest of what each settles and the conflicts found between them and how each was resolved.

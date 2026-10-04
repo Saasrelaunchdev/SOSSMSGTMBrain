@@ -7,30 +7,30 @@ The `gtm-builder` run for the customer side, executed 2026-10-01 against `../GTM
 | Input | Value used | Status |
 |---|---|---|
 | Project | SOS SMS, emergency home repair dispatch by text | From the brief |
-| Website | {TBD} | No site exists yet |
+| Website | None yet | Decided: the zone landing page, the guarantee page, and the first five problem guides from Stage 2 (R23) |
 | Category | Emergency home repair dispatch by text, two-sided marketplace | From the brief |
-| Audience | Homeowners with an urgent repair problem at home | Brief open decision 1, proposed default |
-| Niche | Plumbing and water emergencies, inside Run 1's founding contractor zone | Working assumption from Run 1 |
-| Launch metro and zone | {TBD} | Set by Run 1 Step 5.2, not yet run in the field |
+| Audience | Homeowners with an urgent repair problem at home | Decided (brief decision 1) |
+| Niche | Plumbing and water emergencies, inside Run 1's founding contractor zone | Decided (decision 1) |
+| Launch metro and zone | One founding zone, a 10-mile radius around the founding contractors' shops, in the founders' home metro | Decided (decision 1); drawn in Stage 0 |
 | Competitors | D1 Google search and call down the list, D2 Roto-Rooter, D3 Benjamin Franklin Plumbing, D4 Angi, D5 Thumbtack, D6 American Home Shield | Step 0, filled in `../../research/` |
 | Features | The nine customer items from the matrix plus three candidates | From the brief, Section 3 |
-| Business context | Team, burn, runway, channels tried: all {TBD} | Not supplied |
+| Business context | Two founders, Bryan and Ali, as supply lead and demand lead; at least 18 months of runway required; no channels tried, pre-launch | Resolved 2026-10-03 (R25, R35, R48) |
 
 ## Assumptions the run applied
 
-| Brief open decision | Assumption used | Where it matters |
+| Brief decision | Assumption used, and the decision of 2026-10-03 | Where it matters |
 |---|---|---|
 | 1. Who the demand side is | Homeowners. Renters and landlords noted where they differ; property managers excluded (a possible third run) | Phases 4, 5 |
-| 2. Launch metro and trades | Plumbing and water emergencies; metro {TBD} | Phases 2, 4, 8 |
-| 3. Customer price | Not assumed. Phase 9 recommends a structure and leaves every number {TBD} | Phases 6, 9 |
-| 4. 90-minute guarantee scope | Not assumed. Every guarantee line carries brackets for the clock start, the refund, and the covered areas and hours. Run 1 Phase 9 recommends a fault-based rule | Phases 3, 6, 7, 9 |
+| 2. Launch metro and trades | Plumbing and water emergencies. Decided: one founding zone in the founders' home metro | Phases 2, 4, 8 |
+| 3. Customer price | Decided: a $99 trip charge set by SOS SMS, credited to the repair, and a $49 SOS SMS fee per dispatched request | Phases 6, 9 |
+| 4. 90-minute guarantee scope | Decided: 90 minutes from the confirming text; the $99 trip charge back, automatically; covered areas and hours from the zone record; no charge when no one accepts. Fault-based late-arrival rule | Phases 3, 6, 7, 9 |
 | 5. Build status | Every item treated as planned. The relaunch guarantee is excluded from copy | Phases 1, 6 |
-| 6. Customer data and marketing texts | Address and job details go to the accepting contractor only; no marketing texts without separate opt-in (proposed default) | Phases 3, 6, 8 |
-| 7. Name collision | Unresolved. Flagged in Phase 8, where it matters most | Phase 8 |
+| 6. Customer data and marketing texts | Address and job details go to the accepting contractor only; no marketing texts without separate opt-in (decided) | Phases 3, 6, 8 |
+| 7. Name collision | Decided: a US trademark search and a search check in the zone in Stage 0; no bids on "SOS plumbing" (decision 10) | Phase 8 |
 
 ## Rules carried through every phase
 
-- Pre-launch: every proof point, count, arrival time, and result is {TBD}. No average arrival time and no count of homes helped, anywhere.
+- Pre-launch: no proof point, count, arrival time, or result exists, and none is invented; each unknown carries a planning value with its basis, or the method that will count it (`../../marketplace/resolution-register.md`). No average arrival time and no count of homes helped, anywhere.
 - Any line that invites an urgent text carries the safety line: for fire, a gas smell, or anyone hurt, call 911 first. Gas utilities say to leave the building and call from a safe distance, without using phones near a leak (S60).
 - Market figures carry a source ID and grade from `../../research/SOURCES.md`.
 - Claims follow `../GTM-BRIEF.md` Sections 5 and 6. No em dashes, none of the banned words.
@@ -41,7 +41,7 @@ The founders changed the motion after the first run: product-led growth, no sale
 
 | File | What changed |
 |---|---|
-| `../GTM-BRIEF.md`, `../SKILL-ADAPTATION.md` | Motion row; Phase 8 adaptation; new open decision 8, paid search eligibility |
+| `../GTM-BRIEF.md`, `../SKILL-ADAPTATION.md` | Motion row; Phase 8 adaptation; new decision 8, paid search eligibility (decided: decision 11 in the merged list) |
 | `phase-1-product-feature-matrix.md` | Demand driver is now the stop-the-water first reply; partner-distributed variants dropped |
 | `phase-4-icp.md`, `phase-5-buying-committee.md` | Engagement model and channels: search at the moment of need, then the saved number |
 | `phase-6-value-proposition.md` | Drill 1 call to action for in-the-moment traffic |

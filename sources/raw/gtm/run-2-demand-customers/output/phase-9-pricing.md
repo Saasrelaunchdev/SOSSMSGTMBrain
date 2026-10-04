@@ -1,6 +1,6 @@
 # Phase 9. Pricing and Packaging Dashboard, customer side
 
-A customer buys one emergency call, rarely. The skill's subscription tiers describe nothing they buy, so per `../SKILL-ADAPTATION.md` this phase builds the customer side of the take rate. Every SOS SMS price is {TBD} (open decision 3). Run 1 Phase 9 recommended that SOS SMS's revenue come from this side and that contractors pay nothing at launch; this phase is written to that recommendation, which the founders have not yet decided.
+A customer buys one emergency call, rarely. The skill's subscription tiers describe nothing they buy, so per `../SKILL-ADAPTATION.md` this phase builds the customer side of the take rate. The prices here were decided on 2026-10-03 (decisions 2 and 5, `../../marketplace/resolution-register.md`), from the pricing model in `../../pricing/pricing-model.md`: a $99 trip charge and a $49 SOS SMS fee per dispatched request. Run 1 Phase 9 recommended that SOS SMS's revenue come from this side and that contractors pay nothing at launch; the decision adopted it, with a contractor fee after the founding period.
 
 Live calculators are in `pricing_dashboard.xlsx`.
 
@@ -15,7 +15,7 @@ Live calculators are in `pricing_dashboard.xlsx`.
 | Per household per year (membership) | Low to medium. Emergencies are rare for any one household | Medium | High | 3.9 | Later option only; competes with home warranties (D6) |
 | Per capability (priority, after-hours premium) | Medium | Medium | High | 3.2 | Reject. An after-hours premium is the surprise fee customers complain about (S50, S51) |
 
-**Recommendation for the founders (not a decision):**
+**Decided (decision 2):**
 
 - **Primary value metric: per request.** The customer sees two lines before anyone is sent: the trip charge, credited to the repair if they go ahead, and the SOS SMS fee, which pays for dispatch and the guarantee.
 - **Secondary usage metric, for tracking:** requests per 1,000 owner-occupied homes in the zone per month.
@@ -26,9 +26,9 @@ Live calculators are in `pricing_dashboard.xlsx`.
 <!-- sheet: Packaging -->
 | Plan | Price | What it covers | Guarantee | Position | Target share of requests |
 |---|---|---|---|---|---|
-| Standard request | Trip charge {TBD} plus SOS SMS fee {TBD} | Dispatch to the matched contractors; the trip; the trip charge credited to the repair if the customer goes ahead | 90-minute guarantee, scope per open decision 4 | Default | About all requests at launch |
-| Request outside covered hours (if offered at all) | Same | Same | None, stated before the customer agrees | Only if the founders choose to serve hours below the density target | {TBD}, possibly zero |
-| Household membership (flag only) | {TBD} a year | Reduced or waived SOS SMS fee | Same | Later option; competes with home warranties | 0 at launch |
+| Standard request | Trip charge $99 plus SOS SMS fee $49, two lines | Dispatch to the matched contractors; the trip; the trip charge credited to the repair if the customer goes ahead | 90-minute guarantee: 90 minutes from the confirming text; the $99 trip charge back on a miss | Default | About all requests at launch |
+| Request outside covered hours | Not dispatched | Stop-the-water steps and the safety line by text, free | None | Not offered at launch: the guarantee and the ads run only in covered hours (R15) | 0 |
+| Household membership | Not offered at launch | n/a | n/a | A later option only; competes with home warranties (R19) | 0 |
 
 Not offered: requests outside the founding zone. Those customers are told plainly that SOS SMS does not cover their area yet.
 
@@ -38,11 +38,11 @@ Not offered: requests outside the founding zone. Those customers are told plainl
 2. Neighbor referral through the forwardable contact card.
 3. Repeat use by the same household, rare by nature.
 4. A household membership, later, if repeat use and saved-number rates show it would be valued.
-5. Property managers, as a separate future run (open decision 1).
+5. Property managers, as a separate future run (the demand side is homeowners, brief decision 1).
 
 ## Guarantee economics
 
-What the 90-minute guarantee costs SOS SMS depends on Run 1's late-arrival rule. Under the recommended fault-based rule (Run 1, option C), a contractor who misses their own committed time funds the refund from their trip charge, and SOS SMS pays only for misses it causes: no acceptance in time, or dispatch failure.
+What the 90-minute guarantee costs SOS SMS depends on Run 1's late-arrival rule. Under the decided fault-based rule (Run 1, option C; decision 3), a contractor who misses their own committed time funds the refund from their trip charge, and SOS SMS pays only for misses it causes: no acceptance in time, or dispatch failure.
 
 Expected refund cost per request = (share of requests where SOS SMS causes a miss) × (refund amount). With the refund equal to the trip charge T, the SOS SMS fee must cover at least that share of T before processing and operations.
 
@@ -54,7 +54,7 @@ Expected refund cost per request = (share of requests where SOS SMS causes a mis
 | 10 percent | 0.10 × T | 10 percent of T |
 | 20 percent | 0.20 × T | 20 percent of T |
 
-Under option B (SOS SMS absorbs every miss), replace "SOS-caused" with all misses, and the fee must cover the full miss rate. The miss rate is {TBD} until the founding zone runs. The table is arithmetic, not a forecast.
+Under option B (SOS SMS absorbs every miss), replace "SOS-caused" with all misses, and the fee must cover the full miss rate. The SOS-caused miss share is planned at 5 percent (R29) until the founding zone runs: $4.95 of reserve per request on the $99 trip charge. The table is arithmetic, not a forecast.
 
 ## Paid acquisition economics
 
@@ -64,7 +64,7 @@ Added 2026-10-01 for the product-led motion, where paid search is the first cust
 
 **Blended cost per paid job = (1 - owned share of requests) × paid cost per paid job**, where the owned share is requests from saved numbers, shares, and organic pages.
 
-Illustrative, using market benchmarks and an assumed 50 percent first-text-to-paid rate ({TBD} until measured):
+Illustrative, using market benchmarks and a planned 50 percent first-text-to-paid rate (R30), replaced by the measured rate once the zone runs:
 
 <!-- sheet: Paid_Acquisition -->
 | Basis | Cost per click | Click to first text | Cost per first text | Paid cost per paid job at 50 percent | Source and grade |
@@ -92,7 +92,7 @@ Context the customer already feels. SOS SMS does not claim to prevent damage, so
 <!-- sheet: ROI_Anchors -->
 | Problem Scenario | Cost Without Solution | SOS SMS Cost | ROI Multiple |
 |---|---|---|---|
-| Water damage that becomes an insurance claim | Average water damage and freezing claim $13,954 (2018 to 2022) (S57, B) | Trip charge {TBD} plus fee {TBD}, trip charge credited to the repair | Not computed. SOS SMS gets a contractor there; it does not claim to prevent the damage |
+| Water damage that becomes an insurance claim | Average water damage and freezing claim $13,954 (2018 to 2022) (S57, B) | Trip charge $99 plus SOS SMS fee $49, the trip charge credited to the repair | Not computed. SOS SMS gets a contractor there; it does not claim to prevent the damage |
 | Waiting until morning | EPA: dry water-damaged areas within 24 to 48 hours to prevent mold (S58, A) | Same | Not computed, same reason |
 
 ### Anchor 2. Alternative comparison
@@ -102,44 +102,44 @@ What the customer pays or risks before the repair starts. The anchor that closes
 <!-- sheet: ROI_Anchors -->
 | Alternative | Their Cost Before the Repair | What They Promise on Arrival | SOS SMS | Source and grade |
 |---|---|---|---|---|
-| D1 Search and call, after hours | Service call fees commonly $150 to $250 after hours; labor 1.5 to 3 times standard rates | Nothing, unless the business offers it | Trip charge {TBD}, credited to the repair; fee {TBD} | S50, C |
+| D1 Search and call, after hours | Service call fees commonly $150 to $250 after hours; labor 1.5 to 3 times standard rates | Nothing, unless the business offers it | Trip charge $99, credited to the repair; SOS SMS fee $49 | S50, C |
 | D2 Roto-Rooter | No extra charge for nights, weekends, holidays; job price varies | Typically within two hours for true emergencies, no refund promise (C) | Same | S41, A and C |
-| D3 Benjamin Franklin | Varies by franchise | $5 a minute late, up to $300, on scheduled appointments | Same; [the trip charge] back if not there within 90 minutes of [scope] | S40, A |
+| D3 Benjamin Franklin | Varies by franchise | $5 a minute late, up to $300, on scheduled appointments | Same; the $99 trip charge back if no one is there within 90 minutes of the request | S40, A |
 | D4 Angi, D5 Thumbtack | Free to request; booking prices vary | No arrival guarantee found; guarantees cover the work | Same | S44 to S46, A |
 | D6 American Home Shield | Service fee typically $75 to $125, for covered failures | Contractor contacted within 4 business hours, or 48 hours on weekends and holidays; no guarantee of timely emergency service | Same | S20, B; S56, C |
 | Do it yourself, or wait | $0 tonight | n/a; the damage keeps going | Same | S57, S58 |
 
-Savings percentage against each alternative is {TBD} until the trip charge and fee exist. Two honest positions SOS SMS can take now: against D6, a covered failure is usually cheaper through the warranty, and SOS SMS should say so; against D1, the comparison is the after-hours service call fee against the trip charge, which is credited if the work goes ahead.
+Against D1, the customer pays $148 before the repair, as two lines ($99 trip charge, credited to the repair, plus the $49 SOS SMS fee), at or under the $150 to $250 after-hours call fee: about 1 to 41 percent less. Internal only, because S50 is grade C, and never shown to a customer as one total. Two honest positions SOS SMS can take: against D6, a covered failure is usually cheaper through the warranty, and SOS SMS should say so; against D1, the comparison is the after-hours service call fee against the trip charge, which is credited if the work goes ahead.
 
 ### Anchor 3. Breakeven
 
 **Customer view.** If the customer goes ahead with the repair, the trip charge is credited, so the extra cost of using SOS SMS instead of reaching a plumber directly is the SOS SMS fee, plus any difference between SOS SMS's trip charge and the plumber's own after-hours call fee. Breakeven: the fee is worth paying when not having to find someone at night, plus the guarantee, is worth more to the customer than the fee. That is a judgment, not a number, and the first reply should make it easy by stating both lines.
 
-**SOS SMS view.** The fee must at least cover refund cost per request (guarantee economics, above), payment processing ({TBD}), and operations ({TBD}).
+**SOS SMS view.** The fee must at least cover refund cost per request (guarantee economics, above), payment processing (2.9 percent plus $0.30 a charge, R31), and operations ($5.30 a request, R31). At a 5 percent SOS-caused miss share and a 65 percent target margin, the floor is about $42, and the $49 fee clears it (pricing model).
 
 <!-- sheet: ROI_Anchors -->
 | Plan | Price per Request | Cost Components SOS SMS Must Cover | Breakeven Condition | Payback Period |
 |---|---|---|---|---|
-| Standard request | Trip charge {TBD} plus fee F {TBD} | Refunds (share × T), processing, operations | F ≥ (SOS-caused miss share × T) + processing + operations per request | n/a for a per-request price |
+| Standard request | Trip charge T of $99 plus fee F of $49 | Refunds (share × T), processing, operations | F ≥ (SOS-caused miss share × T) + processing + operations per request: $49 against a floor of about $42 | n/a for a per-request price |
 
 ### "One outcome" message, adapted
 
-The skill's "one outcome pays for X years" does not apply to a single emergency call. The adapted message, for the guarantee page, with brackets until open decision 4 is settled:
+The skill's "one outcome pays for X years" does not apply to a single emergency call. The adapted message, for the guarantee page, written to decision 3:
 
 <!-- sheet: ROI_Anchors -->
 | Outcome | Message |
 |---|---|
-| The window is missed | "If your contractor isn't there within 90 minutes of [your text], [the trip charge] comes back to you, automatically." |
-| The work goes ahead | "Your [trip charge] counts toward the bill, so you don't pay twice." |
+| The window is missed | "If your contractor isn't there within 90 minutes of your request, the $99 trip charge comes back to you, automatically." |
+| The work goes ahead | "Your $99 trip charge counts toward the bill, so you don't pay twice." |
 
-## Pricing decisions the founders need to make, in order
+## Pricing decisions, decided 2026-10-03
 
 <!-- sheet: Decisions -->
-| # | Decision | Recommended | Blocks |
+| # | Decision | Decided | Where it shows |
 |---|---|---|---|
-| 1 | Where SOS SMS revenue comes from (shared with Run 1) | A per-request SOS SMS fee on the customer side; $0 to contractors during the founding period, then a per-completed-job contractor fee, because paid search costs are unlikely to be covered by the customer fee alone | Phases 6 and 8, both runs |
-| 2 | The guarantee scope (open decision 4) | Clock starts at the customer's text; refund equal to the trip charge; covered areas and hours named; when no one accepts, the customer is told within {TBD} minutes and pays nothing | Phase 6 drill 3; the guarantee page |
-| 3 | Who sets the trip charge | One SOS SMS trip charge per trade and zone, so the customer sees one price before dispatch | First reply; Run 1 terms |
-| 4 | Is the SOS SMS fee refunded on a miss too | Yes, if the miss is SOS-caused; it makes the promise simpler to state | Guarantee page |
-| 5 | What happens for customers without a card | {TBD}: a pay-on-arrival path with the contractor, without the guarantee, stated plainly | Phase 7 blocker |
-| 6 | The paid search ceiling per zone | {TBD}: the highest blended cost per paid job the founders will accept while proving a zone, and the date by which it must fall | Phase 8 Channel 1 budgets; speed-to-scale plan, section 8 |
+| 1 | Where SOS SMS revenue comes from (shared with Run 1) | A $49 SOS SMS fee per dispatched request on the customer side; $0 to contractors during the founding period, then $25 per completed paid job, because paid search costs are not covered by the customer fee alone | Phases 6 and 8, both runs |
+| 2 | The guarantee scope (decision 3) | 90 minutes from the customer's confirming text; the refund is the $99 trip charge, automatic; covered areas and hours named on the zone page; when no one accepts, the customer is told within 15 minutes and pays nothing | Phase 6 drill 3; the guarantee page |
+| 3 | Who sets the trip charge | SOS SMS: one $99 trip charge per trade and zone, so the customer sees one price before dispatch | First reply; Run 1 terms |
+| 4 | Is the SOS SMS fee refunded on a miss too | No. The refund is the $99 trip charge; the SOS SMS fee carries the guarantee's refund reserve. One amount keeps the promise simple to state | Guarantee page |
+| 5 | What happens for customers without a card | No pay-on-arrival path at launch: dispatch needs a card or a phone wallet through the payment link; without one, the customer gets the free help by text and pays nothing | Phase 7 blocker |
+| 6 | The paid search ceiling per zone | $275 per paid job while proving a zone, falling to $192 by the end of month 6 and to $137 by the end of month 12 | Phase 8 Channel 1 budgets; speed-to-scale plan, section 8 |

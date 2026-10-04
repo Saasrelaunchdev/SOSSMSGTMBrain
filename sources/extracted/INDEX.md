@@ -14,7 +14,7 @@ Every artifact the brain distills, what it settles, and where it went in the bra
 
 | Artifact | What it settles | Feeds |
 |---|---|---|
-| `gtm/run-1-supply-contractors/GTM-BRIEF.md`, `SKILL-ADAPTATION.md`, `RESEARCH-PROMPTS.md` | Contractor inputs, claim constraints, open decisions | `rules/do-not-say.md`, `ops/decisions.md` |
+| `gtm/run-1-supply-contractors/GTM-BRIEF.md`, `SKILL-ADAPTATION.md`, `RESEARCH-PROMPTS.md` | Contractor inputs, claim constraints, the brief's decisions | `rules/do-not-say.md`, `ops/decisions.md` |
 | `gtm/run-1-supply-contractors/output/phase-1` to `phase-9`, lead magnet, deck, run log | The contractor GTM | `reference/` contractor files, `context/` sections 6 to 15 |
 | `gtm/run-2-demand-customers/` (same set) | The customer GTM | `reference/` customer files, `context/` sections 6 to 15 |
 | `gtm/research/` | Competitor slates, research, 72 graded sources | `reference/research-and-sources.md`, `reference/competitive-analysis.md` |
@@ -22,11 +22,12 @@ Every artifact the brain distills, what it settles, and where it went in the bra
 | `gtm/marketplace/speed-to-scale-plan.md`, `launch-sequence.md` | Growth gates, unit economics, stages | `reference/launch-and-growth.md`, `reference/pricing-and-economics.md` |
 | `gtm/marketplace/marketplace_walkthrough.md` | The ten-slide marketplace summary | `context/` |
 | `walkthrough/brand-book.html`, `tokens.css`, `palette-validation.md`, `brand-README.md` | Brand v1 | `reference/brand-identity.md`, `brand/logo/` |
-| `walkthrough/NOTES.md`, `walkthrough-README.md`, `vercel.json` | Deck build state, open items, deploy | `reference/gtm-walkthrough-deck.md` |
-| `walkthrough/TBD-REGISTER.md` | Every {TBD} in the knowledge base (244 occurrences) | The rule that none is filled |
+| `walkthrough/NOTES.md`, `walkthrough-README.md`, `vercel.json` | Deck build state, the dated decision log, deploy | `reference/gtm-walkthrough-deck.md` |
+| `gtm/marketplace/resolution-register.md` (2026-10-03, R50 added 2026-10-04) | Every former unknown and founder decision, resolved: decided, planning value, counted at, merge fields | `reference/resolution-register.md`, `ops/decisions.md`, every `rules/` file |
+| `gtm/pricing/pricing-model.md`, `pricing-handoff.md` (2026-10-03) | The pricing model as tables, and its handoff | `reference/pricing-and-economics.md` |
 
 ## What the walkthrough repo added that the build repo did not have
-Brand identity v1 (logo files, mark meaning, palette in twelve roles, type, motion, voice, the cover line); the TBD register; the built deck and its QC results; the deploy configuration and its open items; three minor spec discrepancies. Everything else in the walkthrough `knowledge/` is a copy of the build repo's `gtm/`.
+Brand identity v1 (logo files, mark meaning, palette in twelve roles, type, motion, voice, the cover line); the built deck and its QC results; the deploy configuration; three minor spec discrepancies, all settled 2026-10-04. Everything else in the walkthrough `knowledge/` is a copy of the build repo's `gtm/`.
 
 ## Conflicts found, and how they were resolved
 

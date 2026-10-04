@@ -8,7 +8,7 @@ Run Step 0 first. Everything after it depends on the slate it produces.
 
 These prompts are for the customer run only. The contractor run has its own set in `../run-1-supply-contractors/RESEARCH-PROMPTS.md`. Expect almost no overlap between the two slates: a contractor compares SOS SMS with ways to get jobs, a homeowner compares it with ways to get someone to the door.
 
-Before pasting any prompt, replace `[launch metro]` and `[trades]` with the answers from Run 1's Step 5.2.
+Before pasting any prompt, replace `{{launch metro}}` and `{{trades}}` with the answers from Run 1's Step 5.2.
 
 ---
 
@@ -27,8 +27,8 @@ pays a trip charge up front, credited to the job if they go ahead, and there
 is a 90-minute arrival guarantee. I am looking at it from the customer's side:
 what people do today when something breaks at home and they need someone now.
 
-Launch area: [launch metro]
-Trades: [trades]
+Launch area: {{launch metro}}
+Trades: {{trades}}
 
 Find me real, currently operating examples in each of these categories.
 For each, give the name, the website URL, what the customer pays before
@@ -37,7 +37,7 @@ who and where they serve.
 
 1. On-demand home repair services that promise a fast arrival for urgent
    jobs, by app, web, or text
-2. The top local search and maps results for "emergency [trade] near me" in
+2. The top local search and maps results for "emergency {{trade}} near me" in
    the launch area: the contractors a customer would call down a list
 3. Not a company: where people in the launch area ask for help finding
    someone now, in neighborhood apps and local community groups. Find real
@@ -86,12 +86,12 @@ For each competitor below, gather:
 - Refund policy and any guarantee, and how it is hedged
 
 COMPETITORS TO RESEARCH:
-1. [name] - [url]
-2. [name] - [url]
-3. [name] - [url]
-4. [name] - [url]
-5. [name] - [url]
-6. [name] - [url]
+1. {{name}} - {{url}}
+2. {{name}} - {{url}}
+3. {{name}} - {{url}}
+4. {{name}} - {{url}}
+5. {{name}} - {{url}}
+6. {{name}} - {{url}}
 
 OUR FEATURES TO VALIDATE:
 1. One text reaches every matched contractor in the area at once
@@ -130,7 +130,7 @@ Return findings in a structured format.
 
 ```
 I need competitive research for the emergency home repair category, with
-focus on homeowners in [launch metro] who need a [trades] contractor now.
+focus on homeowners in {{launch metro}} who need a {{trades}} contractor now.
 
 RESEARCH SCOPE
 
@@ -145,11 +145,11 @@ For each competitor below, gather:
 - What the customer pays before anyone arrives, if public
 
 COMPETITORS TO RESEARCH:
-1. [name] - [url]
-2. [name] - [url]
-3. [name] - [url]
-4. [name] - [url]
-5. [name] - [url]
+1. {{name}} - {{url}}
+2. {{name}} - {{url}}
+3. {{name}} - {{url}}
+4. {{name}} - {{url}}
+5. {{name}} - {{url}}
 6. SOS SMS (ours) - no website yet
 
 SOURCES TO CHECK:
@@ -166,7 +166,7 @@ names: do not confuse any of them with SOS SMS.
 Return findings in a structured format matching the attributes above.
 ```
 
-**Note on our own row.** The skill asks you to research your own product alongside the competitors. SOS SMS has no website and no reviews, so fill that row from `GTM-BRIEF.md` Section 1 rather than from a crawl, and mark strengths and weaknesses `{TBD}` rather than writing aspirational ones. A self-assessment written as evidence is the fastest way to get a wrong Phase 2.
+**Note on our own row.** The skill asks you to research your own product alongside the competitors. SOS SMS has no website and no reviews, so fill that row from `GTM-BRIEF.md` Section 1 rather than from a crawl, and state strengths and weaknesses by design, with the weaknesses written plainly, rather than writing aspirational ones. A self-assessment written as evidence is the fastest way to get a wrong Phase 2.
 
 ---
 
@@ -196,11 +196,11 @@ WHAT CUSTOMERS DISLIKE OR WISH FOR:
 - These are the openings
 
 COMPETITORS TO ANALYSE:
-1. [name] - [url]
-2. [name] - [url]
-3. [name] - [url]
-4. [name] - [url]
-5. [name] - [url]
+1. {{name}} - {{url}}
+2. {{name}} - {{url}}
+3. {{name}} - {{url}}
+4. {{name}} - {{url}}
+5. {{name}} - {{url}}
 
 WHERE TO LOOK:
 - Maps and search reviews, filtered to reviews that mention emergency,

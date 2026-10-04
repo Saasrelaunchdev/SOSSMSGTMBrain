@@ -15,9 +15,9 @@ Emergency demand shows up as a search. Meet it there, answer the urgent question
 - **Never pose as the plumber.** Every ad and page says SOS SMS dispatches licensed, insured contractors.
 - **No Local Services Ads.** Reselling or re-routing leads is barred (S70). Standard search ads: plumbing is not on Google's US restricted list (S71), but confirm in writing first (decision 11).
 - **Message assets (S72).** Verified business details, a stated response time, automated replies that say so, a defined human handoff.
-- **Claims.** No superlatives, no arrival averages, no "24/7" unless the zone's covered hours are. The guarantee appears only once decision 3 sets its scope, with the scope on the landing page.
+- **Claims.** No superlatives, no arrival averages, no "24/7" unless the zone's covered hours are. The guarantee appears with its scope on the landing page (decision 3).
 - **Safety.** The safety line on every landing page and in one ad description.
-- **Brand terms.** No bids on "SOS plumbing" until decision 10 is done.
+- **Brand terms.** No bids on "SOS plumbing" (decision 10).
 - **Optimize for a paid request**, not a click or a first text. Cost per paid job by zone decides spend.
 
 ## Ad drafts, zone template (headlines max 30 characters, descriptions max 90)
@@ -32,15 +32,15 @@ Emergency demand shows up as a search. Meet it there, answer the urgent question
 | No App. No Phone Tree. | |
 | Water Leaking? Text Us Now / Sewer Backup? Text for Help / Ceiling Dripping? Text Us | Problem ad groups |
 | Steps to Stop the Water Now | |
-| Only One Pro Gets Your Info | Only once conflict C is designed |
-| Plumbers Near [Zone name] | Per zone |
-| [Guarantee headline] | Written once decision 3 is made |
+| Only One Pro Gets Your Info | Only once the broadcast that hides identity ships (decision 4) |
+| Plumbers Near {{zone name}} | Per zone; at most 30 characters once filled |
+| 90 Minutes or Trip Charge Back | The guarantee (decision 3); scope on the landing page |
 | Text what broke. Vetted local plumbers on SOS SMS see it at once. Trip charge shown first. | |
 | Get steps to stop the water right away, then a licensed plumber with an arrival time. | |
 | Fire, gas smell, or anyone hurt? Call 911 first. For leaks and backups, text SOS SMS. | The safety description |
 
 ## Method: plan, write, edit
-1. **Plan.** Confirm the zone is at density and the covered hours. Pick the ad group (emergency, problem, prevention) and its landing page. List the brackets the asset carries.
+1. **Plan.** Confirm the zone is at density and the covered hours. Pick the ad group (emergency, problem, prevention) and its landing page. List the merge fields the asset carries.
 2. **Write.** Name the problem, then the next step, then the mechanic. Value before payment. Use `value-proposition-customers.md` drills.
 3. **Edit.** Count characters. Run `ops/QA-checklist.md`, the search ads block included.
 

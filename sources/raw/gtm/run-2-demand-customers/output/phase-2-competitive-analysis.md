@@ -20,12 +20,12 @@ Done, see `../../research/demand-research.md`, Step 2.1.
 <!-- sheet: Summary -->
 | Attribute | SOS SMS | D1 Search and call | D2 Roto-Rooter | D3 Benjamin Franklin | D4 Angi | D5 Thumbtack | D6 American Home Shield |
 |---|---|---|---|---|---|---|---|
-| Website | {TBD} | google.com | rotorooter.com | benjaminfranklinplumbing.com | angi.com | thumbtack.com | ahs.com |
-| Tagline | {TBD}, see Phase 6 | n/a | Away go troubles down the drain | The Punctual Plumber | And done | Hire Service Pros | Home Warranty Plans by American Home Shield |
-| Sub Tag | {TBD} | n/a | 24/7, no extra charge nights, weekends, holidays | If There's Any Delay, It's You We Pay: $5 a minute, up to $300 | Book and pay with Angi for the Happiness Guarantee | Get prices, read reviews, message pros | Service requests 24/7 |
+| Website | None yet: the zone landing page, from Stage 2 | google.com | rotorooter.com | benjaminfranklinplumbing.com | angi.com | thumbtack.com | ahs.com |
+| Tagline | Text once, and a vetted contractor is on the way | n/a | Away go troubles down the drain | The Punctual Plumber | And done | Hire Service Pros | Home Warranty Plans by American Home Shield |
+| Sub Tag | The price before anyone comes | n/a | 24/7, no extra charge nights, weekends, holidays | If There's Any Delay, It's You We Pay: $5 a minute, up to $300 | Book and pay with Angi for the Happiness Guarantee | Get prices, read reviews, message pros | Service requests 24/7 |
 | Description | One text reaches the vetted contractors on SOS SMS for the trade, all at once; one accepts with an arrival time; trip charge stated up front and credited to the work; 90-minute guarantee | Search, then call contractors until someone answers; each sets its own after-hours fees | National 24/7 plumbing and water cleanup brand | National plumbing franchise built on a punctuality guarantee | Quote marketplace and pre-priced bookings | Quote marketplace; several pros reply within minutes | Home warranty; plan holders file claims and pay a service fee |
-| Strengths | {TBD}, nothing live | Free, immediate, the customer is in control | Always open; no after-hours surcharge; known brand | Money-backed punctuality | Happiness Guarantee; upfront prices on pre-priced services | Fast replies; money-back guarantee | Covered repairs cost only the service fee |
-| Weaknesses | {TBD}, nothing live | Unanswered calls at night; surprise fees; no-shows | Upselling and high job prices (C) | Upselling and expensive add-ons (C); guarantee covers scheduled appointments | Flood of calls after one request; Trustpilot 2.2 | Several pros contact the customer | Contractor contact within 48 hours on weekends by contract; no guarantee of timely emergency service |
+| Strengths | By design: one text to every matched contractor; an arrival time on acceptance; the trip charge back on a miss. Nothing live | Free, immediate, the customer is in control | Always open; no after-hours surcharge; known brand | Money-backed punctuality | Happiness Guarantee; upfront prices on pre-priced services | Fast replies; money-back guarantee | Covered repairs cost only the service fee |
+| Weaknesses | No track record yet; open only in zones at density | Unanswered calls at night; surprise fees; no-shows | Upselling and high job prices (C) | Upselling and expensive add-ons (C); guarantee covers scheduled appointments | Flood of calls after one request; Trustpilot 2.2 | Several pros contact the customer | Contractor contact within 48 hours on weekends by contract; no guarantee of timely emergency service |
 
 Sources: S09, S20, S40, S41, S44 to S52, S56, S65 to S68.
 
@@ -141,14 +141,14 @@ SOS SMS marks are planned features. Marks not tied to a source ID in Step 2.1 ar
 | F4 Request by text, no app | ✓ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ |
 | F5 Arrival time given | ✓ | ✗ | ✓ | ✓ | ✓ | ✗ | ✗ |
 | F6 Money-back arrival guarantee | ✓ | ✗ | ✗ | ✓ | ✗ | ✗ | ✗ |
-| F7 Upfront price or range for the work | ✗, candidate item 11 | ✗ | ✗ | ✗ | ✓ | ✗ | ✗ |
+| F7 Upfront price or range for the work | ✗, not offered at launch | ✗ | ✗ | ✗ | ✓ | ✗ | ✗ |
 | F8 Trip fee stated before dispatch | ✓ | ✗ | ✗ | ✗ | ✓ | ✗ | ✓ |
 | F9 Trip fee credited to the work | ✓ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ |
-| F10 No after-hours surcharge | {TBD} | ✗ | ✓ | ✗ | ✗ | ✗ | ✓ |
+| F10 No after-hours surcharge | ✓ | ✗ | ✓ | ✗ | ✗ | ✗ | ✓ |
 | F11 Vetting | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | F12 Ratings shown | ✓ | ✓ | ✗ | ✗ | ✓ | ✓ | ✗ |
-| F13 Guarantee on the work | {TBD} | ✗ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| F14 Photos with request | ✗, candidate item 10 | ✗ | ✗ | ✗ | ✓ | ✓ | ✗ |
+| F13 Guarantee on the work | ✗ | ✗ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| F14 Photos with request | ✓ | ✗ | ✗ | ✗ | ✓ | ✓ | ✗ |
 | F15 Covered repair cost | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✓ |
 | F16 App needed to book | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ |
 
@@ -190,13 +190,15 @@ Notes. F4: many individual plumbers accept texts through texting software (S64),
 | No surprise bill | ★★☆☆☆ | ★☆☆☆☆ | ★★☆☆☆ | ★★☆☆☆ | ★★★★☆ | ★★☆☆☆ | ★★★☆☆ |
 | Decide with the number in front of you | ★★★★☆ | ★★☆☆☆ | ★★★☆☆ | ★★☆☆☆ | ★★★★☆ | ★★☆☆☆ | ★★★★☆ |
 | Do not pay twice | ★★★★☆ | ★★☆☆☆ | ★★☆☆☆ | ★★☆☆☆ | ★★★☆☆ | ★★☆☆☆ | ★★★☆☆ |
-| 2 a.m. does not cost double | {TBD} | ★☆☆☆☆ | ★★★★★ | ★★☆☆☆ | ★★☆☆☆ | ★★☆☆☆ | ★★★★☆ |
+| 2 a.m. does not cost double | ★★★☆☆ | ★☆☆☆☆ | ★★★★★ | ★★☆☆☆ | ★★☆☆☆ | ★★☆☆☆ | ★★★★☆ |
 | Checked before they arrive | ★★★★☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★☆☆ |
 | Others' experience first | ★★★☆☆ | ★★★★☆ | ★★★☆☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ | ★★☆☆☆ |
-| Recourse if the repair fails | {TBD} | ★☆☆☆☆ | ★★★☆☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ | ★★★☆☆ |
+| Recourse if the repair fails | ★★☆☆☆ | ★☆☆☆☆ | ★★★☆☆ | ★★★☆☆ | ★★★★☆ | ★★★★☆ | ★★★☆☆ |
 | Right parts first time | ★★☆☆☆ | ★☆☆☆☆ | ★★☆☆☆ | ★★☆☆☆ | ★★★☆☆ | ★★★☆☆ | ★★☆☆☆ |
 | Covered failures cost only the fee | ★☆☆☆☆ | ★☆☆☆☆ | ★☆☆☆☆ | ★☆☆☆☆ | ★☆☆☆☆ | ★☆☆☆☆ | ★★★★★ |
 | Nothing to install | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★★★☆ |
+
+SOS SMS scores, decided 2026-10-03: "2 a.m. does not cost double" is three stars because the trip charge and the SOS SMS fee are the same day or night, while the price for the work is the contractor's. "Recourse if the repair fails" is two stars: no guarantee on the repair (R21), but every contractor's license and insurance is checked.
 
 ## Step 2.13 and 2.14. Competitive advantage and explanation
 
@@ -219,7 +221,7 @@ Impact: a name people already know at 2 a.m. wins the first call without any per
 
 **Vector 2: Guarantee on the work itself**
 Leader: D4 Angi, then D5 Thumbtack.
-Impact: the marketplaces use guarantees to make strangers safe to hire, which converts quote requests into bookings. SOS SMS does not compete here unless the founders decide to stand behind workmanship.
+Impact: the marketplaces use guarantees to make strangers safe to hire, which converts quote requests into bookings. SOS SMS does not compete here: its guarantee covers arrival, not the repair (decided, R21).
 
 **Vector 3: Guaranteed arrival window**
 Leader: SOS SMS, projected (8.8), with D3 Benjamin Franklin close behind for scheduled work.

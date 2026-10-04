@@ -4,7 +4,7 @@
 - Two full GTM runs, one per side, never blended: contractors first, customers second, product-led with no sales team
 - Contractor promise: no charge to see a request, and the trip paid before you roll
 - Customer promise: one text reaches the vetted contractors nearby, and a missed 90-minute window costs SOS SMS money
-- So what: every metric is {TBD}, and supply density decides where the customer side can open
+- So what: every metric is a planning value until a zone runs, and supply density decides where the customer side can open
 
 ---
 
@@ -13,7 +13,7 @@
 - Contractors: the trip charge collected before rolling scored highest on competitiveness; "no lead fees" is wanted by all but not unique
 - Customers: the 90-minute guarantee scored highest on both axes; text-only and privacy are mechanics, not "only we"
 - Every "Unique To Us" rating on a named item in the source matrix failed either the skill's validation rule or the research
-- New finding on the customer side: a price range before arrival is wanted by all and not yet planned
+- New finding on the customer side: a price range before arrival is wanted by all; it is not offered at launch (R49), and the $99 trip charge is stated before dispatch instead
 - So what: lead with being paid to show up on one side and the guaranteed window on the other
 
 ---
@@ -52,7 +52,7 @@
 
 - Contractor shops: technician, dispatcher, owner; the dispatcher is the likely blocker
 - Customers: one person deciding in minutes; the payment link from an unknown number is the blocker
-- The founding contractor cohort is sized by a density model; the acceptance rate it depends on is {TBD}
+- The founding contractor cohort is sized by a density model: 9 plumbing contractors at a planned acceptance rate of 0.30, measured by hour band in Stage 1
 - The founding customer area is the neighborhoods inside that cohort's coverage
 - So what: both first impressions are written documents: the terms on one page and the first reply text
 
@@ -82,7 +82,7 @@
 
 - Contractors: cold email, a partnership program, and an in-product referral loop, all self-serve
 - Customers: paid search on Google then Microsoft, problem-solving pages, and product loops
-- First assets to build: the terms on one page and the stop-the-water first reply, both waiting on founder decisions
+- First assets to build: the terms on one page and the stop-the-water first reply, both written to the twelve decisions
 - Ads run only in zones and hours at density; Local Services Ads are closed to a dispatch model
 - So what: the asset order follows the launch gates, supply first
 
@@ -90,9 +90,9 @@
 
 # SLIDE 10, Pricing and Packaging Dashboards: The Take Rate
 
-- Recommended: customers pay a trip charge credited to the repair plus an SOS SMS fee; contractors pay $0 in the founding period, then a per-completed-job fee
-- Recommended late-arrival rule: fault-based, tied to the arrival time the contractor commits to inside the window
+- Decided: customers pay a $99 trip charge credited to the repair plus a $49 SOS SMS fee; contractors pay $0 in the founding period, then $25 per completed paid job
+- Late-arrival rule: fault-based, tied to the arrival time the contractor commits to inside the window; the refund is the $99 trip charge
 - Paid search runs about $137 to $216 per first text on plumbing benchmarks, so revenue from both sides and a rising owned share are what close the economics
-- Any future contractor fee would be per completed paid job, below the cheapest per-lead alternative's cost per booked job
-- Twelve founder decisions, listed in the cross-side check, unblock both runs
-- So what: every SOS SMS price is {TBD}, and the structure is ready for the numbers
+- The contractor fee is per completed paid job, far below the cheapest per-lead alternative's cost per booked job
+- The twelve decisions, listed in the cross-side check, were made on 2026-10-03 and unblock both runs
+- So what: SOS SMS takes $49 per completed job in the founding period and $74 after it, and the owned share decides when paid search pays back

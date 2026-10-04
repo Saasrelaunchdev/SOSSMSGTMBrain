@@ -20,7 +20,7 @@ The owner-operator is the User, the Manager, and the Decision Maker. One column,
 | Assets to Get Buy-In | The terms on one page (what you pay, when you get paid, what you commit to); "how a job works in three texts"; the Lead Cost Check if they buy any leads |
 | Channels to Find Them | Cold email to their published business address; supply house counters and partner newsletters; referrals from other contractors in the product |
 
-Possible second person, to confirm in interviews: some owner-operators have a family member who handles the books or the phone. If interviews confirm it, that person is an influencer on onboarding and payout setup, not a buyer.
+Possible second person, checked in the founding contractor survey: some owner-operators have a family member who handles the books or the phone. Where the survey shows it, that person is an influencer on onboarding and payout setup, not a buyer.
 
 ### ICP Level 2: small shop (committee holds)
 
@@ -47,7 +47,7 @@ For a pre-launch marketplace this is the most valuable step in the run. The coho
 |---|---|
 | Design Partner Attributes | Licensed and insured; takes emergency calls; has spare after-hours capacity at least some nights; willing to credit the trip charge and commit to an arrival time; willing to give feedback after early jobs |
 | Job Titles | Owner of a small plumbing or water damage shop (Level 2); owner-operator (Level 1) |
-| Demographics | Established local business inside the launch metro {TBD}; plumbing and water emergencies first |
+| Demographics | Established local business inside the founding zone, in the founders' home metro; plumbing and water emergencies first |
 | Responsibility Areas | Decides which jobs the business takes and who answers after hours |
 | Current Tools | Phone and text; often a free business listing; Level 2 also uses lead platforms and field service software |
 | Key Pain Points | Paying for requests that never become work; unpaid trips; night calls; unpredictable slow weeks |
@@ -57,7 +57,7 @@ For a pre-launch marketplace this is the most valuable step in the run. The coho
 | Influence Level | Locally high: owners know the other trades and supply counter staff, so one founding contractor can recruit others |
 | Barriers to Purchase | Platform distrust; fear the guarantee will cost them; payout onboarding (identity and bank checks); "no fee" sounding too good to be true |
 | Information Sources | Supply house staff; other contractors; trade associations; trade groups online |
-| Success Metrics | First paid trip within {TBD} days of joining; share of trips paid before rolling; requests they chose to accept |
+| Success Metrics | First paid trip within 30 days of the zone opening, or of joining if later; share of trips paid before rolling; requests they chose to accept |
 | Early Adopter Characteristics | Already experimenting with lead sources; vocal about lead platform frustrations; comfortable doing business by text; respected by peers |
 
 ### The density number
@@ -72,7 +72,7 @@ For one trade, one zone, and one hour band, let:
 
 Then the chance at least one accepts is 1 - (1 - a)^n, so the contractors needed are **n ≥ ln(1 - c) / ln(1 - a)**.
 
-Illustrative only: a, the acceptance rate, is {TBD} and must be measured in the founding period. The table shows how sharply the answer moves with it.
+Planning value: a, the acceptance rate, is set at 0.30 (R28), so the founding cohort target is 9 plumbing contractors for 95 percent coverage. It is measured by hour band with test requests in Stage 1, and the table shows how sharply the answer moves with it.
 
 <!-- sheet: Density_Model -->
 | Acceptance chance per contractor (a) | Contractors needed for 90 percent coverage | For 95 percent | For 99 percent |
@@ -87,17 +87,17 @@ How to read it:
 
 - Acceptance is not one number. It will be lower at 2 a.m. than at 2 p.m., so the calculation runs per hour band, and the 90-minute guarantee may need to be offered only in the hours and zones where coverage is met.
 - The model assumes contractors decide independently. In practice they do not: a freeze night fills everyone's schedule at once. Treat the result as a floor.
-- Acceptance is not arrival. A contractor also has to be close enough to arrive within 90 minutes, which caps the zone radius. The radius is {TBD} per metro.
+- Acceptance is not arrival. A contractor also has to be close enough to arrive within 90 minutes, which caps the zone radius. The radius is 10 miles in the founding zone (R27).
 
 ### What founding contractors get and commit to
 
-Proposals for the founders to decide. None of these is a decision.
+Decided 2026-10-03 (R05 to R07, R12).
 
 <!-- sheet: Design_Partners -->
 | Founding contractors get | Founding contractors commit to |
 |---|---|
-| The first requests in their zone | Responding within an agreed window when they mark themselves available ({TBD} minutes) |
+| The first requests in their zone | Responding within 10 minutes when they mark themselves available |
 | A say in how dispatch, payouts, and disputes work | Crediting the trip charge to the work when the customer goes ahead |
-| Founding terms held for a set period if a fee is ever introduced ({TBD}) | Keeping license and insurance documents current |
+| $0 a job through the founding period and for 12 months after it, written into the founding agreement | Keeping license and insurance documents current |
 | Support by text from the founders | Answering a three-question text after their first five jobs |
 | | A permission clause: whether SOS SMS may later cite their outcomes and name them, and in what form. Asked before the first job, because asking afterwards produces refusals |

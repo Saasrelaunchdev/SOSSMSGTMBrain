@@ -50,7 +50,7 @@ Bands as in Run 1: Wanted by all +14 to +19, most +6 to +13, some -6 to +3. Uniq
 | Feature | Quadrant | Rationale |
 |---|---|---|
 | 1. Instant network access | Q1 Hero Feature | Everyone in an emergency wants fast reach. The difference from quote marketplaces: only the contractor who accepts contacts the customer |
-| 2. 90-minute guarantee | Q1 Hero Feature | The highest-scoring item on both axes. Rare in the set, and it answers the first complaint theme, no-shows. Its value depends on scope (open decision 4) and density (Run 1 Phase 5) |
+| 2. 90-minute guarantee | Q1 Hero Feature | The highest-scoring item on both axes. Rare in the set, and it answers the first complaint theme, no-shows. Its value depends on scope (decision 3: 90 minutes from the confirming text, the $99 trip charge back) and density (Run 1 Phase 5) |
 | 3. Text-only access | Q2 Differentiator | Less in demand than Bryan rated, and not unique. A delivery mechanism, not a headline |
 | 4. Private by design | Q1 Hero Feature | Wanted, and stronger in its narrow form: only the contractor who takes the job gets the details |
 | 5. Verified license and insurance | Q4 Table Stakes | Expected everywhere. Must be present; cannot lead |
@@ -59,7 +59,7 @@ Bands as in Run 1: Wanted by all +14 to +19, most +6 to +13, some -6 to +3. Uniq
 | 8. Known ETA | Q1 Hero Feature | Strong demand, and the anchor the 90-minute guarantee hangs on |
 | 9. Relaunch guarantee | Q2 Differentiator | Valuable to the few who need it; not built. Keep in the matrix, out of copy |
 | 10. Photos or video with the request | Q3 Commodity | Nice to have, offered elsewhere, little demand. Its value is on the contractor side (Run 1 item 5) |
-| 11. Price range before arrival | Q1 Hero Feature, candidate | The strongest finding of the research: wanted by all, answers surprise fees, offered by only a few. Not in the source. Recommend the founders consider building it |
+| 11. Price range before arrival | Q1 Hero Feature, not offered at launch | The strongest finding of the research: wanted by all, answers surprise fees, offered by only a few. Not in the source. Decided: not at launch; the trip charge is stated before dispatch, and the price for the work stays the contractor's |
 | 12. Safety triage | Q2 Differentiator, required | Low rated demand, but non-negotiable: the name "SOS" invites life-safety texts |
 
 ## Step 1.5. Entry validation

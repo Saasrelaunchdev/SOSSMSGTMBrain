@@ -14,8 +14,8 @@ The external research that `gtm-builder` Steps 1.1, 2.1, and 2.7 need, plus the 
 - **Date:** 2026-10-01.
 - **Method:** web search only. Page fetches were blocked by this environment's network policy (for example ftc.gov, thumbtack.com, wikipedia.org), so every fact below was read from a search engine's summary of the listed page, not from the page itself.
 - **What that means:** treat every figure as "reported by the listed source, not yet checked on the page". Before any figure goes into external copy, a sales conversation, or an investor deck, open the URL and confirm it.
-- **Launch metro:** not decided (`GTM-BRIEF.md` open decision 1), so the research is national. The local slots (top search results in the metro, the metro's trade association chapter, local community groups) stay `{TBD}` and are listed under "local research still to do" in the slate file.
-- **Trades:** plumbing and water emergencies, the brief's proposed default. Treated as a working assumption throughout.
+- **Launch metro:** decided as the founders' home metro (decision 1), which the research could not name, so the research is national. The local slots (top search results in the metro, the metro's trade association chapter, local community groups) are filled in Stage 0, when the founding zone is drawn; they are listed under "local research, Stage 0" in the slate file.
+- **Trades:** plumbing and water emergencies (decision 1).
 
 ## Evidence grades
 
@@ -25,7 +25,7 @@ The external research that `gtm-builder` Steps 1.1, 2.1, and 2.7 need, plus the 
 | B | Reputable secondary source: trade press, news, a named benchmark owner publishing its own data | Internal analysis. External use only with citation and after verification |
 | C | Vendor blog, marketing agency estimate, community post, or aggregator | Internal direction only. Never in customer-facing or contractor-facing copy, never as an SOS SMS claim |
 
-Every number the runs use carries its source ID and grade. A number without an ID is an SOS SMS unknown and is written `{TBD}`.
+Every number the runs use carries its source ID and grade. A number without an ID is an SOS SMS value: decided, a planning value with its basis, or counted at a named stage (`../marketplace/resolution-register.md`).
 
 ## The rule this research does not change
 

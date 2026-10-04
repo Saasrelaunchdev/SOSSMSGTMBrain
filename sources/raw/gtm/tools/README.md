@@ -1,5 +1,17 @@
 # Rendering tools
 
+## The Google folder
+
+`build_google_folder.py` builds the eleven files in `google-folder/` and runs a writing-rule audit over all of them: no dashes, no banned words, and the full name every time. It builds the six workbooks with openpyxl, from `google_folder/*.py`, then calls `build_google_docs.js` for the five documents (docx-js, from `google_folder/docs/*.js`). It also writes the pricing handoff, `gtm/pricing/pricing-handoff.md`, and the model as tables, `gtm/pricing/pricing-model.md` (copied into the walkthrough deck's `knowledge/gtm/pricing/`), from the same inputs as the pricing model (`google_folder/pricing.py`, the `A` table at the top). The pricing workbook uses live formulas and is set to recalculate on open.
+
+```bash
+python3 gtm/tools/build_google_folder.py
+```
+
+Layout and design follow `design-reference/` (layout only). Content comes from the GTM brain and the runs. Edit the builders and rebuild; never hand-edit the outputs.
+
+## The run renders
+
 `render.py` regenerates every XLSX and DOCX in both runs' `output/` folders from the Markdown sources. Run it from the repository root after editing any output Markdown file.
 
 ```bash

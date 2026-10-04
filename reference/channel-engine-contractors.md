@@ -17,7 +17,7 @@ Contractors are recruited zone by zone, without a salesperson. Every channel ope
 - **Self-serve.** Every CTA ends in JOIN by text or the contractor page.
 - **Email law (S73).** Accurate sender, honest subject, postal address, one-click opt-out within 10 business days, a separate sending domain, warm-up, daily caps.
 - **Texting (S31).** A contractor receives texts only after starting sign-up themselves.
-- **Partners.** No endorsement implied unless given in writing. Any partner referral fee or referral reward is a pricing decision ({TBD}); promise none before it is set.
+- **Partners.** No endorsement implied unless given in writing. No partner referral fee and no referral reward at launch (R18); partners are thanked by text.
 - **Name.** Always SOS SMS, the sending domain, and the zone.
 - **Mockups** labeled as mockups until the product exists.
 
@@ -28,14 +28,14 @@ Contractors are recruited zone by zone, without a salesperson. Every channel ope
 | 1 | 0 | What did each job from your leads cost? | One question, the Lead Cost Check link, one line on SOS SMS, the revenue sentence. Under 120 words |
 | 2 | 3 | How a job works in three texts | The mechanics, the shared request stated openly |
 | 3 | 7 | The terms, on one page | What you pay, when you're paid, what you commit to, what happens if you're late |
-| 4 | 12 | Founding contractors in [zone] | The founding offer and its real deadline. "Last email unless you reply" |
+| 4 | 12 | Founding contractors in {{zone}} | The founding offer and its real deadline, {{founding close date}} (R07). "Last email unless you reply" |
 
 Measure clicks to the check, not opens. Full drafts: `examples/cold-email-sequence.md`.
 
 ## Method: plan, write, edit
-1. **Plan.** Zone set; list built from public license lists and the business's own site; Level 2 first. Confirm which brackets the asset carries and whether their decisions are logged.
+1. **Plan.** Zone set; list built from public license lists and the business's own site; Level 2 first. List the merge fields the asset carries and the record each fills from.
 2. **Write.** Lead with the contractor's own numbers, then mechanics, then terms. One idea per email. Rational headline before emotional. Use the drills in `value-proposition-contractors.md`.
-3. **Edit.** Run `ops/QA-checklist.md`. Cut any adjective a term could replace. If a bracket is unfilled, the asset waits.
+3. **Edit.** Run `ops/QA-checklist.md`. Cut any adjective a term could replace. Every number is a register value; every per-message detail is a merge field.
 
 ## Production order
 1. The terms on one page, then the contractor page (wait on decisions 2, 3, 4).

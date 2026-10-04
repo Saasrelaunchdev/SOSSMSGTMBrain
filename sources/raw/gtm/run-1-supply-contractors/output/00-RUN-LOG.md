@@ -7,29 +7,29 @@ The `gtm-builder` run for the contractor side, executed 2026-10-01 against `../G
 | Input | Value used | Status |
 |---|---|---|
 | Project | SOS SMS, emergency home repair dispatch by text | From the brief |
-| Website | {TBD} | No site exists yet |
+| Website | None yet | Decided: one site, the contractor page from Stage 1, then the zone pages from Stage 2 (R23) |
 | Category | Emergency home repair dispatch by text, two-sided marketplace | From the brief |
-| Niche | Licensed, insured plumbing and water-emergency contractors who take emergency calls | Working assumption (brief open decision 1, proposed default) |
-| Launch metro | {TBD} | Not decided. Research is national; local items are listed in `../../research/step-0-competitor-slates.md` |
+| Niche | Licensed, insured plumbing and water-emergency contractors who take emergency calls | Decided (decision 1) |
+| Launch metro | The founders' home metro, one founding zone | Decided (decision 1). Research is national; local items are counted in Stage 0 (`../../research/step-0-competitor-slates.md`) |
 | Competitors | C1 Angi Leads, C2 Thumbtack, C3 Google Local Services Ads, C4 Service Direct, C5 home warranty network (American Home Shield), C6 status quo (word of mouth and own free listing) | Step 0, filled in `../../research/` |
 | Features | The six contractor items from the matrix plus three candidates | From the brief, Section 3 |
-| Business context | Team, burn, runway, channels tried: all {TBD} | Not supplied |
+| Business context | Two founders, Bryan and Ali, as supply lead and demand lead; at least 18 months of runway required; no channels tried, pre-launch | Resolved 2026-10-03 (R25, R35, R48) |
 
 ## Assumptions the run applied, with the decision each one stands in for
 
-| Brief open decision | Assumption used in this run | Where it matters |
+| Brief decision | Assumption used in this run, and the decision of 2026-10-03 | Where it matters |
 |---|---|---|
-| 1. Launch metro and trades | Plumbing and water emergencies; metro {TBD} | Phases 2, 4, 5.2, 8 |
-| 2. How SOS SMS earns money | Not assumed. Phase 9 recommends a structure and leaves every number {TBD} | Phase 9, every "no lead fees" line |
-| 3. Late arrival and the contractor's trip charge | Not assumed. Copy that depends on it carries a bracket; Phase 9 lays out both options | Phases 6, 9 |
-| 4. Dispatch rule | Every matched contractor sees the request at once; the first to accept gets it (the brief's proposed reading) | Phases 1, 3, 6, 7 |
+| 1. Launch metro and trades | Plumbing and water emergencies. Decided: one founding zone in the founders' home metro | Phases 2, 4, 5.2, 8 |
+| 2. How SOS SMS earns money | Decided: a $49 SOS SMS fee per dispatched request; $0 to contractors in the founding period; then $25 per completed paid job | Phase 9, every "no lead fees" line |
+| 3. Late arrival and the contractor's trip charge | Decided: fault-based (option C). The copy that depended on it carries the decided words | Phases 6, 9 |
+| 4. Dispatch rule | Every matched contractor sees the request at once; the first to accept gets it (decision 4) | Phases 1, 3, 6, 7 |
 | 5. Build status | Every item treated as planned, not shipped. Copy is written for launch day and must not run before the item ships | Phases 1, 6 |
-| 6. Founder memo, unattributed rows | Not available. Ali's 18 rows and Bryan's 5 rated rows with no item text are excluded | Phase 1 |
-| 7. Name collision | Unresolved. Flagged in Phase 8 | Phase 8 |
+| 6. Founder memo, unattributed rows | Not available. Ali's 18 rows and Bryan's 5 rated rows with no item text are excluded for good | Phase 1 |
+| 7. Name collision | Decided: a US trademark search and a search check in the zone in Stage 0 (decision 10) | Phase 8 |
 
 ## Rules carried through every phase
 
-- SOS SMS is pre-launch. Every proof point, count, rate, and result is {TBD}. Eighteen Phase 6 fields are {TBD} by design.
+- SOS SMS is pre-launch. No proof point, count, rate, or result exists, and none is invented: each unknown carries a planning value with its basis, or the method that will count it (`../../marketplace/resolution-register.md`). The eighteen Phase 6 proof fields are method lines and named records, by design.
 - Market figures carry a source ID and grade from `../../research/SOURCES.md`. Grade C figures are for internal direction only.
 - Claims follow `../GTM-BRIEF.md` Section 5 (the narrowed forms) and Section 6 (cross-side dependencies).
 - No em dashes. None of the banned words.

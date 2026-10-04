@@ -17,7 +17,7 @@ Four pack files, plus the completed run in `output/`. No placeholders for an age
 ## How to run it
 
 1. Finish Run 1 in `../run-1-supply-contractors/` through Step 5.2. It sets the launch metro, trades, and coverage area this run sells into.
-2. Answer the open decisions in `GTM-BRIEF.md` Section 4. Decisions 1, 3, and 4 change the most output.
+2. Read the decisions in `GTM-BRIEF.md` Section 4, all resolved on 2026-10-03 (`../marketplace/resolution-register.md`). Decisions 1, 3, and 4 change the most output.
 3. Run Step 0 in `RESEARCH-PROMPTS.md` to name the competitors. The skill assumes you already know them.
 4. Run Steps 1.1, 2.1, and 2.7 from the same file, then bring the findings back.
 5. Invoke the skill. Point it at `GTM-BRIEF.md` and `SKILL-ADAPTATION.md` first, and keep its output in an `output/` folder next to them.
@@ -26,4 +26,4 @@ This is the second of two runs. `gtm-builder` builds one GTM per run, and the tw
 
 ## The one rule that governs the whole run
 
-SOS SMS is pre-launch: no customers, no completed jobs, no arrival times on record, no testimonials. Unknown numbers stay `{TBD}` and are never invented. This bites hardest in Phase 6's eighteen proof fields, where an average arrival time or a count of homes helped is the first thing the template will reach for.
+SOS SMS is pre-launch: no customers, no completed jobs, no arrival times on record, no testimonials. Unknown numbers are never invented: each carries a planning value with its basis, or the method that will count it. This bites hardest in Phase 6's eighteen proof fields, where an average arrival time or a count of homes helped is the first thing the template will reach for.

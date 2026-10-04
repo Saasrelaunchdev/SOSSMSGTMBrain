@@ -8,7 +8,7 @@ Run Step 0 first. Everything after it depends on the slate it produces.
 
 These prompts are for the contractor run only. The customer run has its own set in `../run-2-demand-customers/RESEARCH-PROMPTS.md`, with a different slate and different sources, because a contractor and a homeowner compare SOS SMS against entirely different things.
 
-Before pasting any prompt, replace `[launch metro]` and `[trades]` with the answers to `GTM-BRIEF.md` open decision 1.
+Before pasting any prompt, fill `{{launch metro}}` and `{{trades}}` from decision 1: the founders' home metro, and plumbing and water emergencies.
 
 ---
 
@@ -27,8 +27,8 @@ pays a trip charge up front, credited to the job if they go ahead. I am
 looking at it from the contractor's side: how trade contractors get emergency
 and after-hours jobs today.
 
-Launch area: [launch metro]
-Trades: [trades]
+Launch area: {{launch metro}}
+Trades: {{trades}}
 
 Find me real, currently operating examples in each of these categories.
 For each, give the name, the website URL, what it charges contractors if
@@ -85,12 +85,12 @@ For each competitor below, gather:
 - Its refund or credit policy for bad leads, and how that policy is hedged
 
 COMPETITORS TO RESEARCH:
-1. [name] - [url]
-2. [name] - [url]
-3. [name] - [url]
-4. [name] - [url]
-5. [name] - [url]
-6. [name] - [url]
+1. {{name}} - {{url}}
+2. {{name}} - {{url}}
+3. {{name}} - {{url}}
+4. {{name}} - {{url}}
+5. {{name}} - {{url}}
+6. {{name}} - {{url}}
 
 OUR FEATURES TO VALIDATE:
 1. Zero cost to join: no subscription and no lead fees
@@ -124,7 +124,7 @@ Return findings in a structured format.
 
 ```
 I need competitive research for the emergency home repair dispatch category,
-with focus on how [trades] contractors in [launch metro] get emergency jobs.
+with focus on how {{trades}} contractors in {{launch metro}} get emergency jobs.
 
 RESEARCH SCOPE
 
@@ -139,11 +139,11 @@ For each competitor below, gather:
 - What they charge contractors, if public
 
 COMPETITORS TO RESEARCH:
-1. [name] - [url]
-2. [name] - [url]
-3. [name] - [url]
-4. [name] - [url]
-5. [name] - [url]
+1. {{name}} - {{url}}
+2. {{name}} - {{url}}
+3. {{name}} - {{url}}
+4. {{name}} - {{url}}
+5. {{name}} - {{url}}
 6. SOS SMS (ours) - no website yet
 
 SOURCES TO CHECK:
@@ -160,7 +160,7 @@ substitute any software company that happens to match a name.
 Return findings in a structured format matching the attributes above.
 ```
 
-**Note on our own row.** The skill asks you to research your own product alongside the competitors. SOS SMS has no website and no reviews, so fill that row from `GTM-BRIEF.md` Section 1 rather than from a crawl, and mark strengths and weaknesses `{TBD}` rather than writing aspirational ones. A self-assessment written as evidence is the fastest way to get a wrong Phase 2.
+**Note on our own row.** The skill asks you to research your own product alongside the competitors. SOS SMS has no website and no reviews, so fill that row from `GTM-BRIEF.md` Section 1 rather than from a crawl, and state strengths and weaknesses by design, with the weaknesses written plainly, rather than writing aspirational ones. A self-assessment written as evidence is the fastest way to get a wrong Phase 2.
 
 ---
 
@@ -190,11 +190,11 @@ WHAT CONTRACTORS DISLIKE OR WISH FOR:
 - These are the openings
 
 COMPETITORS TO ANALYSE:
-1. [name] - [url]
-2. [name] - [url]
-3. [name] - [url]
-4. [name] - [url]
-5. [name] - [url]
+1. {{name}} - {{url}}
+2. {{name}} - {{url}}
+3. {{name}} - {{url}}
+4. {{name}} - {{url}}
+5. {{name}} - {{url}}
 
 WHERE TO LOOK:
 - Pro-side app store reviews, iOS and Google Play
@@ -214,7 +214,7 @@ For each competitor:
 Return findings in a structured format.
 ```
 
-**What to watch for.** The matrix's working hypothesis is that contractors resent paying for leads that do not become jobs, and resent showing up without getting paid. If Step 2.7 confirms it, the finding lands in Phase 6 as the lead pillar and in Phase 9 as Anchor 2. If the complaints center on leads shared with many contractors instead, treat that as a warning rather than an opening: SOS SMS also sends each request to every matched contractor at once (open decision 4), so the dispatch rule becomes a weakness Phase 3 has to answer, not a strength it can claim.
+**What to watch for.** The matrix's working hypothesis is that contractors resent paying for leads that do not become jobs, and resent showing up without getting paid. If Step 2.7 confirms it, the finding lands in Phase 6 as the lead pillar and in Phase 9 as Anchor 2. If the complaints center on leads shared with many contractors instead, treat that as a warning rather than an opening: SOS SMS also sends each request to every matched contractor at once (decision 4), so the dispatch rule becomes a weakness Phase 3 has to answer, not a strength it can claim.
 
 ---
 

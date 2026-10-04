@@ -6,7 +6,7 @@ Raw market input, captured before judgment. Every signal from a contractor, a cu
 
 **Dispositions:** `NOISE` (one instance, no action); `WATCH (n/N)` (a plausible pattern awaiting corroboration); `PATCH` (changes copy, not strategy); `AMEND` (changes a ledger, a position, or a rule: full amendment order and a `decisions.md` entry).
 
-**Corroboration thresholds** (proposed 2026-10-02, to confirm with the founders, see `review-cadence.md`):
+**Corroboration thresholds** (set 2026-10-02, adopted 2026-10-04, see `review-cadence.md`):
 
 | Signal class | Threshold to act |
 |---|---|
@@ -23,10 +23,16 @@ The entries below were seeded at build from the research and the walkthrough wor
 
 ## Entries
 
+### 2026-10-04 | STATUS | resolved brain, live test
+**Verbatim:** The terms on one page, produced from the brain alone after every value was resolved (`pages/terms-on-one-page.md`).
+**Context:** Contractors, the contractor page, Stage 1. Every number came from the register; the only merge fields were the zone and the number.
+**Disposition:** PATCH. One gap: the template had no line for the 10-minute response window (R12). Added to `templates/terms-on-one-page.md`.
+**Routed to:** `templates/terms-on-one-page.md`, `pages/terms-on-one-page.md`.
+
 ### 2026-10-03 | STATUS | pricing model, live test
 **Verbatim:** First draft of the contractor pricing table: "The customer pays an SOS SMS fee on each request. Contractors pay the contractor fee per completed paid job", with no row for a late arrival.
 **Context:** Contractors, the contractor page and the terms on one page. Produced from the brain for the pricing model and run through `QA-checklist.md`. Failed two checks: present tense in pre-launch recruiting copy; a customer promise (the 90-minute refund) the contractor's terms did not show, since the terms on one page must say what happens if they are late.
-**Disposition:** PATCH. The rules held; the draft broke them. Fixed in the table: future tense, and an "If you are late" row in [brackets] until decision 3.
+**Disposition:** PATCH. The rules held; the draft broke them. Fixed in the table: future tense, and an "If you are late" row, held until decision 3 filled it the same day.
 **Routed to:** `Fit137/SOSSMSGTMBuild`, `gtm/tools/google_folder/pricing.py` (the pricing table and handoff).
 
 ### 2026-10-03 | STATUS | brain build, live test
@@ -50,7 +56,7 @@ The entries below were seeded at build from the research and the walkthrough wor
 ### 2026-10-01 | STATUS | walkthrough NOTES
 **Verbatim:** "Dark (projector) passes every check except the chart lightness band, deliberately ... Awaiting approval."
 **Context:** Brand v1, internal.
-**Disposition:** PATCH. Flagged in the status ledger and brand file.
+**Disposition:** PATCH. Flagged in the status ledger and brand file. Closed 2026-10-04: the dark palette is kept as validated.
 **Routed to:** `rules/feature-status.md`, `reference/brand-identity.md`.
 
 ### 2026-10-01 | STATUS | founders, product-led revision

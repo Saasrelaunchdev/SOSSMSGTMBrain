@@ -25,9 +25,9 @@ For Google responsive search ads, then the Microsoft import. Load `reference/cha
 4. Say who SOS SMS is ("Dispatch to Licensed Plumbers").
 
 ## Angles to rotate
-The problem and the first step; one text instead of a list; the trip charge first; an arrival time on acceptance; no app. The guarantee angle waits on decision 3. "Only One Pro Gets Your Info" waits on conflict C.
+The problem and the first step; one text instead of a list; the trip charge first; an arrival time on acceptance; no app. The guarantee angle: "90 Minutes or Trip Charge Back", with the scope on the landing page (decision 3). "Only One Pro Gets Your Info" runs once the broadcast that hides identity ships (decision 4).
 
 ## Never in an ad
-Superlatives, arrival averages, "24/7" beyond covered hours, "emergency service", any number not in the brain, competitor brand names, "SOS" alone, bids on "SOS plumbing" while decision 10 is open.
+Superlatives, arrival averages, "24/7" beyond covered hours, "emergency service", any number not in the brain, competitor brand names, "SOS" alone, bids on "SOS plumbing" (decision 10).
 
 Guardrails: one side only (customers). Check `rules/do-not-say.md` (search ads block), `rules/feature-status.md`, and `rules/glossary.md`. Run `ops/QA-checklist.md` before launch.

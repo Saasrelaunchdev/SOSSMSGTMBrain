@@ -20,9 +20,9 @@ Four plain-text emails over twelve days, zone by zone, to licensed plumbing and 
 - **Email 1, the Lead Cost hook.** One question about cost per booked job; the check link; "your answers stay yours"; one line on what SOS SMS is; the revenue sentence. Under 120 words.
 - **Email 2, how a job works in three texts.** The mechanics, with the shared request said plainly. A labeled mockup image.
 - **Email 3, the terms on one page.** What you pay, when you're paid, what you commit to, what happens if you're late. The terms link.
-- **Email 4, founding contractors in [zone].** What founding contractors get and commit to; the real deadline only; text JOIN; "last email unless you reply".
+- **Email 4, founding contractors in {{zone}}.** What founding contractors get and commit to; the real deadline only, {{founding close date}} (R07); text JOIN to {{number}}, about 5 minutes; "last email unless you reply".
 
-Pre-launch framing throughout: what SOS SMS is building, "once it opens in [zone]", never a working service.
+Pre-launch framing throughout: what SOS SMS is building, "once it opens in {{zone}}", never a working service. The revenue sentence: "SOS SMS will be paid by the customer on each request, and by you only per completed paid job after the founding period."
 
 ## Never in a contractor email
 Results, volume, earnings, "more jobs", "exclusive", "pre-qualified", "escrow", a fake deadline, a request for a call, a rival named unkindly.
