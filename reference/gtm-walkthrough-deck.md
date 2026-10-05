@@ -20,7 +20,7 @@ One self-contained HTML file (`dist/index.html`, identical to `dist/sos-sms-gtm.
 | 25 | | Close |
 
 ## Pricing added (2026-10-03)
-Slide 23 and dashboard M3 show the pricing model once, for both sides, from `knowledge/gtm/pricing/` (generated in the GTM build repo from the Google folder pricing model). The decisions moved to M4 on slide 24 and the close to slide 25. Checks: check_deck 0 errors, navigation 91 of 91, 60 fps; the new hero has 85 elements. On branch `claude/quirky-tesla-29ad5a` of the walkthrough repo until merged; the deployed deck updates on merge. Since 2026-10-04 the amounts are decided and shown as decided.
+Slide 23 and dashboard M3 show the pricing model once, for both sides, from `knowledge/gtm/pricing/` (generated in the GTM build repo from the Google folder pricing model). The decisions moved to M4 on slide 24 and the close to slide 25. Checks: check_deck 0 errors, navigation 91 of 91, 60 fps; the new hero has 85 elements. Merged into the walkthrough repo's `main` on 2026-10-05, so the deployed deck carries it. Since 2026-10-04 the amounts are decided and shown as decided.
 
 ## Verified at build (2026-10-01)
 check_deck 0 errors (13 warnings, each the first word of the name quoted alone inside the name-collision notes themselves); navigation tests 91 of 91; hub interactive in about 0.23 s; every hero under 350 elements.
