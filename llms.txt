@@ -37,7 +37,7 @@
 - [reference/launch-and-growth.md](reference/launch-and-growth.md): Stages, gates, zone signals, speed rules, risks.
 - [reference/brand-identity.md](reference/brand-identity.md): Mark, logo rules, colour roles, type, motion, voice.
 - [reference/research-and-sources.md](reference/research-and-sources.md): How the research was done, evidence grades, the most used figures.
-- [reference/gtm-walkthrough-deck.md](reference/gtm-walkthrough-deck.md): The internal 25-slide, 22-dashboard deck, with every value resolved.
+- [reference/gtm-walkthrough-deck.md](reference/gtm-walkthrough-deck.md): The internal deck, a 27-slide hub and 22 dashboards, with every value resolved and the membership revision drawn in.
 - [reference/resolution-register.md](reference/resolution-register.md): Every SOS SMS value: decided, planning value, counted at, and the merge fields.
 
 ## Execution layer

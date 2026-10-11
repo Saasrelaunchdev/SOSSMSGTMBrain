@@ -71,7 +71,7 @@ Revised 2026-10-11, the membership revision: the demand side is a monthly or ann
 - Counsel review of the terms on one page, the member terms with the automatic renewal disclosures (S87), and the guarantee.
 
 ## Internal assets
-- GTM walkthrough deck (25 slides, 22 dashboards; pricing on slide 23 and M3; the twelve decisions on slide 24 and M4): BUILT, internal only, not a member surface. Every value resolved 2026-10-04.
+- GTM walkthrough deck (a 27-slide hub, the 25 specified slides plus two side hubs, and 22 dashboards; pricing on hub slide 25 and M3; the twelve decisions on hub slide 26 and M4): BUILT, internal only, not a member surface. Every value resolved 2026-10-04; the member side redrawn for the membership revision on 2026-10-11.
 - Brand identity v1 (logo, palette, type, brand book): BUILT. Dark palette kept as validated (2026-10-04).
 
 ## Demo rule

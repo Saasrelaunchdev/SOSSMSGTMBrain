@@ -41,7 +41,7 @@ A **Go-to-Market Brain** is a governed context repository. It is content, not ap
 
 | Job | How the brain does it |
 |---|---|
-| Strategy stops living in one head | Two full `gtm-builder` runs, the research, and the marketplace synthesis are distilled into one master context and twenty focused reference files |
+| Strategy stops living in one head | Two full `gtm-builder` runs, the research, and the marketplace synthesis are distilled into one master context and twenty-one focused reference files |
 | Every asset inherits the same positioning and voice | Templates, draft examples, and prompts sit on top of the same four rules files |
 | Agents stop overclaiming | What may be said is written down: a status ledger (nothing is shipped), a claim ledger with a safe replacement for every ban, and a pre-ship checklist |
 | It gets sharper with use | Signals from contractors, members, partners, rivals, and platforms flow into a log, get triaged, and update the ledgers before any copy changes |
