@@ -17,8 +17,8 @@ Load for: building, editing, or writing follow-up for either scorecard. Distills
 
 Tiers: 0 to 39 Tight Ship (soft: rate card template); 40 to 69 Leaking at the Edges (read the terms on one page, run the Lead Cost Check); 70 to 100 Paying to Work (the automated lead spend report, then text JOIN to {{SOS SMS number}}). The result shows their own cost per booked job, labeled "estimate from your answers". Emails on days 0, 2, 5, 8; the only deadline is the real founding list close date, {{founding close date}} (R07). Texts only with a separate opt-in (S31).
 
-## Customers: How Ready Is Your Home for a 2 a.m. Leak?
-The Home Emergency Readiness Scorecard, also run as Text READY. Seven questions, under two minutes.
+## Members: How Ready Is Your Home for a 2 a.m. Leak?
+The Home Emergency Readiness Scorecard, also run as Text READY. Seven questions, under two minutes. The top of SOS SMS's own email list, the first thing a partner shares (in the affiliate kit), and the offer on every prevention guide (the membership revision, 2026-10-11).
 
 | # | Question | Reveals |
 |---|---|---|
@@ -28,9 +28,9 @@ The Home Emergency Readiness Scorecard, also run as Text READY. Seven questions,
 | 4 | Home age (median owner-occupied home is 42 years, S63) | Older plumbing |
 | 5 | A plumber who answers at night | The gap SOS SMS fills |
 | 6 | First move if a pipe bursts at 2 a.m. | Whether they have a plan |
-| 7 | A number saved for home emergencies | The conversion step |
+| 7 | A number saved for home emergencies | The step membership answers |
 
-Tiers: Ready, Partly Ready, Exposed, each ending in text READY. The results page carries the safety line. ZIP codes outside the founding zone get the plan without the SOS SMS offer. Emails on days 0, 2 (the first ten minutes of a leak, EPA 24 to 48 hour drying, S58), 5, and 8 (seasonal only when true). No damage-cost figures without a source; no claim that SOS SMS prevents damage.
+Tiers: Ready (soft: see what membership includes), Partly Ready (the shutoff guide, then the ZIP check), Exposed (check your ZIP and join before you need it). The ZIP decides the ending: an open zone shows the membership (`{{monthly price}}` or `{{annual price}}`); a zone not yet open, the launch list; outside, the plan alone. The results page carries the safety line. Emails on days 0 (the score and the plan), 2 (the first ten minutes of a leak, EPA 24 to 48 hour drying, S58), 5 (how membership works in one text, the price, the trip charge on use, the guarantee with its scope, what SOS SMS does not do), and 8 (seasonal only when true; otherwise "Ready before it happens?"). Every email carries the full name, a postal address, and an opt-out (S73). No damage-cost figures without a source; no claim that SOS SMS prevents damage.
 
 ## Source conflict, resolved
 The contractor spec's measurement row lists "call bookings by tier", and the marketplace walkthrough slide 8 says the contractor magnet leads into "an audit call". Both predate the product-led revision. Decision 3 (no calls) governs: the contractor path ends in the terms on one page, the lead spend report, and JOIN by text. Measure JOIN texts by tier instead.

@@ -23,12 +23,12 @@ The contractor's journey from first hearing about SOS SMS to staying active, sel
 | Critical Success Factor | Every term a contractor will meet later (what they pay, when they are paid, what they commit to, what happens if they are late) is in writing before they sign up. Platform distrust is the default; surprises confirm it |
 | Critical Success Factor | The first paid trip happens fast. A contractor who joins and sees nothing for weeks leaves before value realization |
 | Critical Success Factor | The trip charge reaches the contractor when promised, every time. One late payout undoes the main reason they joined |
-| Critical Success Factor | Density per zone and hour band is tracked weekly against the Phase 5 target, because it decides whether the customer side can open |
+| Critical Success Factor | Density per zone and hour band is tracked weekly against the Phase 5 target, because it decides whether memberships can open |
 | Primary Journey Blocker | Onboarding friction. License and insurance verification plus payout setup (identity and bank checks) are the first places a free sign-up stalls |
 | Primary Journey Blocker | Can SOS SMS actually pay the contractor? Payout is decided (within 2 business days of arrival, decision 6) but unbuilt (item 8). Until it runs, "paid to show up" is a written promise, not a record |
-| Primary Journey Blocker | First-job silence. Joining before customers exist in the zone produces a dead phone. Recruit by zone, and open demand only when the zone reaches density |
+| Primary Journey Blocker | First-job silence. Joining before members exist in the zone produces a dead phone. Recruit by zone, open memberships only when the zone reaches density, and grow the zone's launch list in parallel so it opens with members waiting (R55, R64) |
 | Primary Journey Blocker | The late-arrival rule (decision 3, fault-based). Contractors will weigh their committed arrival time against the 90-minute window before accepting at night, so the terms on one page state it plainly |
 | Acceleration Opportunity | Supply house counters: one partnership puts SOS SMS in front of the contractors who buy parts there every week |
 | Acceleration Opportunity | Cross-trade referral: a plumber knows the water damage company and the electrician. Ask at the five-job check-in, not before |
 | Acceleration Opportunity | The Lead Cost Check results show which contractors spend most on leads; send them the founding offer first, by email |
-| Acceleration Opportunity | Launch one zone, not one metro. Reaching density in a small area is faster and makes the customer promise honest sooner |
+| Acceleration Opportunity | Launch one zone, not one metro. Reaching density in a small area is faster and makes the member promise honest sooner |

@@ -1,6 +1,6 @@
 # Signal log
 
-Raw market input, captured before judgment. Every signal from a contractor, a customer, a partner, a rival, a platform, or a channel lands here first. Newest at the top. **Keep the verbatim**: the words a real contractor or homeowner used before we taught them ours are the most valuable thing a signal carries.
+Raw market input, captured before judgment. Every signal from a contractor, a member, a homeowner, a partner, a rival, a platform, or a channel lands here first. Newest at the top. **Keep the verbatim**: the words a real contractor or homeowner used before we taught them ours are the most valuable thing a signal carries.
 
 **Types:** OBJECTION, LANGUAGE, PROOF, STATUS, COMPETITIVE, SEGMENT, CHANNEL, LOSS, RISK.
 
@@ -12,16 +12,40 @@ Raw market input, captured before judgment. Every signal from a contractor, a cu
 |---|---|
 | Opinion, preference, language, objection | 3 independent instances within 60 days, from the same side |
 | Verifiable fact: status, policy, proof, competitive, risk | 1 verified instance, act immediately |
-| Lost contractor or lost customer reason | 2 instances, or 1 from a founding contractor |
+| Lost contractor reason, or a member's cancellation reason | 2 instances, or 1 from a founding contractor |
 | Channel performance | A full measurement cycle in one zone, never a single week |
 
 Default disposition is NOISE. A signal from one side never changes the other side's copy without the cross-side check. Triage runs weekly; a WATCH item that has not moved in two cycles expires to NOISE, and the expiry is written here.
 
-The entries below were seeded at build from the research and the walkthrough work. Real contractor and customer signals start with the founding zone.
+The entries below were seeded at build from the research and the walkthrough work. Real contractor and member signals start with the founding zone.
 
 ---
 
 ## Entries
+
+### 2026-10-11 | STATUS | the membership revision
+**Verbatim:** "The demand side is a monthly or annual membership, joined before the need. In an emergency, a member sends one text, and help is on the way."
+**Context:** Both sides; the decided change of model, recorded as the membership revision (`decisions.md`, 2026-10-11). The contractor side is unchanged.
+**Disposition:** AMEND. Ledgers first (`rules/`, `reference/resolution-register.md`), then the master context (v1.4), then `decisions.md`, then the copy and assets.
+**Routed to:** every `rules/` file, the master context, `decisions.md`, `copy-bank.md`, `asset-index.md`, `review-cadence.md`, `QA-checklist.md`, `reference/`, `templates/`, `examples/`, `pages/`, `prompts/`, `adapters/`, the routers, and the snapshot `snapshots/2026-10-11-membership-revision.md`.
+
+### 2026-10-11 | COMPETITIVE | plumber club memberships (S75, S76, S77)
+**Verbatim:** Benjamin Franklin Plumbing club: "$10 a month or $120 a year"; members' trip charge $49 instead of $89; 10 percent off repairs; priority scheduling; no after-hours fees (S75). Ben Franklin Society $8.25 a month (S76); a Roto-Rooter plan at $19.99 a month (S77, C).
+**Context:** Members, the closest analog to the membership. Read from search summaries; page fetches blocked.
+**Disposition:** AMEND, folded into the membership revision: the planning price sits at the club's $10 (R51), and the member battlecard answers "priority with one company" with "many contractors at once, a window from the text".
+**Routed to:** `reference/competitor-battlecards.md`, `reference/pricing-and-economics.md`, `rules/do-not-say.md` ("priority service").
+
+### 2026-10-11 | CHANNEL | partner-led plumbing plans (S78, S93)
+**Verbatim:** HomeServe: "more than 1,300" municipal, utility, and association partners; "over 4.6 million customers" (S93). A CenterPoint plan at $16.99 a month, a 30-day waiting period (S78).
+**Context:** Members, the affiliate channel. Evidence that homeowners join home plans through partners they already trust, before the need.
+**Disposition:** AMEND, folded into the membership revision: affiliates lead the member channels.
+**Routed to:** `reference/channel-engine-members.md`, `templates/affiliate-kit.md`.
+
+### 2026-10-11 | RISK | RESPA, endorsements, and automatic renewal (S86, S87, S88, S94)
+**Verbatim:** HUD's 2010 interpretive rule: home warranty payments to real estate brokers and agents for marketing to particular buyers are illegal referral fees under Section 8 (S86); Regulation X bars any thing of value for referring settlement service business (S94). The FTC's click-to-cancel rule was vacated on 2025-07-08; ROSCA and state automatic renewal laws still apply (S87). A paid affiliate is a material connection that must be disclosed (S88).
+**Context:** Members, affiliates and billing. Verifiable law: acts immediately.
+**Disposition:** AMEND: no payment to anyone referring at a home purchase settlement (R61); the disclosure on every affiliate mention; clear terms, consent, a reminder, and easy cancellation for the membership (R56).
+**Routed to:** `rules/do-not-say.md`, `rules/writing-rules.md`, `ops/QA-checklist.md`, `reference/channel-engine-members.md`, `templates/affiliate-kit.md`.
 
 ### 2026-10-04 | STATUS | resolved brain, live test
 **Verbatim:** The terms on one page, produced from the brain alone after every value was resolved (`pages/terms-on-one-page.md`).

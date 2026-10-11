@@ -62,7 +62,7 @@ For a pre-launch marketplace this is the most valuable step in the run. The coho
 
 ### The density number
 
-The customer-side promises depend on enough active contractors per trade and zone. This is the number Run 2 and Phase 9 both need, and it can be estimated before launch.
+The member-side promises depend on enough active contractors per trade and zone. This is the number Run 2 and Phase 9 both need, and it can be estimated before launch.
 
 For one trade, one zone, and one hour band, let:
 
@@ -97,7 +97,7 @@ Decided 2026-10-03 (R05 to R07, R12).
 | Founding contractors get | Founding contractors commit to |
 |---|---|
 | The first requests in their zone | Responding within 10 minutes when they mark themselves available |
-| A say in how dispatch, payouts, and disputes work | Crediting the trip charge to the work when the customer goes ahead |
+| A say in how dispatch, payouts, and disputes work | Crediting the trip charge to the work when the member goes ahead |
 | $0 a job through the founding period and for 12 months after it, written into the founding agreement | Keeping license and insurance documents current |
 | Support by text from the founders | Answering a three-question text after their first five jobs |
 | | A permission clause: whether SOS SMS may later cite their outcomes and name them, and in what form. Asked before the first job, because asking afterwards produces refusals |

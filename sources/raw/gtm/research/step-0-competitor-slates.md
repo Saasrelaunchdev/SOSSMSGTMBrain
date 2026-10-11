@@ -1,6 +1,6 @@
 # Step 0. Competitor slates, filled
 
-The step `gtm-builder` assumes is already done. Each side's six slots from `GTM-BRIEF.md` Section 2, filled from research on 2026-10-01, then cut to the set the buyer actually weighs. Source IDs refer to `SOURCES.md`.
+The step `gtm-builder` assumes is already done. Each side's six slots from `GTM-BRIEF.md` Section 2, filled from research on 2026-10-01, then cut to the set the buyer actually weighs. The member side was refilled on 2026-10-11 for the membership revision; the pay per request customer slate is kept below it as history. Source IDs refer to `SOURCES.md`.
 
 Scope note: national research only. The launch metro is decided as the founders' home metro (decision 1), which public research cannot name, so slots that are inherently local are done in Stage 0, when the founding zone is drawn (below).
 
@@ -52,7 +52,52 @@ A competitor earns a slot only if a contractor actually weighs it against SOS SM
 
 ---
 
-## Run 2, customer side
+## Run 2, member side (membership revision, 2026-10-11)
+
+The demand side is members: homeowners who join before they need it. The question a homeowner asks is no longer "who answers tonight" but "what do I set up before anything breaks, if anything". The slate follows that question.
+
+### The six slots, filled
+
+| Slot | Category | Found | URL | Price in advance | What happens in an emergency | Source |
+|---|---|---|---|---|---|---|
+| 1 | A plumber's own club membership | Benjamin Franklin Plumbing club | https://www.benjaminfranklinplumbing.com | $10 a month or $120 a year; $8.25 a month at some locations | Priority with that company; members' trip charge $49 instead of $89; no after-hours fees | S75, S76 |
+| 1 | Same | Roto-Rooter membership plan | https://www.rotorooter.com | $19.99 a month (C) | Priority with that company | S77 |
+| 2 | Nothing in advance; search and call when it happens | Google search and maps, then calling down the list | https://www.google.com | Nothing | Unanswered calls at night; after-hours fees $150 to $250 (C) | S50, S51 |
+| 3 | Neighbors, friends, the last contractor used | Nextdoor and local groups, not one company | https://nextdoor.com | Nothing | Whoever answers | S26 |
+| 4 | Free on-demand marketplaces | Angi; Thumbtack | https://www.angi.com, https://www.thumbtack.com | Nothing | Several pros call or message back | S46, S48 |
+| 5 | Do it yourself, or wait until morning | Not a company | n/a | Nothing | The damage accumulates | S57, S58 |
+| 6 | Plans that pay for repairs | American Home Shield; Choice Home Warranty | https://www.ahs.com | $47 to $82 a month, plus $75 to $125 a visit | A claim; contact within 4 business hours, 48 on weekends | S20, S79 |
+| 6 | Same, sold through utilities and cities | HomeServe | https://www.homeserve.com | $16.99 to $22.99 a month | Covered repairs up to $2,500 a call, after a 30-day wait | S78, S93 |
+| Adjacent | A home app membership | Frontdoor | https://www.frontdoor.com | $25 to $149 a year | A video chat with an expert | S81 |
+| Analogy | Help sent when you call, for the car | AAA | https://www.aaa.com | $58 to $126 a year | Roadside help | S80 |
+
+### Selection rule applied
+
+A competitor earns a slot if a household would pay for it, or choose to rely on it, before anything breaks.
+
+- **Kept:** search and call when it happens, because it is the choice every member is making by not joining, and the one the GTM never fights at the moment of need.
+- **Kept:** plumber club memberships, the closest product and the price anchor (S75 to S77).
+- **Kept:** home warranties and utility-partner plans as two columns: both are paid in advance, both are what a household already holds, and both pay for repairs rather than speed (S20, S78, S79). HomeServe also proves the partner-led channel (S93).
+- **Kept:** Frontdoor, the membership closest to "help now", by video (S81).
+- **Kept:** Angi and Thumbtack together, the free alternative.
+- **Not a column:** neighbors (slot 3, used in Phase 3 and Phase 8 as the referral loop), do it yourself (slot 5, the readiness kit answers it), AAA (an analogy for the model, used in Phase 3).
+
+### Final set, Run 2 (members)
+
+| # | Competitor | URL | Model | Why it is in |
+|---|---|---|---|---|
+| D1 | Search and call when it happens | https://www.google.com | Nothing in advance | The default every non-member is choosing |
+| D2 | Plumber club memberships (Benjamin Franklin Plumbing, Roto-Rooter) | https://www.benjaminfranklinplumbing.com | One company's membership: priority, discounts | The closest product and the price anchor |
+| D3 | Home warranties (American Home Shield, Choice Home Warranty) | https://www.ahs.com | A service contract that pays for covered repairs | What many households already hold |
+| D4 | Utility-partner plumbing plans (HomeServe) | https://www.homeserve.com | Repair plans sold through utilities and cities | The partner-led channel at scale |
+| D5 | Home app memberships (Frontdoor) | https://www.frontdoor.com | Video help from experts | The closest "help now" membership |
+| D6 | On-demand marketplaces (Angi, Thumbtack) | https://www.angi.com | Free; several pros respond | The free alternative |
+
+---
+
+## Run 2, customer side, pay per request (2026-10-01, superseded 2026-10-11)
+
+Kept as history. This slate answered "who does a homeowner reach for in the middle of an emergency", the question of the retired pay per request model.
 
 ### The six slots, filled
 
@@ -83,7 +128,7 @@ A competitor earns a slot only if the customer actually reaches for it in the mo
 - **Kept as a sixth column:** American Home Shield, because for a covered failure a plan holder calls the warranty line first, and its own contract says it does not guarantee timely emergency service (S20).
 - **Profiled but not a column:** InstaService (closest model, small footprint and review base, S53), Mr. Rooter and SERVPRO (same role as Roto-Rooter in search), Nextdoor and neighbors (slot 3, used in Phase 3 and Phase 8), DIY or wait (slot 5, the status quo in Phase 3), Frontdoor video chat (an adjacent "help me now" option).
 
-### Final set, Run 2
+### Final set, Run 2 (pay per request, superseded)
 
 | # | Competitor | URL | Model | Why it is in |
 |---|---|---|---|---|
@@ -102,9 +147,11 @@ Part of the Stage 0 gate in `../marketplace/launch-sequence.md`. Each item is re
 
 | Item | Side | How |
 |---|---|---|
-| The top five organic and Local Services Ads results for "emergency plumber" and "water damage" in the metro, at 9 p.m. on a weekday | Demand | Search from a phone in the metro; record names, ratings, after-hours fees if listed |
-| Which national brands (Roto-Rooter, Benjamin Franklin, Mr. Rooter, SERVPRO) have locations covering the metro | Demand | Brand location finders |
+| Which plumbers in the metro sell their own club membership, and at what price and terms | Demand (members) | Brand location finders and each location's membership page (Benjamin Franklin, Roto-Rooter, Mr. Rooter) |
+| Which utilities and cities in the metro already offer home repair plans through a partner, and to whom | Demand (members) | Utility and city websites; HomeServe partner announcements (S93) |
+| The homeowner and neighborhood associations, local publications, and newsletters that reach the zone's owner-occupied homes | Demand (members) | Association directories; local media kits |
+| The top five organic and Local Services Ads results for "emergency plumber" and "water damage" in the metro, at 9 p.m. on a weekday | Demand (the status quo a member compares) | Search from a phone in the metro; record names, ratings, after-hours fees if listed |
 | The metro's PHCC chapter and any restoration association chapter | Supply | phccweb.org affiliate list; IICRC firm finder |
 | The three busiest plumbing supply counters | Supply | Supplier store locators and a counter visit |
-| Active neighborhood groups and their rules on business posts | Demand | Nextdoor and Facebook group search |
+| Active neighborhood groups and their rules on business posts | Demand (members) | Nextdoor and Facebook group search |
 | Whether Jiffy, Puls, or InstaService operate in the metro | Both | Their service area pages |

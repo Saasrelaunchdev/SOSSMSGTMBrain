@@ -2,7 +2,7 @@
 
 Original path: `Fit137/SOSSMSGTMBuild`, `gtm/run-1-supply-contractors/output/pricing_dashboard.xlsx`
 Type: xlsx
-Size: 19,311 bytes
+Size: 24,602 bytes
 
 ## Sheet: README
 
@@ -24,27 +24,27 @@ Size: 19,311 bytes
 | Trips last month without getting paid | 2 | Illustrative |
 | Trip charge the contractor would have charged | 90 | Illustrative; S28 reports $75 to $100 when charged |
 | Monthly answering service cost | 0 | Enter 0 if none; S21 reports $250 to $720 |
-| Monthly lead spend |
-| Booked jobs from leads |
-| Lead spend per booked job |
-| Monthly spend on leads that never became jobs |
-| Yearly spend on leads that never became jobs |
-| Yearly value of unpaid trips |
-| Yearly answering service cost |
-| Yearly total of the three leaks |
+| Monthly lead spend | 800 |
+| Booked jobs from leads | 3 |
+| Lead spend per booked job | 266.666666666667 |
+| Monthly spend on leads that never became jobs | 680 |
+| Yearly spend on leads that never became jobs | 8160 |
+| Yearly value of unpaid trips | 2160 |
+| Yearly answering service cost | 0 |
+| Yearly total of the three leaks | 10320 |
 | 2. Cost per booked job by alternative (Phase 9, Anchor 2) |  |  |  | Close rates (inputs) |
-| Alternative | Cost per lead, low | Cost per lead, high | Source | 0.1 | 0.2 | 0.3333333333333333 |
-| C1 Angi Leads (plumbing) | 25 | 60 | S03, C |
-| C2 Thumbtack (plumbing) | 25 | 45 | S06, C |
-| C3 Google LSA (plumbing) | 57 | 69 | S08, C |
-| Search ads (plumbing) | 129 | 129 | S15, B |
-| C4 Service Direct (plumbing, exclusive) | 60 | 255 | S10, A |
+| Alternative | Cost per lead, low | Cost per lead, high | Source | 0.1 | 0.2 | 0.333333333333333 |
+| C1 Angi Leads (plumbing) | 25 | 60 | S03, C | $250 to $600 | $125 to $300 | $75 to $180 |
+| C2 Thumbtack (plumbing) | 25 | 45 | S06, C | $250 to $450 | $125 to $225 | $75 to $135 |
+| C3 Google LSA (plumbing) | 57 | 69 | S08, C | $570 to $690 | $285 to $345 | $171 to $207 |
+| Search ads (plumbing) | 129 | 129 | S15, B | $1,290 to $1,290 | $645 to $645 | $387 to $387 |
+| C4 Service Direct (plumbing, exclusive) | 60 | 255 | S10, A | $600 to $2,550 | $300 to $1,275 | $180 to $765 |
 | SOS SMS lead cost per booked job | 0 |
 | SOS SMS contractor fee per completed paid job, after the founding period (decision 2) | 25 |
 | 3. Fee ceiling (Phase 9, Anchor 3) |
-| Lowest cost per booked job among per-lead platforms at the middle close rate |
+| Lowest cost per booked job among per-lead platforms at the middle close rate | 125 |
 | Any SOS SMS per-job fee below this stays cheaper than every per-lead option above |
-| Headroom at the fee entered in B31 |
+| Headroom at the fee entered in B31 | 100 |
 
 ## Sheet: Value_Metric
 
@@ -52,14 +52,14 @@ Size: 19,311 bytes
 | Denominator | Correlation to Value | Scalability | Ease of Measurement | Score (1 to 10) | Verdict |
 | Per request received (per lead) | Low. Value arrives only when a job happens; this is exactly the complaint against C1 to C4 | High | High | 1.8 | Reject. Contradicts VP1 and the positioning |
 | Per contractor or technician, monthly (per seat) | Low. A quiet month costs the same as a busy one | High | High | 2.6 | Reject. "No subscription" is a stated promise |
-| Per accepted job (usage) | Medium. Accepting is a choice, but the customer may still decline the quote | High | High | 5.7 | Possible, second choice |
+| Per accepted job (usage) | Medium. Accepting is a choice, but the member may still decline the quote | High | High | 5.7 | Possible, second choice |
 | Per completed paid job, as a share of the trip charge or the job (outcome) | High. The contractor pays only when revenue exists | High | Medium. SOS SMS sees the trip charge but not the job value unless payment for the work flows through it | 7.4 | Best fit, and the basis of the contractor fee |
 | Paid priority or extra zones (capability) | Medium | Medium | High | 3.1 | Rejected. Conflicts with "every matched contractor sees the request at once" and with "decline freely" |
 | Decided (decision 2): |
-| Primary value metric: none at launch. Contractors pay $0 to join, $0 per request, and $0 a job during the founding period, the founding zone's first 6 months open. Supply is the constrained side, the customer promise depends on density, and "no lead fees" is the reason a contractor tries one more... |
+| Primary value metric: none at launch. Contractors pay $0 to join, $0 per request, and $0 a job during the founding period, the founding zone's first 6 months open to members. Supply is the constrained side, the member promise depends on density, and "no lead fees" is the reason a contractor tries... |
 | A contractor fee after the founding period, planned from the start: $25 per completed paid job, deducted from the trip charge payout, never per request, far below the Anchor 3 ceiling, and written into the founding agreement so nobody is surprised. Founding contractors keep $0 a job for 12 months... |
 | Secondary usage metric, for tracking only: accepted jobs per active contractor per month, by hour band. It measures whether the supply side is healthy, not what to charge. |
-| Rationale: in a marketplace, the side whose participation is hardest to get is usually subsidized, and the side that captures urgent value pays. Here the customer is the one paying for speed and the guarantee, and the 90-minute refund liability also sits on the customer side. Monetizing that side... |
+| Rationale: in a marketplace, the side whose participation is hardest to get is usually subsidized, and the side that captures urgent value pays. Here the member pays for readiness, speed, and the guarantee through the membership, and the 90-minute refund liability also sits on the member side. Mo... |
 
 ## Sheet: Packaging
 
@@ -73,21 +73,21 @@ Size: 19,311 bytes
 
 | The take rate, both sides |
 | Money flow | Who pays | Who receives | Amount | Notes |
-| Trip charge | Customer | Contractor, released on arrival | $99 per request, one per trade and zone, day or night, set by SOS SMS (decision 5) | Market reference: plumbing trip charges about $75 to $100 when charged (S28, C); after-hours service call fees commonly $150 to $250 (S50, C) |
-| SOS SMS fee | Customer, on top of the trip charge | SOS SMS | $49 per dispatched request, charged only when a contractor accepts | The customer side of SOS SMS revenue (Run 2 Phase 9) |
+| Trip charge | Member, on the card on file when a contractor accepts | Contractor, released on arrival | $99 per request, one per trade and zone, day or night, set by SOS SMS (decision 5) | Market reference: plumbing trip charges about $75 to $100 when charged (S28, C); after-hours service call fees commonly $150 to $250 (S50, C) |
+| Membership | Member, monthly or annually, billed to the card on file | SOS SMS | Planning values $10 a month or $100 a year (R51, R52), shown in copy as {{monthly price}} and {{annual price}} | The member side of SOS SMS revenue (Run 2 Phase 9); no fee per request |
 | Share of the trip charge | Contractor | SOS SMS | $0 in the founding period; $25 per completed paid job after it (the contractor fee); founding contractors $0 for 12 months after the founding period | Nothing is paid to join or to see a request, so "zero cost to join" stays true as written |
 | Share of the job | Contractor | SOS SMS | $0. The price for the work stays the contractor's | Payment for the work never flows through SOS SMS |
-| 90-minute refund | SOS SMS, or the contractor, per the late-arrival rule | Customer | The $99 trip charge | Option C below, decided |
+| 90-minute refund | SOS SMS, or the contractor, per the late-arrival rule | Member | The $99 trip charge | Option C below, decided |
 | Payment processing | Deducted from the flows above | Stripe Connect | About 2.9% + $0.30 a card charge (planning value) | Stripe's standard US card price |
 
 ## Sheet: Late_Arrival
 
 | The late-arrival rule: the options for decision 3, and the one decided |
 | Option | Rule | What happens to "paid to show up" | Contractor behavior to expect | Cost to SOS SMS |
-| A. Contractor forfeits | Any arrival after 90 minutes refunds the customer from the contractor's trip charge | Narrows to "paid when you arrive inside the 90-minute window" | Fewer night acceptances; contractors decline anything far away | None |
-| B. SOS SMS absorbs | SOS SMS refunds the customer and still pays the contractor | Holds as written | Highest acceptance; some contractors may accept jobs they cannot reach in time | Refund rate × trip charge, funded from the customer fee |
-| C. Fault-based (decided) | The contractor commits to an arrival time when accepting. If they miss their own committed time, the customer's refund comes from their trip charge. If no contractor accepts in time, or the miss is not the contractor's, SOS SMS pays | Narrows to "the trip charge is yours when you arrive by the time you committed to", which every contractor controls | Contractors commit to times they can keep, which protects the customer promise too | Refunds only for misses SOS SMS causes (no acceptance, dispatch failure) |
-| Option C ties the refund to the promise the contractor made, which is fair to the contractor and keeps the customer's guarantee honest. The customer-side guarantee is worded around the committed arrival time inside the 90-minute window: 90 minutes from the customer's confirming text, and the $99 ... |
+| A. Contractor forfeits | Any arrival after 90 minutes refunds the member from the contractor's trip charge | Narrows to "paid when you arrive inside the 90-minute window" | Fewer night acceptances; contractors decline anything far away | None |
+| B. SOS SMS absorbs | SOS SMS refunds the member and still pays the contractor | Holds as written | Highest acceptance; some contractors may accept jobs they cannot reach in time | Refund rate × trip charge, funded from membership revenue |
+| C. Fault-based (decided) | The contractor commits to an arrival time when accepting. If they miss their own committed time, the member's refund comes from their trip charge. If no contractor accepts in time, or the miss is not the contractor's, SOS SMS pays | Narrows to "the trip charge is yours when you arrive by the time you committed to", which every contractor controls | Contractors commit to times they can keep, which protects the member promise too | Refunds only for misses SOS SMS causes (no acceptance, dispatch failure) |
+| Option C ties the refund to the promise the contractor made, which is fair to the contractor and keeps the member's guarantee honest. The member-side guarantee is worded around the committed arrival time inside the 90-minute window: 90 minutes from the member's request text, and the $99 trip char... |
 
 ## Sheet: ROI_Anchors
 
@@ -124,10 +124,10 @@ Size: 19,311 bytes
 
 ## Sheet: Decisions
 
-| Pricing decisions, decided 2026-10-03 |
+| Pricing decisions, decided 2026-10-03, revised 2026-10-11 |
 | # | Decision | Decided | Where it shows |
-| 1 | Where SOS SMS revenue comes from | A $49 SOS SMS fee per dispatched request; $0 to contractors during the founding period; $25 per completed paid job after it, below the Anchor 3 ceiling, because paid search acquisition costs are not covered by a customer fee alone (../../marketplace/speed-to-scale-plan.md, section 5) | Phases 6 and 8 in both runs |
+| 1 | Where SOS SMS revenue comes from | Members pay a monthly or annual membership (revised 2026-10-11, the membership revision); $0 to contractors during the founding period; $25 per completed paid job after it, below the Anchor 3 ceiling, which adds to the contribution each member brings (../../marketplace/speed-to-scale-plan.md, sec... | Phases 6 and 8 in both runs |
 | 2 | Late-arrival rule | Option C, fault-based | Copy drills 4 and 5; Run 2 guarantee wording |
-| 3 | Who sets the trip charge | SOS SMS: one trip charge per trade and zone, $99, so the customer sees one price; contractors keep their price for the work | Run 2 Phase 9 |
+| 3 | Who sets the trip charge | SOS SMS: one trip charge per trade and zone, $99, so the member sees one price before joining; contractors keep their price for the work | Run 2 Phase 9 |
 | 4 | Payout timing | Stripe Connect; paid out within 2 business days of arrival, stated in writing | Copy drill 5 |
 | 5 | The contractor fee | $25 per completed paid job, deducted from the trip charge payout, never during the founding period; founding contractors $0 for 12 months after it | Founding agreement |

@@ -26,7 +26,7 @@ Phases 3 and 6, the Lead Magnet, and the Deck run as written for every archetype
 
 **Assumes:** one product with one buyer, its features scored on demand and competitiveness.
 
-**Why it breaks:** SOS SMS has two buyers and two feature lists. Rating them together lets a customer item like "Text-only access" carry a contractor's score, and blends two demand curves into one quadrant chart that describes neither side.
+**Why it breaks:** SOS SMS has two buyers and two feature lists. Rating them together lets a member item like "Text-only access" carry a contractor's score, and blends two demand curves into one quadrant chart that describes neither side.
 
 **Instead:** rate only the items in `GTM-BRIEF.md` Section 3: six from the source and three candidates. Run Steps 1.3 to 1.5 as written, because two axes fit platform features. Seed the scores with Bryan's ratings, labeled as hypotheses, and let the Step 1.1 research move them. Steps 1.6 and 1.7, the demand driver, run unchanged and feed the lead magnet and the Phase 8 top of funnel asset.
 
@@ -94,7 +94,7 @@ SOS SMS has none. No contractors, no jobs, no payouts. In every drill the social
 
 **A second risk specific to this side: earnings.** A contractor copy drill invites "make $X more a month" or "fill your slow nights". Both are income claims with no data behind them. Write the mechanics instead.
 
-**A third: cross-side drift.** Check every headline against `GTM-BRIEF.md` Section 6 before closing the phase. "Guaranteed trip charge" is the headline most likely to be undercut by a customer-side promise.
+**A third: cross-side drift.** Check every headline against `GTM-BRIEF.md` Section 6 before closing the phase. "Guaranteed trip charge" is the headline most likely to be undercut by a member-side promise.
 
 This is where a fabricated testimonial enters a run that was otherwise honest, because the template asks nine times and templates get filled.
 

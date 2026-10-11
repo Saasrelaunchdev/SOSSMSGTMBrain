@@ -5,7 +5,7 @@ Three statements in the skill's template: against direct competitors, against in
 ## Step 3.1. Positioning statements
 
 **Against pay-per-lead platforms (Angi Leads, Thumbtack, Google Local Services Ads, Service Direct):**
-Not "another lead service", a dispatch line for emergency jobs where you never pay to see a request. You accept the jobs you want, a request you do not win costs you nothing, and the customer's trip charge is collected before you roll.
+Not "another lead service", a dispatch line for emergency jobs where you never pay to see a request. You accept the jobs you want, a request you do not win costs you nothing, and the trip charge is collected from the SOS SMS member before you roll.
 
 - Must be true before use: no per-lead or per-request fee in the revenue model (decision 2 has none). The trip charge is released on arrival by the committed time, written in the terms on one page (decision 3).
 - Answers the known weakness: every matched contractor sees each request. This statement makes the shared request harmless by saying exactly what it costs to lose one.
@@ -35,4 +35,4 @@ For licensed plumbing and water-emergency contractors who are tired of paying fo
 | Exclusive requests | Every matched contractor sees each request (decision 4) |
 | Better leads than a named competitor | No dated, sourced comparison exists yet |
 | "Zero cost" without the revenue model stated in the same sentence | Becomes false if SOS SMS takes any share of the work; decision 2 takes none, so state the $25 per completed paid job fee alongside |
-| "Guaranteed" trip charge without the late-arrival rule | The customer's 90-minute refund may pay out of it (brief Section 6, row 1) |
+| "Guaranteed" trip charge without the late-arrival rule | The member's 90-minute refund may pay out of it (brief Section 6, row 1) |

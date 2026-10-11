@@ -13,13 +13,14 @@ Load for: citing any market figure, checking a source ID, or deciding whether a 
 |---|---|---|
 | A | Primary: a regulator, a statistical agency, or the company's own page, terms, or pricing | Internal analysis; external copy with a citation, after page verification |
 | B | Reputable secondary: trade press, news, a benchmark owner's own data | Internal analysis; external only with citation and after verification |
-| C | Vendor blog, agency estimate, community post, aggregator | Internal direction only. Never in customer or contractor copy, never as an SOS SMS claim |
+| C | Vendor blog, agency estimate, community post, aggregator | Internal direction only. Never in member or contractor copy, never as an SOS SMS claim |
 
 Every number carries its source ID and grade. A number without an ID is an SOS SMS value: decided, a labelled planning value, or counted at a named stage, from `reference/resolution-register.md`.
 
-## The register at a glance (72 sources, S01 to S74)
+## The register at a glance (92 sources, S01 to S94)
 - **Contractor side:** lead platform prices and terms (S03 to S10), the FTC HomeAdvisor matter (S01, S02), warranty networks (S20, S33), answering services and dispatch wages (S21, S22), labor market and associations (S23 to S25), how homeowners find contractors (S26, S27), trip charge practice (S28), card holds (S30), consent and carrier rules (S31, S32), plumbers already texting (S64).
-- **Customer side:** Benjamin Franklin and Roto-Rooter promises (S40, S41), marketplace guarantees and behavior (S44 to S48), after-hours fees and complaints (S50, S51), upfront pricing peers (S42, S47, S53), warranty terms (S20, S56), water damage claims and drying guidance (S57, S58), text scams (S59), gas safety (S60), cards and banking (S61), housing stock (S62, S63).
+- **Member side (the membership revision, 2026-10-11):** plumber club memberships (S75 to S77), utility-partner plans and the partner model (S78, S93), home warranty prices (S79), AAA as an emergency membership analog (S80), Frontdoor (S81), home repair emergency surveys (S82 to S84), affiliate payouts (S85), RESPA and Regulation X (S86, S94), automatic renewal law after the vacated click-to-cancel rule (S87), the FTC Endorsement Guides (S88), subscription churn and annual discounts (S89, S90), home sales and first-time buyers (S91), email benchmarks (S92). All read from search summaries on 2026-10-11; page fetches were blocked.
+- **Demand side, from the pay per request research (kept):** Benjamin Franklin and Roto-Rooter promises (S40, S41), marketplace guarantees and behavior (S44 to S48), after-hours fees and complaints (S50, S51), upfront pricing peers (S42, S47, S53), warranty terms (S20, S56), water damage claims and drying guidance (S57, S58), text scams (S59), gas safety (S60), cards and banking (S61), housing stock (S62, S63).
 - **Paid search and policy:** search benchmarks (S15, S69), Local Services policy (S70), restricted businesses (S71), message assets (S72), CAN-SPAM (S73), Microsoft Ads costs (S74).
 
 ## The figures used most

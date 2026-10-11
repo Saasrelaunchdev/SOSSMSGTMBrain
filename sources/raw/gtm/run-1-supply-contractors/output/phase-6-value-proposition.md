@@ -4,7 +4,7 @@ Three pillars, nine reasons to believe, nine copy drills. Written to `../GTM-BRI
 
 **The fabrication rule for this phase.** SOS SMS has no contractors, jobs, or payouts. Every "Headline (Social Proof)" is a method line: it describes how the process works, which signals seriousness without claiming a result. Every "Supporting Proof Point" names the record or document that will show the claim is true from the first job. A real result replaces a method line only once it is measured and permissioned. No drill contains an earnings, volume, or "more jobs" claim.
 
-**Decided terms.** Every line that waited on a decision carries the decided words (`../../marketplace/resolution-register.md`, decided 2026-10-03). Before launch, recruiting copy built from these drills is written in the future tense.
+**Decided terms.** Every line that waited on a decision carries the decided words (`../../marketplace/resolution-register.md`, decided 2026-10-03; the lines about the demand side revised 2026-10-11, the membership revision). Before launch, recruiting copy built from these drills is written in the future tense. The homeowner is "an SOS SMS member" on first mention, then "the member"; a contractor's own clients stay "your customers".
 
 ## Step 6.1. Brand promise and positioning
 
@@ -17,9 +17,9 @@ Three pillars, nine reasons to believe, nine copy drills. Written to `../GTM-BRI
 
 | Value Prop | Description | Reason to Believe #1 | Reason to Believe #2 | Reason to Believe #3 |
 |---|---|---|---|---|
-| VP1. No lead fees | You never pay to receive a request. SOS SMS is paid by the customer on each request, and by you only per completed paid job after the founding period | No subscription and no per-lead fee | A request you do not win costs you nothing | Decline freely; declining does not change which requests reach you |
-| VP2. Paid to show up | The customer pays the trip charge before you roll, and SOS SMS holds it until you arrive | The trip charge is collected before you leave | Release and payout timing stated before your first job | The customer has already agreed to the trip charge, and it counts toward the work if they go ahead |
-| VP3. Know the job before you go | Emergency requests matched to your trades and area, with what the customer sent | Requests come from people with an active problem who want someone now | Matched to the trades and service area you set | When the customer sends photos or video, you see them before you accept |
+| VP1. No lead fees | You never pay to receive a request. SOS SMS is paid by members' monthly or annual fees, and by you only per completed paid job after the founding period | No subscription and no per-lead fee | A request you do not win costs you nothing | Decline freely; declining does not change which requests reach you |
+| VP2. Paid to show up | The trip charge goes on the SOS SMS member's card when you accept, before you roll, and SOS SMS holds it until you arrive | The trip charge is collected before you leave | Release and payout timing stated before your first job | SOS SMS members agree to the trip charge when they join, and it counts toward the work if they go ahead |
+| VP3. Know the job before you go | Emergency requests matched to your trades and area, with what the member sent | Requests come from SOS SMS members with an active problem who want someone now | Matched to the trades and service area you set | When the member sends photos or video, you see them before you accept |
 
 ## Step 6.3. Copy drills
 
@@ -72,12 +72,12 @@ Three pillars, nine reasons to believe, nine copy drills. Written to `../GTM-BRI
 | Reason to Believe | The trip charge is collected before you leave |
 | Headline (Rational) | The trip is paid before the truck moves. |
 | Headline (Emotional) | No more driving out for free. |
-| Headline (Social Proof) | Method line: "The customer pays the trip charge when they confirm. Then you roll." |
+| Headline (Social Proof) | Method line: "The trip charge goes on the member's card when you accept. Then you roll." |
 | Subhead | Every SOS SMS job starts with the trip charge already collected. |
-| Body Copy (25 words max) | The customer pays the trip charge before you leave. SOS SMS holds it and releases it to you when you arrive by your committed time. |
+| Body Copy (25 words max) | SOS SMS members have a card on file. The trip charge is collected before you leave and released when you arrive by your committed time. |
 | CTA | Read the terms on one page |
 | Supporting Proof Point | Every job record shows the trip charge captured before you roll |
-| Must be true before use | Release on arrival and the fault-based late-arrival rule (decision 3; brief Section 6, row 1), written in the terms on one page. Do not use the word "escrow" unless a licensed escrow arrangement holds the funds. Card authorizations generally hold 7 days online (S30), so the collection method must match the timing |
+| Must be true before use | Release on arrival and the fault-based late-arrival rule (decision 3; brief Section 6, row 1), written in the terms on one page. Do not use the word "escrow" unless a licensed escrow arrangement holds the funds. The member's card is saved at joining; the trip charge is authorized when the request text arrives and captured when you accept (decision 6). Card authorizations generally hold 7 days online (S30), so the collection method must match the timing |
 
 ### Copy drill 5. VP2, paid to show up: release and payout timing stated up front
 
@@ -93,33 +93,33 @@ Three pillars, nine reasons to believe, nine copy drills. Written to `../GTM-BRI
 | Supporting Proof Point | The payout timeline in the terms: within 2 business days of arrival |
 | Must be true before use | Stripe Connect payouts within 2 business days of arrival (decision 6); item 8, built in Stage 0 before the first request |
 
-### Copy drill 6. VP2, paid to show up: the customer has already agreed to the trip charge
+### Copy drill 6. VP2, paid to show up: the member has already agreed to the trip charge
 
 | Element | Content |
 |---|---|
-| Reason to Believe | The customer has already agreed to the trip charge, and it counts toward the work if they go ahead |
+| Reason to Believe | SOS SMS members agree to the trip charge when they join, and it counts toward the work if they go ahead |
 | Headline (Rational) | The fee talk is done before you knock. |
 | Headline (Emotional) | No more doorstep arguments about the service call. |
-| Headline (Social Proof) | Method line: "Customers see the trip charge and agree to it by text before anyone is dispatched." |
-| Subhead | Customers agree to the trip charge before the request reaches you. |
-| Body Copy (25 words max) | The customer has already agreed to the trip charge. You start at the problem. If they go ahead, it counts toward your bill. |
+| Headline (Social Proof) | Method line: "Members agree to the trip charge when they join, before any request reaches you." |
+| Subhead | SOS SMS members agree to the trip charge when they join, long before the request reaches you. |
+| Body Copy (25 words max) | Every SOS SMS member agreed to the trip charge on joining. You start at the problem. If they go ahead, it counts toward your bill. |
 | CTA | See a sample request |
-| Supporting Proof Point | Every request carries the customer's agreement to the trip charge, by text, with its time |
+| Supporting Proof Point | Every request carries the member's agreement to the trip charge, from the member terms, and the time it was charged |
 | Must be true before use | Crediting the trip charge to the work is a contractor obligation (brief Section 6, row 5). This drill states it as part of the deal rather than leaving it for the terms |
 
 ### Copy drill 7. VP3, know the job before you go: active emergencies
 
 | Element | Content |
 |---|---|
-| Reason to Believe | Requests come from people with an active problem who want someone now |
+| Reason to Believe | Requests come from SOS SMS members with an active problem who want someone now |
 | Headline (Rational) | Emergency requests only. |
 | Headline (Emotional) | People who need you tonight, not someday. |
-| Headline (Social Proof) | Method line: "Every request starts with a person texting about a problem happening now." |
-| Subhead | Requests come from people with an active problem who want someone now. |
-| Body Copy (25 words max) | Requests come from people texting about a problem in their home right now. They have already agreed to the trip charge. |
+| Headline (Social Proof) | Method line: "Every request starts with an SOS SMS member texting about a problem happening now." |
+| Subhead | Requests come from SOS SMS members with an active problem who want someone now. |
+| Body Copy (25 words max) | Requests come from SOS SMS members texting about a problem in their home right now. They agreed to the trip charge when they joined. |
 | CTA | Join the founding contractor list |
-| Supporting Proof Point | Every request carries the time of the customer's confirming text |
-| Must be true before use | Do not write "ready to buy". Some will decline the quote after paying the trip charge (brief Section 5) |
+| Supporting Proof Point | Every request carries the time of the member's request text |
+| Must be true before use | Do not write "ready to buy". Some will decline the quote after the trip charge is paid (brief Section 5) |
 
 ### Copy drill 8. VP3, know the job before you go: matched to your trades and area
 
@@ -130,7 +130,7 @@ Three pillars, nine reasons to believe, nine copy drills. Written to `../GTM-BRI
 | Headline (Emotional) | Less driving across town for the wrong job. |
 | Headline (Social Proof) | Method line: "You set your trades and service area when you join. Requests are matched to both." |
 | Subhead | Requests are matched to the trades and service area you set. |
-| Body Copy (25 words max) | Tell us your trades and how far you'll drive. Requests are matched to both. If a customer names the wrong trade, decline it. |
+| Body Copy (25 words max) | Tell us your trades and how far you'll drive. Requests are matched to both. If a member names the wrong trade, decline it. |
 | CTA | Set your trades and area |
 | Supporting Proof Point | Your trades and area, set at sign-up, shown on every request |
 | Must be true before use | Never write "every lead is pre-qualified" or "confirmed". Contractors have heard that exact claim from a platform the FTC found had not met it (S01) |
@@ -139,15 +139,15 @@ Three pillars, nine reasons to believe, nine copy drills. Written to `../GTM-BRI
 
 | Element | Content |
 |---|---|
-| Reason to Believe | When the customer sends photos or video, you see them before you accept |
+| Reason to Believe | When the member sends photos or video, you see them before you accept |
 | Headline (Rational) | See the problem before you load the truck. |
 | Headline (Emotional) | Walk in knowing what you're walking into. |
-| Headline (Social Proof) | Method line: "When customers send photos or video, they arrive with the request." |
-| Subhead | When the customer sends photos or video, you see them before you accept. |
-| Body Copy (25 words max) | When the customer sends a photo or video, it arrives with the request, before you accept. Bring the right parts the first time. |
+| Headline (Social Proof) | Method line: "When members send photos or video, they arrive with the request." |
+| Subhead | When the member sends photos or video, you see them before you accept. |
+| Body Copy (25 words max) | When the member sends a photo or video, it arrives with the request, before you accept. Bring the right parts the first time. |
 | CTA | See a sample request |
-| Supporting Proof Point | Customer photos and video attached to the request before you accept |
-| Must be true before use | The source marks this item as implied by a memo, not stated; decision 4 builds it into the request text. The customer may send nothing |
+| Supporting Proof Point | The member's photos and video attached to the request before you accept |
+| Must be true before use | The source marks this item as implied by a memo, not stated; decision 4 builds it into the request text. The member may send nothing |
 
 ## Cross-side check for this phase
 
@@ -155,7 +155,7 @@ Checked against `../GTM-BRIEF.md` Section 6 before closing the phase.
 
 | Drill | Section 6 row | Result |
 |---|---|---|
-| 1, 2, 3 | Row 8, zero cost to join | Holds: $0 to join and to receive a request; the contractor fee is per completed paid job (decision 2) |
+| 1, 2, 3 | Row 8, zero cost to join | Holds: $0 to join and to receive a request; the contractor fee is per completed paid job; members fund the network through the membership (decision 2, revised 2026-10-11) |
 | 2 | Row 3, dispatch rule | Holds; the drill states the shared request openly |
 | 4, 5 | Row 1, 90-minute refund and the contractor's trip charge | **Closed.** Under the fault-based rule, drill 4 says "when you arrive by your committed time" (decision 3) |
 | 4, 5 | Row 2, relaunch | Not referenced. Relaunch is not built; no contractor copy mentions it |

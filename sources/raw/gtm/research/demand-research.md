@@ -1,8 +1,134 @@
 # Demand-side research: Steps 1.1, 2.1, and 2.7
 
-For Run 2, the customer side. Competitors D1 to D6 come from `step-0-competitor-slates.md`. Source IDs and grades come from `SOURCES.md`. Everything was read through search summaries on 2026-10-01, see `README.md`.
+For Run 2, the demand side. Since the membership revision (2026-10-11) the demand side is members: homeowners who join SOS SMS before they need it, on a monthly or annual membership, so an emergency takes one text. The member slate research comes first below; the pay per request research from 2026-10-01 follows it, kept because most of it still describes the emergency itself. Competitors come from `step-0-competitor-slates.md`. Source IDs and grades come from `SOURCES.md`. Everything was read through search summaries (S01 to S74 on 2026-10-01, S75 to S94 on 2026-10-11), see `README.md`.
 
 ---
+
+## Membership revision (2026-10-11): the member slate
+
+The question changes. A homeowner does not compare SOS SMS with other options in the middle of a flood; they compare it before anything breaks, against the other things a household can join or pay for in advance, and against doing nothing and searching when it happens. The six competitors, D1 to D6, are set in `step-0-competitor-slates.md`, member slate.
+
+### Step 2.1. Competitor deep research, member slate
+
+#### D1. Search and call during the emergency (the status quo)
+
+| Attribute | Finding | Source |
+|---|---|---|
+| Model | No plan in advance. When something breaks, search "emergency plumber near me" and call down the list | S09, S50 |
+| Price in advance | Nothing | |
+| What happens in an emergency | Calls go unanswered at night; after-hours service call fees commonly $150 to $250 (C); each contractor sets its own fees | S50, S51 |
+| Strengths | Costs nothing until something breaks; total choice | |
+| Weaknesses | The search, the calls, and the fees all happen at the worst moment; no promise about arrival | S50, S51 |
+| What it means for SOS SMS | The comparison every member makes: a fee every month or year against searching when it happens. A non-member searching mid-emergency is better served by calling a contractor from the results, so the GTM never targets that moment | |
+
+#### D2. Plumber club memberships (Benjamin Franklin Plumbing, Roto-Rooter)
+
+| Attribute | Finding | Source |
+|---|---|---|
+| Model | One plumbing company's own membership | S75, S76, S77 |
+| Price | Benjamin Franklin Plumbing club $10 a month or $120 a year; the Ben Franklin Society $8.25 a month at other locations; a Roto-Rooter plan listed at $19.99 a month (C) | S75, S76, S77 |
+| What a member gets | Members' trip charge $49 instead of $89; 10 percent off repairs; priority scheduling; no after-hours fees; one annual plumbing check (Benjamin Franklin) | S75 |
+| What happens in an emergency | The member calls that one company and gets priority; the punctuality guarantee pays $5 a minute late, up to $300, on appointments | S40, S75 |
+| Strengths | A known brand; discounts; a yearly check; priority | S40, S75 |
+| Weaknesses | One company, so one schedule at 2 a.m.; recurring complaints of upselling and pressure to buy service contracts (C) | S52 |
+| What it means for SOS SMS | The closest analog and the price anchor: about $10 a month. SOS SMS offers many contractors at once and a money-backed window from the text; it does not offer repair discounts or a reduced trip charge | |
+
+#### D3. Home warranties (American Home Shield, Choice Home Warranty)
+
+| Attribute | Finding | Source |
+|---|---|---|
+| Model | A service contract that pays for covered repairs and replacements | S20, S68, S79 |
+| Price | $47 to $82 a month, averages of $56 and $62.33, plus a service fee of $75 to $125 a visit ($65 to $150), paid even on a denied claim | S56, S79 |
+| What happens in an emergency | A claim by phone, app, or online, 24/7; contact within 4 business hours, 48 hours on weekends, by contract; the contract disclaims timely emergency service | S20, S68 |
+| Strengths | Pays for covered repairs; one call for many systems | S79 |
+| Weaknesses | Slow dispatch by design; denied claims still cost the fee; minimal repairs and repeat fees in complaints (C) | S20, S56 |
+| What it means for SOS SMS | A different job: they pay for the repair, SOS SMS gets someone there fast. Many members will hold both. Never contest repair coverage (R21) | |
+
+#### D4. Utility-partner plumbing plans (HomeServe)
+
+| Attribute | Finding | Source |
+|---|---|---|
+| Model | Repair plans sold through utilities, cities, and associations | S78, S93 |
+| Price | Interior plumbing and drainage $16.99 a month ($8.49 first-year promotion), another version $22.99; renews automatically each year | S78 |
+| What a member gets | Covered repairs up to $2,500 a call and $5,000 a year; a 30-day waiting period before repairs | S78 |
+| Reach | More than 1,300 municipal, utility, and association partners in the US and Canada; over 4.6 million customers | S93 |
+| Strengths | Partner trust and partner channels: the plan arrives through a utility the household already pays | S93 |
+| Weaknesses | Coverage caps and a waiting period; covers repairs, not speed | S78 |
+| What it means for SOS SMS | Proof that home plans are sold before the need through partners, at scale. The affiliate and email channels copy the method, not the product | |
+
+#### D5. Home app memberships (Frontdoor)
+
+| Attribute | Finding | Source |
+|---|---|---|
+| Model | An app membership with video chats with home experts | S55, S81 |
+| Price | Prime $99 a year with three video chats; Unlimited listed at $25 and at $149 a year; Premium $29 a month introductory in 2023. Figures conflict | S81 |
+| What happens in an emergency | A video call with an expert who helps diagnose; a visit is a separate booking | S55, S81 |
+| Strengths | Help in minutes, from anywhere | S55 |
+| Weaknesses | Advice, not a visit; another app | S55 |
+| What it means for SOS SMS | The membership most like "help now", but by screen. SOS SMS sends a contractor, by text, with no app | |
+
+#### D6. On-demand marketplaces (Angi, Thumbtack)
+
+| Attribute | Finding | Source |
+|---|---|---|
+| Model | Free to the homeowner; contractors pay per lead | S03, S06, S44, S45 |
+| Price in advance | Nothing | S65, S66 |
+| What happens in an emergency | One request brings calls and texts from several pros (Angi); several pros message within minutes (Thumbtack) | S46, S48 |
+| Strengths | Free; guarantees on booked work (Happiness Guarantee, Thumbtack Guarantee) | S44, S45 |
+| Weaknesses | Being contacted by many; the homeowner still coordinates; no arrival promise | S46, S48 |
+| What it means for SOS SMS | The free alternative a member gives up. SOS SMS's answer is one reply, from the one who is coming, inside a guaranteed window | |
+
+#### SOS SMS (ours), member side
+
+| Attribute | Finding | Source |
+|---|---|---|
+| Model | A monthly or annual membership, joined before the need; card and home address on file | Membership revision, 2026-10-11 |
+| Price | Planning values $10 a month or $100 a year (R51, R52); copy uses `{{monthly price}}` and `{{annual price}}` until the launch price is set in Stage 0 | `../marketplace/resolution-register.md` |
+| What happens in an emergency | One text. It goes at once to the licensed, insured contractors on SOS SMS matched by trade and area; the first to accept commits to an arrival time; the $99 trip charge goes on the card on file at acceptance and counts toward the repair; if they are not there within 90 minutes of the text, the trip charge comes back (decision 3) | Decisions 3, 5, 6 |
+| What it does not do | Pay for the repair, discount the repair, or guarantee the work (R21) | |
+| Current state | Pre-launch; nothing is live; memberships open per zone at the density number (R55) | |
+
+### Step 1.1. Member feature demand research
+
+| # | Item | Who already offers it | How central | Evidence members want it | Read |
+|---|---|---|---|---|---|
+| 1 | A membership joined before the need, card and address on file | Plumber clubs (S75), warranties (S79), utility plans (S78), AAA for cars (S80) | Central to every plan | Strong: 4.6 million households hold one partner-sold plan alone (S93); about 81 percent had a home repair emergency in a year (S82) | Most vendors offer a plan; none offers a plan whose use is one text to many contractors |
+| 2 | One text starts dispatch, no forms at the time | Not found in the set. Warranties take claims by phone, app, or online (S68); plumber clubs take calls (S75) | Not offered | Moderate to strong: the worst moment is when calls go unanswered (S50, S51) | A few others at most. The text is a mechanic, never "only we" (S64) |
+| 3 | 90-minute arrival guarantee from the text, money back | Benjamin Franklin pays $5 a minute late on appointments (S40); warranties disclaim timely emergency service (S20) | Rare | Strong: no-shows and late arrivals lead the complaints (S51) | A few others |
+| 4 | Many contractors reached at once, one reply | Marketplaces send to several, and several call back (S46, S48) | Peripheral as designed | Strong for speed, negative for being contacted by many (S48) | A few others |
+| 5 | Arrival time on acceptance | Appointment windows and app arrival times are common (S40, S42, S53) | Common | Strong (S51) | A few others |
+| 6 | Trip charge on use, credited to the repair | Plumber clubs reduce the trip charge for members (S75); warranties charge a service fee per visit (S79) | Common | Strong: surprise fees are a top complaint (S50, S51) | Most vendors |
+| 7 | Cancel any time, monthly or annual | Common in consumer subscriptions; required in substance by ROSCA and state automatic renewal laws (S87) | Table stakes | Expected; the annual plan's common discount is two months free (S90) | Most vendors |
+| 8 | A readiness kit: shutoff guide, home check, seasonal notes | Plumber clubs include a yearly check (S75); HomeServe reports homeowners are unprepared (S82) | Peripheral | Moderate: pipe breaks are the top worry, 49 percent (S82) | A few others |
+| 9 | Private by design: no app tracking, never sold, no ad targeting | Not claimed by the set | Not claimed | Moderate (S48, S54) | A few others |
+| 10 | License and insurance checked | Common (S09, S18) | Table stakes | Expected | Most vendors |
+| 11 | Repair cost coverage | Warranties (S79) and utility plans (S78) | Central to them | Strong for them | Not offered by SOS SMS (R21). Do not contest |
+| 12 | Member discounts on repairs, reduced trip charge | Plumber clubs (S75) | Central to clubs | Moderate | Not offered at launch. The trip charge is $99 for everyone, credited to the repair |
+
+### Step 2.7. Review analysis, substituted, member slate
+
+| Competitor | Top positive themes | Top negative themes | Mainly about |
+|---|---|---|---|
+| D1 Search and call | 1. Free until needed. 2. Choice | 1. Unanswered calls at night (n=2). 2. Surprise after-hours fees (n=2). 3. No-shows (n=1) | The worst moment |
+| D2 Plumber clubs | 1. Priority and discounts (n=1, A). 2. Known brand (n=2). 3. A yearly check (n=1, A) | 1. Upselling (n=2). 2. Pressure to buy service contracts (n=1). 3. One company's schedule (inferred) | Price trust |
+| D3 Home warranties | 1. Covered repairs for the fee (n=2). 2. 24/7 intake (n=1, A) | 1. Slow dispatch, 48 hours on weekends by contract (n=2). 2. Fees on denied claims (n=1, B). 3. Minimal repairs (n=1) | Speed and claims |
+| D4 Utility-partner plans | 1. Arrives through a trusted utility (n=1, A). 2. Low first-year price (n=1, A) | 1. Coverage caps (n=1, A). 2. A 30-day waiting period (n=1, A). 3. Automatic renewal at a higher price (n=1, A) | Coverage limits |
+| D5 Frontdoor | 1. Help in minutes by video (n=1). 2. Low annual price (n=1) | 1. Advice, not a visit (inferred). 2. Conflicting prices (n=1) | Help without a visit |
+| D6 Marketplaces | 1. Free (n=2). 2. Guarantees on booked work (n=2) | 1. Contacted by many (n=2). 2. Coordination falls on the homeowner (inferred) | Being contacted by many |
+
+### What the member research changed
+
+1. **The plan market already exists, and it is sold before the need, through partners.** One partner-sold plan reaches 4.6 million households through more than 1,300 utilities, cities, and associations (S93). Households already pay $8.25 to $19.99 a month for a plumber's own club (S75 to S77) and $47 to $82 for a warranty (S79). The membership model sits inside known behavior.
+2. **No plan in the set makes the emergency itself fast.** Warranties disclaim timely emergency service and dispatch in hours or days (S20); plumber clubs give priority with one company; utility plans cover the repair after a waiting period (S78). A plan whose use is one text, with a money-backed 90-minute window, is the open space.
+3. **Emergencies are common across households, rare for each one.** About 81 percent of homeowners reported some home repair emergency in a year, and 20 to 26 percent a blocked or overflowing toilet (S82, S83). Planning value: 0.25 requests per member a year (R58). The membership is sold as readiness, not as frequent use.
+4. **The law shapes the channels.** Subscriptions need clear terms, consent, and easy cancellation (S87); affiliates must disclose payment (S88); payments for referrals at a home purchase settlement are barred (S86, S94); email follows CAN-SPAM (S73); marketing texts need written consent (S31).
+
+---
+
+## Pay per request research (2026-10-01), kept
+
+The research below was done for the retired pay per request model. Its findings about the emergency itself (unanswered calls, surprise fees, no-shows, being contacted by many, the national brands' arrival promises) still hold and feed the member slate above. Its competitor set and its read of what the customer pays before arrival describe the retired model.
+
 
 ## Step 2.1. Competitor deep research
 
@@ -95,7 +221,7 @@ For Run 2, the customer side. Competitors D1 to D6 come from `step-0-competitor-
 | Frontdoor app | Video chat with an expert, first chat free, $149 a year unlimited | S55 |
 | Jiffy | TrustScore 1.4; complaints include customer phone numbers shared with contractors | S54 |
 
-### SOS SMS (ours)
+### SOS SMS (ours), as it stood under pay per request
 
 Filled from `GTM-BRIEF.md` Section 1, not a crawl.
 
@@ -107,7 +233,7 @@ Filled from `GTM-BRIEF.md` Section 1, not a crawl.
 | Strengths | By design: one text to every matched contractor; an arrival time on acceptance; the trip charge back on a miss. Nothing live to review |
 | Weaknesses | No track record yet; open only in zones at density |
 | Who it serves | People with an urgent repair problem at home; homeowners by default |
-| What the customer pays before arrival | A $99 trip charge, credited to the job if the customer goes ahead, and a $49 SOS SMS fee (decided 2026-10-03) |
+| What the customer pays before arrival | A $99 trip charge, credited to the job if the customer goes ahead, and a $49 SOS SMS fee (decided 2026-10-03; the fee was retired by the membership revision, 2026-10-11) |
 
 ---
 

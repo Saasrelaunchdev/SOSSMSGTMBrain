@@ -6,7 +6,7 @@ There is also a Step 0 below that the skill does not have. You need it, because 
 
 Run Step 0 first. Everything after it depends on the slate it produces.
 
-These prompts are for the contractor run only. The customer run has its own set in `../run-2-demand-customers/RESEARCH-PROMPTS.md`, with a different slate and different sources, because a contractor and a homeowner compare SOS SMS against entirely different things.
+These prompts are for the contractor run only. The member run has its own set in `../run-2-demand-customers/RESEARCH-PROMPTS.md`, with a different slate and different sources, because a contractor and a homeowner compare SOS SMS against entirely different things. Revised 2026-10-11, the membership revision: the model description in the Step 0 prompt names the membership; the contractor research itself is unchanged.
 
 Before pasting any prompt, fill `{{launch metro}}` and `{{trades}}` from decision 1: the founders' home metro, and plumbing and water emergencies.
 
@@ -20,10 +20,11 @@ Not in the skill. Do this before Phase 1.
 I am researching the competitive set for SOS SMS, from the contractor side.
 
 SOS SMS is a pre-launch, two-sided marketplace for emergency home repair. A
-homeowner texts one number, the request goes to licensed, insured contractors
-matched by trade and service area, and a contractor accepts and commits to an
-arrival time. Contractors pay no subscription and no lead fee. The customer
-pays a trip charge up front, credited to the job if they go ahead. I am
+homeowner who has joined as a member, monthly or annually, texts one number;
+the request goes to licensed, insured contractors matched by trade and service
+area, and a contractor accepts and commits to an arrival time. Contractors pay
+no subscription and no lead fee. The trip charge goes on the member's card on
+file when a contractor accepts, credited to the job if they go ahead. I am
 looking at it from the contractor's side: how trade contractors get emergency
 and after-hours jobs today.
 
@@ -96,7 +97,7 @@ OUR FEATURES TO VALIDATE:
 1. Zero cost to join: no subscription and no lead fees
 2. High-urgency requests: active emergencies only
 3. Requests matched to the contractor's service area and trade
-4. Trip charge collected from the customer before the contractor rolls
+4. Trip charge collected from the member before the contractor rolls
 5. Photos and video of the problem before accepting
 6. Accept or decline any job, with no penalty for declining
 7. The customer relationship stays with the contractor after the job

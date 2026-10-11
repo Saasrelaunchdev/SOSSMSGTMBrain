@@ -1,33 +1,32 @@
-# Template: search ad (customers)
+# Template: sign-up ad (members)
 
-For Google responsive search ads, then the Microsoft import. Load `reference/channel-engine-paid-search.md` and `reference/value-proposition-customers.md` first. Example: `examples/search-ad-zone.md`.
+For Google responsive search ads on readiness and plan searches, then the Microsoft import; the same angles for paid social. Ads sell the membership before the need, never dispatch during an emergency (decision 11). Load `reference/channel-engine-members.md` and `reference/value-proposition-members.md` first. Example: `examples/search-ad-zone.md`.
 
 ## Preconditions (all yes, or the ad does not run)
-- [ ] Google has confirmed in writing that a dispatch service may run standard search ads for plumbing (decision 11).
-- [ ] The SOS SMS number is registered with carriers (S32).
-- [ ] The zone meets the density number; the campaign is geofenced to it and scheduled to its covered hours.
-- [ ] The landing page exists and carries the safety line.
+- [ ] Google has confirmed in writing that SOS SMS may advertise its membership with standard search ads (decision 11).
+- [ ] Memberships are open in the zone (R55); the campaign is geofenced to it, by location only.
+- [ ] The membership page exists, with the ZIP check, the prices as merge fields, the renewal terms, and the safety line.
+- [ ] Emergency dispatch searches are on the negative list.
 
 ## Fields
 - Zone and covered hours:
-- Ad group type: emergency / problem / prevention
-- Keywords (and the negative list in use):
+- Ad group: readiness / plan comparison / prevention (seasonal)
+- Keywords, and the negative list in use (emergency dispatch searches, jobs and careers, DIY parts, other cities, competitor brands):
 - Headlines (max 30 characters each, up to 15):
 - Descriptions (max 90 characters each, up to 4; one is the safety description):
-- Message asset: business name, number, stated response time, automated-reply disclosure, human handoff (S72):
-- Final URL: the zone landing page, or the matching problem guide for problem groups
-- Conversion tracked: paid request (primary), first text (secondary)
+- Final URL: the membership page, or the matching prevention guide
+- Conversion tracked: new paid member (primary); ZIP check and launch list join (secondary)
 
 ## Shape
-1. Name the problem or the need ("Water Leaking? Text Us Now").
-2. Give the next step ("Steps to Stop the Water Now").
-3. State one mechanic ("Trip Charge Shown Upfront", "Arrival Time When They Accept").
-4. Say who SOS SMS is ("Dispatch to Licensed Plumbers").
+1. Name the readiness gap ("Join Before Your Pipes Burst").
+2. Give the mechanic ("One Text When Something Breaks").
+3. State one term ("Trip Charge Only When Used", "Cancel Any Time").
+4. Say who SOS SMS is ("Dispatch to Licensed Plumbers", "Not a warranty").
 
 ## Angles to rotate
-The problem and the first step; one text instead of a list; the trip charge first; an arrival time on acceptance; no app. The guarantee angle: "90 Minutes or Trip Charge Back", with the scope on the landing page (decision 3). "Only One Pro Gets Your Info" runs once the broadcast that hides identity ships (decision 4).
+One text instead of a list; the card and address already on file; an arrival time on acceptance; no app; cancel any time; the first freeze (seasonal). The guarantee angle: "90 Minutes or Trip Charge Back", with the scope on the membership page (decision 3). "Only One Pro Gets Your Info" runs once the broadcast that hides identity ships (decision 4).
 
 ## Never in an ad
-Superlatives, arrival averages, "24/7" beyond covered hours, "emergency service", any number not in the brain, competitor brand names, "SOS" alone, bids on "SOS plumbing" (decision 10).
+An offer of dispatch during an emergency; superlatives; arrival averages; "24/7" beyond covered hours; "emergency service", "warranty", "insurance", "covers repairs"; a planning price as the price; any number not in the brain; competitor brand names; "SOS" alone; bids on "SOS plumbing" (decision 10).
 
-Guardrails: one side only (customers). Check `rules/do-not-say.md` (search ads block), `rules/feature-status.md`, and `rules/glossary.md`. Run `ops/QA-checklist.md` before launch.
+Guardrails: one side only (members). Check `rules/do-not-say.md` (search and social ads block), `rules/feature-status.md`, and `rules/glossary.md`. Run `ops/QA-checklist.md` before launch.

@@ -1,13 +1,13 @@
 # Run 1 log: SOS SMS supply side (contractors)
 
-The `gtm-builder` run for the contractor side, executed 2026-10-01 against `../GTM-BRIEF.md` and `../SKILL-ADAPTATION.md`. This file records what the run assumed, so every output can be traced and every assumption can be overturned.
+The `gtm-builder` run for the contractor side, executed 2026-10-01 against `../GTM-BRIEF.md` and `../SKILL-ADAPTATION.md`. This file records what the run assumed, so every output can be traced and every assumption can be overturned. The member-side wording was revised on 2026-10-11 (below).
 
 ## Inputs used
 
 | Input | Value used | Status |
 |---|---|---|
 | Project | SOS SMS, emergency home repair dispatch by text | From the brief |
-| Website | None yet | Decided: one site, the contractor page from Stage 1, then the zone pages from Stage 2 (R23) |
+| Website | None yet | Decided: one site, the contractor page from Stage 1, then the membership page and the guides from Stage 2 (R23) |
 | Category | Emergency home repair dispatch by text, two-sided marketplace | From the brief |
 | Niche | Licensed, insured plumbing and water-emergency contractors who take emergency calls | Decided (decision 1) |
 | Launch metro | The founders' home metro, one founding zone | Decided (decision 1). Research is national; local items are counted in Stage 0 (`../../research/step-0-competitor-slates.md`) |
@@ -20,7 +20,7 @@ The `gtm-builder` run for the contractor side, executed 2026-10-01 against `../G
 | Brief decision | Assumption used in this run, and the decision of 2026-10-03 | Where it matters |
 |---|---|---|
 | 1. Launch metro and trades | Plumbing and water emergencies. Decided: one founding zone in the founders' home metro | Phases 2, 4, 5.2, 8 |
-| 2. How SOS SMS earns money | Decided: a $49 SOS SMS fee per dispatched request; $0 to contractors in the founding period; then $25 per completed paid job | Phase 9, every "no lead fees" line |
+| 2. How SOS SMS earns money | Decided, revised 2026-10-11: members' monthly or annual membership; $0 to contractors in the founding period; then $25 per completed paid job | Phase 9, every "no lead fees" line |
 | 3. Late arrival and the contractor's trip charge | Decided: fault-based (option C). The copy that depended on it carries the decided words | Phases 6, 9 |
 | 4. Dispatch rule | Every matched contractor sees the request at once; the first to accept gets it (decision 4) | Phases 1, 3, 6, 7 |
 | 5. Build status | Every item treated as planned, not shipped. Copy is written for launch day and must not run before the item ships | Phases 1, 6 |
@@ -51,6 +51,20 @@ The founders changed the motion after the first run: product-led growth, no sale
 | `lead-magnet-spec.md`, `gtm_walkthrough.md` | Self-serve calls to action; channel slide |
 
 Growth across zones follows `../../marketplace/speed-to-scale-plan.md`.
+
+## Revision: the membership model (2026-10-11)
+
+The membership revision, 2026-10-11, changed the demand side: homeowners join SOS SMS as members, monthly or annually, before anything breaks, and in an emergency a member sends one text. The contractor side did not change: free to join, $0 per request, the trip charge collected before you roll, the founding terms, the $25 contractor fee after the founding period, the density gate, and the channels. What changed here is every line that describes the other side.
+
+| File | What changed |
+|---|---|
+| `../GTM-BRIEF.md` | Classification and Section 6 copied from Run 2, identical; the shared project information; the revenue sentence; the guarantee clock from the member's request text; "member" for the homeowner, "your customers" for a contractor's own clients |
+| `../README.md`, `../SKILL-ADAPTATION.md`, `../RESEARCH-PROMPTS.md` | The model description names the membership |
+| `phase-2-positioning-summary.md`, `phase-3-positioning-statements.md`, `phase-5-buying-committee.md`, `phase-7-customer-journey.md` | Member-side wording; memberships open only at the density number, with the launch list growing in parallel |
+| `phase-6-value-proposition.md` | VP1's revenue sentence; VP2 and drills 4, 6, and 7: the trip charge goes on the member's card when you accept, agreed when they joined; drill 9 and the cross-side check |
+| `phase-8-assets-library.md` | Cold emails 1 to 4: the revenue sentence, how a job works, the terms, and the zone opening to members |
+| `phase-9-pricing.md` | The take rate: the membership replaces the per-request SOS SMS fee; the late-arrival options and the guarantee wording; decision 1 |
+| `gtm_walkthrough.md` | Memberships open only at density; the member guarantee |
 
 ## Output files
 

@@ -1,17 +1,17 @@
 # Research for the SOS SMS GTM runs
 
-The external research that `gtm-builder` Steps 1.1, 2.1, and 2.7 need, plus the Step 0 competitor slate the discovery pack added. Both runs read from this folder.
+The external research that `gtm-builder` Steps 1.1, 2.1, and 2.7 need, plus the Step 0 competitor slate the discovery pack added. Both runs read from this folder. The membership revision (2026-10-11) added the member slate and sources S75 to S94: membership prices, partner-led plans, emergency frequency, subscription behavior, and the law for subscriptions, affiliates, and email.
 
 | File | What it holds |
 |---|---|
 | `SOURCES.md` | Every source used, with an ID (S01, S02, ...), the URL, what it supports, and an evidence grade |
 | `step-0-competitor-slates.md` | The filled six-slot slate for each side, the selection rule applied, and the final competitor set each run uses |
 | `supply-research.md` | Steps 1.1, 2.1, and 2.7 for the contractor side |
-| `demand-research.md` | Steps 1.1, 2.1, and 2.7 for the customer side |
+| `demand-research.md` | Steps 1.1, 2.1, and 2.7 for the demand side: the member slate first (2026-10-11), then the pay per request research it builds on |
 
 ## How this research was done, and its limits
 
-- **Date:** 2026-10-01.
+- **Dates:** 2026-10-01 (S01 to S74); 2026-10-11 (S75 to S94, the membership revision).
 - **Method:** web search only. Page fetches were blocked by this environment's network policy (for example ftc.gov, thumbtack.com, wikipedia.org), so every fact below was read from a search engine's summary of the listed page, not from the page itself.
 - **What that means:** treat every figure as "reported by the listed source, not yet checked on the page". Before any figure goes into external copy, a sales conversation, or an investor deck, open the URL and confirm it.
 - **Launch metro:** decided as the founders' home metro (decision 1), which the research could not name, so the research is national. The local slots (top search results in the metro, the metro's trade association chapter, local community groups) are filled in Stage 0, when the founding zone is drawn; they are listed under "local research, Stage 0" in the slate file.

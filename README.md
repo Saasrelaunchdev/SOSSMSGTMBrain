@@ -6,9 +6,9 @@
 
 The go-to-market for SOS SMS, held as plain Markdown that any AI agent or person can load and work from without re-deriving anything. One source of truth for strategy, claims, and voice, on both sides of the marketplace.
 
-SOS SMS is a pre-launch, two-sided marketplace for emergency home repair, starting with plumbing and water emergencies. A person with a problem at home texts one number. The request goes to the licensed, insured contractors on SOS SMS matched by trade and area, all at once. The first who can come accepts and commits to an arrival time. The customer agrees to a trip charge by text before anyone is dispatched, and it is credited to the repair if they go ahead.
+SOS SMS is a pre-launch, two-sided marketplace for emergency home repair, starting with plumbing and water emergencies. Homeowners join a monthly or annual membership before anything breaks, with their card and home address on file. When something does, the member texts one number. The request goes to the licensed, insured contractors on SOS SMS matched by trade and area, all at once. The first who can come accepts and commits to an arrival time. The $99 trip charge goes on the card on file when a contractor accepts, and it is credited to the repair if the member goes ahead.
 
-> **Status.** Pre-launch. Nothing is live. There are no contractors, customers, jobs, revenue, arrival times, or testimonials yet, so no result is cited. The twelve founder decisions were made on 2026-10-03, and every other value is resolved in [`reference/resolution-register.md`](reference/resolution-register.md): decided, a labelled planning value, or counted at a named stage. Per-message details are `{{merge fields}}`.
+> **Status.** Pre-launch. Nothing is live. There are no contractors, members, jobs, revenue, arrival times, or testimonials yet, so no result is cited. The twelve decisions were made on 2026-10-03; on 2026-10-11 the membership revision made the demand side a membership joined before the need, revising decisions 2, 3, 6, 8, and 11 and replacing decision 12 ([`ops/decisions.md`](ops/decisions.md)). Every other value is resolved in [`reference/resolution-register.md`](reference/resolution-register.md): decided, a labelled planning value, or counted at a named stage. Per-message details and the membership prices are `{{merge fields}}`.
 
 <p align="center">
   <img src="docs/architecture.svg" alt="The brain's layers: routers, control, reference, execution, state, sources, with the doors for other tools and the compounding loop" width="100%">
@@ -44,7 +44,7 @@ A **Go-to-Market Brain** is a governed context repository. It is content, not ap
 | Strategy stops living in one head | Two full `gtm-builder` runs, the research, and the marketplace synthesis are distilled into one master context and twenty focused reference files |
 | Every asset inherits the same positioning and voice | Templates, draft examples, and prompts sit on top of the same four rules files |
 | Agents stop overclaiming | What may be said is written down: a status ledger (nothing is shipped), a claim ledger with a safe replacement for every ban, and a pre-ship checklist |
-| It gets sharper with use | Signals from contractors, customers, rivals, and platforms flow into a log, get triaged, and update the ledgers before any copy changes |
+| It gets sharper with use | Signals from contractors, members, partners, rivals, and platforms flow into a log, get triaged, and update the ledgers before any copy changes |
 
 The brain has five layers. The **routers** are always loaded. The **control layer** is checked on every writing task. The **reference layer** is loaded only when a task needs it. The **execution layer** is how work gets made. The **state layer** is what makes it compound.
 
@@ -52,7 +52,7 @@ The brain has five layers. The **routers** are always loaded. The **control laye
 
 ## 2. Quick start
 
-**If you use Claude Code:** clone the repo and open it. `CLAUDE.md` loads automatically. Ask for what you need, for example "Write the zone landing page for the founding zone".
+**If you use Claude Code:** clone the repo and open it. `CLAUDE.md` loads automatically. Ask for what you need, for example "Write the membership page for the founding zone".
 
 **If you use Codex, Cursor, Zed, Jules, or opencode:** open the repo; `AGENTS.md` is the entry file. To use the brain from another repository, such as the product codebase, copy the matching file from [`adapters/`](adapters/README.md).
 
@@ -83,7 +83,7 @@ flowchart TD
     O --> R["Load the router<br/>CLAUDE.md or AGENTS.md"]
     R --> S{"Which side?"}
     S -->|"Contractors"| SC["Supply<br/>channel-engine-contractors.md"]
-    S -->|"Customers"| SD["Demand<br/>channel-engine-paid-search.md"]
+    S -->|"Members"| SD["Demand<br/>channel-engine-members.md"]
     S -->|"Both in one asset"| X["Stop. Two assets.<br/>Never blended"]
     SC --> CH{"Channel in the mix?"}
     SD --> CH
@@ -116,8 +116,8 @@ flowchart TD
 Three rules sit under the whole flow:
 
 - **Ledgers before copy.** When a fact changes, the rules file changes first. Copy follows.
-- **Every value has one home.** The $99 trip charge, the 90 minutes from the confirming text, the $99 refund: each comes from the resolution register, never from memory. Per-message details are merge fields, filled from a named record.
-- **Planning values are not results.** A planning value (0.30 acceptance, 50 percent first text to paid) is labelled as one. Writing it as a measured result is a QA failure.
+- **Every value has one home.** The $99 trip charge, the 90 minutes from the member's request text, the $99 refund: each comes from the resolution register, never from memory. Per-message details are merge fields, filled from a named record.
+- **Planning values are not results.** A planning value (0.30 acceptance, $10 a month for the membership until the launch price is set) is labelled as one, and the membership price reaches copy only as `{{monthly price}}`. Writing it as a measured result is a QA failure.
 
 ---
 
@@ -128,7 +128,7 @@ The always-loaded layer is small on purpose: a brain that has to be read in full
 | Task | Load |
 |---|---|
 | Any session | The router (`CLAUDE.md` or `AGENTS.md`), under 40 lines |
-| Any contractor or customer copy | The router and the four `rules/` files, then the reference file for the job |
+| Any contractor or member copy | The router and the four `rules/` files, then the reference file for the job |
 | Channel content | Add the channel engine, the template, and the matching example |
 | Comparison or objection work | Add `competitor-battlecards.md` and `objection-handling.md` |
 | Strategy question | The master context and `ops/decisions.md` |
@@ -164,52 +164,51 @@ SOS SMS has two audiences with opposite needs from one mechanic. The brain keeps
 
 **Two promises, one hand-off.**
 
-| | Contractors (supply) | Customers (demand) |
+| | Contractors (supply) | Members (demand) |
 |---|---|---|
-| Promise | No charge to see a request, and the trip paid before you roll | One text, an arrival time when someone accepts, and a missed 90-minute window costs SOS SMS money |
-| Leads with | The trip charge collected before rolling | The 90-minute guarantee, with its scope |
-| Channels | Cold email, partnership program, referral loop | Google then Microsoft search ads, problem pages, product loops |
-| First impression | The terms on one page | The first reply text |
-| Blocker to plan for | The dispatcher in a shop | A payment link from an unknown number |
+| Promise | No charge to see a request, and the trip paid before you roll | One text, and help is on the way. Join before you need it |
+| Leads with | The trip charge collected before rolling | One text, with the card and address already on file, and the 90-minute guarantee with its scope |
+| Channels | Cold email, partnership program, referral loop | Affiliates and email before the need; search and SEO pages, paid search, and paid social for sign-ups; member loops |
+| First impression | The terms on one page | A partner's mention, then the membership page |
+| Blocker to plan for | The dispatcher in a shop | "Another subscription": a fee every month before anything breaks |
 
 The planned flow of one request, as designed (nothing here is built or live):
 
 ```mermaid
 sequenceDiagram
     autonumber
-    actor C as Customer
+    actor C as Member
     participant S as SOS SMS
     actor K as Matched contractors
+    Note over C,S: Before the need: joins with the card<br/>and home address on file, saves the contact card
     C->>S: Texts what broke
-    S->>C: Automated reply: who SOS SMS is, the safety line
+    S->>C: Automated reply: going to the contractors now,<br/>text HELP for a person, the safety line
     S->>C: Stop-the-water steps
-    S->>C: $99 trip charge, $49 SOS SMS fee, and the guarantee in one line. Reply YES
-    C->>S: YES, then pays through the link
     S->>K: Request to all matched contractors at once<br/>problem and approximate distance, no address
     K->>S: First to accept commits to an arrival time inside the window
-    S->>C: Contractor name, arrival time, Google rating
+    S->>C: Contractor name, arrival time, Google rating.<br/>The $99 trip charge goes on the card on file
     S->>K: Address and details, to the accepting contractor only
-    Note over C,K: Acceptance is the hand-off.<br/>The contractor's commitment becomes the customer's arrival time
-    K->>C: Arrives. Trip charge released, credited to the repair if they go ahead
+    Note over C,K: Acceptance is the hand-off.<br/>The contractor's commitment becomes the member's arrival time
+    K->>C: Arrives. Trip charge released to the contractor, credited to the repair if they go ahead
     alt Window missed
         S->>C: The $99 trip charge back, automatically, no claim needed
     end
 ```
 
-**Why supply leads.** Every customer promise is only true where enough contractors have joined. The density model sets the floor per trade, zone, and hour band: n ≥ ln(1 - c) / ln(1 - a), where the acceptance rate a is the planning value 0.30 (R28) until it is measured per hour band in Stage 1. At 0.30, the founding zone needs 9 plumbing contractors for 95 percent coverage.
+**Why supply leads.** Every member promise is only true where enough contractors have joined. The density model sets the floor per trade, zone, and hour band: n ≥ ln(1 - c) / ln(1 - a), where the acceptance rate a is the planning value 0.30 (R28) until it is measured per hour band in Stage 1. At 0.30, the founding zone needs 9 plumbing contractors for 95 percent coverage. On the other side, about 430 members per zone keep each of those 9 contractors at about one request a month (planning value, R64).
 
 ```mermaid
 flowchart LR
-    A["Stage 0<br/>Twelve decisions,<br/>carrier registration,<br/>Google eligibility,<br/>payments, counsel"] --> B["Stage 1<br/>Supply fills one zone<br/>cold email, partners,<br/>sign-up by text"]
+    A["Stage 0<br/>Twelve decisions,<br/>carrier registration,<br/>Google eligibility,<br/>membership billing,<br/>affiliate terms, counsel"] --> B["Stage 1<br/>Supply fills one zone:<br/>cold email, partners,<br/>sign-up by text.<br/>Affiliates signed,<br/>launch list grows"]
     B --> G1{"Density number met<br/>for the first trade, zone,<br/>and covered hours?"}
     G1 -->|"No"| B
-    G1 -->|"Yes"| C["Stage 2<br/>Demand opens<br/>search ads geofenced<br/>and scheduled to<br/>covered hours"]
+    G1 -->|"Yes"| C["Stage 2<br/>Memberships open:<br/>the launch list first,<br/>affiliates live, then<br/>sign-up ads geofenced<br/>to the zone"]
     C --> G2{"Zone signals at<br/>threshold for the<br/>agreed weeks?"}
     G2 -->|"No: slow down,<br/>narrow hours"| C
     G2 -->|"Yes"| D["Stage 3<br/>Accelerate in the zone,<br/>then the adjacent zone,<br/>then a second metro"]
 ```
 
-The cross-side check ([`reference/marketplace-cross-side.md`](reference/marketplace-cross-side.md)) holds the eight shared promises and the eight conflicts A to H, each resolved by a decision. The brain refuses customer copy that promises something the contractor terms do not deliver.
+The cross-side check ([`reference/marketplace-cross-side.md`](reference/marketplace-cross-side.md)) holds the eight shared promises and the eight conflicts A to H, each resolved by a decision. The brain refuses member copy that promises something the contractor terms do not deliver.
 
 ---
 
@@ -221,11 +220,11 @@ The cross-side check ([`reference/marketplace-cross-side.md`](reference/marketpl
 |---|---|---|
 | Founders | The twelve decisions and every value in one place, and keeping the strategy from drifting | [`ops/decisions.md`](ops/decisions.md), [`reference/positioning-verdict.md`](reference/positioning-verdict.md) |
 | GTM consultant | Building and maintaining the brain, running the review rituals, producing assets for the founders to approve | [`ops/review-cadence.md`](ops/review-cadence.md), [`ops/signal-log.md`](ops/signal-log.md), [`prompts/common-tasks.md`](prompts/common-tasks.md) |
-| Growth lead | Building a zone: the contractor list and emails, then ad groups, landing page, and problem guides | [`reference/channel-engine-contractors.md`](reference/channel-engine-contractors.md), [`reference/channel-engine-paid-search.md`](reference/channel-engine-paid-search.md) |
+| Growth lead | Building a zone: the contractor list and emails, then affiliates, the launch list, the membership page, sign-up ads, and guides | [`reference/channel-engine-contractors.md`](reference/channel-engine-contractors.md), [`reference/channel-engine-members.md`](reference/channel-engine-members.md) |
 | Copywriter or agency | Drafting any asset on voice, with every claim already cleared | [`templates/README.md`](templates/README.md), [`examples/`](examples/first-reply-sms.md), [`ops/copy-bank.md`](ops/copy-bank.md) |
-| Product engineer | Writing the first reply, sign-up texts, refund texts, and in-app strings without promising what is not built | [`templates/first-reply-sms.md`](templates/first-reply-sms.md), [`rules/feature-status.md`](rules/feature-status.md), [`adapters/`](adapters/README.md) |
-| Partner manager | Supply house and association materials | [`templates/partner-kit.md`](templates/partner-kit.md), [`reference/objection-handling.md`](reference/objection-handling.md) |
-| Counsel | Reviewing the terms, the guarantee, and privacy against what the copy says | [`templates/terms-on-one-page.md`](templates/terms-on-one-page.md), [`rules/do-not-say.md`](rules/do-not-say.md) |
+| Product engineer | Writing the welcome texts, the first reply, refund texts, membership billing messages, and in-app strings without promising what is not built | [`templates/first-reply-sms.md`](templates/first-reply-sms.md), [`rules/feature-status.md`](rules/feature-status.md), [`adapters/`](adapters/README.md) |
+| Partner manager | Supply house materials for contractors; affiliate kits for the partners who reach homeowners | [`templates/partner-kit.md`](templates/partner-kit.md), [`templates/affiliate-kit.md`](templates/affiliate-kit.md), [`reference/objection-handling.md`](reference/objection-handling.md) |
+| Counsel | Reviewing the terms, the member terms and renewal disclosures, the affiliate terms, the guarantee, and privacy against what the copy says | [`templates/terms-on-one-page.md`](templates/terms-on-one-page.md), [`rules/do-not-say.md`](rules/do-not-say.md) |
 | Advisor or investor | The plan in one read, and the internal deck | The master context, [`reference/gtm-walkthrough-deck.md`](reference/gtm-walkthrough-deck.md) |
 | An AI agent | All of the above, inside the guardrails | `CLAUDE.md` or `AGENTS.md` |
 
@@ -233,11 +232,12 @@ The cross-side check ([`reference/marketplace-cross-side.md`](reference/marketpl
 
 | Task | Side | What the brain supplies | Prompt |
 |---|---|---|---|
-| Write an emergency ad group for a zone | Customers | Ad drafts with conditions, character limits, the safety description, the density rule | `prompts/common-tasks.md`, "Search ad group" |
+| Write a sign-up ad group for a zone | Members | Ad drafts with conditions, character limits, the safety description, the open-zone rule, the negative list | `prompts/common-tasks.md`, "Sign-up ad group" |
 | Write the four-email contractor sequence | Contractors | The sequence, pre-launch framing, email law, the Lead Cost Check hook | "Cold email sequence for a zone" |
-| Draft the first reply for a sewer backup | Customers | The ten-message sequence, safety handling, no link before agreement | "First reply variant" |
+| Draft the first reply for a sewer backup | Members | The member texts, safety handling, no link, offer, or confirmation in an emergency | "Member texts" |
+| Build the kit for a homeowner association | Members | The paragraph, the disclosure, the email block, who may never be paid | "Affiliate kit" |
 | Answer "every request is shared, like the platforms I quit" | Contractors | The honest answer and what it waits on | "Answer an objection" |
-| Compare with Benjamin Franklin Plumbing | Customers | What they lead on, what SOS SMS leads on, what never to say | "Compare with a rival" |
+| Compare with Benjamin Franklin Plumbing's club | Members | What they lead on, what SOS SMS leads on, what never to say | "Compare with a rival" |
 | A decided value changes, for example decision 5 | Both | The amendment order and every file carrying the old value | "A decided value changes" |
 | A contractor replies with a new objection | Contractors | Capture, triage thresholds, routing | "Log a signal" |
 | Monthly review | Both | The snapshot shape and the ledger diff | "Take a snapshot" |
@@ -249,9 +249,10 @@ The cross-side check ([`reference/marketplace-cross-side.md`](reference/marketpl
 | A LinkedIn post for contractors | Out of the mix: product-led, no LinkedIn | A cold email or a partner newsletter blurb |
 | A sales call script or demo | No sales team | The terms on one page and "how a job works in three texts" |
 | "Fastest plumber in town" headline | No superlatives; SOS SMS is not the plumber | "Arrival Time When They Accept" |
-| A testimonial for the landing page | No result exists before launch | A method line: "When a contractor accepts, you get their name and arrival time by text" |
+| A testimonial for the membership page | No result exists before launch | A method line: "When a contractor accepts, you get their name and arrival time by text" |
 | An average arrival time | None exists before launch; it is counted from the first request (R43) | The guarantee line: 90 minutes from the request, or the $99 trip charge back |
-| An email blast to homeowners | No cold email to homeowners | Problem guides and the opt-in readiness scorecard |
+| An email blast to homeowners | No cold email to homeowners | The opt-in readiness scorecard, the launch list, and partners' sends to their own lists |
+| An ad on "emergency plumber near me" | Ads sell memberships before the need; mid-emergency, a plumber from the results is the faster route | A sign-up ad on readiness searches, and the problem guide for that search |
 
 ---
 
@@ -260,10 +261,10 @@ The cross-side check ([`reference/marketplace-cross-side.md`](reference/marketpl
 | Benefit | What it means for SOS SMS |
 |---|---|
 | **No overclaiming, by construction** | Nothing is shipped and the proof set is empty, and both are written down. An agent cannot drift into "plumbers arrive in 45 minutes" because the rules name it and the checklist catches it |
-| **Two sides that never contradict each other** | The cross-side check means a customer is never promised a refund the contractor terms cannot fund, and a contractor is never promised a trip charge the customer flow does not collect |
+| **Two sides that never contradict each other** | The cross-side check means a member is never promised a refund the contractor terms cannot fund, and a contractor is never promised a trip charge the member flow does not collect |
 | **Decisions made once** | Twelve decisions, made on 2026-10-03, and every other value in one register. If one ever changes, the amendment order updates every place it touches, in order |
-| **Speed without a sales team** | Templates, examples, and filled prompts turn a zone launch into a checklist: list, emails, partner kit, ad groups, landing page, guides |
-| **Safety and compliance built in** | The safety line, carrier registration, message asset rules, email law, consent for texts, and the Local Services Ads exclusion are rules, not reminders |
+| **Speed without a sales team** | Templates, examples, and filled prompts turn a zone launch into a checklist: the contractor list and emails, partner kit, affiliate kits, the launch list, the membership page, sign-up ads, guides |
+| **Safety and compliance built in** | The safety line, carrier registration, email law, automatic renewal law, affiliate disclosure and the ban on payments at a home purchase settlement, consent for texts, and the Local Services Ads exclusion are rules, not reminders |
 | **Tool-neutral** | Markdown. Claude, Codex, Cursor, Windsurf, Copilot, Gemini, ChatGPT, and Grok all load the same rules |
 | **It compounds** | Every reply, objection, and snapshot feeds the ledgers, so the brain is sharper after the first zone than before it |
 | **Auditable** | Every figure carries a source ID and grade; two scripts check the brain on every change |
@@ -273,7 +274,7 @@ flowchart LR
     subgraph BEFORE["Without the brain"]
         B1["Strategy in decks<br/>and heads"] --> B2["Each writer or agent<br/>re-derives it"]
         B2 --> B3["Claims drift:<br/>exclusive, guaranteed arrival,<br/>pre-qualified"]
-        B3 --> B4["Customer and contractor<br/>copy contradict"]
+        B3 --> B4["Member and contractor<br/>copy contradict"]
     end
     subgraph AFTER["With the brain"]
         A1["One master context<br/>and four rules files"] --> A2["Every writer and agent<br/>loads the same rules"]
@@ -311,7 +312,7 @@ flowchart LR
 | **Claude Code** (terminal, desktop, web) | Open the repo; `CLAUDE.md` loads | Full OPERATE and UPDATE work: drafting, QA, logging signals, amending ledgers, running the checks | Nothing extra |
 | **Claude.ai Projects** | Upload `CLAUDE.md`, the four `rules/` files, the master context, and the reference files the team uses as project knowledge | Drafting and review in a chat UI with the full context | Re-upload when a rules file changes |
 | **Codex, Zed, Jules, opencode** | `AGENTS.md` in this repo; in another repo, merge `adapters/AGENTS.block.md` | Product strings and text flows in the product codebase | Keep the brain checked out at the path the block names |
-| **Cursor** | Copy `adapters/cursor.mdc` to `.cursor/rules/` | Landing pages and site copy in the web repo | The rule is "agent requested"; mention SOS SMS copy to trigger it |
+| **Cursor** | Copy `adapters/cursor.mdc` to `.cursor/rules/` | The membership page and site copy in the web repo | The rule is "agent requested"; mention SOS SMS copy to trigger it |
 | **Windsurf** | Copy `adapters/windsurf.md` to `.windsurf/rules/` | Same as Cursor | Same |
 | **GitHub Copilot** | Merge `adapters/copilot-instructions.block.md` | Inline suggestions for strings, docs, release notes | Copilot follows four short rules; review its suggestions against the checklist |
 | **Gemini CLI** | Merge `adapters/GEMINI.block.md` into `GEMINI.md` | Same as Codex | Same |
@@ -319,7 +320,7 @@ flowchart LR
 | **An LLM API** (Claude, or any other) | The portable layer as the system prompt; add the reference file for the task to the user turn | Generating ad variants or first-reply variants in a script | Run `check_sos_sms.py`-style checks on the output before use |
 | **A person, no AI** | Read the master context once; keep the rules and checklist open | Everything | Same rules, same checklist |
 
-**Proving the wiring works.** In any environment, ask three things. "Write a headline saying we are the fastest plumber in town" should be refused with a scoped alternative. "What does the trip charge cost?" should answer $99, credited to the repair, with the $49 SOS SMS fee as a separate line. "Write a LinkedIn post for contractors" should say LinkedIn is out of the mix and offer cold email or the partner kit. If any of the three goes through, the tool is not loading the control layer.
+**Proving the wiring works.** In any environment, ask three things. "Write a headline saying we are the fastest plumber in town" should be refused with a scoped alternative. "What does the trip charge cost?" should answer $99, on use, credited to the repair, with the membership as a separate price written `{{monthly price}}`. "Write a LinkedIn post for contractors" should say LinkedIn is out of the mix and offer cold email or the partner kit. If any of the three goes through, the tool is not loading the control layer.
 
 ---
 
@@ -330,7 +331,7 @@ SOS SMS has not chosen its stack yet. The patterns below show where the brain fi
 ```mermaid
 flowchart LR
     subgraph LOOP["Feedback"]
-        INB["Contractor replies,<br/>customer follow-ups,<br/>ad search terms"]
+        INB["Contractor replies,<br/>member follow-ups,<br/>partner notes,<br/>ad search terms"]
         AN["Analytics:<br/>zone signals"]
     end
     INB -->|"verbatim"| SIG["ops/signal-log.md"]
@@ -349,13 +350,16 @@ flowchart LR
         SC["Scorecard builder"]
         PK["Partner kit, print"]
     end
-    subgraph DEM["Demand side tools"]
+    subgraph DEM["Member side tools"]
+        AFF["Affiliate codes<br/>and commission"]
+        ME["Email: launch list<br/>and member email"]
         ADS["Google Ads, then<br/>Microsoft Ads"]
-        WEB["Website or CMS"]
+        WEB["Website or CMS:<br/>membership page"]
         RS["Readiness scorecard"]
     end
     subgraph PROD["Product"]
-        SMS["Texting platform:<br/>first reply, sign-up,<br/>refund texts"]
+        SMS["Texting platform:<br/>welcome, first reply,<br/>refund texts"]
+        BILL["Membership billing:<br/>renewals, cancel"]
         APP["Product repo with<br/>an adapter file"]
     end
 ```
@@ -381,23 +385,23 @@ Pair it with a code owners rule so any change under `rules/` needs a founder's r
 
 ### Pattern 2. The website or CMS
 
-Zone pages, problem guides, the guarantee page, and the contractor page are drafted from [`templates/`](templates/README.md) and stored in [`pages/`](pages/partner-counter-card.md) once approved. Whatever the site runs on (a static site, a headless CMS, a page builder), the brain is where the words are approved; the CMS is where they are published. If the site lives in a repo, add the Cursor, Windsurf, or Copilot adapter so in-editor suggestions follow the same rules. Never add ad pixels or retargeting: the privacy line depends on it.
+The membership page, zone pages, problem and prevention guides, the guarantee page, and the contractor page are drafted from [`templates/`](templates/README.md) and stored in [`pages/`](pages/partner-counter-card.md) once approved. Whatever the site runs on (a static site, a headless CMS, a page builder), the brain is where the words are approved; the CMS is where they are published. If the site lives in a repo, add the Cursor, Windsurf, or Copilot adapter so in-editor suggestions follow the same rules. Never add ad pixels or retargeting: the privacy line depends on it.
 
 ### Pattern 3. Paid search
 
-Ad groups are drafted from [`templates/search-ad.md`](templates/search-ad.md), checked against the search ads block of the checklist, then loaded through the ad platform's bulk upload or editor. The brain's density rule maps to campaign settings: a location target per zone, an ad schedule per covered hours, and an automatic pause when acceptance falls below the threshold. Search terms reports feed `ops/signal-log.md` as CHANNEL signals.
+Sign-up ad groups are drafted from [`templates/search-ad.md`](templates/search-ad.md), checked against the search ads block of the checklist, then loaded through the ad platform's bulk upload or editor. The brain's rules map to campaign settings: a location target per open zone, emergency dispatch searches on the negative list, a new paid member as the conversion, and an automatic pause when acceptance falls below the threshold (affiliate links then show the launch list). Search terms reports feed `ops/signal-log.md` as CHANNEL signals.
 
 ### Pattern 4. The texting platform and the product repo
 
-The first reply, sign-up texts, payout confirmations, and refund texts are product strings. Keep their source text in the brain ([`templates/first-reply-sms.md`](templates/first-reply-sms.md)) and copy approved versions into the product. In the product repository, merge `adapters/AGENTS.block.md` or the Copilot block so an engineer's agent cannot write "your plumber arrives in 30 minutes" into a string. Carrier registration (S32) and message asset rules (S72) are preconditions, not afterthoughts.
+The welcome texts, the first reply, the reply to a non-member, payout confirmations, and refund texts are product strings. Keep their source text in the brain ([`templates/first-reply-sms.md`](templates/first-reply-sms.md)) and copy approved versions into the product. In the product repository, merge `adapters/AGENTS.block.md` or the Copilot block so an engineer's agent cannot write "your plumber arrives in 30 minutes" into a string. Carrier registration (S32) and the automatic renewal disclosures in membership billing (S87) are preconditions, not afterthoughts.
 
-### Pattern 5. Cold email and the scorecards
+### Pattern 5. Email, affiliates, and the scorecards
 
-The contractor sequence comes from [`templates/cold-email.md`](templates/cold-email.md); a cold email tool sends it with a separate sending domain, warm-up, caps, and opt-out handling (S73). The two scorecards are specified in [`reference/lead-magnets.md`](reference/lead-magnets.md) for a scorecard builder. Replies, logged by objection type, become signals.
+The contractor sequence comes from [`templates/cold-email.md`](templates/cold-email.md); a cold email tool sends it with a separate sending domain, warm-up, caps, and opt-out handling (S73). The two scorecards are specified in [`reference/lead-magnets.md`](reference/lead-magnets.md) for a scorecard builder. Replies, logged by objection type, become signals. On the member side, the launch list and member email go only to people who opted in, from the same CAN-SPAM setup; affiliate links carry a code per partner, so new paid members are counted by partner for the commission (R61) and cost per new paid member is read by channel (R63).
 
 ### Pattern 6. Capturing signals from where they happen
 
-Contractor replies, customer follow-up answers, partner feedback, and rival moves arrive in an inbox, a texting dashboard, or a team chat. The pattern: forward the verbatim into a pull request that appends an entry to `ops/signal-log.md`, by hand or with an automation tool (a chat shortcut, a no-code workflow, a small script). Triage happens weekly, by a person, against the thresholds in the log.
+Contractor replies, member follow-up answers, partner feedback, and rival moves arrive in an inbox, a texting dashboard, or a team chat. The pattern: forward the verbatim into a pull request that appends an entry to `ops/signal-log.md`, by hand or with an automation tool (a chat shortcut, a no-code workflow, a small script). Triage happens weekly, by a person, against the thresholds in the log.
 
 ### Pattern 7. An LLM inside a workflow
 
@@ -405,8 +409,8 @@ For generated variants (ad headlines per problem type, first replies per trade),
 
 ```mermaid
 flowchart LR
-    T["Task: 5 headlines<br/>for 'sewer backup'"] --> P["System prompt:<br/>portable-control-layer.md"]
-    P --> R["Plus: channel-engine-paid-search.md<br/>and the template"]
+    T["Task: 5 sign-up headlines<br/>for the first freeze"] --> P["System prompt:<br/>portable-control-layer.md"]
+    P --> R["Plus: channel-engine-members.md<br/>and the template"]
     R --> LLM["LLM API"]
     LLM --> CHK{"QA checklist and<br/>automated checks"}
     CHK -->|"Fail"| LLM
@@ -421,7 +425,7 @@ A brain without a state layer is a style guide. This one records what was decide
 
 ```mermaid
 flowchart TD
-    IN["New input: a contractor reply, a customer follow-up,<br/>a rival move, a platform policy, a founder decision"] --> CAP["1. Capture in ops/signal-log.md<br/>verbatim, typed, dated"]
+    IN["New input: a contractor reply, a member follow-up,<br/>a rival move, a platform policy, a founder decision"] --> CAP["1. Capture in ops/signal-log.md<br/>verbatim, typed, dated"]
     CAP --> TRI{"2. Triage<br/>against the thresholds"}
     TRI -->|"One instance, no pattern"| N["NOISE, closed"]
     TRI -->|"Plausible pattern"| WA["WATCH (n/N)<br/>3 instances in 60 days to act"]
@@ -450,24 +454,24 @@ The cadence and thresholds are set ([`ops/review-cadence.md`](ops/review-cadence
 
 ## 11. From here to launch
 
-The twelve decisions, made on 2026-10-03. Every other value is in [`reference/resolution-register.md`](reference/resolution-register.md).
+The twelve decisions, made on 2026-10-03; decisions 2, 3, 6, 8, and 11 revised and decision 12 replaced by the membership revision on 2026-10-11. Every other value is in [`reference/resolution-register.md`](reference/resolution-register.md).
 
 | # | Decision | Decided |
 |---|---|---|
 | 1 | Launch zone and trades | The founders' home metro; one founding zone, a 10-mile radius; plumbing and water emergencies |
-| 2 | Revenue model | A $49 SOS SMS fee per dispatched request; contractors $0 in the founding period, then $25 per completed paid job; founding contractors $0 for 12 months after |
-| 3 | Late-arrival rule and guarantee scope | Fault-based; 90 minutes from the confirming text; the $99 trip charge back; no acceptance told within 15 minutes |
+| 2 | Revenue model | Members pay a monthly or annual membership (`{{monthly price}}`, `{{annual price}}`; planning values $10 and $100); the $99 trip charge on use; no fee per request. Contractors $0 in the founding period, then $25 per completed paid job; founding contractors $0 for 12 months after |
+| 3 | Late-arrival rule and guarantee scope | Fault-based; 90 minutes from the member's request text; the $99 trip charge back; no acceptance told within 15 minutes |
 | 4 | Dispatch rule | All matched at once, first to accept; approximate distance before acceptance, the address after |
 | 5 | Who sets the trip charge | SOS SMS: $99, one per trade and zone, day or night |
-| 6 | Payments | Stripe Connect; capture at acceptance, release on arrival, payout within 2 business days |
+| 6 | Payments | Stripe Connect; the card saved at joining; the trip charge captured at acceptance, released on arrival; payout within 2 business days |
 | 7 | Verification recheck cadence | At sign-up, every 6 months, and on each policy's expiry date |
-| 8 | Safety handling | Safety reply first; no broadcast until the customer is safe |
+| 8 | Safety handling | Safety reply first; no broadcast until the member is safe; a non-member gets the same safety reply |
 | 9 | Carrier registration | One local number, A2P 10DLC, before any test |
 | 10 | Name and trademark check | In Stage 0, before any ad, page, or email |
-| 11 | Google paid search eligibility | Standard search ads after Google's written confirmation; never Local Services Ads |
-| 12 | Paid search ceiling per zone | $275 per paid job while proving; $192 by month 6; $137 by month 12 |
+| 11 | Paid search | Sells memberships before the need: standard search ads after Google's written confirmation; emergency dispatch searches excluded; never Local Services Ads |
+| 12 | Acquisition ceiling | About $43 per new paid member, by channel and zone, reviewed weekly |
 
-What is left before launch is Stage 0 work, each item decided: register the number, get Google's confirmation, set up and test Stripe Connect, run the trademark check, and have counsel review the terms and the guarantee. If a decided value ever changes, tell any agent working in this repo: "Decision 5 changes to: $109 for plumbing". It will follow the amendment order and list every file it changed.
+What is left before launch is Stage 0 work, each item decided: register the number, get Google's confirmation, set the launch price, test membership billing, write the affiliate terms, set up and test Stripe Connect, run the trademark check, and have counsel review the terms, the member terms with the renewal disclosures, and the guarantee. If a decided value ever changes, tell any agent working in this repo: "Decision 5 changes to: $109 for plumbing". It will follow the amendment order and list every file it changed.
 
 ---
 
@@ -480,8 +484,8 @@ What is left before launch is Stage 0 work, each item decided: register the numb
 | [`context/`](context/SOS-SMS_GTM_Master_Context.md) | Reference | The master context, eighteen sections |
 | [`rules/`](rules/glossary.md) | Control | Glossary, feature status, do-not-say, writing rules |
 | [`reference/`](reference/marketplace-cross-side.md) | Reference | Twenty-one files: marketplace, each side, rivals, ICP, pricing, launch, brand, research, the deck, and the resolution register |
-| [`templates/`](templates/README.md) | Execution | Seven templates, one per channel in the mix |
-| [`examples/`](examples/first-reply-sms.md) | Execution | Four draft gold standards, each with "why this works" |
+| [`templates/`](templates/README.md) | Execution | Nine templates, one per asset type in the mix |
+| [`examples/`](examples/first-reply-sms.md) | Execution | Six draft gold standards, each with "why this works" |
 | [`pages/`](pages/partner-counter-card.md) | Execution | Finished or tested assets |
 | [`prompts/`](prompts/common-tasks.md) | Execution | Filled prompts for recurring jobs |
 | [`ops/`](ops/decisions.md) | State | Decisions, signals, copy bank, asset index, review cadence, QA checklist |
@@ -516,10 +520,10 @@ Both exit with an error code when something fails, so they can gate a pull reque
 
 | Source | What it contributed |
 |---|---|
-| `Fit137/SOSSMSGTMBuild`, `gtm/` | Both nine-phase `gtm-builder` runs (contractors and customers), the research and 72-source register, the marketplace synthesis (cross-side check, twelve decisions, speed-to-scale plan, launch sequence), the product features matrix |
+| `Fit137/SOSSMSGTMBuild`, `gtm/` | Both nine-phase `gtm-builder` runs (contractors and members), the research and 92-source register, the marketplace synthesis (cross-side check, twelve decisions, speed-to-scale plan, launch sequence), the product features matrix |
 | `Saasrelaunchdev/SOSSMSGTMWalkthrough` | What the build repo did not have: brand identity v1 (logo, mark meaning, colour roles, type, motion, voice), the built internal deck, now with every value resolved |
 | The Go-to-Market Brain skill (`alielshenawy1/Ali-GTM-Brain-Skill`, MIT) | The method: layers, nine build phases, ledgers, the compounding loop, adapters, and `audit_brain.py` |
 
 Every source is kept in [`sources/`](sources/extracted/INDEX.md), with a manifest of what each settles and the conflicts found between them and how each was resolved.
 
-**Rules of the house, one more time:** always the full name, SOS SMS. Nothing is live. Nothing invented. Brackets stay brackets. Every customer promise is kept by a contractor first.
+**Rules of the house, one more time:** always the full name, SOS SMS. Nothing is live. Nothing invented. Brackets stay brackets. Every promise to a member is kept by a contractor first.

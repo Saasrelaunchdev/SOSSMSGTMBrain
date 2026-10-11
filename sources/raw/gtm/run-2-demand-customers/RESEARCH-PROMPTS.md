@@ -1,4 +1,98 @@
-# External research prompts, pre-filled. Run 2: Demand (Customers)
+# External research prompts, pre-filled. Run 2: Demand (Members)
+
+**Revised 2026-10-11, the membership revision.** The demand side is a monthly or annual membership, joined before the need. The member prompts below are the ones to run now; they produced the member slate and sources S75 to S94 (`../research/step-0-competitor-slates.md`, `../research/demand-research.md`). The pay per request prompts after them are kept as the record of the 2026-10-01 research, whose findings about the emergency itself still hold.
+
+---
+
+## Membership revision prompts (2026-10-11)
+
+### Step 0, member slate
+
+```
+I am researching the competitive set for SOS SMS, from the member side.
+
+SOS SMS is a pre-launch, two-sided home repair network with a membership on
+the demand side. A homeowner joins before anything breaks, monthly or
+annually, with their card and home address on file. In an emergency the member
+texts one number, with no app, and the request goes at once to the licensed,
+insured contractors on the network for that trade and area. The first to
+accept gives an arrival time. A $99 trip charge goes on the card on file when
+a contractor accepts and is credited to the job; a 90-minute guarantee from
+the text refunds it on a miss. I am looking at what a household sets up, or
+relies on, before anything breaks.
+
+Launch area: {{launch metro}}. Trades: {{trades}}.
+
+For each category below, name the two or three options a homeowner there would
+actually consider, with the price, what is included, what happens in an
+emergency, the renewal and cancellation terms, and how it is sold (direct,
+through a utility or city, through an association, through agents):
+1. A plumbing company's own club membership
+2. Doing nothing in advance and searching when it happens
+3. Neighbors, community groups, the last contractor used
+4. Free on-demand marketplaces
+5. Doing it yourself or waiting until morning
+6. Plans that pay for repairs: home warranties, utility-partner plans
+Also: home app memberships with expert help, and any membership that sends
+help when called (roadside, for comparison).
+```
+
+**Selection rule when the results come back.** Keep the five or six a household would pay for, or rely on, before anything breaks. Record name, URL, slot, price in advance, what happens in an emergency.
+
+### Step 1.1, member feature demand
+
+```
+For each item, find who already offers it among home plans and memberships,
+how central it is to their offer, and any evidence households want it:
+1. A membership joined before the need, card and address on file
+2. One text starts dispatch, no forms at the time
+3. A 90-minute arrival guarantee from the request, money back
+4. Many contractors reached at once, one reply
+5. An arrival time when a contractor accepts
+6. A trip charge on use, credited to the repair
+7. Monthly or annual billing, cancel any time
+8. A readiness kit: shutoff guide, home check, seasonal notes
+9. Privacy: no app, never sold, no ad targeting
+10. License and insurance checked
+11. Repair cost coverage (what warranties and plans do)
+12. Member discounts or a reduced trip charge (what plumber clubs do)
+Also find: how often households have a plumbing emergency in a year; typical
+monthly churn for consumer subscriptions; the usual annual-plan discount.
+```
+
+### Step 2.1, member competitors
+
+```
+For each competitor in the member slate: price and what it includes; what
+happens in an emergency and how fast; the waiting period, caps, renewal, and
+cancellation terms; how it is sold and through which partners; strengths and
+weaknesses from its own pages and from consumer complaint sites.
+```
+
+### Step 2.7, member reviews, substituted
+
+```
+For each competitor, the top three positive and negative themes from consumer
+reviews and complaints (ConsumerAffairs, Trustpilot, BBB, Reddit homeowner
+communities), with the number of independent sources for each theme. Note
+which complaints are about speed, which about price and fees, and which about
+the work itself.
+```
+
+### Channels and law, for Phase 8
+
+```
+How home repair plans and memberships are sold before the need: partner
+channels (utilities, cities, associations), affiliate programs and their
+payouts, email benchmarks for home services. The rules that apply: CAN-SPAM
+for email; TCPA consent for marketing texts; ROSCA and state automatic renewal
+laws for subscriptions; the FTC Endorsement Guides for affiliates; RESPA
+Section 8 for anyone paid to refer at a home purchase settlement.
+```
+
+---
+
+## Pay per request prompts (2026-10-01), kept as the record
 
 Three steps in the skill need a person rather than the model: Step 1.1, Step 2.1, and Step 2.7. Each one below is filled with SOS SMS's customer-side details and ready to paste into a research tool or a browser.
 

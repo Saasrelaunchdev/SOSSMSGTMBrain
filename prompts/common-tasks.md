@@ -2,23 +2,29 @@
 
 Filled, runnable prompts for recurring jobs. Each assumes the agent has loaded the router (`CLAUDE.md` or `AGENTS.md`) and the four `rules/` files. Copy, fill the brackets marked with `<angle brackets>`, run. Per-message details in SOS SMS copy are `{{merge fields}}`, filled from a named record and never typed by hand; every other value is in `reference/resolution-register.md`.
 
-There is no sales team in this GTM, so there are no call scripts, demo scripts, or meeting prompts. There is no LinkedIn, no social, no outbound homeowner email or text, and no Local Services Ads, so there are no prompts for them. Asked for one, refuse and name the in-mix channel that does the job.
+There is no sales team in this GTM, so there are no call scripts, demo scripts, or meeting prompts. There is no LinkedIn, no cold email or texts to homeowners, no Local Services Ads, no retargeting, and no ad that sells dispatch to someone in the middle of an emergency, so there are no prompts for them. Asked for one, refuse and name the in-mix channel that does the job.
 
-## Customers
+## Members
 
-**Search ad group.** "Write an <emergency / problem / prevention> ad group for SOS SMS customers in zone <zone>, covered hours <hours>. Follow `templates/search-ad.md` and match `examples/search-ad-zone.md`. Use `reference/channel-engine-paid-search.md` and `reference/value-proposition-customers.md`. Count characters. Mark any line with a condition. Then run `ops/QA-checklist.md`, search ads block included."
+Homeowners join before the need (the membership revision, 2026-10-11). Every member prompt sells being ready, never help tonight, and only for zones where memberships are open (R55); elsewhere it points to the launch list.
 
-**Problem guide.** "Draft a problem guide for '<problem>' following `templates/problem-guide.md`. Shutoff and safety steps only, general enough to hold in any home; a licensed plumber reviews them before publishing. Safety line first. The text button and one line on SOS SMS at the end, only for zones at density. QA before returning."
+**Affiliate kit.** "Build the affiliate kit for <partner name, type> in zone <zone> with code <code> following `templates/affiliate-kit.md`, matching `examples/affiliate-kit.md`. First confirm the partner may be paid: never a real estate agent, lender, title or settlement agent, or anyone referring at a home purchase settlement. The disclosure line next to every mention. Prices as `{{monthly price}}` and `{{annual price}}`. QA, affiliates block."
 
-**Zone landing page.** "Draft the zone landing page for <zone> following `templates/landing-page-zone.md`, matching `examples/zone-landing-page.md`. Decided values as written; the zone's details as merge fields. QA before returning."
+**Member email.** "Write the <scorecard / launch list / opening / welcome / seasonal / renewal / cancellation> email for SOS SMS in zone <zone> following `templates/member-email.md`, matching `examples/launch-list-email.md`. Only to people who opted in. The full name, `{{postal address}}`, and `{{opt-out link}}` in every email. No urgency the facts do not carry. QA, email block."
 
-**First reply variant.** "Write the first reply for the problem type '<pipe / water heater / toilet / sewer backup / ceiling leak>' following `templates/first-reply-sms.md` and matching `examples/first-reply-sms.md`. One idea per message; no link before agreement. QA, text messages block."
+**Membership page.** "Draft the membership page for zone <zone> following `templates/membership-page.md`, matching `examples/membership-page.md`. Decided values as written; the zone's details and the prices as merge fields; cancel any time next to the price, before the card. QA before returning."
+
+**Sign-up ad group.** "Write a <readiness / plan comparison / seasonal prevention> ad group for SOS SMS memberships in zone <zone>, covered hours <hours>. Follow `templates/search-ad.md` and match `examples/search-ad-zone.md`. Use `reference/channel-engine-members.md` and `reference/value-proposition-members.md`. Count characters. Mark any line with a condition. Emergency dispatch searches go on the negative list. Then run `ops/QA-checklist.md`, search ads block included."
+
+**Problem or prevention guide.** "Draft a <problem / prevention> guide for '<problem or season>' following `templates/problem-guide.md`. Shutoff and safety steps only, general enough to hold in any home; a licensed plumber reviews them before publishing. Safety line first. The readiness scorecard and how membership works at the end, for next time; never a sign-up before the steps. QA before returning."
+
+**Member texts.** "Write the <welcome texts / first reply for the problem type '<pipe / water heater / toilet / sewer backup / ceiling leak>' / reply to a non-member> following `templates/first-reply-sms.md` and matching `examples/first-reply-sms.md`. One idea per message; no link, offer, or confirmation request in any emergency text; the membership prices never in an emergency text. QA, text messages block."
 
 ## Contractors
 
 **Cold email sequence for a zone.** "Write emails 1 to 4 for contractors in <zone> following `templates/cold-email.md`, matching `examples/cold-email-sequence.md`. Email 1 under 120 words. 'Request', never 'lead', for SOS SMS. Decided terms as written; per-email details as merge fields. QA, email block."
 
-**Partner kit.** "Build the partner kit for <partner name, type> with code <code> following `templates/partner-kit.md`. Take the FAQ answers from `reference/objection-handling.md`. No endorsement implied. QA before returning."
+**Partner kit (contractors).** "Build the partner kit for <partner name, type> with code <code> following `templates/partner-kit.md`. Take the FAQ answers from `reference/objection-handling.md`. No endorsement implied. QA before returning."
 
 **The terms on one page.** "Draft the terms on one page following `templates/terms-on-one-page.md` from the decisions logged in `ops/decisions.md` and the values in `reference/resolution-register.md`. Every term is decided; list the merge fields it carries."
 

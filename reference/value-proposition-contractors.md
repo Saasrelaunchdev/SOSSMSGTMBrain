@@ -9,9 +9,9 @@ Load for: any contractor-facing headline, email, page, card, or text. Distills R
 
 | Pillar | Reasons to believe |
 |---|---|
-| VP1 No lead fees. You never pay to receive a request. SOS SMS is paid by the customer on each request, and by you only per completed paid job after the founding period | No subscription and no per-lead fee. A request you do not win costs you nothing. Decline freely; declining does not change which requests reach you |
-| VP2 Paid to show up. The customer pays the trip charge before you roll, and SOS SMS holds it until you arrive | Collected before you leave. Released on arrival, in your bank within 2 business days, stated before your first job. The customer has already agreed to it, and it counts toward the work |
-| VP3 Know the job before you go | Requests from people with an active problem who want someone now. Matched to the trades and area you set. Photos or video before you accept, when the customer sends them |
+| VP1 No lead fees. You never pay to receive a request. SOS SMS is paid by members' monthly or annual fees, and by you only per completed paid job after the founding period | No subscription and no per-lead fee. A request you do not win costs you nothing. Decline freely; declining does not change which requests reach you |
+| VP2 Paid to show up. The trip charge goes on the SOS SMS member's card when you accept, before you roll, and SOS SMS holds it until you arrive | Collected before you leave. Released on arrival, in your bank within 2 business days, stated before your first job. SOS SMS members agree to it when they join, and it counts toward the work |
+| VP3 Know the job before you go | Requests from SOS SMS members with an active problem who want someone now. Matched to the trades and area you set. Photos or video before you accept, when the member sends them |
 
 ## The nine drills
 
@@ -25,23 +25,23 @@ Load for: any contractor-facing headline, email, page, card, or text. Distills R
 | 6 | The fee talk is done before you knock. | No more doorstep arguments about the service call. | See a sample request | Crediting obligation in the agreement |
 | 7 | Emergency requests only. | People who need you tonight, not someday. | Join the founding contractor list | Never "ready to buy" |
 | 8 | Matched to the trades and area you set. | Less driving across town for the wrong job. | Set your trades and area | Never "pre-qualified" (S01) |
-| 9 | See the problem before you load the truck. | Walk in knowing what you're walking into. | See a sample request | Photos and video before accepting, when the customer sends them (decision 4) |
+| 9 | See the problem before you load the truck. | Walk in knowing what you're walking into. | See a sample request | Photos and video before accepting, when the member sends them (decision 4) |
 
 ## Method substitutes (use in place of social proof)
 - "Here is exactly what you pay to receive a request: nothing." (drill 1)
 - "Every matched contractor sees the request. The first to accept gets it. Nobody pays to look." (drill 2)
 - "Say yes when you have capacity. Declining does not change which jobs you see next." (drill 3)
-- "The customer pays the trip charge when they confirm. Then you roll." (drill 4)
+- "The trip charge goes on the member's card when you accept. Then you roll." (drill 4)
 - "The payout timeline, step by step: confirmed, collected, arrived, released, paid out." (drill 5)
-- "Customers see the trip charge and agree to it by text before anyone is dispatched." (drill 6)
+- "Members agree to the trip charge when they join, before any request reaches you." (drill 6)
 - "You set your trades and service area when you join. Requests are matched to both." (drill 8)
 
 ## Body lines (25 words max)
 - Drill 2: "Requests go to every matched contractor at once. The first to accept gets the job. Everyone else pays nothing, because nobody pays to look."
 - Drill 1: "Every request reaches you free. No monthly bill, no per-lead charge. After the founding period, $25 per completed paid job."
-- Drill 4: "The customer pays the trip charge before you leave. SOS SMS holds it and releases it to you when you arrive by your committed time."
+- Drill 4: "SOS SMS members have a card on file. The trip charge is collected before you leave and released when you arrive by your committed time."
 - Drill 5: "The trip charge is released when you arrive and reaches your bank within two business days. You see that timeline before your first job."
-- Drill 6: "The customer has already agreed to the trip charge. You start at the problem. If they go ahead, it counts toward your bill."
+- Drill 6: "Every SOS SMS member agreed to the trip charge on joining. You start at the problem. If they go ahead, it counts toward your bill."
 
 ## Cross-side holds
 Drills 1 to 3 state the revenue model (decision 2). Drills 4 and 5 carry option C: the trip charge is released when you arrive by the time you committed to (decision 3). Relaunch is never referenced (R17). The obligations (arrival commitment, crediting, current documents) go in the terms on one page, stated plainly.

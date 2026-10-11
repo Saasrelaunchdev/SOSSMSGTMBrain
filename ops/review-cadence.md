@@ -9,7 +9,7 @@ Who reviews what, how often, and when a file is stale. **Set 2026-10-02, adopted
 | Signal triage | Weekly, Monday | GTM owner | Disposition every new signal, move WATCH counters, execute PATCHes |
 | Decision check | Weekly | Founders | Log any change to a decided value with its date and basis; trigger the amendment order |
 | Ledger sweep | Monthly | GTM owner, product | Read the four `rules/` files against reality; update `last_reviewed` |
-| Zone signals | Weekly from Stage 1 | Growth lead | Density, acceptance, arrival, refunds, cost per paid job, owned share against thresholds |
+| Zone signals | Weekly from Stage 1 | Growth lead | Density, acceptance, arrival, refunds, monthly churn, annual renewal, cost per new paid member by channel, and members against about 430 (R64), against thresholds (R32) |
 | Snapshot | Monthly before launch; every two weeks per live zone | GTM owner | The capture in `snapshots/`, ending in what it changed |
 | Master context version | On any AMEND, or quarterly | GTM owner | Bump version, refresh `status_notes`, check sections against the ledgers |
 | Brain audit | Monthly, and before any launch gate | GTM owner | `tools/audit_brain.py`, `tools/check_sos_sms.py`, then one live asset from the brain only |
@@ -34,4 +34,4 @@ Who reviews what, how often, and when a file is stale. **Set 2026-10-02, adopted
 ## Authority
 - A PATCH: anyone producing work.
 - An AMEND to any `rules/` file: a founder.
-- Positioning, ICP, channel mix, pricing, or the guarantee: both founders, with a dated entry in `decisions.md`.
+- Positioning, ICP, channel mix, pricing, the membership, or the guarantee: both founders, with a dated entry in `decisions.md`.

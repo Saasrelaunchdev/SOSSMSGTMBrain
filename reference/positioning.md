@@ -1,8 +1,8 @@
 # Positioning statements
 
-Load for: headlines, page openers, the one-line answer to "what is SOS SMS", and comparison copy. Distills both runs' Phase 3 (`phase-3-positioning-statements.md`) and Phase 2 positioning summaries. Every statement carries the conditions that must be true before it leaves the company.
+Load for: headlines, page openers, the one-line answer to "what is SOS SMS", and comparison copy. Distills both runs' Phase 3 (`phase-3-positioning-statements.md`) and Phase 2 positioning summaries (the member side revised by the membership revision, 2026-10-11). Every statement carries the conditions that must be true before it leaves the company.
 
-**Category:** emergency home repair dispatch by text, a local two-sided marketplace. **Niche:** plumbing and water emergencies, one zone at a time.
+**Category:** an emergency home repair membership, by text; a local two-sided network. **Niche:** plumbing and water emergencies, one zone at a time.
 
 ## Contractors
 
@@ -14,24 +14,24 @@ Load for: headlines, page openers, the one-line answer to "what is SOS SMS", and
 | Answering services, warranty networks, your own ads | A way to take emergency work at your own rates for the work without paying for the phone to ring. No monthly fee, nobody discounts your price for the work, you set the hours | No monthly fee; contractors set their price for the work. Never "your price" about the trip charge (decision 5) |
 | The status quo | Not a replacement for your regulars: an overflow line for the emergencies you would take anyway, in the hours you choose. Quiet costs nothing; booked, you decline | No subscription; declining carries no penalty |
 
-## Customers
+## Members
 
-**One line:** "For homeowners with a plumbing or water emergency and no one answering, SOS SMS is the one text that reaches the vetted contractors nearby, with an arrival time when one accepts and money back if they miss the window."
+**One line:** "For homeowners who want to be ready before something breaks, SOS SMS is the membership that makes a home emergency one text: the vetted contractors nearby see it at once, the first who can come commits to an arrival time, and if they miss the 90-minute window the trip charge comes back."
 
 | Against | Statement | Must be true before use |
 |---|---|---|
-| 24/7 brands and on-demand apps | Not another plumbing company: one text that reaches the licensed, insured contractors on SOS SMS for your trade, all at once. Whoever can come accepts with an arrival time, and if they are not there within 90 minutes of your request, you get the $99 trip charge back | Zone at density; covered areas and hours named in the same place (decision 3) |
-| Quote marketplaces and the warranty line | Not a quote site or a claim line: a way to get someone to your door tonight without handing your number to a crowd. Only the contractor who takes your job gets your address and details | The customer data rule adopted and matched in the privacy policy; conflict C designed |
-| The status quo | The one text you send instead of calling down a list at 2 a.m. You see the trip charge before anyone is sent, and it counts toward the work if you go ahead | The trip charge shown and agreed by text before dispatch |
+| Doing nothing in advance (search and call when it happens) | Not one more number to try at 2 a.m.: the number you save before anything breaks. As a member, the emergency is one text: it reaches the licensed, insured contractors on SOS SMS for that trade near your home at once, the first who can come commits to an arrival time, and if they are not there within 90 minutes of your text, the $99 trip charge comes back | Memberships open in the zone (R55); covered areas and hours named in the same place (decision 3). The honest cost said first when asked: a fee every month or year (R46) |
+| Plumber club memberships (Benjamin Franklin, Roto-Rooter) | Not priority with one company: every vetted contractor on SOS SMS for the trade near you, at once, with a 90-minute window from your text | Open zone. Their club gives a reduced trip charge, repair discounts, and priority (S75); their punctuality guarantee covers booked appointments (S40). SOS SMS gives no repair discount |
+| Home warranties and utility-partner plans (American Home Shield, HomeServe) | Not coverage, someone at your door: a warranty or a plan pays for a covered repair after a claim; SOS SMS gets a vetted contractor to you with one text, with an arrival time when one accepts, and shares your address only with the contractor who takes the job | The data rule in the privacy policy and member terms. For a covered failure the warranty is usually the cheaper route for the repair: say so (R21). Many members hold both |
 
-Every customer statement that invites a text carries the safety line.
+Every member statement that describes the emergency text carries the safety line.
 
 ## Differentiation and defensibility
-Lead platforms cannot stop charging per request without changing their model, and none holds the visit payment before the contractor rolls. On the customer side, a rival needs the same contractor density in a zone before it can make the same window promise, so density is both the constraint and the moat. Growth is bounded by supply: each metro and trade needs its own founding cohort.
+Lead platforms cannot stop charging per request without changing their model, and none holds the visit payment before the contractor rolls. On the member side, a rival needs the same contractor density in a zone before it can make the same one-text, money-backed promise, so density is both the constraint and the moat. A number saved in a phone before the pipe bursts is worth more than an ad seen during the flood. Growth is bounded by supply: each metro and trade needs its own founding cohort.
 
 ## The weak point to say first
 - **Contractors:** every request is shared. "A request you do not win costs you nothing."
-- **Customers:** an unknown number asking for money. The first reply says who SOS SMS is, the trip charge, and the guarantee scope before any link.
+- **Members:** a fee every month or year, before anything breaks. Say it first, then what the membership includes, the trip charge only on use, and cancel any time.
 
 ## Deliberately not claimed
-More jobs or any volume; exclusive requests; better leads than a named rival; "zero cost" without the revenue model; a "guaranteed" trip charge without the late-arrival rule; "every contractor in your area"; any arrival average; that SOS SMS prevents damage or saves money; a guarantee on the repair; "emergency service"; "never shared".
+More jobs or any volume; exclusive requests; better leads than a named rival; "zero cost" without the revenue model; a "guaranteed" trip charge without the late-arrival rule; "every contractor in your area"; "covered everywhere" or "24/7" without the hours; any arrival average; that SOS SMS prevents damage or saves money; that the membership pays for repairs or discounts them; a guarantee on the repair; "emergency service"; "never shared".

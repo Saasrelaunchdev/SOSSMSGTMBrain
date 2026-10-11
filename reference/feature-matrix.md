@@ -1,6 +1,6 @@
 # Feature matrix: what leads, what is table stakes
 
-Load for: choosing what an asset leads with, and checking whether a feature can headline. Distills both runs' Phase 1 (`phase-1-product-feature-matrix.md`). Scores run -20 to +20 (demand / competitiveness), starting from Bryan's ratings in the source matrix and moved by research. Status of every item: `rules/feature-status.md`. Nothing is shipped.
+Load for: choosing what an asset leads with, and checking whether a feature can headline. Distills both runs' Phase 1 (`phase-1-product-feature-matrix.md`; the member side revised by the membership revision, 2026-10-11). Scores run -20 to +20 (demand / competitiveness), starting from Bryan's ratings in the source matrix and moved by research. Status of every item: `rules/feature-status.md`. Nothing is shipped.
 
 ## Contractors
 
@@ -13,21 +13,24 @@ Load for: choosing what an asset leads with, and checking whether a feature can 
 | Matched by trade and area | 16.4 / -8.7 | Q4 Table stakes | Present, never a lead. Carries the FTC trust penalty (S01) |
 | Customer stays the contractor's | 9.4 / -9.3 | Q4 | Defensive: SOS SMS must not look like a booking network |
 | Accept or decline freely | 8.1 / -6.2 | Q4 | Present, not a headline |
-| Photos or video before rolling | -1.8 / 5.4 | Q2 Differentiator | A reason to believe, only when the customer sends them |
+| Photos or video before rolling | -1.8 / 5.4 | Q2 Differentiator | A reason to believe, only when the member sends them |
 | Requests by text, no app | -4.2 / 5.9 | Q2 | Onboarding friction, not the pitch |
 
 The obligations (commit to an arrival time, credit the trip charge, keep documents current) are costs in the contractor's eyes. State them plainly; never hide them.
 
-## Customers
+## Members
 
 | Feature | Demand / Comp. | Quadrant | Use it as |
 |---|---|---|---|
-| 90-minute guarantee, refund on a miss | 17.9 / 9.6 | Q1 Hero | **The lead**, with its scope. Only Benjamin Franklin has a money-backed arrival promise, on booked appointments (S40) |
-| Instant network access | 15.2 / 7.4 | Q1 Hero | Lead. Only the accepting contractor contacts the customer (S46, S48) |
-| Price range before arrival | 16.1 / 8.3 | Q1, not at launch | The strongest research finding. Not offered at launch (R49); out of copy |
+| One text starts dispatch: card and address on file from joining | 18.4 / 11.6 | Q1 Hero | **The lead.** What the membership buys: no forms, no payment entry, nothing to confirm at the worst moment. No plan in the set starts dispatch with one text |
+| 90-minute guarantee, refund on a miss | 17.9 / 9.6 | Q1 Hero | With the lead, and with its scope. Benjamin Franklin's money-backed promise covers booked appointments (S40) |
+| Instant network access | 15.2 / 7.4 | Q1 Hero | Lead. Only the accepting contractor contacts the member (S46, S48) |
+| Price range before arrival | 16.1 / 8.3 | Q1, not at launch | Not offered at launch (R49); out of copy. The trip charge is stated on the membership page |
 | Known arrival time on acceptance | 11.6 / 4.2 | Q1 Hero | The anchor the guarantee hangs on |
-| Private, narrow form | 9.7 / 6.1 | Q1 Hero | "Only the contractor who takes your job gets your address", once conflict C is designed |
-| Trip charge credited to the job | 14.8 / -6.9 | Q4 | Common. What is rarer is stating it before dispatch |
+| Private, narrow form | 9.7 / 6.1 | Q1 Hero | "Only the contractor who takes your job gets your address", once the broadcast that hides identity ships |
+| Readiness kit at joining | 6.4 / 3.4 | Q1, supporting | Value on day one, before anything breaks: the shutoff guide, Text READY, the contact card |
+| Membership, monthly or annual | 10.8 / -6.2 | Q4 Table stakes | The format households know from clubs, warranties, and utility plans (S75 to S79). It opens the door; it never leads |
+| Trip charge credited to the job | 14.8 / -6.9 | Q4 | Common. Clubs reduce the members' trip charge (S75); SOS SMS keeps one $99 trip charge, credited to the repair |
 | License and insurance checked | 12.3 / -7.8 | Q4 | Present, never a lead (S09, S18) |
 | Google rating up front | 8.4 / -10.6 | Q4 | Present |
 | Safety triage | -1.2 / 10.4 | Q2, required | Non-negotiable whatever the score: the name invites life-safety texts |
@@ -37,7 +40,7 @@ The obligations (commit to an arrival time, credit the trip charge, keep documen
 
 ## Demand drivers
 - **Contractors: the Lead Cost Check.** Last month's lead spend, leads, booked jobs, unpaid trips; returns true cost per booked job. Illustrative: a $40 lead that closes one time in six is a $240 job before the truck leaves (S03, S06). Variants: the automated lead spend report (replaces a white-glove audit), the Job Leak Scorecard, the emergency rate card template, a founding contractor test week (after launch).
-- **Customers: stop-the-water help in the first reply.** Shutoff and safety steps per problem type (pipe, water heater, toilet, sewer backup, ceiling leak), reviewed by a licensed plumber, never repair steps. Variants: problem guides, the readiness scorecard, Text READY, the post-job contact card.
+- **Members: the readiness check, before anything breaks.** "How Ready Is Your Home for a 2 a.m. Leak?": seven questions, a score, and a plan, on the web or by texting READY; carried by affiliates and email; it ends at the ZIP check (join in an open zone, the launch list in a zone not yet open, the plan alone outside). Variants: the partner email version, a prevention guide with the check built in, Text READY, the welcome texts. The stop-the-water first reply stays in the product, for members in an emergency and for any non-member who texts (R57); it is no longer a conversion moment.
 
 ## Validation notes
 Every "Unique to us" rating on a named item in the source matrix failed either the entry rule or the research. Blank rated rows in the source are excluded for good (R26). The contractor scorecard appears once as "After-Hours Readiness Scorecard"; the spec name, the Job Leak Scorecard, is canonical.

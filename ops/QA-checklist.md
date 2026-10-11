@@ -11,45 +11,52 @@ Tick every line against the draft. Any no is a fix before shipping. Every item i
 
 ## Channel
 - [ ] The channel is in the mix for this side (`rules/writing-rules.md`, channel discipline). If not, stop and redirect.
-- [ ] No outbound email or text to homeowners; no marketing text without written consent.
+- [ ] No cold email or text to homeowners; no marketing text without written consent.
+- [ ] No ad that sells dispatch to someone in the middle of an emergency; ads sell memberships, in open zones (decision 11).
 
 ## Claims
 - [ ] Nothing is described as live. Every capability matches its flag in `rules/feature-status.md`.
-- [ ] Pre-launch contractor recruiting copy says what SOS SMS is building, in the future tense.
+- [ ] Pre-launch contractor recruiting copy, and the member side's launch list, readiness scorecard, and guides before a zone opens, say what SOS SMS is building, in the future tense, and promise no service.
 - [ ] No testimonial, rating, count, logo, or result. Social proof is the drill's method line; proof is its named record (R44, R45).
 - [ ] Every per-message detail is a `{{merge field}}` from the register's list, never typed by hand.
 - [ ] No "escrow", "exclusive", "pre-qualified", "guaranteed arrival time", or "every contractor in your area".
-- [ ] Any guarantee mention carries the scope in the same sentence: 90 minutes from the request, the $99 trip charge back, and the covered areas and hours (`{{zone neighborhoods}}`, `{{covered hours}}`).
-- [ ] No relaunch guarantee (held, R17), no guarantee on the repair, no price range before arrival (R49), no volume or earnings promise.
+- [ ] Any guarantee mention carries the scope in the same sentence: 90 minutes from the member's request text, the $99 trip charge back, and the covered areas and hours (`{{zone neighborhoods}}`, `{{covered hours}}`).
+- [ ] No relaunch guarantee (held, R17), no guarantee on the repair, no repair coverage or discount (R21, R53), no price range before arrival (R49), no volume or earnings promise, no free trial.
+- [ ] Membership prices are `{{monthly price}}` and `{{annual price}}`, never the planning values (R51, R52); cancellation and renewal terms sit next to the price (R56).
 - [ ] Every "only", "first", "best", "never", "always" is cleared in `rules/do-not-say.md`.
 - [ ] Nothing presents SOS SMS as the plumber, an emergency service, or 911.
 
 ## Naming and strategy
-- [ ] "Request", not "lead"; "trip charge" and "SOS SMS fee" named separately (`rules/glossary.md`).
+- [ ] "Request", not "lead"; "member", not "customer" or "subscriber", for SOS SMS's demand side; the membership and the trip charge named separately, never one total (`rules/glossary.md`).
 - [ ] No framing that contradicts a DECIDED entry in `ops/decisions.md`.
-- [ ] No contest on volume or exclusivity (contractors), or brand familiarity and guarantees on the work (customers).
+- [ ] No contest on volume or exclusivity (contractors), or repair coverage, brand familiarity, and guarantees on the work (members).
 
 ## Audience and stage
-- [ ] One side only: contractors or customers.
+- [ ] One side only: contractors or members.
 - [ ] Nothing promised to one side that the other side's terms do not deliver.
 - [ ] Written for the journey stage it targets (`reference/customer-journey.md`).
-- [ ] Customer copy only for zones at the density number and covered hours.
+- [ ] Membership copy only for open zones, at the density number and covered hours; elsewhere, the launch list, which promises no service (R55).
 
 ## Text messages
 - [ ] Says it is automated and how to reach a person.
 - [ ] Names SOS SMS before any link; no link in the first message.
 - [ ] The safety line is present wherever the copy invites an urgent text.
-- [ ] A payment request states the trip charge, what it covers, and the guarantee scope.
+- [ ] No emergency text asks a member for a card, a payment, or a confirmation; the acceptance text states the trip charge, what it covers, and the guarantee scope.
 
-## Search ads and pages
+## Search ads, social ads, and pages
 - [ ] No superlative, no arrival average, no "24/7" beyond the zone's covered hours.
-- [ ] The safety line on the landing page and in one ad description.
+- [ ] The safety line on the membership page and in one ad description.
+- [ ] Location targeting only: no pixel, retargeting, or uploaded list.
 - [ ] No bid on "SOS plumbing" (decision 10); not a Local Services Ad.
 
 ## Email
 - [ ] Accurate sender, honest subject line, postal address, one-click opt-out (S73).
 - [ ] Contractor email 1 under 120 words; no claims about SOS SMS results.
-- [ ] Homeowner email only after a scorecard opt-in; never cold.
+- [ ] Homeowner email only after an opt-in (the scorecard, the launch list, joining) or in a partner's own send; never cold.
+
+## Affiliates
+- [ ] The kit's words only; a code in every link; the disclosure next to the mention (S88).
+- [ ] No payment to anyone referring at a home purchase settlement (R61, S86, S94).
 
 ## Voice
 - [ ] Reads like the matching file in `examples/`: dispatch-room calm, mechanics before adjectives.

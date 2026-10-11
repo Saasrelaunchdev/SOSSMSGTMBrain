@@ -4,7 +4,7 @@
 - Nine dashboards plus a lead magnet turn one question into a launch plan: why would a licensed plumber try one more platform?
 - The answer the suite builds toward: no charge to see a request, and the trip paid before you roll
 - Every SOS SMS metric is a planning value until the founding cohort produces real data
-- So what: supply is the constrained side, and the customer side cannot open in a zone until this side reaches density
+- So what: supply is the constrained side, and memberships cannot open in a zone until this side reaches density
 
 ---
 
@@ -41,7 +41,7 @@
 # SLIDE 5, ICP Dashboard: Who We Win First, and Why
 
 - First: small plumbing and water damage shops that already pay for leads and run an on-call technician
-- They have the clearest savings anchor and the night capacity the 90-minute customer guarantee needs
+- They have the clearest savings anchor and the night capacity the 90-minute member guarantee needs
 - Alongside: owner-operators who rely on referrals, recruited to fill hours and refer other trades
 - Triggers to watch: a lead platform renewal, a bad month of unreplied leads, freeze season
 - So what: recruit the shops first, use owner-operators to close coverage gaps

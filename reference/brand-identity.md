@@ -3,7 +3,7 @@
 Load for: any visual asset, logo use, colour choice, type setting, motion, or a question about what the brand means. Distills the walkthrough repo's brand v1 (`sources/raw/walkthrough/brand-book.html`, `brand-README.md`, `palette-validation.md`, `tokens.css`, 2026-10-01). Logo files: `brand/logo/`. Status: BUILT, internal; the dark palette kept as validated (2026-10-04).
 
 ## What it means
-**Cover line:** "One text out. One yes back." **The line that carries the business:** "Every promise to a customer is kept by a contractor first."
+**Cover line:** "One text out. One yes back." **The line that carries the business:** "Every promise to a member is kept by a contractor first."
 
 | Value | Meaning |
 |---|---|
@@ -13,7 +13,7 @@ Load for: any visual asset, logo use, colour choice, type setting, motion, or a 
 | Exact, never inflated | Every number carries its source, or it does not appear |
 
 ## The mark
-A sent-message bubble (three round corners, one tight) holding a round dot and a square. **Round is always a customer. Square is always a contractor**, everywhere in the system. Signal green is the yes, the reply when a contractor accepts; it never means alarm. **Never** red or orange, a siren, a cross, a lifebuoy, a bell, a ringing phone, or "911".
+A sent-message bubble (three round corners, one tight) holding a round dot and a square. **Round is always a member (the demand side). Square is always a contractor**, everywhere in the system. Signal green is the yes, the reply when a contractor accepts; it never means alarm. **Never** red or orange, a siren, a cross, a lifebuoy, a bell, a ringing phone, or "911".
 
 ## Logo rules
 Six lockups: primary (`sos-sms-logo.svg`), reversed, stacked (and stacked reversed), one colour ink, one colour white, plus the wordmark, the mark (three variants), favicon, and app icon. Always the full "SOS SMS"; never separate the words or use the first alone. Clear space: one contractor square on every side (built into the files). Minimum: 96 px wide on screen, 24 mm in print; the mark alone 16 px. Don't stretch, tilt, recolour, outline, glow, shadow, or pulse it.

@@ -1,6 +1,6 @@
 # Partner counter card and newsletter blurb (contractors)
 
-Status: **approved 2026-10-04, updated with decided values.** The live test of the brain build (2026-10-03): produced using only this repository, from `templates/partner-kit.md`, `reference/channel-engine-contractors.md`, `reference/value-proposition-contractors.md`, and `ops/copy-bank.md`, then run through `ops/QA-checklist.md`. Ships once a partner agreement is signed and the partner's code is issued.
+Status: **approved 2026-10-04, updated with decided values; the revenue sentence revised 2026-10-11 (the membership revision).** The live test of the brain build (2026-10-03): produced using only this repository, from `templates/partner-kit.md`, `reference/channel-engine-contractors.md`, `reference/value-proposition-contractors.md`, and `ops/copy-bank.md`, then run through `ops/QA-checklist.md`. Ships once a partner agreement is signed and the partner's code is issued.
 
 ## Counter card
 
@@ -10,7 +10,7 @@ Status: **approved 2026-10-04, updated with decided values.** The live test of t
 >
 > (QR code: the Lead Cost Check, with partner code {{code}})
 >
-> SOS SMS is building an emergency dispatch line by text for {{zone}}. When it opens: no subscription, no per-lead fee, and the trip charge collected before you roll. SOS SMS will be paid by the customer on each request, and by you only per completed paid job after the founding period.
+> SOS SMS is building an emergency dispatch line by text for {{zone}}. When it opens: no subscription, no per-lead fee, and the trip charge collected before you roll. SOS SMS will be paid by members' monthly or annual fees, and by you only per completed paid job after the founding period.
 >
 > Text JOIN-{{code}} to {{number}} to get on the founding contractor list.
 >
@@ -18,7 +18,7 @@ Status: **approved 2026-10-04, updated with decided values.** The live test of t
 
 ## Newsletter and job-board blurb
 
-> SOS SMS is building an emergency dispatch line by text for licensed plumbing and water-emergency contractors in {{zone}}. When it opens, seeing a request costs nothing and the customer pays the trip charge before you roll; SOS SMS will be paid by the customer on each request, and by contractors only per completed paid job after the founding period. Start with the two-minute Lead Cost Check, which shows what each booked job from your leads really costs: {{link}} (code {{code}}).
+> SOS SMS is building an emergency dispatch line by text for licensed plumbing and water-emergency contractors in {{zone}}. When it opens, seeing a request costs nothing and the trip charge is collected from the SOS SMS member before you roll; SOS SMS will be paid by members' monthly or annual fees, and by contractors only per completed paid job after the founding period. Start with the two-minute Lead Cost Check, which shows what each booked job from your leads really costs: {{link}} (code {{code}}).
 
 ## QA record
 

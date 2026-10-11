@@ -57,10 +57,10 @@ Merge fields are filled from the contractor list record before anything is sent 
 <!-- sheet: Email_Copy -->
 | Email | Send | Subject | Body |
 |---|---|---|---|
-| 1 | Day 0 | What did each job from your leads cost? | Hi {{first name}}, one question for {{business}}: what did each booked job from your lead platforms cost last month, counting the leads that never answered? This two-minute check works it out from four numbers you already know: {{link}}. Your answers stay yours. We're building SOS SMS, emergency jobs by text in {{zone}}, with no lead fees and the trip charge collected before you roll. SOS SMS will be paid by the customer on each request, and by you only per completed paid job after the founding period. |
-| 2 | Day 3 | How a job works in three texts | A customer texts what broke. Every matched contractor in the area sees it at once, and the first to accept gets the job. Everyone else pays nothing, because nobody pays to look. The customer has already paid the trip charge before you roll. (Image: the three texts.) See how it works: {{contractor page}}. |
-| 3 | Day 7 | The terms, on one page | What you'll pay: nothing to join or to see a request; as a founding contractor, $0 a job through the founding period and 12 months after, then $25 per completed paid job. When you're paid: the trip charge is released when you arrive by your committed time and reaches your bank within two business days. What you commit to: an arrival time when you accept, crediting the trip charge to the work if the customer goes ahead, and current license and insurance. If you're late: the customer's refund comes from the trip charge. All of it in writing: {{terms link}}. |
-| 4 | Day 12 | Founding contractors in {{zone}} | We're opening {{zone}} to customers once enough contractors have joined to cover it. Founding contractors get the first requests there and founding terms if they join by {{founding close date}}. To join, text JOIN to {{number}}; it takes about 5 minutes, with no call. Last email unless you reply. |
+| 1 | Day 0 | What did each job from your leads cost? | Hi {{first name}}, one question for {{business}}: what did each booked job from your lead platforms cost last month, counting the leads that never answered? This two-minute check works it out from four numbers you already know: {{link}}. Your answers stay yours. We're building SOS SMS, emergency jobs by text in {{zone}}, with no lead fees and the trip charge collected before you roll. SOS SMS will be paid by members' monthly or annual fees, and by you only per completed paid job after the founding period. |
+| 2 | Day 3 | How a job works in three texts | An SOS SMS member texts what broke. Every matched contractor in the area sees it at once, and the first to accept gets the job. Everyone else pays nothing, because nobody pays to look. The trip charge is on the member's card before you roll. (Image: the three texts.) See how it works: {{contractor page}}. |
+| 3 | Day 7 | The terms, on one page | What you'll pay: nothing to join or to see a request; as a founding contractor, $0 a job through the founding period and 12 months after, then $25 per completed paid job. When you're paid: the trip charge is released when you arrive by your committed time and reaches your bank within two business days. What you commit to: an arrival time when you accept, crediting the trip charge to the work if the member goes ahead, and current license and insurance. If you're late: the member's refund comes from the trip charge. All of it in writing: {{terms link}}. |
+| 4 | Day 12 | Founding contractors in {{zone}} | We're opening memberships in {{zone}} once enough contractors have joined to cover it. Founding contractors get the first requests there and founding terms if they join by {{founding close date}}. To join, text JOIN to {{number}}; it takes about 5 minutes, with no call. Last email unless you reply. |
 
 ## Production order
 
@@ -72,7 +72,7 @@ Merge fields are filled from the contractor list record before anything is sent 
 
 ## Optional later test, not one of the three
 
-Search ads aimed at contractors looking for work ("plumbing leads", "get emergency plumbing jobs"). Product-led and bottom-of-funnel like the customer side, but not part of the founders' channel decision. Revisit if email and partners do not reach the density target in time.
+Search ads aimed at contractors looking for work ("plumbing leads", "get emergency plumbing jobs"). Product-led, like the member side's search for sign-ups, but not part of the founders' channel decision. Revisit if email and partners do not reach the density target in time.
 
 ## Name collision note
 
