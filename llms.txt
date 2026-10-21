@@ -1,6 +1,6 @@
 # SOS SMS GTM Brain
 
-> The go-to-market for SOS SMS, a pre-launch, two-sided marketplace for emergency home repair (plumbing and water emergencies first). Contractors (supply) and members (demand: homeowners who join a monthly or annual membership before the need) have separate strategies that are never blended. Nothing is live. Every value is resolved in the resolution register: decided, a labelled planning value, or counted at a named stage; per-message details and the membership prices are {{merge fields}}. The twelve decisions are decided; the membership revision of 2026-10-11 revised six of them. Load the router first, then the four rules files, then only what the task needs.
+> The go-to-market for SOS SMS, a pre-launch, two-sided marketplace for emergency home repair (plumbing, HVAC, and electrical). Contractors (supply) and members (demand: homeowners who join Basic, Plus, or Premier, monthly or annual, before the need) have separate strategies that are never blended. Nothing is live. Every value is resolved in the resolution register: decided, a labelled planning value, or counted at a named stage; per-message details and the membership prices are {{merge fields}}. The twelve decisions are decided; the membership revision of 2026-10-11 revised six of them. Load the router first, then the four rules files, then only what the task needs.
 
 ## Routers
 - [CLAUDE.md](CLAUDE.md): Entry point for Claude Code and the Claude apps. Load order, sides, non-negotiables.
@@ -31,20 +31,20 @@
 - [reference/customer-journey.md](reference/customer-journey.md): Both seven-stage journeys (the contractor and the member) and the hand-off at acceptance.
 - [reference/objection-handling.md](reference/objection-handling.md): Written answers to the recurring pushbacks, per side.
 - [reference/channel-engine-contractors.md](reference/channel-engine-contractors.md): Cold email, partners, referral loop: thesis, rules, method, order.
-- [reference/channel-engine-members.md](reference/channel-engine-members.md): Affiliates, email, search and SEO pages, member loops: thesis, rules, sign-up ad drafts, order.
+- [reference/channel-engine-members.md](reference/channel-engine-members.md): Affiliates, email, SEO pages, paid social for sign-ups, member loops; no paid search at launch: thesis, rules, sign-up ad drafts, order.
 - [reference/lead-magnets.md](reference/lead-magnets.md): The Job Leak Scorecard and the 2 a.m. leak readiness scorecard, which ends at the ZIP check.
-- [reference/pricing-and-economics.md](reference/pricing-and-economics.md): The membership and the contractor fee, member economics, the acquisition ceiling per new paid member, late-arrival options, the four levers.
+- [reference/pricing-and-economics.md](reference/pricing-and-economics.md): The three plans and their entitlements, the trip charge and the contractor fee, member economics by plan, the acquisition ceiling per plan, the ways a window is missed, the levers, and the pricing workbook.
 - [reference/launch-and-growth.md](reference/launch-and-growth.md): Stages, gates, zone signals, speed rules, risks.
 - [reference/brand-identity.md](reference/brand-identity.md): Mark, logo rules, colour roles, type, motion, voice.
 - [reference/research-and-sources.md](reference/research-and-sources.md): How the research was done, evidence grades, the most used figures.
-- [reference/gtm-walkthrough-deck.md](reference/gtm-walkthrough-deck.md): The internal deck, a 27-slide hub and 22 dashboards, with every value resolved and the membership revision drawn in.
+- [reference/gtm-walkthrough-deck.md](reference/gtm-walkthrough-deck.md): The internal deck, a 27-slide hub and 22 dashboards, with every value resolved, the membership revision, and the three plans drawn in.
 - [reference/resolution-register.md](reference/resolution-register.md): Every SOS SMS value: decided, planning value, counted at, and the merge fields.
 
 ## Execution layer
 - [templates/README.md](templates/README.md): Nine templates, one per asset type in the mix, with the side each serves.
 - [examples/first-reply-sms.md](examples/first-reply-sms.md): Draft gold standard, the member texts: welcome, first reply, and the reply to a non-member.
 - [examples/membership-page.md](examples/membership-page.md): Draft gold standard, the membership page for a zone.
-- [examples/search-ad-zone.md](examples/search-ad-zone.md): Draft gold standard, a sign-up ad group.
+- [examples/search-ad-zone.md](examples/search-ad-zone.md): Draft gold standard, a sign-up ad group for paid social; the search drafts held.
 - [examples/affiliate-kit.md](examples/affiliate-kit.md): Draft gold standard, an affiliate kit for a homeowner association.
 - [examples/launch-list-email.md](examples/launch-list-email.md): Draft gold standard, the launch list sequence and the opening email.
 - [examples/cold-email-sequence.md](examples/cold-email-sequence.md): Draft gold standard, the four contractor emails.
@@ -53,7 +53,7 @@
 - [prompts/common-tasks.md](prompts/common-tasks.md): Filled prompts for recurring jobs.
 
 ## State layer
-- [ops/decisions.md](ops/decisions.md): Dated decisions: the twelve, made 2026-10-03; the formerly open items, closed 2026-10-04; the membership revision, 2026-10-11.
+- [ops/decisions.md](ops/decisions.md): Dated decisions: the twelve, made 2026-10-03; the formerly open items, closed 2026-10-04; the membership revision, 2026-10-11; the tiers revision, 2026-10-20; the pricing revision, 2026-10-21.
 - [ops/signal-log.md](ops/signal-log.md): Market input and its disposition.
 - [ops/copy-bank.md](ops/copy-bank.md): Cleared lines tagged by condition; the empty proof-point set.
 - [ops/asset-index.md](ops/asset-index.md): Repositories, sources, brand files, live surfaces.
@@ -61,6 +61,7 @@
 - [snapshots/2026-10-03-pre-launch-baseline.md](snapshots/2026-10-03-pre-launch-baseline.md): The first capture.
 - [snapshots/2026-10-04-everything-resolved.md](snapshots/2026-10-04-everything-resolved.md): Every value resolved; diffs against the baseline.
 - [snapshots/2026-10-11-membership-revision.md](snapshots/2026-10-11-membership-revision.md): The membership revision; diffs against 2026-10-04.
+- [snapshots/2026-10-21-pricing-revision.md](snapshots/2026-10-21-pricing-revision.md): The tiers and pricing revisions; diffs against 2026-10-11.
 
 ## Other tools and checks
 - [adapters/README.md](adapters/README.md): Pointer files for Codex, Cursor, Windsurf, Copilot, Gemini; the portable layer for chat windows.

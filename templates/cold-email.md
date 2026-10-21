@@ -1,11 +1,11 @@
 # Template: cold email (contractors)
 
-Four plain-text emails over twelve days, zone by zone, to licensed plumbing and water damage businesses. Load `reference/channel-engine-contractors.md` and `reference/value-proposition-contractors.md`. Example: `examples/cold-email-sequence.md`.
+Four plain-text emails over twelve days, zone by zone, to licensed plumbing, HVAC, and electrical businesses, in all three trades at once. Load `reference/channel-engine-contractors.md` and `reference/value-proposition-contractors.md`. Example: `examples/cold-email-sequence.md`.
 
 ## Preconditions
 - [ ] Zone set (decision 1); list built from public license lists and the business's own published email.
 - [ ] Sending setup: a separate sending domain, warm-up, daily caps, opt-out handling.
-- [ ] The Lead Cost Check web version and the contractor page are live.
+- [ ] The Lead Cost Check web version, the contractor page, and the terms on one page are published.
 - [ ] Every bracket the email carries has its decision logged in `ops/decisions.md`.
 
 ## Fields, per email
@@ -19,12 +19,12 @@ Four plain-text emails over twelve days, zone by zone, to licensed plumbing and 
 ## Shape
 - **Email 1, the Lead Cost hook.** One question about cost per booked job; the check link; "your answers stay yours"; one line on what SOS SMS is; the revenue sentence. Under 120 words.
 - **Email 2, how a job works in three texts.** The mechanics, with the shared request said plainly. A labeled mockup image.
-- **Email 3, the terms on one page.** What you pay, when you're paid, what you commit to, what happens if you're late. The terms link.
-- **Email 4, founding contractors in {{zone}}.** What founding contractors get and commit to; the real deadline only, {{founding close date}} (R07); text JOIN to {{number}}, about 5 minutes; "last email unless you reply".
+- **Email 3, the terms on one page.** What you pay ($25 per completed paid job from the first job, taken from the $99 trip charge, so $74 reaches you), when you're paid, what you commit to, what happens if you're late (you keep the trip charge and the late arrival is recorded; two in 90 days pause your requests until review; a no-show is paid nothing). The terms link.
+- **Email 4, when SOS SMS opens in {{zone}}.** Memberships open once enough plumbing, HVAC, and electrical contractors have joined to cover every hour; every contractor joins on the same terms, any time, so there is no deadline (R07, retired); text JOIN to {{number}}, about 5 minutes; "last email unless you reply".
 
-Pre-launch framing throughout: what SOS SMS is building, "once it opens in {{zone}}", never a working service. The revenue sentence: "SOS SMS will be paid by members' monthly or annual fees, and by you only per completed paid job after the founding period."
+Pre-launch framing throughout: what SOS SMS is building, "once it opens in {{zone}}", never a working service. The revenue sentence: "SOS SMS will be paid by members' monthly or annual fees, and by you only per completed paid job."
 
 ## Never in a contractor email
-Results, volume, earnings, "more jobs", "exclusive", "pre-qualified", "escrow", a fake deadline, a request for a call, a rival named unkindly.
+Results, volume, earnings, "more jobs", "exclusive", "pre-qualified", "escrow", "founding" anything, a deadline of any kind, a term that changes with the member's plan, a request for a call, a rival named unkindly.
 
 Guardrails: one side only (contractors). Check `rules/do-not-say.md` (email block) and `rules/glossary.md` ("request", never "lead", for SOS SMS); run `ops/QA-checklist.md`.

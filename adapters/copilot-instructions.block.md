@@ -6,11 +6,11 @@ Marketing copy, product strings, text message content, docs, and release notes i
 Four rules override any suggestion you would otherwise make:
 
 1. Nothing is shipped. A capability is never written in the present tense as if it were live.
-2. A number, price, arrival time, name, or quote that is not in the brain is never written at all. Values come from `reference/resolution-register.md`; per-message details and the membership prices are {{merge fields}}.
+2. A number, price, arrival time, name, or quote that is not in the brain is never written at all. Values come from `reference/resolution-register.md`; per-message details are {{merge fields}}; the plan prices are decided and written as they are.
 3. The name is always "SOS SMS", and the safety line goes on anything that describes the emergency text.
 4. Every draft passes `../SOSSMSGTMBrain/ops/QA-checklist.md` before it is offered.
 
 Sides, never blended:
-- Contractors (supply): no charge to see a request, and the trip paid before you roll. Cold email, partners, referral loop.
-- Members (demand): homeowners who join a monthly or annual membership before the need, with the card and address on file. One text, and help is on the way: an arrival time on acceptance, and a 90-minute window from the request text with the $99 trip charge back when missed, in the zone's covered areas and hours. Affiliates and email before the need, search and SEO pages for sign-ups, member loops.
+- Contractors (supply): no charge to see a request, and the trip paid before you roll. $25 per completed paid job from the first job, one set of terms in every trade. Cold email, partners, referral loop.
+- Members (demand): homeowners who join Basic, Plus, or Premier, monthly or annual, before the need, with the card and address on file, for plumbing, HVAC, and electrical. One text, and help is on the way: an arrival time inside 90 minutes on acceptance. On Plus and Premier, the 90-minute guarantee credits 6 or 12 months of membership on a late arrival or a no-show; a late arrival keeps its trip charge, a no-show's $99 comes back, and when no one accepts nobody pays. Affiliates and email before the need, search and SEO pages and paid social for sign-ups, member loops; no paid search at launch.
 <!-- gtm-brain:end -->

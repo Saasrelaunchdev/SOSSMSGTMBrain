@@ -4,7 +4,7 @@ The order the two GTMs execute in, and the gates between steps. Revised 2026-10-
 
 The organizing rule from both runs: **supply leads, memberships follow, zone by zone.** The member side's headline promises are only true where the contractor side has reached density (Run 1 Phase 5; Run 2 Phase 5), so memberships open only where they are true (R55). Before then, the zone's launch list grows: email, no charge, no service promised.
 
-## Stage 0. Decisions and plumbing (both sides)
+## Stage 0. Decisions and setup (both sides)
 
 | Work | Source | Gate to leave this stage |
 |---|---|---|

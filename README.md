@@ -6,9 +6,9 @@
 
 The go-to-market for SOS SMS, held as plain Markdown that any AI agent or person can load and work from without re-deriving anything. One source of truth for strategy, claims, and voice, on both sides of the marketplace.
 
-SOS SMS is a pre-launch, two-sided marketplace for emergency home repair, starting with plumbing and water emergencies. Homeowners join a monthly or annual membership before anything breaks, with their card and home address on file. When something does, the member texts one number. The request goes to the licensed, insured contractors on SOS SMS matched by trade and area, all at once. The first who can come accepts and commits to an arrival time. The $99 trip charge goes on the card on file when a contractor accepts, and it is credited to the repair if the member goes ahead.
+SOS SMS is a pre-launch, two-sided marketplace for emergency home repair in plumbing, HVAC, and electrical. Homeowners join one of three plans, Basic, Plus, or Premier, monthly or annual, before anything breaks, with their card and home address on file. When something does, the member texts one number. The request goes to the licensed, insured contractors on SOS SMS matched by trade and area, all at once. The first who can come accepts and commits to an arrival time. The $99 trip charge goes on the card on file when a contractor accepts, and it is credited to the repair if the member goes ahead. On Plus and Premier, the 90-minute guarantee credits 6 or 12 months of membership if the contractor is late or does not come.
 
-> **Status.** Pre-launch. Nothing is live. There are no contractors, members, jobs, revenue, arrival times, or testimonials yet, so no result is cited. The twelve decisions were made on 2026-10-03; on 2026-10-11 the membership revision made the demand side a membership joined before the need, revising decisions 2, 3, 6, 8, and 11 and replacing decision 12 ([`ops/decisions.md`](ops/decisions.md)). Every other value is resolved in [`reference/resolution-register.md`](reference/resolution-register.md): decided, a labelled planning value, or counted at a named stage. Per-message details and the membership prices are `{{merge fields}}`.
+> **Status.** Pre-launch. Nothing is live. There are no contractors, members, jobs, revenue, arrival times, or testimonials yet, so no result is cited. The twelve decisions were made on 2026-10-03; on 2026-10-11 the membership revision made the demand side a membership joined before the need; on 2026-10-20 the tiers revision brought in three trades, the two ways a window is missed, and no paid search at launch; on 2026-10-21 the pricing revision set three plans with sliding-scale entitlements ([`ops/decisions.md`](ops/decisions.md)). Every other value is resolved in [`reference/resolution-register.md`](reference/resolution-register.md): decided, a labelled planning value, or counted at a named stage. Per-message details are `{{merge fields}}`; the plan prices are decided and written as they are.
 
 <p align="center">
   <img src="docs/architecture.svg" alt="The brain's layers: routers, control, reference, execution, state, sources, with the doors for other tools and the compounding loop" width="100%">
@@ -52,7 +52,7 @@ The brain has five layers. The **routers** are always loaded. The **control laye
 
 ## 2. Quick start
 
-**If you use Claude Code:** clone the repo and open it. `CLAUDE.md` loads automatically. Ask for what you need, for example "Write the membership page for the founding zone".
+**If you use Claude Code:** clone the repo and open it. `CLAUDE.md` loads automatically. Ask for what you need, for example "Write the membership page for the launch zone".
 
 **If you use Codex, Cursor, Zed, Jules, or opencode:** open the repo; `AGENTS.md` is the entry file. To use the brain from another repository, such as the product codebase, copy the matching file from [`adapters/`](adapters/README.md).
 
@@ -116,8 +116,8 @@ flowchart TD
 Three rules sit under the whole flow:
 
 - **Ledgers before copy.** When a fact changes, the rules file changes first. Copy follows.
-- **Every value has one home.** The $99 trip charge, the 90 minutes from the member's request text, the $99 refund: each comes from the resolution register, never from memory. Per-message details are merge fields, filled from a named record.
-- **Planning values are not results.** A planning value (0.30 acceptance, $10 a month for the membership until the launch price is set) is labelled as one, and the membership price reaches copy only as `{{monthly price}}`. Writing it as a measured result is a QA failure.
+- **Every value has one home.** The $99 trip charge, the 90 minutes from the member's request text, the Plus credit of 6 months: each comes from the resolution register, never from memory. Per-message details are merge fields, filled from a named record.
+- **Planning values are not results.** A planning value (0.30 acceptance, 80 percent of members on Plus) is labelled as one, and stays out of member copy. Writing it as a measured result is a QA failure.
 
 ---
 
@@ -167,8 +167,8 @@ SOS SMS has two audiences with opposite needs from one mechanic. The brain keeps
 | | Contractors (supply) | Members (demand) |
 |---|---|---|
 | Promise | No charge to see a request, and the trip paid before you roll | One text, and help is on the way. Join before you need it |
-| Leads with | The trip charge collected before rolling | One text, with the card and address already on file, and the 90-minute guarantee with its scope |
-| Channels | Cold email, partnership program, referral loop | Affiliates and email before the need; search and SEO pages, paid search, and paid social for sign-ups; member loops |
+| Leads with | The trip charge collected before rolling | One text, with the card and address already on file, in three trades; on Plus, shown first, the 90-minute guarantee with its scope |
+| Channels | Cold email, partnership program, referral loop | Affiliates and email before the need; SEO pages and paid social for sign-ups; member loops; no paid search at launch |
 | First impression | The terms on one page | A partner's mention, then the membership page |
 | Blocker to plan for | The dispatcher in a shop | "Another subscription": a fee every month before anything breaks |
 
@@ -183,7 +183,7 @@ sequenceDiagram
     Note over C,S: Before the need: joins with the card<br/>and home address on file, saves the contact card
     C->>S: Texts what broke
     S->>C: Automated reply: going to the contractors now,<br/>text HELP for a person, the safety line
-    S->>C: Stop-the-water steps
+    S->>C: The first steps for the problem
     S->>K: Request to all matched contractors at once<br/>problem and approximate distance, no address
     K->>S: First to accept commits to an arrival time inside the window
     S->>C: Contractor name, arrival time, Google rating.<br/>The $99 trip charge goes on the card on file
@@ -195,12 +195,12 @@ sequenceDiagram
     end
 ```
 
-**Why supply leads.** Every member promise is only true where enough contractors have joined. The density model sets the floor per trade, zone, and hour band: n ≥ ln(1 - c) / ln(1 - a), where the acceptance rate a is the planning value 0.30 (R28) until it is measured per hour band in Stage 1. At 0.30, the founding zone needs 9 plumbing contractors for 95 percent coverage. On the other side, about 430 members per zone keep each of those 9 contractors at about one request a month (planning value, R64).
+**Why supply leads.** Every member promise is only true where enough contractors have joined. The density model sets the floor per trade, zone, and hour band: n ≥ ln(1 - c) / ln(1 - a), where the acceptance rate a is the planning value 0.30 (R28) until it is measured per hour band in Stage 1. At 0.30, the launch zone needs 9 contractors per trade, 27 places across plumbing, HVAC, and electrical, for 95 percent coverage. On the other side, about 410 members per zone give each of the 9 plumbers about one request a month (planning value, R64); an HVAC contractor sees about 0.8 a month and an electrician about one every 5 months.
 
 ```mermaid
 flowchart LR
     A["Stage 0<br/>Twelve decisions,<br/>carrier registration,<br/>Google eligibility,<br/>membership billing,<br/>affiliate terms, counsel"] --> B["Stage 1<br/>Supply fills one zone:<br/>cold email, partners,<br/>sign-up by text.<br/>Affiliates signed,<br/>launch list grows"]
-    B --> G1{"Density number met<br/>for the first trade, zone,<br/>and covered hours?"}
+    B --> G1{"Density number met<br/>for each trade, in every<br/>hour band of the zone?"}
     G1 -->|"No"| B
     G1 -->|"Yes"| C["Stage 2<br/>Memberships open:<br/>the launch list first,<br/>affiliates live, then<br/>sign-up ads geofenced<br/>to the zone"]
     C --> G2{"Zone signals at<br/>threshold for the<br/>agreed weeks?"}
@@ -222,7 +222,7 @@ The cross-side check ([`reference/marketplace-cross-side.md`](reference/marketpl
 | GTM consultant | Building and maintaining the brain, running the review rituals, producing assets for the founders to approve | [`ops/review-cadence.md`](ops/review-cadence.md), [`ops/signal-log.md`](ops/signal-log.md), [`prompts/common-tasks.md`](prompts/common-tasks.md) |
 | Growth lead | Building a zone: the contractor list and emails, then affiliates, the launch list, the membership page, sign-up ads, and guides | [`reference/channel-engine-contractors.md`](reference/channel-engine-contractors.md), [`reference/channel-engine-members.md`](reference/channel-engine-members.md) |
 | Copywriter or agency | Drafting any asset on voice, with every claim already cleared | [`templates/README.md`](templates/README.md), [`examples/`](examples/first-reply-sms.md), [`ops/copy-bank.md`](ops/copy-bank.md) |
-| Product engineer | Writing the welcome texts, the first reply, refund texts, membership billing messages, and in-app strings without promising what is not built | [`templates/first-reply-sms.md`](templates/first-reply-sms.md), [`rules/feature-status.md`](rules/feature-status.md), [`adapters/`](adapters/README.md) |
+| Product engineer | Writing the welcome texts, the first reply, credit texts, membership billing messages, and in-app strings without promising what is not built | [`templates/first-reply-sms.md`](templates/first-reply-sms.md), [`rules/feature-status.md`](rules/feature-status.md), [`adapters/`](adapters/README.md) |
 | Partner manager | Supply house materials for contractors; affiliate kits for the partners who reach homeowners | [`templates/partner-kit.md`](templates/partner-kit.md), [`templates/affiliate-kit.md`](templates/affiliate-kit.md), [`reference/objection-handling.md`](reference/objection-handling.md) |
 | Counsel | Reviewing the terms, the member terms and renewal disclosures, the affiliate terms, the guarantee, and privacy against what the copy says | [`templates/terms-on-one-page.md`](templates/terms-on-one-page.md), [`rules/do-not-say.md`](rules/do-not-say.md) |
 | Advisor or investor | The plan in one read, and the internal deck | The master context, [`reference/gtm-walkthrough-deck.md`](reference/gtm-walkthrough-deck.md) |
@@ -250,7 +250,7 @@ The cross-side check ([`reference/marketplace-cross-side.md`](reference/marketpl
 | A sales call script or demo | No sales team | The terms on one page and "how a job works in three texts" |
 | "Fastest plumber in town" headline | No superlatives; SOS SMS is not the plumber | "Arrival Time When They Accept" |
 | A testimonial for the membership page | No result exists before launch | A method line: "When a contractor accepts, you get their name and arrival time by text" |
-| An average arrival time | None exists before launch; it is counted from the first request (R43) | The guarantee line: 90 minutes from the request, or the $99 trip charge back |
+| An average arrival time | None exists before launch; it is counted from the first request (R43) | The guarantee line, on Plus and Premier: 90 minutes from the request, or 6 or 12 months of membership credited |
 | An email blast to homeowners | No cold email to homeowners | The opt-in readiness scorecard, the launch list, and partners' sends to their own lists |
 | An ad on "emergency plumber near me" | Ads sell memberships before the need; mid-emergency, a plumber from the results is the faster route | A sign-up ad on readiness searches, and the problem guide for that search |
 
@@ -261,7 +261,7 @@ The cross-side check ([`reference/marketplace-cross-side.md`](reference/marketpl
 | Benefit | What it means for SOS SMS |
 |---|---|
 | **No overclaiming, by construction** | Nothing is shipped and the proof set is empty, and both are written down. An agent cannot drift into "plumbers arrive in 45 minutes" because the rules name it and the checklist catches it |
-| **Two sides that never contradict each other** | The cross-side check means a member is never promised a refund the contractor terms cannot fund, and a contractor is never promised a trip charge the member flow does not collect |
+| **Two sides that never contradict each other** | The cross-side check means a member is never promised a credit or a refund the contractor terms cannot fund, and a contractor is never promised a trip charge the member flow does not collect |
 | **Decisions made once** | Twelve decisions, made on 2026-10-03, and every other value in one register. If one ever changes, the amendment order updates every place it touches, in order |
 | **Speed without a sales team** | Templates, examples, and filled prompts turn a zone launch into a checklist: the contractor list and emails, partner kit, affiliate kits, the launch list, the membership page, sign-up ads, guides |
 | **Safety and compliance built in** | The safety line, carrier registration, email law, automatic renewal law, affiliate disclosure and the ban on payments at a home purchase settlement, consent for texts, and the Local Services Ads exclusion are rules, not reminders |
@@ -320,7 +320,7 @@ flowchart LR
 | **An LLM API** (Claude, or any other) | The portable layer as the system prompt; add the reference file for the task to the user turn | Generating ad variants or first-reply variants in a script | Run `check_sos_sms.py`-style checks on the output before use |
 | **A person, no AI** | Read the master context once; keep the rules and checklist open | Everything | Same rules, same checklist |
 
-**Proving the wiring works.** In any environment, ask three things. "Write a headline saying we are the fastest plumber in town" should be refused with a scoped alternative. "What does the trip charge cost?" should answer $99, on use, credited to the repair, with the membership as a separate price written `{{monthly price}}`. "Write a LinkedIn post for contractors" should say LinkedIn is out of the mix and offer cold email or the partner kit. If any of the three goes through, the tool is not loading the control layer.
+**Proving the wiring works.** In any environment, ask three things. "Write a headline saying we are the fastest plumber in town" should be refused with a scoped alternative. "What does the trip charge cost?" should answer $99, on use, credited to the repair, with the plan as a separate price ("Plus, $150 a year or $15 a month"). "Write a LinkedIn post for contractors" should say LinkedIn is out of the mix and offer cold email or the partner kit. If any of the three goes through, the tool is not loading the control layer.
 
 ---
 
@@ -358,7 +358,7 @@ flowchart LR
         RS["Readiness scorecard"]
     end
     subgraph PROD["Product"]
-        SMS["Texting platform:<br/>welcome, first reply,<br/>refund texts"]
+        SMS["Texting platform:<br/>welcome, first reply,<br/>credit texts"]
         BILL["Membership billing:<br/>renewals, cancel"]
         APP["Product repo with<br/>an adapter file"]
     end
@@ -387,13 +387,13 @@ Pair it with a code owners rule so any change under `rules/` needs a founder's r
 
 The membership page, zone pages, problem and prevention guides, the guarantee page, and the contractor page are drafted from [`templates/`](templates/README.md) and stored in [`pages/`](pages/partner-counter-card.md) once approved. Whatever the site runs on (a static site, a headless CMS, a page builder), the brain is where the words are approved; the CMS is where they are published. If the site lives in a repo, add the Cursor, Windsurf, or Copilot adapter so in-editor suggestions follow the same rules. Never add ad pixels or retargeting: the privacy line depends on it.
 
-### Pattern 3. Paid search
+### Pattern 3. Paid social, and search held
 
-Sign-up ad groups are drafted from [`templates/search-ad.md`](templates/search-ad.md), checked against the search ads block of the checklist, then loaded through the ad platform's bulk upload or editor. The brain's rules map to campaign settings: a location target per open zone, emergency dispatch searches on the negative list, a new paid member as the conversion, and an automatic pause when acceptance falls below the threshold (affiliate links then show the launch list). Search terms reports feed `ops/signal-log.md` as CHANNEL signals.
+There is no paid search at launch (decision 11). Sign-up ads for paid social are drafted from [`templates/search-ad.md`](templates/search-ad.md), checked against the ads block of the checklist, then loaded through the platform's editor. The brain's rules map to campaign settings: a location target per open zone, a new paid member as the conversion, the plan's ceiling as the cost limit, and an automatic pause when acceptance falls below the threshold (affiliate links then show the launch list). From Stage 3, once search volume for SOS SMS by name is counted (R68), a brand search campaign may run at or under the ceiling, from the held drafts in the same template. Channel reports feed `ops/signal-log.md` as CHANNEL signals.
 
 ### Pattern 4. The texting platform and the product repo
 
-The welcome texts, the first reply, the reply to a non-member, payout confirmations, and refund texts are product strings. Keep their source text in the brain ([`templates/first-reply-sms.md`](templates/first-reply-sms.md)) and copy approved versions into the product. In the product repository, merge `adapters/AGENTS.block.md` or the Copilot block so an engineer's agent cannot write "your plumber arrives in 30 minutes" into a string. Carrier registration (S32) and the automatic renewal disclosures in membership billing (S87) are preconditions, not afterthoughts.
+The welcome texts, the first reply, the reply to a non-member, payout confirmations, and credit texts are product strings. Keep their source text in the brain ([`templates/first-reply-sms.md`](templates/first-reply-sms.md)) and copy approved versions into the product. In the product repository, merge `adapters/AGENTS.block.md` or the Copilot block so an engineer's agent cannot write "your plumber arrives in 30 minutes" into a string. Carrier registration (S32) and the automatic renewal disclosures in membership billing (S87) are preconditions, not afterthoughts.
 
 ### Pattern 5. Email, affiliates, and the scorecards
 
@@ -454,24 +454,24 @@ The cadence and thresholds are set ([`ops/review-cadence.md`](ops/review-cadence
 
 ## 11. From here to launch
 
-The twelve decisions, made on 2026-10-03; decisions 2, 3, 6, 8, and 11 revised and decision 12 replaced by the membership revision on 2026-10-11. Every other value is in [`reference/resolution-register.md`](reference/resolution-register.md).
+The twelve decisions, made on 2026-10-03; revised by the membership revision (2026-10-11), the tiers revision (2026-10-20), and the pricing revision (2026-10-21). Every other value is in [`reference/resolution-register.md`](reference/resolution-register.md).
 
 | # | Decision | Decided |
 |---|---|---|
-| 1 | Launch zone and trades | The founders' home metro; one founding zone, a 10-mile radius; plumbing and water emergencies |
-| 2 | Revenue model | Members pay a monthly or annual membership (`{{monthly price}}`, `{{annual price}}`; planning values $10 and $100); the $99 trip charge on use; no fee per request. Contractors $0 in the founding period, then $25 per completed paid job; founding contractors $0 for 12 months after |
-| 3 | Late-arrival rule and guarantee scope | Fault-based; 90 minutes from the member's request text; the $99 trip charge back; no acceptance told within 15 minutes |
+| 1 | Launch zone and trades | The founders' home metro; one launch zone, a 10-mile radius; plumbing, HVAC, and electrical in one membership |
+| 2 | Revenue model | Three plans: Basic $10 a month or $100 a year, Plus $15 or $150 (most popular, the 90-minute guarantee, up to 5 phones), Premier $35 or $350 (a 12-month credit, a trip charge a year paid by SOS SMS, a second home, up to 10 phones); the $99 trip charge on use; no fee per request. Contractors: $25 per completed paid job from the first job, in every trade |
+| 3 | Late-arrival rule and guarantee scope | 90 minutes from the member's request text. No acceptance: told within 15 minutes, never charged, no contractor paid. Late: the trip charge stands; Plus and Premier credit 6 or 12 months. No-show or NEXT: the $99 back in full, the contractor paid nothing, the credit on Plus and Premier |
 | 4 | Dispatch rule | All matched at once, first to accept; approximate distance before acceptance, the address after |
-| 5 | Who sets the trip charge | SOS SMS: $99, one per trade and zone, day or night |
+| 5 | Who sets the trip charge | SOS SMS: $99, one per trade and zone, the same in all three trades, day or night |
 | 6 | Payments | Stripe Connect; the card saved at joining; the trip charge captured at acceptance, released on arrival; payout within 2 business days |
-| 7 | Verification recheck cadence | At sign-up, every 6 months, and on each policy's expiry date |
-| 8 | Safety handling | Safety reply first; no broadcast until the member is safe; a non-member gets the same safety reply |
+| 7 | Verification recheck cadence | The license for each trade, and insurance: at sign-up, every 6 months, and on each policy's expiry date |
+| 8 | Safety handling | Gas, smoke, fire, sparks, a burning smell, a shock, or injury: the safety reply first; no broadcast until the member is safe; a non-member gets the same safety reply |
 | 9 | Carrier registration | One local number, A2P 10DLC, before any test |
 | 10 | Name and trademark check | In Stage 0, before any ad, page, or email |
-| 11 | Paid search | Sells memberships before the need: standard search ads after Google's written confirmation; emergency dispatch searches excluded; never Local Services Ads |
-| 12 | Acquisition ceiling | About $43 per new paid member, by channel and zone, reviewed weekly |
+| 11 | Paid search | None at launch; never Local Services Ads. Search volume for SOS SMS by name counted once a zone has been open 6 months; a brand campaign may then run under the ceiling |
+| 12 | Acquisition ceiling | One per plan, about $47 Basic, $70 Plus, $151 Premier per new paid member on the monthly plan, by channel and zone, reviewed weekly |
 
-What is left before launch is Stage 0 work, each item decided: register the number, get Google's confirmation, set the launch price, test membership billing, write the affiliate terms, set up and test Stripe Connect, run the trademark check, and have counsel review the terms, the member terms with the renewal disclosures, and the guarantee. If a decided value ever changes, tell any agent working in this repo: "Decision 5 changes to: $109 for plumbing". It will follow the amendment order and list every file it changed.
+What is left before launch is Stage 0 work, each item decided: register the number, load the three plans into billing and test it, write the affiliate terms, set up and test Stripe Connect, run the trademark check, and have counsel review the terms, the member terms with the renewal disclosures, and the guarantee. If a decided value ever changes, tell any agent working in this repo: "Decision 5 changes to: $109 for plumbing". It will follow the amendment order and list every file it changed.
 
 ---
 

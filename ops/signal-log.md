@@ -12,16 +12,28 @@ Raw market input, captured before judgment. Every signal from a contractor, a me
 |---|---|
 | Opinion, preference, language, objection | 3 independent instances within 60 days, from the same side |
 | Verifiable fact: status, policy, proof, competitive, risk | 1 verified instance, act immediately |
-| Lost contractor reason, or a member's cancellation reason | 2 instances, or 1 from a founding contractor |
+| Lost contractor reason, or a member's cancellation reason | 2 instances, or 1 from a first-cohort contractor |
 | Channel performance | A full measurement cycle in one zone, never a single week |
 
 Default disposition is NOISE. A signal from one side never changes the other side's copy without the cross-side check. Triage runs weekly; a WATCH item that has not moved in two cycles expires to NOISE, and the expiry is written here.
 
-The entries below were seeded at build from the research and the walkthrough work. Real contractor and member signals start with the founding zone.
+The entries below were seeded at build from the research and the walkthrough work. Real contractor and member signals start with the launch zone.
 
 ---
 
 ## Entries
+
+### 2026-10-21 | STATUS | the pricing revision, from the user
+**Verbatim:** "No, the credit does not apply to everyone. It has to be sliding-scale entitlements for the three plans. I also want to add another benefit for the plans that makes the higher plans more attractive. Ultimately, we want to aim for 80% of the users to buy the middle plan."
+**Context:** Members. The user, for the founder, on the credit decided 2026-10-20; built with the bottom-up pricing method into the pricing workbook, whose first sheet holds every input.
+**Disposition:** AMEND. Three plans with sliding-scale entitlements: the credit (none, 6 months, 12 months), the phones that can text for the home (1, up to 5, up to 10), a second home and a trip charge a year on Premier; Premier $35 or $350; Plus built for 80 percent of members (`decisions.md`, 2026-10-21).
+**Routed to:** the walkthrough deck first, then `Fit137/SOSSMSGTMBuild`, then every layer here in the amendment order, and the snapshot `snapshots/2026-10-21-pricing-revision.md`.
+
+### 2026-10-20 | STATUS | the founder's feedback on the GTM
+**Verbatim:** "The service is plumbing, HVAC and electrical. The plan just shows plumbing. Not sure how much that impacts the analysis." "If we fail to get a contractor in 90 minutes, it could be 2 things. 1. No contractor was available, we refund the trip charge but we also don't pay out the trip charge so that's a net of 0 not a loss. 2. If the contractor shows up, but late the trip charge still applies to the work completed, we don't need to return that. we should credit the monthly payments going back 6 months if we failed to deliver on time. That probably changes the math a bit" "We are planning on 0 paid search (at least to start), i haven't run a SEM analysis but i don' think enough people are searching for a service like this that it's worth googles price tag"
+**Context:** Both sides. The founder, relayed by the GTM consultant. A verified fact about the service (three trades) and two founder decisions (the miss cases; no paid search at launch). The end of the founding period (R05 to R07, retired in `Fit137/SOSSMSGTMBuild` with the membership revision) reaches this repository in the same cascade.
+**Disposition:** AMEND. The tiers revision (`decisions.md`, 2026-10-20): three trades in one membership, the two miss cases, no paid search at launch, no founding period.
+**Routed to:** `Fit137/SOSSMSGTMBuild` (both runs, the research with S95 to S100, the marketplace files, the register), the walkthrough deck, and every layer here, with the pricing revision.
 
 ### 2026-10-11 | STATUS | the membership revision
 **Verbatim:** "The demand side is a monthly or annual membership, joined before the need. In an emergency, a member sends one text, and help is on the way."

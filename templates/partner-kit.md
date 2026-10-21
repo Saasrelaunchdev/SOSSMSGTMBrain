@@ -1,6 +1,6 @@
 # Template: partner kit (contractors)
 
-Everything a supply house, association, or trade school needs to explain SOS SMS without calling the founders. Counter staff are the channel; they should never have to guess. Load `reference/channel-engine-contractors.md`.
+Everything a supply house, association, or trade school needs to explain SOS SMS to plumbing, HVAC, and electrical contractors without calling the founders. Counter staff are the channel; they should never have to guess. Load `reference/channel-engine-contractors.md`.
 
 ## Preconditions
 - [ ] A signed partner agreement. No endorsement implied unless the partner gives it in writing.
@@ -9,8 +9,8 @@ Everything a supply house, association, or trade school needs to explain SOS SMS
 
 ## Pieces
 1. **Counter card.** "What did your leads really cost last month?" QR code to the Lead Cost Check. "Text JOIN-{{code}} to {{number}}." SOS SMS footer.
-2. **One-pager.** What SOS SMS is (one sentence); who it is for; what it costs a contractor ($0 to join and per request; $0 a job in the founding period, then $25 per completed paid job); how a job works in three texts; how to join.
-3. **Counter staff FAQ.** Five questions with one-line answers, from `reference/objection-handling.md`: how SOS SMS is paid; who else sees a request; when the trip charge is paid; what contractors commit to; how to join.
+2. **One-pager.** What SOS SMS is (one sentence); who it is for; what it costs a contractor ($0 to join and per request; $25 per completed paid job from the first job, so $74 of each $99 trip charge reaches the contractor; one set of terms for every contractor in every trade, never tied to the member's plan); how a job works in three texts; how to join, any time.
+3. **Counter staff FAQ.** Five questions with one-line answers, from `reference/objection-handling.md`: how SOS SMS is paid; who else sees a request; when the trip charge is paid; what contractors commit to, and what happens if they are late (the trip charge stands and the late arrival is recorded; two in 90 days pause requests until review; a no-show is paid nothing); how to join.
 4. **Newsletter and job-board blurb.** Two sentences and the link with the partner code.
 5. **Emergency rate card template.** A one-page giveaway for stating after-hours trip charges up front. Useful on its own; SOS SMS footer only.
 6. **Ten-minute explainer video script.** The lead cost problem; three texts; the terms; how to join. Written for the ear. Mockups labeled "Pre-launch. Not live."

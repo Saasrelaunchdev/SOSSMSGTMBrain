@@ -36,4 +36,4 @@ Inter (SIL Open Font License), embedded and subset, weights 420, 540, 660, tabul
 One easing curve, cubic-bezier(0.2, 0.8, 0.2, 1): arrives and settles, no bounce. Durations 120, 240, 480, 720 ms. One ambient loop per screen at most; reduced motion shows end states. Projections are drawn as outlines, never filled solids. Planning values carry their label, and merge fields render as field chips. **The safety line is set still and fully legible, never animated, never styled as an alarm.**
 
 ## Voice
-Plain, exact, unhurried. Each claim stated once, with its source beside it. No hype and no urgency theatre: the reader may be standing in water. Full rules: `rules/writing-rules.md`.
+Plain, exact, unhurried. Each claim stated once, with its source beside it. No hype and no urgency theatre: the reader may be standing in water, in a house with no heat, or beside a dead panel. Full rules: `rules/writing-rules.md`.

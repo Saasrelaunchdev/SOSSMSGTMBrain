@@ -3,9 +3,9 @@
 Load for: citing any market figure, checking a source ID, or deciding whether a number may appear in external copy. Distills `sources/raw/gtm/research/` (README, `SOURCES.md`, the two research files, the competitor slates). The full register is the source of truth: `sources/raw/gtm/research/SOURCES.md`.
 
 ## How the research was done
-- **Date:** 2026-10-01. **Method:** web search only; page fetches were blocked, so every figure was read from a search engine's summary of the listed page, not the page itself.
+- **Dates:** 2026-10-01 (S01 to S74); 2026-10-11 (S75 to S94, the membership revision); 2026-10-20 (S95 to S100, the tiers revision). **Method:** web search only; page fetches were blocked, so every figure was read from a search engine's summary of the listed page, not the page itself.
 - **Consequence:** treat every figure as "reported by the listed source, not yet checked on the page". Before any figure goes into external copy, open the URL and confirm it.
-- **Scope:** national, plumbing and water emergencies (working assumption). Local items wait for the launch metro (`competitive-analysis.md`).
+- **Scope:** national; plumbing, HVAC, and electrical (decision 1). The research before 2026-10-20 is plumbing-led; S95 to S100 add the HVAC and electrical trip charges, lead costs, and three-plan club prices. Local items wait for the launch metro (`competitive-analysis.md`).
 
 ## Evidence grades
 
@@ -17,23 +17,28 @@ Load for: citing any market figure, checking a source ID, or deciding whether a 
 
 Every number carries its source ID and grade. A number without an ID is an SOS SMS value: decided, a labelled planning value, or counted at a named stage, from `reference/resolution-register.md`.
 
-## The register at a glance (92 sources, S01 to S94)
+## The register at a glance (98 sources, S01 to S100)
 - **Contractor side:** lead platform prices and terms (S03 to S10), the FTC HomeAdvisor matter (S01, S02), warranty networks (S20, S33), answering services and dispatch wages (S21, S22), labor market and associations (S23 to S25), how homeowners find contractors (S26, S27), trip charge practice (S28), card holds (S30), consent and carrier rules (S31, S32), plumbers already texting (S64).
 - **Member side (the membership revision, 2026-10-11):** plumber club memberships (S75 to S77), utility-partner plans and the partner model (S78, S93), home warranty prices (S79), AAA as an emergency membership analog (S80), Frontdoor (S81), home repair emergency surveys (S82 to S84), affiliate payouts (S85), RESPA and Regulation X (S86, S94), automatic renewal law after the vacated click-to-cancel rule (S87), the FTC Endorsement Guides (S88), subscription churn and annual discounts (S89, S90), home sales and first-time buyers (S91), email benchmarks (S92). All read from search summaries on 2026-10-11; page fetches were blocked.
 - **Demand side, from the pay per request research (kept):** Benjamin Franklin and Roto-Rooter promises (S40, S41), marketplace guarantees and behavior (S44 to S48), after-hours fees and complaints (S50, S51), upfront pricing peers (S42, S47, S53), warranty terms (S20, S56), water damage claims and drying guidance (S57, S58), text scams (S59), gas safety (S60), cards and banking (S61), housing stock (S62, S63).
-- **Paid search and policy:** search benchmarks (S15, S69), Local Services policy (S70), restricted businesses (S71), message assets (S72), CAN-SPAM (S73), Microsoft Ads costs (S74).
+- **Three trades and three-plan ladders (the tiers revision, 2026-10-20), all grade C:** HVAC service call fees (S95), electrician service call fees (S96), the 2026 HomeServe survey (S97), HVAC and electrical lead costs (S98), HVAC and electrical search ad benchmarks (S99), HVAC club plans (S100). They set the trip charge bands and the market band for member plans in the pricing model; internal only.
+- **Paid search and policy:** search benchmarks (S15, S69, S99), Local Services policy (S70), restricted businesses (S71), message assets (S72), CAN-SPAM (S73), Microsoft Ads costs (S74). Benchmarks only: there is no paid search at launch (decision 11).
 
 ## The figures used most
 
 | Figure | Source, grade |
 |---|---|
-| Plumbing search: $10.49 a click, 7.63 percent conversion, about $129 a lead | S15, B |
+| Plumbing search: $10.49 a click, 7.63 percent conversion, about $129 a lead (about $137 per new paid member: why there is no paid search at launch) | S15, B |
 | Emergency plumbing clicks $66.82, 31 percent click to lead | S69, C |
 | Angi plumbing leads $25 to $60; shared leads close 10 to 20 percent | S03, C |
 | Thumbtack plumbing leads $25 to $45 | S06, C |
 | Google LSA plumbing about $57 to $69 a lead | S08, C |
 | Service Direct $60 to $255 a plumbing call | S10, A |
-| Trip charges about $75 to $100 when charged | S28, C |
+| Trip charges about $75 to $100 when charged (plumbing) | S28, C |
+| HVAC service call fees about $70 to $200, $89 the most common | S95, C |
+| Electrician service call fees, the band used: $52 to $200 | S96, C |
+| Benjamin Franklin club: $10 a month or $120 a year; members' trip charge $49 instead of $89; 10 percent off repairs | S75, A |
+| HVAC clubs on three plans: $15.95, $29.95, $36.95 a month | S100, C |
 | After-hours call fees $150 to $250 | S50, C |
 | Text scams: $470 million lost in 2024 | S59, A |
 | 76.4 percent of households have a credit card; 4.2 percent unbanked | S61, A |
