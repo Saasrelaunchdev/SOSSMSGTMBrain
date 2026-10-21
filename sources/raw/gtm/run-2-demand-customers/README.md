@@ -1,8 +1,8 @@
 # SOS SMS, GTM input brief. Run 2 of 2: Demand (Members)
 
-The discovery input for running the `gtm-builder` skill on the demand side of SOS SMS. No website yet. Revised 2026-10-11, the membership revision; the folder keeps its name so every link resolves.
+The discovery input for running the `gtm-builder` skill on the demand side of SOS SMS. No website yet. Revised 2026-10-11, the membership revision, and 2026-10-20, the tiers revision; the folder keeps its name so every link resolves.
 
-SOS SMS is a two-sided home repair network. On the demand side, homeowners join before anything breaks, on a monthly or annual membership, with their card and home address on file. In an emergency a member texts one number, with no app, and the request goes at once to the licensed, insured contractors on the network for that trade and area. The first to accept commits to an arrival time, the $99 trip charge goes on the card on file and is credited to the job, and a 90-minute guarantee from the text covers a late arrival.
+SOS SMS is a two-sided home repair network. On the demand side, homeowners join before anything breaks, on one of three plans (Basic, Plus, or Premier), monthly or annual, with their card and home address on file. In an emergency a member texts one number, with no app, and the request goes at once to the licensed, insured contractors on the network for that trade (plumbing, HVAC, or electrical) and area. The first to accept commits to an arrival time, the $99 trip charge goes on the card on file and is credited to the job, and a 90-minute guarantee from the text credits 6 months of membership on Plus, and 12 on Premier, on a late arrival.
 
 Four pack files, plus the completed run in `output/`. No placeholders for an agent to fill: per-message and per-zone details are merge fields from the resolution register.
 

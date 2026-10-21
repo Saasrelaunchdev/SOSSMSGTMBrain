@@ -2,7 +2,7 @@
 
 The discovery input for running the `gtm-builder` skill on the contractor side of SOS SMS. No website yet.
 
-SOS SMS is a two-sided marketplace for emergency home repair. Homeowners join before anything breaks, on a monthly or annual membership, and in an emergency a member texts one number; the request goes to licensed, insured contractors matched by trade and area. This run sells the other side: trade contractors join free, with no subscription and no lead fees, and get urgent jobs with the trip charge collected before they roll. Revised 2026-10-11, the membership revision, on the member side only; the contractor side is unchanged.
+SOS SMS is a two-sided marketplace for emergency home repair. Homeowners join before anything breaks, on one of three plans (Basic, Plus, or Premier), monthly or annual, and in an emergency a member texts one number; the request goes to licensed, insured plumbing, HVAC, or electrical contractors matched by trade and area (revised 2026-10-20, the tiers revision). This run sells the other side: trade contractors join free, with no subscription and no lead fees, and get urgent jobs with the trip charge collected before they roll. Revised 2026-10-11, the membership revision, on the member side only; the contractor side is unchanged.
 
 Four pack files, plus the completed run in `output/`. No placeholders for an agent to fill.
 
@@ -20,7 +20,7 @@ Four pack files, plus the completed run in `output/`. No placeholders for an age
 2. Run Step 0 in `RESEARCH-PROMPTS.md` to name the competitors. The skill assumes you already know them.
 3. Run Steps 1.1, 2.1, and 2.7 from the same file, then bring the findings back.
 4. Invoke the skill. Point it at `GTM-BRIEF.md` and `SKILL-ADAPTATION.md` first, and keep its output in an `output/` folder next to them.
-5. Close Phase 5 with the Step 5.2 founding contractor cohort. Run 2 starts from it.
+5. Close Phase 5 with the Step 5.2 first contractor cohort. Run 2 starts from it.
 
 This is the first of two runs. `gtm-builder` builds one GTM per run, and the member side runs second from `../run-2-demand-customers/`, because every member-side promise depends on how many contractors have joined. The two runs are never blended.
 

@@ -45,7 +45,7 @@ Demand and competitiveness from -20 to +20, with decimals. Bands used: Wanted by
 <!-- sheet: Quadrants -->
 | Feature | Quadrant | Rationale |
 |---|---|---|
-| 1. Zero cost to join | Q1 Hero Feature | Every contractor wants it, and only a few alternatives combine no lead fee with no commission. Decision 2 keeps it there: joining and requests stay free, and the $25 fee applies only to completed paid jobs after the founding period |
+| 1. Zero cost to join | Q1 Hero Feature | Every contractor wants it, and only a few alternatives combine no lead fee with no commission. Decision 2 keeps it there: joining and requests stay free, and the $25 fee applies only to completed paid jobs |
 | 2. High-urgency leads | Q1 Hero Feature | Emergency-only requests answer the "just exploring" complaint (S05). Service Direct is the only close peer |
 | 3. Pre-qualified leads | Q4 Table Stakes | Expected from any platform, and the FTC order (S01) means contractors discount the claim. Must be present, cannot lead |
 | 4. Guaranteed trip charge, collected up front | Q1 Hero Feature | The strongest competitive score on the list. No lead platform in the set does it, and it changes the economics from paying to receive a request to being paid to show up |
@@ -80,7 +80,7 @@ One top-of-funnel entry for contractors. Rule check: it must give immediate valu
 | How it helps in problem identification | It separates the price of a lead from the cost of a job. A $40 lead that closes one time in six is a $240 job before the truck leaves (illustrative arithmetic using the ranges in S03 and S06) |
 | How it exposes the need for SOS SMS | The two leaks it measures, paying for requests that never convert and driving out without getting paid, are the two things SOS SMS's model removes: no lead fee, and the trip charge collected before rolling |
 | ICP fit | ICP Level 2: contractors already paying for leads. Level 1 contractors with no lead spend get a short path to the unpaid-trips question instead |
-| Conversion lever | The result screen ends with one question: "Want emergency jobs where you pay nothing to see the request and the trip charge is collected before you roll?" Reply by text to join the founding contractor list |
+| Conversion lever | The result screen ends with one question: "Want emergency jobs where you pay nothing to see the request and the trip charge is collected before you roll?" Reply JOIN by text to be on SOS SMS when it opens in the zone |
 | Top-of-funnel use case | The hook in cold email 1, on supply house counter cards and partner newsletters, and forwarded contractor to contractor. No calls: the check runs itself |
 
 ## Step 1.7. Demand driver variants
@@ -92,7 +92,7 @@ One top-of-funnel entry for contractors. Rule check: it must give immediate valu
 | The Lead Cost Check | Medium | Easy | Light tool | The calculator above, web page or text-based | Cold email, supply house QR cards, partner newsletters |
 | After-Hours Readiness Scorecard | Medium | Easy | Self-assessment scorecard (ScoreApp) | Seven questions on after-hours response, trip charge policy, lead spend, and unpaid trips, scored 0 to 100 | The lead magnet, specified in `lead-magnet-spec.md` |
 | Emergency rate card template | Low | Easy | Light tool | A one-page template for stating after-hours trip charges and rates up front | Giveaway at supply counters and association meetings; builds familiarity with the trip charge idea |
-| Founding contractor test week | High | Medium | Value using the product itself | Once the product exists: a week of live requests in the launch area with no fee of any kind | Converts interested contractors into active ones. Not available until launch |
+| Contractor test week | High | Medium | Value using the product itself | Once the product exists: a week of live requests in the launch area, on the standard terms | Converts interested contractors into active ones. Not available until launch |
 
 ## What Phase 1 tells the rest of the run
 

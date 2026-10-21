@@ -10,8 +10,8 @@ The `gtm-builder` run for the demand side, executed 2026-10-01 against `../GTM-B
 | Website | None yet | Decided: the readiness scorecard and the launch list from Stage 1; the membership page (with a ZIP check), the guarantee page, and five problem and prevention guides from Stage 2 (R23) |
 | Category | Emergency home repair membership, by text; a local two-sided network | From the brief |
 | Audience | Homeowners who want to be ready before something breaks, in open zones | Decided (brief decisions 1 and 9) |
-| Niche | Plumbing and water emergencies, inside Run 1's founding contractor zone | Decided (decision 1) |
-| Launch metro and zone | One founding zone, a 10-mile radius around the founding contractors' shops, in the founders' home metro | Decided (decision 1); drawn in Stage 0 |
+| Niche | Plumbing and water emergencies, inside Run 1's launch zone | Decided (decision 1) |
+| Launch metro and zone | One launch zone, a 10-mile radius around the first contractors' shops, in the founders' home metro | Decided (decision 1); drawn in Stage 0 |
 | Competitors | D1 Search and call when it happens, D2 plumber club memberships, D3 home warranties, D4 utility-partner plumbing plans, D5 Frontdoor, D6 on-demand marketplaces | Step 0, member slate (2026-10-11), filled in `../../research/` |
 | Features | The nine demand-side items from the matrix, three candidates, and three membership items | From the brief, Section 3 |
 | Business context | Two founders, Bryan and Ali, as supply lead and demand lead; at least 18 months of runway required; no channels tried, pre-launch | Resolved 2026-10-03 (R25, R35, R48) |
@@ -21,13 +21,13 @@ The `gtm-builder` run for the demand side, executed 2026-10-01 against `../GTM-B
 | Brief decision | Assumption used, and the decision of 2026-10-03 | Where it matters |
 |---|---|---|
 | 1. Who the demand side is | Homeowners. Renters and landlords noted where they differ; property managers excluded (a possible third run) | Phases 4, 5 |
-| 2. Launch metro and trades | Plumbing and water emergencies. Decided: one founding zone in the founders' home metro | Phases 2, 4, 8 |
-| 3. Member price | Revised 2026-10-11: a monthly or annual membership, planning values $10 a month or $100 a year (R51, R52), shown as `{{monthly price}}` and `{{annual price}}`; the $99 trip charge on use, set by SOS SMS, credited to the repair; no fee per request | Phases 6, 9 |
-| 4. 90-minute guarantee scope | Revised 2026-10-11: 90 minutes from the member's request text; the $99 trip charge back, automatically; covered areas and hours from the zone record; no charge when no one accepts. Fault-based late-arrival rule | Phases 3, 6, 7, 9 |
-| 5. Build status | Every item treated as planned. The relaunch guarantee is excluded from copy | Phases 1, 6 |
+| 2. Launch metro and trades | Revised 2026-10-20: plumbing, HVAC, and electrical emergencies in one membership. Decided: one launch zone in the founders' home metro | Phases 2, 4, 8 |
+| 3. Member price | Revised 2026-10-20: three plans, monthly or annual: Basic $10 a month or $100 a year, Plus $15 or $150, Premier $35 or $350 (R51, R52, R65, R66, decided), Plus on the annual plan shown first; dispatch 30 days after joining on the monthly plan and at once on the annual plan (R54); the $99 trip charge on use, set by SOS SMS, the same in all three trades, credited to the repair; no fee per request | Phases 6, 9 |
+| 4. 90-minute guarantee scope | Revised 2026-10-20: on Plus and Premier; 90 minutes from the member's request text; a late arrival keeps its trip charge and credits the membership paid in the 6 months (Plus) or 12 months (Premier) before the request (R65); a no-show returns the trip charge in full; the zone's neighborhoods, at any hour, because a zone opens only when every trade and hour band meets the density number (R15, R55); no charge when no one accepts; NEXT after the 90 minutes (R17) | Phases 3, 6, 7, 9 |
+| 5. Build status | Every item treated as planned. The relaunch is decided as NEXT after a miss (R17) | Phases 1, 6 |
 | 6. Member data, marketing texts, and email | The address on file and job details go to the accepting contractor only; no marketing texts without separate written opt-in; email follows CAN-SPAM (decided) | Phases 3, 6, 8 |
-| 7. Name collision | Decided: a US trademark search and a search check in the zone in Stage 0; no bids on "SOS plumbing" (decision 10) | Phase 8 |
-| 8. Paid search | Revised 2026-10-11: sells memberships before the need, never dispatch during an emergency; standard search ads after Google's written confirmation; never Local Services Ads (decision 11) | Phase 8 |
+| 7. Name collision | Decided: a US trademark search and a search check in the zone in Stage 0; always the full name SOS SMS (decision 10) | Phase 8 |
+| 8. Paid search | Revised 2026-10-20: no paid search at launch; affiliates, email, and paid social sell memberships before the need; never Local Services Ads (decision 11). Search volume for SOS SMS by name counted once a zone has been open 6 months (R68) | Phase 8 |
 | 9. The demand-side product | Decided 2026-10-11, the membership revision: a monthly or annual membership, joined before the need; one text starts dispatch; affiliates and email lead | Every phase |
 
 ## Rules carried through every phase
@@ -56,7 +56,7 @@ Growth across zones follows `../../marketplace/speed-to-scale-plan.md`.
 
 ## Revision: the membership model (2026-10-11)
 
-The membership revision, 2026-10-11. The demand side is a monthly or annual membership, joined before anything breaks, with the card and home address on file. In an emergency a member sends one text and help is on the way: no search, no sign-up, no payment entry, nothing to confirm. Speed is the point, and membership is what makes it possible. It also opens lower-cost channels that only work before the need: affiliates and email lead, and search and social sell sign-ups in open zones. A homeowner searching mid-emergency is not the target: at that moment, calling a contractor from the results is the faster route. The contractor side is unchanged.
+The membership revision, 2026-10-11. The demand side is a monthly or annual membership, joined before anything breaks, with the card and home address on file. In an emergency a member sends one text and help is on the way: no search, no sign-up, no payment entry, nothing to confirm. Speed is the point, and membership is what makes it possible. It also opens lower-cost channels that only work before the need: affiliates and email lead, and search and social sell sign-ups in open zones. A homeowner searching mid-emergency is not the target: at that moment, calling a contractor from the results is the faster route. The model is one set of terms, built for profitability: $10 a month or $100 a year, decided, with the annual plan shown first; dispatch 30 days after joining on the monthly plan and at once on the annual plan; an open zone covered at every hour; no dispatch without an authorized trip charge, with an optional backup card; NEXT after a miss, at no cost to SOS SMS; and the $25 contractor fee from every contractor's first completed paid job, so every request pays for itself. On the contractor side, free entry, the trip charge collected before rolling, and the channels are unchanged; the founding terms are retired.
 
 | File | What changed |
 |---|---|
@@ -65,12 +65,28 @@ The membership revision, 2026-10-11. The demand side is a monthly or annual memb
 | `phase-1-product-feature-matrix.md` | Three membership items (13 to 15); one text starts dispatch is the lead; the readiness check is the demand driver |
 | `phase-2-competitive-analysis.md`, `phase-2-positioning-summary.md` | Member slate D1 to D6, vectors V1 to V4, features F1 to F16, the summary rewritten |
 | `phase-3-positioning-statements.md` | Statements against doing nothing, plumber clubs, and warranties and plans; the one line; what not to claim |
-| `phase-4-icp.md`, `phase-5-buying-committee.md` | New homeowners and established homeowners, reached before the need; a household deciding over days; the founding member area and zone sizing |
+| `phase-4-icp.md`, `phase-5-buying-committee.md` | New homeowners and established homeowners, reached before the need; a household deciding over days; the launch zone's member area and zone sizing |
 | `phase-6-value-proposition.md` | Brand promise "One text, and help is on the way."; VP1 one text, VP2 ready before it happens, VP3 know the cost and who is coming; nine member drills |
 | `phase-7-customer-journey.md` | Two clocks, weeks before and minutes during; renewal as Stage 7; new blockers and accelerators |
 | `phase-8-assets-library.md` | Affiliates, email, and search and SEO pages for sign-ups, plus member loops; rules for each channel; sign-up ad drafts |
 | `phase-9-pricing.md` | The membership as the value metric; packaging; guarantee economics per member; acquisition economics per member and the ceiling; anchors; decisions |
 | `lead-magnet-spec.md`, `gtm_walkthrough.md` | The scorecard ends at the ZIP check (join, launch list, or the plan alone); the deck rewritten for members |
+
+## Revision: three trades, three plans (2026-10-20)
+
+The tiers revision, 2026-10-20. One membership covers plumbing, HVAC, and electrical emergencies, and a zone opens only when all three trades meet the density number in every hour band. Members choose Basic ($10 a month or $100 a year), Plus ($15 or $150), or Premier ($35 or $350); the plans differ by what stands behind the arrival time, never by speed. A late arrival keeps its trip charge, because it pays for the work; on Plus and Premier the 90-minute guarantee credits the membership paid in the 6 months (Plus) or 12 months (Premier) before the request. A no-show returns the trip charge in full and pays the contractor nothing. No paid search at launch: affiliates, email, and paid social carry sign-ups. Every request nets about $13.03, and contribution is about $9.29, $13.77, and $29.62 a member a month by plan.
+
+| File | What changed |
+|---|---|
+| `phase-1-product-feature-matrix.md` | Item 2 is the guarantee on Plus and Premier; items 13 and 14 name the three plans and the three trades |
+| `phase-2-competitive-analysis.md`, `phase-2-positioning-summary.md` | SOS SMS's description, price, and V3 carry the plans and trades; F7 renamed to an arrival guarantee that pays when broken |
+| `phase-3-positioning-statements.md` | The statements name the three trades and the guarantee's plans; two new things not to claim |
+| `phase-4-icp.md`, `phase-5-buying-committee.md` | Level names read "contractor"; the emergencies cover three trades; 27 contractors per zone |
+| `phase-6-value-proposition.md` | VP1 and drill 3 carry the credit on Plus and Premier; drills 6 and 7 name the plans |
+| `phase-7-customer-journey.md` | Choosing a plan at evaluation; credits at value realization; upgrades as an accelerator; no paid search |
+| `phase-8-assets-library.md` | Channel 3 is search pages and paid social; rules for paid social; paid social drafts; no paid search |
+| `phase-9-pricing.md` | Three plans in the packaging; the guarantee as a credit; per-plan acquisition economics and ceilings |
+| `lead-magnet-spec.md`, `gtm_walkthrough.md` | Three trades in question 5 and the results; the plans in the conversion path; the deck lines revised |
 
 ## Output files
 

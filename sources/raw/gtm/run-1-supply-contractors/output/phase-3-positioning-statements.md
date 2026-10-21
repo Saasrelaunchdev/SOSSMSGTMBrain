@@ -25,7 +25,7 @@ Not "a replacement for your regulars", an overflow line for the emergencies you 
 
 ## Positioning in one line
 
-For licensed plumbing and water-emergency contractors who are tired of paying for requests that never become work, SOS SMS is the emergency dispatch line where seeing a job costs nothing and the trip is paid before you roll.
+For licensed plumbing, HVAC, and electrical contractors who are tired of paying for requests that never become work, SOS SMS is the emergency dispatch line where seeing a job costs nothing and the trip is paid before you roll.
 
 ## What this positioning deliberately does not claim
 
@@ -35,4 +35,4 @@ For licensed plumbing and water-emergency contractors who are tired of paying fo
 | Exclusive requests | Every matched contractor sees each request (decision 4) |
 | Better leads than a named competitor | No dated, sourced comparison exists yet |
 | "Zero cost" without the revenue model stated in the same sentence | Becomes false if SOS SMS takes any share of the work; decision 2 takes none, so state the $25 per completed paid job fee alongside |
-| "Guaranteed" trip charge without the late-arrival rule | The member's 90-minute refund may pay out of it (brief Section 6, row 1) |
+| "Guaranteed" trip charge without the late-arrival rule | The trip charge is kept on a late arrival but goes back to the member on a no-show, and two late arrivals or no-shows in 90 days pause requests (decision 3, R67) |

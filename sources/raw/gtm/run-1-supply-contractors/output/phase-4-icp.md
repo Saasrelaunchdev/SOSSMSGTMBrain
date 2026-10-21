@@ -1,6 +1,6 @@
 # Phase 4. ICP Dashboard, contractor side
 
-The skill's two levels are software company stages (MVP to PMF, Growth). Per `../SKILL-ADAPTATION.md`, they are restated as how far the contractor has got with the problem SOS SMS solves: getting paid emergency work.
+The skill's two levels are software company stages (MVP to PMF, Growth). Per `../SKILL-ADAPTATION.md`, they are restated as how far the contractor has got with the problem SOS SMS solves: getting paid emergency work. Revised 2026-10-20, the tiers revision: three trades from the launch zone, plumbing, HVAC, and electrical.
 
 - **Level 1, word-of-mouth emergency taker.** Takes emergency calls only when they arrive through referrals or repeat customers. No system for after-hours work and no paid job source.
 - **Level 2, already paying for jobs.** Buys per-lead platforms, search ads, or an answering service, and wants emergency volume without the per-lead cost.
@@ -10,10 +10,10 @@ The skill's two levels are software company stages (MVP to PMF, Growth). Per `..
 <!-- sheet: ICP -->
 | Attribute | ICP Level 1: word-of-mouth emergency taker | ICP Level 2: already paying for jobs |
 |---|---|---|
-| Segment | Owner-operator plumbers and water-emergency contractors who rely on referrals | Small plumbing and water damage shops with at least one paid lead source |
-| Sub-industries | Residential plumbing service and repair, drain cleaning, water heaters | Same, plus water damage mitigation and restoration. Later trades (HVAC, electrical, locksmith) are out of scope at launch |
-| Location | The founding zone in the founders' home metro, inside the contractor's own service radius | Same |
-| Revenue, $ | Under $500,000 a year (planning band, R38); checked in the founding contractor survey | $500,000 to $3 million a year (planning band, R38); same check |
+| Segment | Owner-operator plumbers, HVAC technicians, and electricians who take emergency calls and rely on referrals | Small plumbing, HVAC, and electrical shops with at least one paid lead source |
+| Sub-industries | Residential plumbing service and repair, drain cleaning, water heaters; residential heating and cooling repair; residential electrical service and repair | Same. Water damage restoration and locksmith come later, behind the same membership |
+| Location | The launch zone in the founders' home metro, inside the contractor's own service radius | Same |
+| Revenue, $ | Under $500,000 a year (planning band, R38); checked in the contractor sign-up survey | $500,000 to $3 million a year (planning band, R38); same check |
 | Team Size | Owner-operator, sometimes one helper | Owner plus one to five technicians, often a part-time office person |
 | Business Maturity | Established and licensed; growth comes only from reputation | Established; actively spending on marketing |
 | Business Model | Time and materials or flat rate. After-hours premium varies. Many waive the trip fee and recover it in labor (S28) | Flat-rate pricing common; after-hours premium; trip or diagnostic fee credited if the customer goes ahead (S28) |
@@ -28,11 +28,11 @@ The skill's two levels are software company stages (MVP to PMF, Growth). Per `..
 <!-- sheet: ICP -->
 | Attribute | ICP Level 1 | ICP Level 2 |
 |---|---|---|
-| Trades and licenses held | State or local plumbing license; general liability insurance | Plumbing license, insurance, and for water damage, IICRC Water Damage Restoration Technician certification (S25) |
-| Service radius | 10 miles, the founding zone's radius (R27) | 10 miles, the founding zone's radius (R27) |
+| Trades and licenses held | The state or local license for each trade taken (plumbing, HVAC or mechanical, electrical); general liability insurance | The same licenses and insurance, held by the shop; a shop licensed in more than one trade counts in each (R08) |
+| Service radius | 10 miles, the launch zone's radius (R27) | 10 miles, the launch zone's radius (R27) |
 | After-hours availability | Occasional, at the owner's discretion | An on-call rotation or an owner who takes night calls |
 | Current job sources | Referrals, repeat customers, free listing, neighbors' recommendations (S26, S27) | Angi, Thumbtack, Google LSA, Service Direct, or search ads, plus referrals |
-| Fit for the 90-minute guarantee | Limited: one person cannot always roll at 2 a.m. | Good: an on-call technician can |
+| Fit for the 90-minute window | Limited: one person cannot always roll at 2 a.m. | Good: an on-call technician can |
 | Disqualifiers | Unlicensed or uninsured; will not credit the trip charge to the job; will not commit to an arrival time | Same |
 
 ## Market context
@@ -44,11 +44,11 @@ Sizes for orientation only. None of them is a target number for SOS SMS, and the
 |---|---|---|
 | Plumbing jobs in the US, 2024 | About 504,500, median wage $62,970 | S23 (A) |
 | PHCC member businesses | About 3,300, with 65,000 technicians | S24 (A) |
-| IICRC certified firms | Over 4,600, with 43,000 certified technicians (all certification types) | S25 (B) |
-| Licensed plumbing businesses in the launch metro | Counted in Stage 0 | The state license list for the founders' home metro |
+| IICRC certified firms | Over 4,600, with 43,000 certified technicians (all certification types); water damage is the next trade, not a launch trade | S25 (B) |
+| Licensed plumbing, HVAC, and electrical businesses in the launch metro | Counted in Stage 0, by trade (R40) | The state license lists for the founders' home metro |
 
 ## Which level goes first, and why
 
-**Level 2 goes first.** Three reasons. It has the clearest Phase 9 anchor, what it pays per booked job today. It has the after-hours capacity the 90-minute guarantee depends on. And it has already accepted the idea of getting jobs from a platform, so the conversation is about terms, not about the concept.
+**Level 2 goes first.** Three reasons. It has the clearest Phase 9 anchor, what it pays per booked job today. It has the after-hours capacity the 90-minute window depends on, in each of the three trades. And it has already accepted the idea of getting jobs from a platform, so the conversation is about terms, not about the concept.
 
 **Level 1 is recruited alongside, for coverage.** Owner-operators fill hours and areas Level 2 shops leave open, and they are the most likely to refer the other trades they work with. The density number in Phase 5 counts both.

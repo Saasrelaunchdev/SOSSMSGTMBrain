@@ -1,10 +1,10 @@
 # Phase 6. Value Proposition Dashboard, member side
 
-Three pillars, nine reasons to believe, nine copy drills. Written to `../GTM-BRIEF.md` Section 5 and checked against Section 6. Revised 2026-10-11, the membership revision: the pillars sell a membership joined before the need, and the emergency is one text.
+Three pillars, nine reasons to believe, nine copy drills. Written to `../GTM-BRIEF.md` Section 5 and checked against Section 6. Revised 2026-10-11, the membership revision: the pillars sell a membership joined before the need, and the emergency is one text. Revised 2026-10-20, the tiers revision: one membership covers plumbing, HVAC, and electrical, on three plans, and the 90-minute guarantee is on Plus and Premier.
 
 **The fabrication rule for this phase.** SOS SMS has no members, jobs, or arrival times on record. Every "Headline (Social Proof)" is a method line that describes how the process works, and every "Supporting Proof Point" names the record or document that will show the claim is true from the first job. A real result replaces a method line only once it is measured and permissioned. No drill states or implies an average arrival time, a count of members or homes helped, a savings figure, repair coverage, or that SOS SMS prevents damage.
 
-**Decided terms.** Every line that waited on a decision carries the decided words (`../../marketplace/resolution-register.md`, decided 2026-10-03, revised 2026-10-11). Member copy goes out only once memberships open in its zone; before then, the launch list. Per-zone and per-member details are merge fields filled from the zone and member records, and the prices are `{{monthly price}}` and `{{annual price}}` until the launch price is set in Stage 0 (R51, R52).
+**Decided terms.** Every line that waited on a decision carries the decided words (`../../marketplace/resolution-register.md`, decided 2026-10-03, revised 2026-10-11 and 2026-10-20). Member copy goes out only once memberships open in its zone; before then, the launch list. Per-zone and per-member details are merge fields filled from the zone and member records. The prices are decided: Basic $10 a month or $100 a year, Plus $15 or $150, Premier $35 or $350 (R51, R52, R65, R66), with Plus on the annual plan shown first. The guarantee is always named with its plans.
 
 **Safety line.** Every drill that describes the emergency text carries: "For fire, a gas smell, or anyone hurt, call 911 first." Gas utilities tell people to leave the building before calling and not to use phones near a leak (S60), so for gas the line becomes: "Smell gas? Get out first, then call 911 and your gas company." The brand promise always travels with it.
 
@@ -13,14 +13,14 @@ Three pillars, nine reasons to believe, nine copy drills. Written to `../GTM-BRI
 | Element | Definition |
 |---|---|
 | Brand Promise | One text, and help is on the way. Join before you need it |
-| Positioning | The emergency home repair membership you join before anything breaks, so the emergency itself is one text. Built around two things: one message that reaches the vetted contractors for the trade at once, and an arrival window that costs SOS SMS money when it is missed |
+| Positioning | The emergency home repair membership you join before anything breaks, so the emergency itself is one text. Built around two things: one message that reaches the vetted contractors for the trade at once, in plumbing, HVAC, or electrical, and an arrival window that, on Plus and Premier, costs SOS SMS money when it is missed |
 
 ## Step 6.2. Value proposition pillars
 
 | Value Prop | Description | Reason to Believe #1 | Reason to Believe #2 | Reason to Believe #3 |
 |---|---|---|---|---|
-| VP1. One text, help on the way | No searching and no calling down a list: one text reaches the vetted contractors on SOS SMS for your trade, one accepts with an arrival time, and if they are not there within 90 minutes of your text, you get the $99 trip charge back | One text reaches the licensed, insured contractors on SOS SMS for that trade nearby, all at once | The contractor gives you an arrival time when they accept, with their name and Google rating | If they are not there within 90 minutes of your text, you get the $99 trip charge back, and SOS SMS keeps working to get someone to you |
-| VP2. Ready before it happens | Join once, calmly, and the emergency has nothing left to set up | Your card and home address are on file from the day you join, so there is nothing to fill in at 2 a.m. | No app and no phone tree: one number, saved to your phone when you join | Monthly or annual, cancel any time, and a person by text when you want one |
+| VP1. One text, help on the way | No searching and no calling down a list: one text reaches the vetted plumbers, HVAC technicians, or electricians on SOS SMS for your problem, one accepts with an arrival time inside 90 minutes, and a late arrival credits 6 months of membership on Plus, 12 on Premier | One text reaches the licensed, insured contractors on SOS SMS for that trade nearby, all at once | The contractor gives you an arrival time when they accept, with their name and Google rating | On Plus and Premier, if they are late, the membership you paid for the 6 months before your request (12 on Premier) is credited, and SOS SMS keeps working to get someone to you |
+| VP2. Ready before it happens | Join once, calmly, and the emergency has nothing left to set up | Your card and home address are on file from the day you join, so there is nothing to fill in at 2 a.m. | No app and no phone tree: one number, saved to your phone when you join | Three plans, monthly or annual, cancel any time, and a person by text when you want one |
 | VP3. Know the cost and who is coming | The membership price, the trip charge only when you use it, and checked contractors who are the only ones to get your address | The $99 trip charge goes on your card only when a contractor accepts, and it counts toward the repair if you go ahead | SOS SMS checks every contractor's license and insurance before they can take a job | Only the contractor who takes your job gets your address, and SOS SMS does not sell your information or use it to target you with ads |
 
 ## Step 6.3. Copy drills
@@ -38,7 +38,7 @@ Three pillars, nine reasons to believe, nine copy drills. Written to `../GTM-BRI
 | CTA | Check your ZIP and join |
 | Supporting Proof Point | Each request's log: who received it and when the first contractor accepted |
 | Safety line | Required |
-| Must be true before use | Memberships are open in the zone: the density number is met for the trade and the covered hours are named (R55). What the member is told when nobody accepts is written: within 15 minutes, and nothing charged (decision 3) |
+| Must be true before use | Memberships are open in the zone: the density number is met for each of the three trades in every hour band (R15, R55). What the member is told when nobody accepts is written: within 15 minutes, and nothing charged (decision 3) |
 
 ### Copy drill 2. VP1: an arrival time when they accept
 
@@ -55,20 +55,20 @@ Three pillars, nine reasons to believe, nine copy drills. Written to `../GTM-BRI
 | Safety line | Required |
 | Must be true before use | Contractors commit to an arrival time on acceptance (brief Section 6, row 6). Never write "guaranteed arrival time"; the guarantee is the window. Reviews are third-party and not verified by SOS SMS; new contractors may have none |
 
-### Copy drill 3. VP1: the 90-minute guarantee
+### Copy drill 3. VP1: the 90-minute guarantee, on Plus and Premier
 
 | Element | Content |
 |---|---|
-| Reason to Believe | If they are not there within 90 minutes of your text, you get the $99 trip charge back, and SOS SMS keeps working to get someone to you |
-| Headline (Rational) | Not there in 90 minutes? The trip charge comes back. |
+| Reason to Believe | On Plus and Premier, if they are late, the membership you paid for the 6 months before your request (12 on Premier) is credited, and SOS SMS keeps working to get someone to you |
+| Headline (Rational) | Late? Your last 6 months, credited. |
 | Headline (Emotional) | A promise that costs us when we miss it. |
-| Headline (Social Proof) | Method line: "The guarantee in one line, on the membership page: 90 minutes from your text, or the trip charge back." |
-| Subhead | If your contractor is not there within 90 minutes of your text, you get the $99 trip charge back, and we keep working to get someone to you. |
-| Body Copy (25 words max) | If your contractor isn't there within 90 minutes of your text, the $99 trip charge comes back, and we keep working. Covered: {{zone neighborhoods}}, {{covered hours}}. |
+| Headline (Social Proof) | Method line: "The guarantee in one line, on the membership page: 90 minutes from your text, or your membership credited: 6 months on Plus, 12 on Premier." |
+| Subhead | On Plus and Premier: if your contractor gets there after 90 minutes from your text, we credit the membership before your request to your next bills: 6 months on Plus, 12 on Premier. |
+| Body Copy (25 words max) | Late on Plus or Premier? We credit 6 or 12 months of membership. Text NEXT for another contractor. Any hour, in {{zone neighborhoods}}. |
 | CTA | Read the guarantee in full |
-| Supporting Proof Point | The guarantee page, published before memberships open in the zone; refunds paid automatically |
+| Supporting Proof Point | The guarantee page, published before memberships open in the zone; credits applied automatically to the next bill |
 | Safety line | Required |
-| Must be true before use | Decision 3 as revised 2026-10-11: 90 minutes from the member's request text; the $99 trip charge back, automatically; covered areas and hours from the zone record; with no acceptance, told within 15 minutes and nothing charged. The fault-based late-arrival rule in the contractor terms. The scope stated in the same sentence as the guarantee |
+| Must be true before use | Decision 3 as revised 2026-10-20: 90 minutes from the member's request text; on Plus and Premier, the membership paid in the 6 months (Plus) or 12 months (Premier) before the request credited automatically on a late arrival or a no-show (R65); a late arrival keeps its trip charge and a no-show returns it in full; the zone's neighborhoods, at any hour (R15); with no acceptance, told within 15 minutes and nothing charged; NEXT after the 90 minutes (R17). The late-arrival rule in the contractor terms (R67). The guarantee always named with its plans, and the scope in the same sentence; never on Basic copy |
 
 ### Copy drill 4. VP2: your card and address are already on file
 
@@ -104,16 +104,16 @@ Three pillars, nine reasons to believe, nine copy drills. Written to `../GTM-BRI
 
 | Element | Content |
 |---|---|
-| Reason to Believe | Monthly or annual, cancel any time, and a person by text when you want one |
+| Reason to Believe | Three plans, monthly or annual, cancel any time, and a person by text when you want one |
 | Headline (Rational) | Join before you need it. Cancel any time. |
 | Headline (Emotional) | Ready, without a long contract. |
 | Headline (Social Proof) | Method line: "What membership includes, what it costs, and how to cancel, on one page before you join." |
-| Subhead | {{monthly price}} a month or {{annual price}} a year. Cancel any time on the membership page, or text HELP to reach a person. |
-| Body Copy (25 words max) | Join once, for {{monthly price}} a month or {{annual price}} a year. Cancel any time, and text HELP to reach a person. |
+| Subhead | Plans from $100 a year, or $10 a month. Cancel any time on the membership page, or text HELP to reach a person. |
+| Body Copy (25 words max) | Join once, from $100 a year or $10 a month. Cancel any time, and text HELP to reach a person. |
 | CTA | See what membership includes |
 | Supporting Proof Point | The membership page and the member terms: price, renewal, and how to cancel, stated before the card is taken |
 | Safety line | Not required |
-| Must be true before use | Cancel any time on the membership page, or by texting HELP to reach a person (R56). The member terms and the automatic renewal disclosures reviewed by counsel before billing starts (S87). Prices stay merge fields until the launch price is set in Stage 0 (R51, R52) |
+| Must be true before use | Cancel any time on the membership page, or by texting HELP to reach a person (R56). The member terms and the automatic renewal disclosures reviewed by counsel before billing starts (S87): when dispatch starts (30 days on the monthly plan, at once on the annual, R54) and no partial refunds (R56). The prices as decided (R51, R52, R65, R66); upgrades as decided (R54) |
 
 ### Copy drill 7. VP3: the trip charge, only on use
 
@@ -123,12 +123,12 @@ Three pillars, nine reasons to believe, nine copy drills. Written to `../GTM-BRI
 | Headline (Rational) | The trip charge is $99, on use, and counts toward the repair. |
 | Headline (Emotional) | Know the call-out cost before anything breaks. |
 | Headline (Social Proof) | Method line: "Two prices, both stated before you join: the membership, and the trip charge when you use it." |
-| Subhead | Membership is {{monthly price}} a month or {{annual price}} a year. The $99 trip charge applies only when you use it, and counts toward the repair. |
+| Subhead | Plans from $100 a year or $10 a month. The $99 trip charge applies only when you use it, and counts toward the repair. |
 | Body Copy (25 words max) | The $99 trip charge applies only on use: it goes on your card when a contractor accepts, and is credited to the repair. |
 | CTA | See what membership includes |
 | Supporting Proof Point | The trip charge on the membership page and in every acceptance text: $99, credited to the repair |
 | Safety line | Required |
-| Must be true before use | Do not imply the repair price is known; only the trip charge is. A price range (item 11) is not offered at launch (R49), so this drill never mentions one. The membership does not pay for the repair (R21) |
+| Must be true before use | Do not imply the repair price is known; only the trip charge is. A price range (item 11) is not offered at launch (R49), so this drill never mentions one. No plan pays for the repair (R21). Premier's trip charge a year paid by SOS SMS is named only in Premier copy (R66) |
 
 ### Copy drill 8. VP3: license and insurance checked
 
@@ -168,12 +168,12 @@ Checked against `../GTM-BRIEF.md` Section 6 before closing the phase.
 |---|---|---|
 | 1 | Row 3, dispatch rule | Holds; states "all at once" and "the first who can come accepts" |
 | 2 | Row 6, arrival commitment | Holds: contractors commit to an arrival time on acceptance, in the terms on one page |
-| 3 | Row 1, who funds the refund | **Closed.** The fault-based late-arrival rule and the guarantee scope match (decision 3); the clock runs from the member's request text in both runs |
-| none | Row 2, relaunch | Not referenced; relaunch is not built |
+| 3 | Row 1, the late-arrival rule | **Closed, revised 2026-10-20.** A late arrival keeps its trip charge on both sides; the credit on Plus and Premier is SOS SMS's (decision 3); the clock runs from the member's request text in both runs |
+| 3 | Row 2, relaunch | NEXT after the 90 minutes (R17), stated with the guarantee: the first contractor is treated as a no-show and paid nothing, and the request goes to the other contractors as a new request, so every contractor who arrives is paid |
 | 9 | Row 4, privacy | Holds in the narrowed form: the address goes only to the contractor who accepts (decision 4) |
 | 7 | Row 5, trip charge credited | Holds: crediting is in the contractor terms (Run 1 drill 6 states it) |
 | 8 | Row 7, verification | Holds: checked at sign-up, every 6 months, and on each policy's expiry date (decision 7) |
-| 6, 7 | Row 8, revenue model | Drills 6 and 7 quote both prices: the membership as merge fields and the $99 trip charge on use, never as one total |
+| 6, 7 | Row 8, revenue model | Drills 6 and 7 quote both prices: the plans as decided and the $99 trip charge on use, never as one total |
 
 ## Proof capture plan
 

@@ -4,7 +4,7 @@ Three pillars, nine reasons to believe, nine copy drills. Written to `../GTM-BRI
 
 **The fabrication rule for this phase.** SOS SMS has no contractors, jobs, or payouts. Every "Headline (Social Proof)" is a method line: it describes how the process works, which signals seriousness without claiming a result. Every "Supporting Proof Point" names the record or document that will show the claim is true from the first job. A real result replaces a method line only once it is measured and permissioned. No drill contains an earnings, volume, or "more jobs" claim.
 
-**Decided terms.** Every line that waited on a decision carries the decided words (`../../marketplace/resolution-register.md`, decided 2026-10-03; the lines about the demand side revised 2026-10-11, the membership revision). Before launch, recruiting copy built from these drills is written in the future tense. The homeowner is "an SOS SMS member" on first mention, then "the member"; a contractor's own clients stay "your customers".
+**Decided terms.** Every line that waited on a decision carries the decided words (`../../marketplace/resolution-register.md`, decided 2026-10-03; the lines about the demand side revised 2026-10-11, the membership revision; the late-arrival rule and the three trades revised 2026-10-20, the tiers revision). Before launch, recruiting copy built from these drills is written in the future tense. The homeowner is "an SOS SMS member" on first mention, then "the member"; a contractor's own clients stay "your customers".
 
 ## Step 6.1. Brand promise and positioning
 
@@ -17,7 +17,7 @@ Three pillars, nine reasons to believe, nine copy drills. Written to `../GTM-BRI
 
 | Value Prop | Description | Reason to Believe #1 | Reason to Believe #2 | Reason to Believe #3 |
 |---|---|---|---|---|
-| VP1. No lead fees | You never pay to receive a request. SOS SMS is paid by members' monthly or annual fees, and by you only per completed paid job after the founding period | No subscription and no per-lead fee | A request you do not win costs you nothing | Decline freely; declining does not change which requests reach you |
+| VP1. No lead fees | You never pay to receive a request. SOS SMS is paid by members' monthly or annual fees, and by you only per completed paid job | No subscription and no per-lead fee | A request you do not win costs you nothing | Decline freely; declining does not change which requests reach you |
 | VP2. Paid to show up | The trip charge goes on the SOS SMS member's card when you accept, before you roll, and SOS SMS holds it until you arrive | The trip charge is collected before you leave | Release and payout timing stated before your first job | SOS SMS members agree to the trip charge when they join, and it counts toward the work if they go ahead |
 | VP3. Know the job before you go | Emergency requests matched to your trades and area, with what the member sent | Requests come from SOS SMS members with an active problem who want someone now | Matched to the trades and service area you set | When the member sends photos or video, you see them before you accept |
 
@@ -32,10 +32,10 @@ Three pillars, nine reasons to believe, nine copy drills. Written to `../GTM-BRI
 | Headline (Emotional) | Stop paying for requests that never become work. |
 | Headline (Social Proof) | Method line: "Here is exactly what you pay to receive a request: nothing." |
 | Subhead | Emergency requests by text, and nothing to pay to receive them. |
-| Body Copy (25 words max) | Every request reaches you free. No monthly bill, no per-lead charge. After the founding period, $25 per completed paid job. |
-| CTA | Text JOIN to get on the founding contractor list |
+| Body Copy (25 words max) | Every request reaches you free. No monthly bill, no per-lead charge. $25 per completed paid job, from the trip charge. |
+| CTA | Text JOIN to be on SOS SMS when it opens in {{zone}} |
 | Supporting Proof Point | The terms on one page: $0 to receive a request, in writing before sign-up |
-| Must be true before use | Decision 2 as decided: $0 to receive a request; $25 per completed paid job after the founding period, deducted from the trip charge payout. If SOS SMS ever takes a share of the job, this drill changes |
+| Must be true before use | Decision 2 as decided: $0 to receive a request; $25 per completed paid job from the first job, deducted from the trip charge payout, the same for every contractor. If SOS SMS ever takes a share of the job, this drill changes |
 
 ### Copy drill 2. VP1, no lead fees: a request you do not win costs you nothing
 
@@ -61,7 +61,7 @@ Three pillars, nine reasons to believe, nine copy drills. Written to `../GTM-BRI
 | Headline (Social Proof) | Method line: "Say yes when you have capacity. Declining does not change which jobs you see next." |
 | Subhead | Take emergency work in the hours you choose. |
 | Body Copy (25 words max) | Say yes when you have capacity and no when you don't. Declining carries no penalty and does not change which requests reach you. |
-| CTA | Join the founding contractor list |
+| CTA | Text JOIN to be on SOS SMS when it opens in {{zone}} |
 | Supporting Proof Point | Declines carry no penalty, written in the terms; your request history shows what reached you |
 | Must be true before use | Dispatch does not rank contractors by acceptance rate. If it ever does, this drill is withdrawn |
 
@@ -74,10 +74,10 @@ Three pillars, nine reasons to believe, nine copy drills. Written to `../GTM-BRI
 | Headline (Emotional) | No more driving out for free. |
 | Headline (Social Proof) | Method line: "The trip charge goes on the member's card when you accept. Then you roll." |
 | Subhead | Every SOS SMS job starts with the trip charge already collected. |
-| Body Copy (25 words max) | SOS SMS members have a card on file. The trip charge is collected before you leave and released when you arrive by your committed time. |
+| Body Copy (25 words max) | SOS SMS members have a card on file. The trip charge is collected before you leave and released when you arrive. |
 | CTA | Read the terms on one page |
 | Supporting Proof Point | Every job record shows the trip charge captured before you roll |
-| Must be true before use | Release on arrival and the fault-based late-arrival rule (decision 3; brief Section 6, row 1), written in the terms on one page. Do not use the word "escrow" unless a licensed escrow arrangement holds the funds. The member's card is saved at joining; the trip charge is authorized when the request text arrives and captured when you accept (decision 6). Card authorizations generally hold 7 days online (S30), so the collection method must match the timing |
+| Must be true before use | Release on arrival and the late-arrival rule (decision 3, revised 2026-10-20: the trip charge stands on a late arrival; a no-show is paid nothing; two in 90 days pause requests, R67), written in the terms on one page. Do not use the word "escrow" unless a licensed escrow arrangement holds the funds. The member's card is saved at joining; the trip charge is authorized when the request text arrives and captured when you accept (decision 6). Card authorizations generally hold 7 days online (S30), so the collection method must match the timing |
 
 ### Copy drill 5. VP2, paid to show up: release and payout timing stated up front
 
@@ -117,7 +117,7 @@ Three pillars, nine reasons to believe, nine copy drills. Written to `../GTM-BRI
 | Headline (Social Proof) | Method line: "Every request starts with an SOS SMS member texting about a problem happening now." |
 | Subhead | Requests come from SOS SMS members with an active problem who want someone now. |
 | Body Copy (25 words max) | Requests come from SOS SMS members texting about a problem in their home right now. They agreed to the trip charge when they joined. |
-| CTA | Join the founding contractor list |
+| CTA | Text JOIN to be on SOS SMS when it opens in {{zone}} |
 | Supporting Proof Point | Every request carries the time of the member's request text |
 | Must be true before use | Do not write "ready to buy". Some will decline the quote after the trip charge is paid (brief Section 5) |
 
@@ -155,17 +155,17 @@ Checked against `../GTM-BRIEF.md` Section 6 before closing the phase.
 
 | Drill | Section 6 row | Result |
 |---|---|---|
-| 1, 2, 3 | Row 8, zero cost to join | Holds: $0 to join and to receive a request; the contractor fee is per completed paid job; members fund the network through the membership (decision 2, revised 2026-10-11) |
+| 1, 2, 3 | Row 8, zero cost to join | Holds: $0 to join and to receive a request; the contractor fee is per completed paid job; members fund the network through the membership (decision 2, revised 2026-10-20) |
 | 2 | Row 3, dispatch rule | Holds; the drill states the shared request openly |
-| 4, 5 | Row 1, 90-minute refund and the contractor's trip charge | **Closed.** Under the fault-based rule, drill 4 says "when you arrive by your committed time" (decision 3) |
-| 4, 5 | Row 2, relaunch | Not referenced. Relaunch is not built; no contractor copy mentions it |
+| 4, 5 | Row 1, the late-arrival rule and the contractor's trip charge | **Closed, revised 2026-10-20.** The trip charge is released on arrival, late or not, so drill 4 says "when you arrive"; the member's credit on Plus and Premier is paid by SOS SMS (decision 3) |
+| 4, 5 | Row 2, relaunch | After the 90 minutes the member's NEXT treats the first contractor as a no-show, paid nothing, and starts a new request with its own trip charge, so every contractor who arrives is paid; contractor copy states the no-show rule in the terms (R17, R67) |
 | 6 | Row 5, crediting the trip charge | Holds; the obligation is stated in the copy |
 | 7 | Row 6, arrival commitment | Not referenced in copy; stated in the terms on one page (Phase 8) |
 
 ## Proof capture plan
 
-The nine social-proof headlines are method lines and the nine proof points name records, not results, so the first founding contractors are the first chance to add real proof honestly:
+The nine social-proof headlines are method lines and the nine proof points name records, not results, so the first contractors are the first chance to add real proof honestly:
 
 1. The permission clause from Phase 5 is signed before each contractor's first job.
-2. After each founding contractor's fifth job, an automated text asks three questions: was the trip paid before you rolled, did anything surprise you, would you tell another contractor. Answers are recorded verbatim with the date.
+2. After each contractor's fifth job, an automated text asks three questions: was the trip paid before you rolled, did anything surprise you, would you tell another contractor. Answers are recorded verbatim with the date.
 3. A row enters the proof table in `../GTM-BRIEF.md` Section 4 only when the proof point, its exact wording, its source, and the recorded permission all exist.

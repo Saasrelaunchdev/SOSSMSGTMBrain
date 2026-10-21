@@ -249,7 +249,7 @@ Filled from `GTM-BRIEF.md` Section 1, not a crawl.
 | 6 | Google reviews up front | Every search result and marketplace shows ratings | Commodity | Expected | Most vendors |
 | 7 | Trip charge credited to the job | Common contractor practice (S28); Roto-Rooter charges no after-hours premium (S41) | Common | Strong: surprise after-hours fees are a top complaint (S50, S51) | Most vendors for the credit itself. The upfront disclosure is the part that is rarer |
 | 8 | Known ETA when the contractor accepts | Mr. Rooter appointment windows (S42), Benjamin Franklin scheduled times (S40), app ETAs (S53) | Common | Strong (S51) | A few others |
-| 9 | Relaunch guarantee (not built) | Angi and Thumbtack guarantees cover jobs not done as agreed (S44, S45) | Central to marketplace guarantees, in a different form | Moderate | A few others |
+| 9 | Relaunch after a miss (NEXT, decided 2026-10-11, R17) | Angi and Thumbtack guarantees cover jobs not done as agreed (S44, S45) | Central to marketplace guarantees, in a different form | Moderate | A few others |
 | 10 | Photos or video with the request (candidate) | Quote platforms accept photos; Frontdoor does video diagnosis (S55) | Peripheral | Not evidenced | Commodity |
 | 11 | Price or price range before arrival (candidate) | Mr. Rooter flat-rate (S42), Angi Services upfront prices (S47), InstaService upfront pricing (S53) | Central to several | Strong: surprise fees complaint (S50, S51) | A few others |
 | 12 | Safety triage to 911 or the utility (candidate) | Gas utilities publish it (S60). Not offered by marketplaces in the set | Not offered | Not a demand question. Required on safety grounds | n/a, required |

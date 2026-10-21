@@ -2,6 +2,8 @@
 
 **Revised 2026-10-11, the membership revision.** The demand side is a monthly or annual membership, joined before the need. The member prompts below are the ones to run now; they produced the member slate and sources S75 to S94 (`../research/step-0-competitor-slates.md`, `../research/demand-research.md`). The pay per request prompts after them are kept as the record of the 2026-10-01 research, whose findings about the emergency itself still hold.
 
+**Revised 2026-10-20, the tiers revision.** The membership now covers plumbing, HVAC, and electrical, on three plans, and there is no paid search at launch. The HVAC and electrical figures (trip charges, emergency rates, lead costs) and the three-plan ladders were researched for it: sources S95 to S100 in `../research/SOURCES.md`. The prompts below are kept as the record of what was asked.
+
 ---
 
 ## Membership revision prompts (2026-10-11)

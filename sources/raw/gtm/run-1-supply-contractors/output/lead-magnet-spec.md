@@ -53,9 +53,9 @@ Email, because the scorecard collects an email address with consent. Texts only 
 | 1 | 0 | Your Job Leak Score: {{score}} | Results delivery and interpretation: their score, their tier, their top leaks, their estimated cost per booked job | See your full results |
 | 2 | 2 | Where the money goes between a lead and a job | Deeper insight in place of a case study (none exist yet): the arithmetic from cost per lead to cost per booked job, run on their own answers | Run the Lead Cost Check with your invoices |
 | 3 | 5 | A dispatch line where seeing a job costs nothing | Solution introduction: how a job works in three texts; the terms on one page; the obligations, stated plainly | Read the terms, then text JOIN to {{number}} |
-| 4 | 8 | Founding contractors in {{zone}} | Final reminder: what founding contractors get and commit to; founding terms close on {{founding close date}}, 60 days after the first email | Text JOIN to get on the founding contractor list |
+| 4 | 8 | When SOS SMS opens in {{zone}} | Final note: what every contractor gets and commits to, on the same terms, and that the zone opens to members once every hour is covered | Text JOIN to be on SOS SMS when it opens |
 
-No false urgency: the only deadline used is the real founding-terms deadline, 60 days after the first email in the zone (R07).
+No urgency of any kind: there is no deadline, because every contractor joins on the same terms whenever they join (R07, retired).
 
 ## ScoreApp implementation notes
 

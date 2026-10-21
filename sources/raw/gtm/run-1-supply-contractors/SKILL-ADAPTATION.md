@@ -2,6 +2,8 @@
 
 The skill is `B2B SaaS Go-To-Market Builder`. SOS SMS is a two-sided marketplace for emergency home repair, and this run sells its contractor side: a free way for trade contractors to get urgent, matched jobs with the trip charge collected before they roll. A contractor is a small business, so the skill's B2B shape mostly holds. What breaks is the subscription pricing, the software review sources, the LinkedIn channel stack, and the assumption that there is only one buyer.
 
+Revised 2026-10-20, the tiers revision: three trades (plumbing, HVAC, electrical) from the launch zone, and a late arrival keeps the trip charge (decision 3).
+
 Read this before Phase 1. Without it the run produces four subscription tiers for a product that is free to join, a G2 analysis of a category that is not on G2, and a LinkedIn outreach campaign aimed at plumbers.
 
 | Phase | Verdict |
@@ -47,7 +49,7 @@ Phases 3 and 6, the Lead Magnet, and the Deck run as written for every archetype
 - BBB and Trustpilot complaints filed by contractors rather than homeowners
 - Contractor YouTube reviews of the platforms
 
-Slots 3 and 5 are not companies. Profile word of mouth from the founding cohort interviews in Step 5.2. Profile the hire-it option from answering service price pages and from after-hours dispatcher job postings: pay band, hours, and time to hire are its cost and its weakness.
+Slots 3 and 5 are not companies. Profile word of mouth from the first cohort interviews in Step 5.2. Profile the hire-it option from answering service price pages and from after-hours dispatcher job postings: pay band, hours, and time to hire are its cost and its weakness.
 
 **Our own row.** Fill it from `GTM-BRIEF.md` Section 1, not a crawl, and state strengths and weaknesses by design, with the weaknesses written plainly: no track record yet, and open only in zones at density. There is nothing live to review.
 
@@ -76,11 +78,11 @@ Keep "Revenue, $" as the business's revenue band. Read "Team Size" as owner-oper
 
 **Collapses for owner-operators,** who are all three columns. Fill one column honestly and note the collapse. Do not invent three personas.
 
-**Step 5.2 is the deliverable of this run.** For a pre-launch marketplace, the Design Partner profile is the founding contractor cohort, and it decides where SOS SMS launches. Define:
+**Step 5.2 is the deliverable of this run.** For a pre-launch marketplace, the Design Partner profile is the first contractor cohort, and it decides where SOS SMS launches. Define:
 
-- The launch metro, trades, and coverage area (decision 1: one founding zone in the founders' home metro, a 10-mile radius, plumbing and water emergencies)
-- The minimum number of active contractors per trade and area for the 90-minute guarantee to be honest: 9 plumbing contractors in the founding zone at a planned acceptance rate of 0.30, measured in Stage 1. Phase 9 and Run 2 both need this density number
-- What founding contractors get for joining early, and what they commit to
+- The launch metro, trades, and coverage area (decision 1: one launch zone in the founders' home metro, a 10-mile radius, plumbing, HVAC, and electrical emergencies)
+- The minimum number of active contractors per trade and area for the 90-minute guarantee to be honest: 9 contractors per trade in the launch zone, 27 in all, at a planned acceptance rate of 0.30, measured in Stage 1. Phase 9 and Run 2 both need this density number
+- What every contractor gets and commits to, on the same terms from the first job
 
 Run 2 cannot start Phase 4 without this.
 
@@ -138,8 +140,8 @@ This is where a fabricated testimonial enters a run that was otherwise honest, b
 
 **Instead, build the supply side of the take rate:**
 
-1. What a contractor pays SOS SMS per completed job: $0 in the founding period, then $25 per completed paid job (decision 2).
-2. The subsidy question: which side carries SOS SMS's revenue, which side carries the cost of the 90-minute refund (decision 3: fault-based), and why.
+1. What a contractor pays SOS SMS per completed job: $25 per completed paid job from the first job, the same for every contractor (decision 2).
+2. The subsidy question: which side carries SOS SMS's revenue, which side carries the cost of the 90-minute guarantee (decision 3, revised 2026-10-20: SOS SMS pays the member's credit on Plus and Premier; a late contractor keeps the trip charge), and why.
 3. The trip charge mechanics: $99, set by SOS SMS per trade and zone, released to the contractor on arrival and paid out within 2 business days (decisions 5 and 6).
 
 If a paid priority tier comes up, flag it and do not design it in this run. Paying for priority conflicts with "every matched contractor sees the request at once" and with "accept or decline freely".

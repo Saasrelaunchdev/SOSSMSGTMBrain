@@ -104,7 +104,7 @@ Filled from `GTM-BRIEF.md` Section 1, not from a crawl. There is no website and 
 | Strengths | By design: no charge to see a request; the trip charge collected before you roll. Nothing live to review |
 | Weaknesses | No track record yet; requests only in zones at density |
 | Who it serves | Licensed, insured trade contractors who take emergency calls; plumbing and water emergencies first (decision 1) |
-| What it charges contractors | No subscription, no lead fee. $0 a job in the founding period, then $25 per completed paid job (decided 2026-10-03) |
+| What it charges contractors | No subscription, no lead fee. $25 per completed paid job from the first job (decided 2026-10-03, revised 2026-10-11) |
 
 ---
 
@@ -145,7 +145,7 @@ The skill asks for frequency counts from G2. This category is not on G2, and pag
 | C5 Warranty network | 1. Steady volume (n=1, A). 2. No marketing needed (n=1). 3. Bonus programs (n=1, B dated) | 1. Fixed rates below private work (n=1). 2. Price and scope controlled by the network (n=2). 3. Unhappy homeowners blame the contractor (n=1) | Getting paid fairly |
 | C6 Status quo | 1. Free (inferred). 2. Highest-trust customers (n=2, B). 3. No platform between contractor and customer (inferred) | 1. Unpredictable volume (inferred). 2. Owner answers the phone at night (inferred). 3. No protection against unpaid trips (inferred) | Workload and getting paid |
 
-**Inferred** rows come from the structure of the option, not from reviews, and are checked in the founding contractor survey.
+**Inferred** rows come from the structure of the option, not from reviews, and are checked in the contractor sign-up survey.
 
 ### What to watch for, and what was found
 

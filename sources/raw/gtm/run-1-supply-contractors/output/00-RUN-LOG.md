@@ -9,8 +9,8 @@ The `gtm-builder` run for the contractor side, executed 2026-10-01 against `../G
 | Project | SOS SMS, emergency home repair dispatch by text | From the brief |
 | Website | None yet | Decided: one site, the contractor page from Stage 1, then the membership page and the guides from Stage 2 (R23) |
 | Category | Emergency home repair dispatch by text, two-sided marketplace | From the brief |
-| Niche | Licensed, insured plumbing and water-emergency contractors who take emergency calls | Decided (decision 1) |
-| Launch metro | The founders' home metro, one founding zone | Decided (decision 1). Research is national; local items are counted in Stage 0 (`../../research/step-0-competitor-slates.md`) |
+| Niche | Licensed, insured plumbing, HVAC, and electrical contractors who take emergency calls | Decided (decision 1, revised 2026-10-20) |
+| Launch metro | The founders' home metro, one launch zone | Decided (decision 1). Research is national; local items are counted in Stage 0 (`../../research/step-0-competitor-slates.md`) |
 | Competitors | C1 Angi Leads, C2 Thumbtack, C3 Google Local Services Ads, C4 Service Direct, C5 home warranty network (American Home Shield), C6 status quo (word of mouth and own free listing) | Step 0, filled in `../../research/` |
 | Features | The six contractor items from the matrix plus three candidates | From the brief, Section 3 |
 | Business context | Two founders, Bryan and Ali, as supply lead and demand lead; at least 18 months of runway required; no channels tried, pre-launch | Resolved 2026-10-03 (R25, R35, R48) |
@@ -19,9 +19,9 @@ The `gtm-builder` run for the contractor side, executed 2026-10-01 against `../G
 
 | Brief decision | Assumption used in this run, and the decision of 2026-10-03 | Where it matters |
 |---|---|---|
-| 1. Launch metro and trades | Plumbing and water emergencies. Decided: one founding zone in the founders' home metro | Phases 2, 4, 5.2, 8 |
-| 2. How SOS SMS earns money | Decided, revised 2026-10-11: members' monthly or annual membership; $0 to contractors in the founding period; then $25 per completed paid job | Phase 9, every "no lead fees" line |
-| 3. Late arrival and the contractor's trip charge | Decided: fault-based (option C). The copy that depended on it carries the decided words | Phases 6, 9 |
+| 1. Launch metro and trades | Plumbing and water emergencies. Decided: one launch zone in the founders' home metro | Phases 2, 4, 5.2, 8 |
+| 2. How SOS SMS earns money | Decided, revised 2026-10-11: members' monthly or annual membership; $25 per completed paid job from each contractor's first job | Phase 9, every "no lead fees" line |
+| 3. Late arrival and the contractor's trip charge | Revised 2026-10-20 (option D): a late arrival keeps the trip charge; a no-show is paid nothing; two in 90 days pause requests (R67). The copy that depended on it carries the decided words | Phases 6, 9 |
 | 4. Dispatch rule | Every matched contractor sees the request at once; the first to accept gets it (decision 4) | Phases 1, 3, 6, 7 |
 | 5. Build status | Every item treated as planned, not shipped. Copy is written for launch day and must not run before the item ships | Phases 1, 6 |
 | 6. Founder memo, unattributed rows | Not available. Ali's 18 rows and Bryan's 5 rated rows with no item text are excluded for good | Phase 1 |
@@ -47,14 +47,14 @@ The founders changed the motion after the first run: product-led growth, no sale
 | `phase-6-value-proposition.md` | Proof capture by automated text |
 | `phase-7-customer-journey.md` | Every touchpoint self-serve |
 | `phase-8-assets-library.md` | Rewritten: cold email, partnership program, in-product referral loop, with draft email copy |
-| `phase-9-pricing.md` | A per-completed-job contractor fee after the founding period is now planned from the start, because paid search on the customer side is unlikely to be paid back by a customer fee alone |
+| `phase-9-pricing.md` | A per-completed-job contractor fee is planned from the start, because paid search on the customer side is unlikely to be paid back by a customer fee alone (since 2026-10-11 it applies from each contractor's first job) |
 | `lead-magnet-spec.md`, `gtm_walkthrough.md` | Self-serve calls to action; channel slide |
 
 Growth across zones follows `../../marketplace/speed-to-scale-plan.md`.
 
 ## Revision: the membership model (2026-10-11)
 
-The membership revision, 2026-10-11, changed the demand side: homeowners join SOS SMS as members, monthly or annually, before anything breaks, and in an emergency a member sends one text. The contractor side did not change: free to join, $0 per request, the trip charge collected before you roll, the founding terms, the $25 contractor fee after the founding period, the density gate, and the channels. What changed here is every line that describes the other side.
+The membership revision, 2026-10-11, changed the demand side: homeowners join SOS SMS as members, monthly or annually, before anything breaks, and in an emergency a member sends one text. On the contractor side, free to join, $0 per request, the trip charge collected before you roll, the density gate, and the channels did not change. Two contractor terms did: the founding terms are retired, so the $25 contractor fee applies from every contractor's first completed paid job, on the same terms for everyone, and the founding list and its deadline are gone. What else changed here is every line that describes the other side, and the opening gate: a zone opens to members only when every hour band meets the density number.
 
 | File | What changed |
 |---|---|
@@ -65,6 +65,19 @@ The membership revision, 2026-10-11, changed the demand side: homeowners join SO
 | `phase-8-assets-library.md` | Cold emails 1 to 4: the revenue sentence, how a job works, the terms, and the zone opening to members |
 | `phase-9-pricing.md` | The take rate: the membership replaces the per-request SOS SMS fee; the late-arrival options and the guarantee wording; decision 1 |
 | `gtm_walkthrough.md` | Memberships open only at density; the member guarantee |
+
+## Revision: three trades and the late-arrival rule (2026-10-20)
+
+The tiers revision, 2026-10-20. Contractors are recruited in three trades from the launch zone, 9 per trade, 27 in all; a shop licensed in more than one trade counts in each. The $99 trip charge and the $25 contractor fee are the same in each trade. A late arrival keeps the trip charge; a no-show is paid nothing; two in 90 days pause requests until a person reviews them. Members choose Basic, Plus, or Premier, and SOS SMS pays the guarantee's credit on Plus and Premier. No paid search at launch.
+
+| File | What changed |
+|---|---|
+| `phase-2-competitive-analysis.md`, `phase-2-positioning-summary.md`, `phase-3-positioning-statements.md` | SOS SMS's description, who it is for, and the positioning line name the three trades |
+| `phase-4-icp.md`, `phase-5-buying-committee.md` | Three trades in the segment, sub-industries, and licenses; 27 places in the first cohort; the trade associations as channels |
+| `phase-6-value-proposition.md` | Drill 4 releases the trip charge on arrival; the late-arrival rule in the terms |
+| `phase-7-customer-journey.md`, `phase-8-assets-library.md` | Cross-trade referral; the zone list and cold email 3 and 4 for three trades and the new rule |
+| `phase-9-pricing.md` | Option D decided; the take rate with the plans; HVAC and electrical lead costs in Anchors 2 and 3 |
+| `gtm_walkthrough.md` | Three trades, 27 contractors, and the new rule |
 
 ## Output files
 

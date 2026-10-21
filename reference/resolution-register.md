@@ -1,77 +1,86 @@
 # Resolution register
 
-Distills `sources/raw/gtm/marketplace/resolution-register.md` (2026-10-03, revised by the membership revision on 2026-10-11). Load it for any SOS SMS value: a price, a rule, a planning number, how a pre-launch fact gets counted, or a merge field. The twelve decisions themselves are in `ops/decisions.md`.
+Distills `sources/raw/gtm/marketplace/resolution-register.md` (2026-10-03, revised by the membership revision on 2026-10-11, the tiers revision on 2026-10-20, and the pricing revision on 2026-10-21). Load it for any SOS SMS value: a price, a rule, a planning number, how a pre-launch fact gets counted, or a merge field. The twelve decisions themselves are in `ops/decisions.md`; the pricing model, with every input on its first sheet, is `Fit137/SOSSMSGTMBuild`, `google-folder/SOS_SMS_Pricing_Model.xlsx` (tables in `sources/raw/gtm/pricing/pricing-model.md`).
 
 Five kinds. **Decided:** used as written, on the side it belongs to. **Planning value:** used in planning and internal math, labelled as one, never shown as a result; the measured figure replaces it once a zone runs. **Counted at:** the method and stage are stated; no number is written until it is counted. **Merge field:** `{{field}}`, filled from a named record when sent, never typed by hand. **Retired:** removed by a later decision; the row stays so old references resolve, and it is never used in copy.
+
+**Since 2026-10-21.** Members choose Basic ($10 a month or $100 a year), Plus ($15 or $150), or Premier ($35 or $350); the prices are decided and go into member copy as written. The plans carry sliding-scale entitlements: the late-arrival credit (none, 6 months, 12 months), the phones that can text for the home (1, up to 5, up to 10), a second home and a trip charge a year on Premier. Plus is built for 80 percent of members (R70). Plumbing, HVAC, and electrical in one membership; a late arrival keeps its trip charge; when no contractor accepts, nobody pays and nobody is paid; no paid search at launch; no founding period: every contractor pays $25 per completed paid job from the first job.
 
 ## Values
 
 | ID | Kind | What | Resolved to |
 |---|---|---|---|
-| R01 | Decided | Trip charge | $99 a request, one per trade and zone, day or night; charged to the member's card on file when a contractor accepts; paid to the contractor; credited to the repair |
-| R02 | Retired | SOS SMS fee | Retired 2026-10-11: no fee per request. Was $49 per dispatched request |
-| R03 | Decided | Contractor fee | $25 per completed paid job after the founding period, deducted from the payout. Never per request or to join |
-| R04 | Decided | Share of the repair | $0. The price for the work stays the contractor's |
-| R05 | Decided | Founding terms | $0 a job through the founding period and 12 months after it, in the founding agreement |
-| R06 | Decided | Founding period | The founding zone's first 6 months open to members |
-| R07 | Decided | Founding list | Opens with the first cold email; closes 60 days after it |
-| R08 | Planning value | Founding cohort | 9 plumbing contractors in the founding zone |
-| R09 | Decided | Take per job | $0 in the founding period; $25 after it (the contractor fee). SOS SMS's revenue is the membership |
-| R10 | Decided | Refund on a late arrival | The $99 trip charge, back automatically |
-| R11 | Decided | No acceptance | Member told within 15 minutes; never charged |
+| R01 | Decided | Trip charge | $99 per request, one per trade and zone, the same in all three trades, day or night; charged to the member's card on file when a contractor accepts; paid to the contractor less the $25 contractor fee (R03); credited to the repair if the member goes ahead. It stands on a late arrival and comes back in full on a no-show (decision 3) |
+| R02 | Retired | SOS SMS fee | Retired 2026-10-11 by the membership revision: no fee per request. Was: $49 per dispatched request |
+| R03 | Decided | Contractor fee | $25 per completed paid job, from the first job, for every contractor in every trade; deducted from the trip charge payout, so the contractor receives $74 of the $99. Never per request, never to join, never for a declined or lost request |
+| R04 | Decided | SOS SMS share of the repair, or a rate discount | $0. The price for the work stays the contractor's |
+| R05 | Retired | Founding terms | Retired 2026-10-11 by the membership revision: every contractor pays the contractor fee from the first completed paid job (R03). Was: $0 a job through the founding period and 12 months after it |
+| R06 | Retired | Founding period | Retired 2026-10-11 by the membership revision: there is no fee-free period. Was: the launch zone's first 6 months open to members |
+| R07 | Retired | Founding list | Retired 2026-10-11 by the membership revision: contractors join any time on the same terms, and no recruiting copy carries a deadline. Was: a list that closed 60 days after the first cold email |
+| R08 | Planning value | First cohort | 9 contractors per trade in the launch zone: 27 places across plumbing, HVAC, and electrical. A shop licensed in more than one trade counts in each |
+| R09 | Decided | Take per job | $25 per completed paid job, from the first job: the contractor fee (R03). The trip charge goes to the contractor, less the fee. SOS SMS's revenue is the membership (R51, R52, R65, R66) and the contractor fee |
+| R10 | Decided | Refund on a late arrival | None: the trip charge pays for the work. On Plus and Premier, the late-arrival credit (R65). On a no-show, the $99 comes back in full and the contractor is paid nothing |
+| R11 | Decided | Member told when no one accepts | Within 15 minutes; the card is never charged |
 | R12 | Decided | Contractor response window | 10 minutes, when marked available |
-| R13 | Decided | First refusal on own customers | 5 minutes; held until dispatch supports it |
+| R13 | Retired | First refusal on a contractor's own customers | Retired 2026-10-11 by the membership revision: every member request goes to all matched contractors at once (decision 4); nothing delays the broadcast. A contractor may refer their own customers through the affiliate program on the same terms as any partner (R61). Was: 5 minutes, held |
 | R14 | Decided | Payout timing | Within 2 business days of arrival |
-| R15 | Decided | Outside covered hours | Not dispatched; stop-the-water steps and the safety line; nothing charged. The membership page names covered hours |
-| R16 | Decided | No card | Joining puts a card on file; a text from a non-member gets the free help by text (R57) |
-| R17 | Decided | Relaunch after a miss | SOS SMS pays the second trip charge from membership revenue; held out of copy until dispatch supports it |
-| R18 | Decided | Supply referral fee or reward | None at launch; thanks by text (member affiliates: R61) |
-| R19 | Decided | Household membership | The demand-side product, monthly or annual (decision 2, revised 2026-10-11) |
-| R20 | Decided | After-hours surcharge | None |
-| R21 | Decided | Guarantee on the repair | Not offered; the membership pays for no repair or parts |
-| R22 | Decided | Market | The United States |
-| R23 | Decided | Website | The contractor page, the readiness scorecard, and the launch list from Stage 1; the membership page (with a ZIP check), the guarantee page, and five problem and prevention guides from Stage 2 |
-| R24 | Decided | Taglines | Contractors: "Emergency jobs you choose, with the trip paid before you roll." Members: "One text, and help is on the way." Sub tag: "Join before you need it." |
-| R25 | Decided | Founder roles | A supply lead and a demand lead (memberships: affiliates, email, search for sign-ups, the member line); both on supply first in Stage 1, while the demand lead signs affiliates and grows the launch list |
-| R26 | Decided | Unattributed matrix rows | Excluded for good |
+| R15 | Decided | Covered hours | Every hour of every day, in an open zone. A zone opens only when each of its three trades meets the density number in every hour band (R55). If a band falls below the number later, requests still go out at once, sign-ups pause (R34), and recruiting for that trade and band comes first |
+| R16 | Decided | No card, or a declined card | Joining puts a card on file, with an optional backup card. No dispatch without an authorized trip charge: the backup card is tried at once; if both decline, the member is told at once, updates the card on the membership page or with a person by texting HELP, and dispatch starts the moment a card authorizes, with the 90 minutes running from then. A text from a non-member gets the free help by text (R57) and pays nothing |
+| R17 | Decided | After a miss (the relaunch) | If no one is there after the 90 minutes, the member can text NEXT: the first contractor's trip charge comes back in full, that contractor is paid nothing, and the request goes to the other matched contractors at once. A new acceptance is a new request, with its own $99 trip charge and its own 90 minutes from the NEXT text. On Plus and Premier, the late-arrival credit applies (R65) |
+| R18 | Decided | Supply partner referral fee and contractor referral reward | None. Supply partners and contractors are thanked by text; no reward is promised. A contractor may also join the member affiliate program on the same terms as any partner (R61) |
+| R19 | Decided | Household membership | The demand-side product: three plans, Basic, Plus, and Premier, monthly or annual, joined before the need (decision 2, revised 2026-10-20 and 2026-10-21), with entitlements on a sliding scale (R65, R66, R69). The membership page shows Plus on the annual plan first, flagged most popular |
+| R20 | Decided | After-hours surcharge | None: one trip charge, day or night |
+| R21 | Decided | Guarantee on the repair | Not offered. The 90-minute guarantee (Plus and Premier) covers the arrival time; the repair is between the member and the contractor, whose license and insurance SOS SMS checks. No plan pays for repairs or parts (R53) |
+| R22 | Decided | Market and country | The United States |
+| R23 | Decided | Website | One site: the contractor page, the readiness scorecard, and the launch list from Stage 1; the membership page (with a ZIP check), the guarantee page, and five problem and prevention guides from Stage 2 |
+| R24 | Decided | Taglines and sub tags | Contractors: "Emergency jobs you choose, with the trip paid before you roll." Sub tag: "No lead fees. Paid to show up." Members: "One text, and help is on the way." Sub tag: "Join before you need it." |
+| R25 | Decided | Founder roles | Two roles: a supply lead (recruiting in all three trades, onboarding, dispatch backup) and a demand lead (memberships: affiliates, email, paid social, the member line). The demand lead signs affiliates from Stage 0, fastest categories first; both founders work supply first in Stage 1, while the demand lead also grows the zone's launch list; the roles split fully when memberships open in Stage 2 |
+| R26 | Decided | The unattributed matrix rows | Excluded for good. The source matrix as written, with its attributed rows, is the input |
 | R27 | Planning value | Zone radius | 10 miles |
-| R28 | Planning value | Acceptance rate (a) | 0.30, measured per hour band in Stage 1 |
-| R29 | Planning value | Misses caused by SOS SMS | 5 percent of requests |
-| R30 | Retired | First text to paid | Retired 2026-10-11: a member does not confirm a request. Was 50 percent |
-| R31 | Planning value | Processing and operations | 2.9 percent plus $0.30 a charge; $5.30 a request; contractor side $3.50 a completed job; $0.55 a member a month for messages, support, and platform |
-| R32 | Planning value | Zone signal thresholds | Acceptance 90 percent or more; arrival 95 or more; refunds caused by SOS SMS 5 or fewer per 100 requests; monthly plan churn 6.5 percent or less; cost per new paid member at or under the ceiling (R63); contractor activity 60 or more |
-| R33 | Planning value | Weeks to prove a zone | 4 consecutive weeks at threshold |
-| R34 | Planning value | Sign-up pause | Automatic when acceptance is under 90 percent over 7 days: ads stop, affiliate links show the launch list |
+| R28 | Planning value | Acceptance rate per contractor (a) | 0.30 |
+| R29 | Planning value | Share of accepted requests that arrive late or not at all | 5 percent |
+| R30 | Retired | First text to paid request | Retired 2026-10-11: a member does not confirm a request, so there is no first text to convert. Was: 50 percent |
+| R31 | Planning value | Card processing and operations | 2.9 percent plus $0.30 a charge. Per request: operations $5.30 (support and disputes $3, platform $2, about 30 texts at $0.01). Per completed job, contractor side: payout $0.50, license and insurance checks $1.00, contractor support $2.00. Per member a month: messaging $0.05 for each phone on file (R69), support and platform $0.50 |
+| R32 | Planning value | Zone signal thresholds | Acceptance inside the remaining window 90 percent or more, in each trade; arrival inside the window 95 percent or more; late arrivals and no-shows 5 or fewer per 100 accepted requests; monthly plan churn 6.5 percent or less a month (R59); cost per new paid member at or under the plan's ceiling (R63), by channel; contractor activity 60 percent or more accepting at least one job in 30 days, in plumbing and HVAC |
+| R33 | Planning value | Weeks at threshold to prove a zone | 4 consecutive weeks |
+| R34 | Planning value | Sign-up pause | Sign-ups pause automatically in a zone when acceptance in any trade falls below 90 percent over the trailing 7 days: paid social stops, and affiliate links show the launch list |
 | R35 | Planning value | Runway | At least 18 months at Stage A spending |
-| R36 | Planning value | Contractor sign-up | About 5 minutes by text |
-| R37 | Planning value | First paid trip | Within 30 days of the zone opening |
-| R38 | Planning value | ICP revenue bands | Level 1 under $500,000 a year; Level 2 $500,000 to $3 million |
-| R39 | Decided | Household income | Not a targeting criterion; members are targeted by zone and readiness triggers |
-| R40 | Counted at | Licensed plumbing businesses in the metro | The state license list, Stage 0 |
-| R41 | Counted at | Owner-occupied homes in the zone | Census tract data (ACS), Stage 0 |
-| R42 | Counted at | Requests per month in a zone | The zone's first 8 weeks open; 0.25 a member a year until then (R58) |
-| R43 | Counted at | Every SOS SMS result | Weekly from the first member and the first request, against R32 |
-| R44 | Decided | Social-proof headlines | The drill's method line until a real, permissioned result exists |
-| R45 | Decided | Proof points | The drill's named record (both Phase 6 files) |
-| R46 | Decided | SOS SMS weaknesses in tables | Stated plainly: no track record yet; open only in zones at density; a fee every month or year, before anything breaks |
-| R47 | Counted at | Warranty network discount | Each warranty company's rate card |
-| R48 | Decided | Company snapshot | Two founders, Bryan and Ali; no channels tried; burn stays out of the GTM (R35 sets the requirement) |
-| R49 | Decided | Price range before arrival | Not offered at launch; the trip charge is stated on the membership page |
-| R50 | Decided | Reaching a person | Text HELP: a person replies by text within 15 minutes in covered hours; STOP ends all texts (S72) |
-| R51 | Planning value | Membership, monthly | $10 a month until the launch price is set in Stage 0; copy `{{monthly price}}` (plumber clubs $8.25 to $19.99, S75 to S77; utility plans $16.99 to $22.99, S78) |
-| R52 | Planning value | Membership, annual | $100 a year, two months free (S90); copy `{{annual price}}` |
-| R53 | Decided | What membership includes | One-text dispatch; an arrival time on acceptance; the 90-minute guarantee; a person by text; the readiness kit. Not included: the repair, parts, a guarantee on the work. Paid on use: the $99 trip charge, credited to the repair |
-| R54 | Decided | Joining | The membership page, or from Text READY; about 3 minutes (planning value); card, home address, and consent on file; one address per membership; the contact card at once |
-| R55 | Decided | When memberships open | Per zone, at the density number for the first trade, with covered hours named. Before then, the launch list: email, no charge, no service promised |
-| R56 | Decided | Cancelling and renewal | Any time, on the membership page or by texting HELP; monthly ends at the end of the paid month; annual members reminded before `{{renewal date}}` (S87) |
-| R57 | Decided | A text from a non-member | The safety line, the stop-the-water steps, and how to join; dispatch is for members; nothing charged |
-| R58 | Planning value | Requests per member | 0.25 a year (S82, S83) |
-| R59 | Planning value | Monthly plan churn | 6.5 percent a month (S89, C) |
-| R60 | Planning value | Annual renewal | 75 percent (S89, C) |
-| R61 | Planning value | Affiliate commission | $20 per new paid member, after the first paid month; disclosed (S88); never to anyone referring at a home purchase settlement (S86, S94) |
-| R62 | Decided | Member referral reward | None at launch; thanks by text |
-| R63 | Planning value | Acquisition ceiling per new paid member | About $43 by channel and zone, reviewed weekly: the first 6 months of contribution on the monthly plan ($8.51 a month at 6.5 percent churn) |
-| R64 | Planning value | Member base per zone | About 430 members, about one request a month per founding contractor (9 × 12 ÷ 0.25) |
+| R36 | Planning value | Contractor sign-up time | About 5 minutes by text: trades, area, documents, payout details |
+| R37 | Planning value | First paid trip | Within 30 days of the zone opening, or of joining if later |
+| R38 | Planning value | ICP revenue bands (contractors) | Level 1, the owner-operator: under $500,000 a year. Level 2, the owner with one to five technicians: $500,000 to $3 million a year |
+| R39 | Decided | Household income (members) | Not a targeting criterion. Members are targeted by zone and by readiness triggers |
+| R40 | Counted at | Licensed plumbing, HVAC, and electrical businesses in the launch metro | Counted from the state license lists, by trade, in Stage 0 |
+| R41 | Counted at | Owner-occupied homes in the launch zone | Counted from Census tract data (ACS) when the zone is drawn in Stage 0 |
+| R42 | Counted at | Requests per month in a zone, by trade | Measured over the zone's first 8 weeks open; planned at 0.50 a member a year until then (R58) |
+| R43 | Counted at | Every SOS SMS result: acceptance, arrival, refunds, joins, churn, renewal, cost per new paid member, earnings | Measured from the first member and the first request in the launch zone, weekly, against R32 |
+| R44 | Decided | Social-proof headlines | The method line in each drill, which describes how the process works. A result replaces it only when it is real, measured, and permissioned |
+| R45 | Decided | Supporting proof points | The named record or document in each drill that will show the claim is true from the first job (lists below) |
+| R46 | Decided | SOS SMS strengths and weaknesses in the competitive tables | Stated by design, with the weaknesses written plainly: no track record yet; open only in zones at density; a fee every month or year, before anything breaks |
+| R47 | Counted at | Warranty network discount | Set by each warranty company's rate card |
+| R48 | Decided | Team, burn, and channels tried (the briefs' company snapshot) | Team: two founders, Bryan and Ali, roles per R25. Channels tried: none; SOS SMS is pre-launch. Burn and runway: the founders' own figures stay out of the GTM, which sets the requirement instead (R35) |
+| R49 | Decided | Price or price range for the work before arrival (Run 2 item 11) | Not offered. The $99 trip charge is stated on the membership page before joining; the price for the work is set by the contractor on site, before any work starts |
+| R50 | Decided | Reaching a person | Text HELP: a person from SOS SMS replies by text within 15 minutes, at any hour, in an open zone; STOP ends all texts. The welcome texts, the first reply, and every message say so |
+| R51 | Decided | Basic, a month | $10 a month, billed to the card on file: the entry plan |
+| R52 | Decided | Basic, a year | $100 a year: two months free |
+| R53 | Decided | What every plan includes | One-text dispatch to the matched contractors in plumbing, HVAC, and electrical, at any hour; an arrival time on acceptance, inside 90 minutes; never charged if no contractor accepts (R11); NEXT after a miss (R17); a person by text (R50); the readiness kit (the shutoff guide, Text READY, the contact card) and a readiness check by text once a year. Basic covers the member's phone. Plus adds the 90-minute guarantee with a 6-month credit (R65) and up to 5 phones for the household (R69); Premier adds a 12-month credit, a trip charge a year on SOS SMS, a second home, and up to 10 phones (R66). Not included on any plan: the repair, parts, a guarantee on the work (R21), or faster dispatch. Paid on use: the $99 trip charge, credited to the repair |
+| R54 | Decided | Joining and changing plans | On the membership page, or from Text READY; about 3 minutes (planning value); the plan, the card (with an optional backup card), the home address (two on Premier), the phones that can text for the home (R69), and consent to the member terms on file; the contact card sent at once. Dispatch starts 30 days after joining on the monthly plan, and at once on the annual plan, which is paid in advance. An upgrade takes effect at once on an annual plan, with the difference for the rest of the year charged at the upgrade, and 30 days after the upgrade on a monthly plan; a downgrade at the end of the paid period |
+| R55 | Decided | When memberships open | Per zone, when each of the three trades meets the density number in every hour band, every day. Before then, the launch list: email, no charge, no service promised. The launch list is emailed on the day the zone opens |
+| R56 | Decided | Cancelling, renewal, and failed payments | Cancel any time, on the membership page, or by texting HELP to reach a person. A monthly membership ends at the end of the paid month and an annual membership at the end of the paid year, with no partial refunds; annual members get a renewal reminder before `{{renewal date}}`. A failed payment is retried for 7 days with reminders; then the membership pauses, with no dispatch, until the card is updated |
+| R57 | Decided | A text from a non-member | The safety line, the first steps for the problem, and how to join. Dispatch is for members; nothing is charged |
+| R58 | Planning value | Requests per member | 0.50 a year: plumbing 0.25, HVAC 0.20, electrical 0.05; Premier 1.5 times, for a second home |
+| R59 | Planning value | Monthly plan churn | 6.5 percent a month |
+| R60 | Planning value | Annual renewal | 75 percent |
+| R61 | Decided | Affiliate commission | $20 per new paid member on any plan, paid once the member's second monthly payment, or first annual payment, has cleared. Contractors may join on the same terms. Never to a real estate agent, lender, title or settlement agent, or anyone referring at a home purchase settlement. Every affiliate discloses that they are paid |
+| R62 | Decided | Member referral reward | None at launch. Members who share the contact card are thanked by text |
+| R63 | Planning value | Acquisition ceiling per new paid member | One per plan, the first 6 months of contribution: about $47 Basic, $70 Plus, $151 Premier on the monthly plan; about $48, $70, and $139 on the annual plan. Every channel scales while its measured cost is at or under the ceiling of the plan joined, and stops when it is not; reviewed weekly by channel, plan, and zone |
+| R64 | Planning value | Member base per zone | About 410 members, enough for about one plumbing request a month for each plumber in the first cohort. At that base an HVAC contractor sees about 0.8 requests a month and an electrician about one every 5 months; every contractor is told the expected volume for their trade |
+| R65 | Decided | Plus, and the 90-minute guarantee | $15 a month or $150 a year (two months free). Everything in Basic, plus the late-arrival credit: when a contractor arrives after the 90 minutes, does not come, or the member texts NEXT after the 90 minutes, SOS SMS credits the membership paid in the 6 months before the request (up to $90 on the monthly plan; $75, half the annual price, on the annual plan) to the next bills or the renewal; never paid in cash. Up to 5 phones can text for the home (R69). Shown first on the membership page, on the annual plan, flagged most popular: the Hero, built for 80 percent of members (R70) |
+| R66 | Decided | Premier | $35 a month or $350 a year (two months free), revised 2026-10-21 from $25 or $250. Everything in Plus, with the late-arrival credit at 12 months (up to $420 on the monthly plan; $350, the annual price, on the annual plan), plus one trip charge a membership year paid by SOS SMS (on the annual plan from joining; on the monthly plan after 6 paid months), a second home in an open zone, and up to 10 phones across both homes (R69) |
+| R67 | Decided | Contractor standing on late arrivals and no-shows | Each late arrival and each no-show is recorded on the contractor's record. Two in a rolling 90 days pause the contractor's requests until a person from SOS SMS reviews them. A late contractor keeps the trip charge less the fee; a contractor who does not come is paid nothing |
+| R68 | Counted at | Search volume for SOS SMS by name | Counted with free tools once a zone has been open 6 months (Stage 3); a brand search campaign may then run at or under the ceiling (R63) |
+| R69 | Decided | Phones that can text for the home | The household benefit, new 2026-10-21: Basic, the member's phone; Plus, up to 5 phones in the home; Premier, up to 10 phones across two homes. A text from any phone on file starts dispatch as the member's own does; a text from a phone not on file gets the reply to a non-member (R57) |
+| R70 | Planning value | Plan mix | Basic 10 percent, Plus 80 percent, Premier 10 percent of members. Read from the first members by plan (R42): mostly Basic means Plus is overpriced or underbuilt; mostly Premier means Plus is underpriced |
 
 ## Merge fields
-`{{first name}}`, `{{name}}`, `{{business}}`: the contractor list, the contractor's sign-up, or the member record. `{{SOS SMS number}}`, `{{number}}`: the registered number (decision 9). `{{zone}}`, `{{zone name}}`, `{{zone neighborhoods}}`, `{{launch metro}}`, `{{covered hours}}`: the zone record (decisions 1 and 3). `{{trade}}`, `{{trades}}`: the sign-up or the zone's open trades. `{{url}}`, `{{link}}`, `{{terms link}}`, `{{contractor page}}`: the SOS SMS site (R23). `{{code}}`, `{{partner}}`: the partner or affiliate agreement. `{{founding close date}}`: R07. `{{score}}`, `{{top two}}`, `{{top three}}`, `{{result}}`: the respondent's own scorecard or Lead Cost Check answers. `{{their number}}`: the member's own number. `{{sender name}}`, `{{postal address}}`, `{{opt-out link}}`: the email sending setup (S73). `{{contractor name}}`, `{{arrival time}}`, `{{rating}}`: the request record. `{{monthly price}}`, `{{annual price}}`: the zone's price record, set in Stage 0 (R51, R52). `{{renewal date}}`: the member record (R56).
+
+`{{first name}}`, `{{name}}`, `{{business}}`: The contractor list record (cold email), the contractor's sign-up record, or the member record. `{{SOS SMS number}}`, `{{number}}`: The registered SOS SMS number (decision 9). `{{zone}}`, `{{zone name}}`, `{{zone neighborhoods}}`, `{{launch metro}}`: The zone record (decision 1). `{{covered hours}}`: Retired 2026-10-11: an open zone is covered at every hour (R15). `{{trade}}`, `{{trades}}`: The contractor's sign-up, or the request's trade: plumbing, HVAC, or electrical. `{{url}}`, `{{link}}`, `{{terms link}}`, `{{contractor page}}`: The page addresses on the SOS SMS site (R23). `{{code}}`: The partner's or affiliate's code, from the partnership program or the affiliate agreement. `{{founding close date}}`: Retired 2026-10-11: there is no founding list (R07). `{{score}}`, `{{top two}}`, `{{top three}}`, `{{top-scoring question}}`, `{{result}}`, `{{cost per lead ÷ close rate}}`: The contractor's own answers in the Job Leak Scorecard or the Lead Cost Check. `{{their number}}`: The member's own phone number, for the contact card. `{{partner}}`: The partner's or affiliate's name, from the signed partner or affiliate agreement. `{{share}}`, `{{estimate from your answers}}`: Computed from the survey's own responses, or the respondent's own answers. `{{sender name}}`, `{{postal address}}`, `{{opt-out link}}`: The email sending setup: the sending founder, SOS SMS's postal address, and the platform's one-click opt-out (S73). `{{contractor name}}`, `{{arrival time}}`, `{{rating}}`: The request record: the accepting contractor's sign-up, their committed arrival time, and their Google rating where they have one. `{{monthly price}}`, `{{annual price}}`: Retired 2026-10-20: the prices are decided (R51, R52, R65, R66), and copy states them. `{{renewal date}}`: The member record: the annual membership's next renewal date (R56). `{{plan}}`, `{{credit amount}}`: The member record: the member's plan, and the late-arrival credit computed from their payments in the plan's credit months before the request: 6 on Plus, 12 on Premier (R65, R66).
