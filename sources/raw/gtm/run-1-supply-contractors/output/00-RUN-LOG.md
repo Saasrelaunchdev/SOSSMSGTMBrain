@@ -19,7 +19,7 @@ The `gtm-builder` run for the contractor side, executed 2026-10-01 against `../G
 
 | Brief decision | Assumption used in this run, and the decision of 2026-10-03 | Where it matters |
 |---|---|---|
-| 1. Launch metro and trades | Plumbing and water emergencies. Decided: one launch zone in the founders' home metro | Phases 2, 4, 5.2, 8 |
+| 1. Launch metro and trades | Plumbing, HVAC, and electrical emergencies (revised 2026-10-20). Decided: one launch zone in the founders' home metro | Phases 2, 4, 5.2, 8 |
 | 2. How SOS SMS earns money | Decided, revised 2026-10-11: members' monthly or annual membership; $25 per completed paid job from each contractor's first job | Phase 9, every "no lead fees" line |
 | 3. Late arrival and the contractor's trip charge | Revised 2026-10-20 (option D): a late arrival keeps the trip charge; a no-show is paid nothing; two in 90 days pause requests (R67). The copy that depended on it carries the decided words | Phases 6, 9 |
 | 4. Dispatch rule | Every matched contractor sees the request at once; the first to accept gets it (decision 4) | Phases 1, 3, 6, 7 |

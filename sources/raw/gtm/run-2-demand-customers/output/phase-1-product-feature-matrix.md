@@ -109,7 +109,7 @@ Limits: the steps cover shutoff and safety only, never repairs, and are reviewed
 | Text READY | Medium | Easy | Value using the product itself | The five-question check and the shutoff guide by text, ending with the join link and the contact card | Printed on every card and partner piece; prevention posts before a freeze |
 | Prevention and problem guides | Medium | Easy | Light tool | Shutoff and safety steps as web pages, read before the need, each ending with joining | Organic search and AI answers; no paid search at launch (decision 11) |
 | Partner readiness card | Medium | Easy | Light tool | A one-page shutoff and readiness card with the partner's code, for utility inserts, association welcome packets, and retailer counters | Affiliate channel |
-| Stop-the-water steps in the first reply | High | Medium | Value using the product itself | When a member texts, the steps for their problem arrive while the request goes out, written per problem type | Retention: the membership proves itself in the first minutes of an emergency |
+| First steps for the problem in the first reply | High | Medium | Value using the product itself | When a member texts, the steps for their problem arrive while the request goes out, written per problem type | Retention: the membership proves itself in the first minutes of an emergency |
 | Seasonal readiness notes | Low | Easy | Light tool | A short note before the first freeze and the summer peak, to members who opted in | Renewal |
 
 Dropped by the membership revision: buying the moment of need through emergency search ads, and the stop-the-water first reply as a conversion moment for non-members. A non-member who texts gets the safety line, the steps, and how to join (R57).

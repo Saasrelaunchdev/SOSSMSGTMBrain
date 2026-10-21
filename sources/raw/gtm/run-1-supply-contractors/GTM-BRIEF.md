@@ -53,7 +53,7 @@ Run 2 borrows structure from Phases 3, 6, and 7 here. It does not borrow claims:
 | Field | Value |
 |---|---|
 | Audience | Licensed, insured trade contractors who will take emergency calls |
-| Niche focus | Plumbing and water emergencies first, in one launch zone in the founders' home metro (decision 1), because the source's only worked example is "water's on the floor" |
+| Niche focus | Plumbing, HVAC, and electrical emergencies, in one launch zone in the founders' home metro (decision 1, revised 2026-10-20: the founder's service is three trades). The brief first chose plumbing and water emergencies, because the source's only worked example is "water's on the floor" |
 | One-liner | SOS SMS sends contractors emergency jobs from its members, matched to their trade and service area, with no subscription and no lead fees, and the trip charge collected before they roll. |
 
 ---

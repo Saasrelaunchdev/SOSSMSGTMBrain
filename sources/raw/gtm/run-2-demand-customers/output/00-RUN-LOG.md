@@ -10,7 +10,7 @@ The `gtm-builder` run for the demand side, executed 2026-10-01 against `../GTM-B
 | Website | None yet | Decided: the readiness scorecard and the launch list from Stage 1; the membership page (with a ZIP check), the guarantee page, and five problem and prevention guides from Stage 2 (R23) |
 | Category | Emergency home repair membership, by text; a local two-sided network | From the brief |
 | Audience | Homeowners who want to be ready before something breaks, in open zones | Decided (brief decisions 1 and 9) |
-| Niche | Plumbing and water emergencies, inside Run 1's launch zone | Decided (decision 1) |
+| Niche | Plumbing, HVAC, and electrical emergencies, inside Run 1's launch zone | Decided (decision 1, revised 2026-10-20) |
 | Launch metro and zone | One launch zone, a 10-mile radius around the first contractors' shops, in the founders' home metro | Decided (decision 1); drawn in Stage 0 |
 | Competitors | D1 Search and call when it happens, D2 plumber club memberships, D3 home warranties, D4 utility-partner plumbing plans, D5 Frontdoor, D6 on-demand marketplaces | Step 0, member slate (2026-10-11), filled in `../../research/` |
 | Features | The nine demand-side items from the matrix, three candidates, and three membership items | From the brief, Section 3 |
@@ -44,7 +44,7 @@ The founders changed the motion after the first run: product-led growth, no sale
 | File | What changed |
 |---|---|
 | `../GTM-BRIEF.md`, `../SKILL-ADAPTATION.md` | Motion row; Phase 8 adaptation; new decision 8, paid search eligibility (decided: decision 11 in the merged list) |
-| `phase-1-product-feature-matrix.md` | Demand driver is now the stop-the-water first reply; partner-distributed variants dropped |
+| `phase-1-product-feature-matrix.md` | Demand driver is now the first reply with the first steps for the problem (the stop-the-water steps until the tiers revision, 2026-10-20); partner-distributed variants dropped |
 | `phase-4-icp.md`, `phase-5-buying-committee.md` | Engagement model and channels: search at the moment of need, then the saved number |
 | `phase-6-value-proposition.md` | Drill 1 call to action for in-the-moment traffic |
 | `phase-7-customer-journey.md` | Stages 1 and 2 rebuilt around paid search and problem pages; new accelerators |

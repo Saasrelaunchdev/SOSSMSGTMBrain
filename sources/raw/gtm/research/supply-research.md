@@ -103,7 +103,7 @@ Filled from `GTM-BRIEF.md` Section 1, not from a crawl. There is no website and 
 | Description | Emergency home repair dispatch by text. A customer's request goes to every matched contractor at once, the first to accept gets the job, and the customer's trip charge is collected before the contractor rolls. No subscription and no lead fees |
 | Strengths | By design: no charge to see a request; the trip charge collected before you roll. Nothing live to review |
 | Weaknesses | No track record yet; requests only in zones at density |
-| Who it serves | Licensed, insured trade contractors who take emergency calls; plumbing and water emergencies first (decision 1) |
+| Who it serves | Licensed, insured trade contractors who take emergency calls, in plumbing, HVAC, and electrical (decision 1, revised 2026-10-20) |
 | What it charges contractors | No subscription, no lead fee. $25 per completed paid job from the first job (decided 2026-10-03, revised 2026-10-11) |
 
 ---

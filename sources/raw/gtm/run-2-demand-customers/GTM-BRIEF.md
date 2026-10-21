@@ -55,7 +55,7 @@ This run borrows structure from Run 1's Phases 3, 6, and 7. It does not borrow c
 | Field | Value |
 |---|---|
 | Audience | Homeowners in an open zone who join before they need it (members). Property managers would be a separate run |
-| Niche focus | Plumbing and water emergencies, in the launch zone in the founders' home metro (decision 1), the same as Run 1 |
+| Niche focus | Plumbing, HVAC, and electrical emergencies, in the launch zone in the founders' home metro (decision 1, revised 2026-10-20), the same as Run 1 |
 | One-liner | Join SOS SMS before something breaks. When it does, text one number: the licensed, insured contractors on SOS SMS for that trade see it at once, and the first who can come replies with an arrival time. |
 
 ---
@@ -146,7 +146,7 @@ Ordered by what they blocked. Rows 1 to 8 were decided on 2026-10-03 (`../market
 | # | Decision | Blocked | Decided |
 |---|---|---|---|
 | 1 | Who the demand side is: homeowners only, or also renters, landlords, and property managers | Phases 4 and 5, and the run count | Homeowners. Property managers buy repeatedly and often have contracted vendors; they would be a third run, not part of this one |
-| 2 | Launch metro and trades | Step 0, Phases 2, 4, 8 | Plumbing and water emergencies in one launch zone in the founders' home metro (decision 1), the same as Run 1 |
+| 2 | Launch metro and trades | Step 0, Phases 2, 4, 8 | Plumbing, HVAC, and electrical emergencies in one launch zone in the founders' home metro (decision 1, revised 2026-10-20), the same as Run 1 |
 | 3 | The member price: what a member pays, and when | Phase 9, and every price in Phase 6 copy | Three plans, monthly or annual: Basic $10 a month or $100 a year, Plus $15 or $150, Premier $35 or $350 (R51, R52, R65, R66), Plus on the annual plan shown first; the $99 trip charge on use, set by SOS SMS per trade and zone and credited to the repair; no fee per request (decisions 2 and 5, revised 2026-10-20) |
 | 4 | 90-minute guarantee scope: when the clock starts, what is refunded, which areas and hours are covered, and what happens when no contractor accepts at all | Phases 6, 7, and 9 | Revised 2026-10-20: on Plus and Premier; 90 minutes from the member's request text; a late arrival keeps its trip charge and credits the membership paid in the 6 months (Plus) or 12 months (Premier) before the request (R65); a no-show returns the trip charge in full; covered: the zone's neighborhoods, named on the membership page, at any hour, because a zone opens only when every trade and hour band meets the density number (R15, R55); with no acceptance, the member is told within 15 minutes and is not charged; after a miss, NEXT sends the request to the other contractors (decision 3, R17, revised 2026-10-11). Copy names the scope in the same sentence as the guarantee, see Section 5 |
 | 5 | Build status of each item in Section 3, including the relaunch guarantee the source says is unbuilt | Phases 1 and 6 | Every item is planned until shipped. The relaunch is decided as NEXT after a miss (R17) and is described as planned, like every other capability |

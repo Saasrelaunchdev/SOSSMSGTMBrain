@@ -83,7 +83,7 @@ The question changes. A homeowner does not compare SOS SMS with other options in
 | Attribute | Finding | Source |
 |---|---|---|
 | Model | A monthly or annual membership, joined before the need; card and home address on file | Membership revision, 2026-10-11 |
-| Price | Planning values $10 a month or $100 a year (R51, R52); copy uses `{{monthly price}}` and `{{annual price}}` until the launch price is set in Stage 0 | `../marketplace/resolution-register.md` |
+| Price | Decided 2026-10-21: Basic $10 a month or $100 a year, Plus $15 or $150, Premier $35 or $350 (R51, R52, R65, R66); the prices go into copy as written | `../marketplace/resolution-register.md` |
 | What happens in an emergency | One text. It goes at once to the licensed, insured contractors on SOS SMS matched by trade and area; the first to accept commits to an arrival time; the $99 trip charge goes on the card on file at acceptance and counts toward the repair; if they are not there within 90 minutes of the text, the trip charge comes back (decision 3) | Decisions 3, 5, 6 |
 | What it does not do | Pay for the repair, discount the repair, or guarantee the work (R21) | |
 | Current state | Pre-launch; nothing is live; memberships open per zone at the density number (R55) | |

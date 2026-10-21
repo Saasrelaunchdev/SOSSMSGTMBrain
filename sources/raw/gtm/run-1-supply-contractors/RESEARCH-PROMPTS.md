@@ -8,7 +8,7 @@ Run Step 0 first. Everything after it depends on the slate it produces.
 
 These prompts are for the contractor run only. The member run has its own set in `../run-2-demand-customers/RESEARCH-PROMPTS.md`, with a different slate and different sources, because a contractor and a homeowner compare SOS SMS against entirely different things. Revised 2026-10-11, the membership revision: the model description in the Step 0 prompt names the membership; the contractor research itself is unchanged.
 
-Before pasting any prompt, fill `{{launch metro}}` and `{{trades}}` from decision 1: the founders' home metro, and plumbing and water emergencies.
+Before pasting any prompt, fill `{{launch metro}}` and `{{trades}}` from decision 1: the founders' home metro, and plumbing, HVAC, and electrical emergencies (revised 2026-10-20).
 
 ---
 
