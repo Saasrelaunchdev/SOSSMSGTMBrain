@@ -7,8 +7,8 @@ Every artifact the brain distills, what it settles, and where it went in the bra
 | Artifact | Type | Extract | What it settles | Dated |
 |---|---|---|---|---|
 | Product Features Matrix, SOSSMS | csv | [product-features-matrix-sossms-sheet1.md](product-features-matrix-sossms-sheet1.md) | The founders' feature list, both sides, and Bryan's starting ratings | 2026-10-01 |
-| Run 1 pricing dashboard | xlsx | [run-1-pricing-dashboard.md](run-1-pricing-dashboard.md) | Contractor take rate, late-arrival options, fee ceiling, Lead Cost Check calculator | 2026-10-01, re-extracted 2026-10-11 |
-| Run 2 pricing dashboard | xlsx | [run-2-pricing-dashboard.md](run-2-pricing-dashboard.md) | Member price structure (the membership, the trip charge on use), member economics, guarantee economics, the acquisition calculator per new paid member | 2026-10-01, re-extracted 2026-10-11 after the membership revision |
+| Run 1 pricing dashboard | xlsx | [run-1-pricing-dashboard.md](run-1-pricing-dashboard.md) | Contractor take rate, late-arrival options, fee ceiling in three trades, Lead Cost Check calculator | 2026-10-01, re-extracted 2026-10-11 and 2026-10-21 |
+| Run 2 pricing dashboard | xlsx | [run-2-pricing-dashboard.md](run-2-pricing-dashboard.md) | Member price structure (three plans, the trip charge on use), member economics by plan, one request by how it ends, the acquisition ceiling per plan | 2026-10-01, re-extracted 2026-10-11 after the membership revision and 2026-10-21 after the pricing revision |
 
 ## Markdown sources (`sources/raw/`)
 
